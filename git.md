@@ -6,4 +6,5 @@ git commit -m "first commit" //把文件提交到仓库
 git remote add origin git@github.com:wangjiax9/practice.git //关联远程仓库
 git pull --rebase origin master
 git push -u origin master //把本地库的所有内容推送到远程库上  
+git stash
 ```
