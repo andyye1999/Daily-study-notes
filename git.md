@@ -9,3 +9,13 @@ git pull origin master
 git push -u origin master //把本地库的所有内容推送到远程库上  
 git stash
 ```
+
+```
+git rm -r -n --cached 文件/文件夹名称 
+ 
+加上 -n 这个参数，执行命令时，是不会删除任何文件，而是展示此命令要删除的文件列表预览。
+确定无误后删除文件
+git rm -r --cached 文件/文件夹名称
+git commit -m "提交说明"
+git push origin master
+```
