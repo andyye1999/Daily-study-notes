@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4f824015c8886618",
+        "id": "18988743c27790fe",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "单通道语音增强.md",
+            "file": "leetcode/剑指offer03.数组中重复的数字.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单通道语音增强.md",
+                "file": "leetcode/剑指offer03.数组中重复的数字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4f824015c8886618",
+  "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/剑指offer03.数组中重复的数字.md",
+    "未命名.md",
     "单通道语音增强.md",
-    "OLA & OLS.md",
     "频域RLS.md",
-    "小波变换.md",
-    "近日计划.md",
-    "底噪.md",
-    "经验模态分解(EMD).md",
-    "批处理.md",
-    "经典小波变换.md",
-    "语音增强.md"
+    "语音活动检测模块.md",
+    "语音信号线性预测(LPC).md",
+    "OLA & OLS.md",
+    "公式.md",
+    "语音增强.md",
+    "小波变换.md"
   ]
 }
