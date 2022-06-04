@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/27. 移除元素.md",
+            "file": "webrtc学习笔记.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "5e912936b77522d2"
+      },
+      {
+        "id": "6ebafaafb72f97dc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "webrtc学习笔记.md",
+            "mode": "source"
+          }
+        },
+        "group": "5e912936b77522d2"
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 217.49999809265137
   },
   "right": {
     "id": "c221484405b6ad0f",
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/27. 移除元素.md",
+                "file": "webrtc学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +101,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
-    "leetcode/27. 移除元素.md",
-    "leetcode/704.二分法.md",
-    "leetcode/剑指offer03.数组中重复的数字.md",
-    "未命名.md",
+    "webrtc学习笔记.md",
+    "语音增强.md",
     "单通道语音增强.md",
-    "频域RLS.md",
-    "语音活动检测模块.md",
-    "语音信号线性预测(LPC).md",
-    "OLA & OLS.md",
-    "公式.md"
+    "预加重.md",
+    "底噪.md",
+    "公式.md",
+    "近日计划.md",
+    "小波变换.md",
+    "git.md",
+    "频域RLS.md"
   ]
 }
