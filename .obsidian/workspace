@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc学习笔记.md",
+            "file": "信号的抽取与插值.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc学习笔记.md",
+            "file": "信号的抽取与插值.md",
             "mode": "source"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc学习笔记.md",
+                "file": "信号的抽取与插值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "信号的抽取与插值.md",
+    "数字信号处理课程笔记.pdf",
+    "现代数字信号处理课程笔记.md",
     "webrtc学习笔记.md",
+    "傅里叶变换的多种解释.md",
     "语音增强.md",
     "单通道语音增强.md",
     "预加重.md",
     "底噪.md",
-    "公式.md",
-    "近日计划.md",
-    "小波变换.md",
-    "git.md",
-    "频域RLS.md"
+    "公式.md"
   ]
 }
