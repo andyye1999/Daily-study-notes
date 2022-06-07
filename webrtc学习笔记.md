@@ -11,7 +11,9 @@ farend获得数据后主要有4个步骤的处理。
 nearend流  
 其中包括七个步骤：1、分频；2、高通滤波；3、硬件音量控制；4、AEC；5、NS；6、AES；7、VAD；8、AGC；9、综合。	
 [浅谈语音质量保障：如何测试 RTC 中的音频质量？](https://mp.weixin.qq.com/s?__biz=MjM5NTE0NTY3MQ==&mid=2247515282&idx=1&sn=393775bd38a5351c2d97f1586a57f160&chksm=a6fe0e3a9189872cae23cb4badefe9f42a55f622b1eaf912e8ac40756bc64a3d1f872e884366&scene=178&cur_album_id=1612237369238175753#rd)  
-评估声音质量  
+评估声音质量   
+[WebRTC整体架构分析](http://www.yushuai.xyz/2019/10/28/4462.html)  
+
 
 ## AGC  
 ### [详解 WebRTC 高音质低延时的背后 — AGC（自动增益控制）](https://www.cnblogs.com/VideoCloudTech/p/14816786.html)    
@@ -88,5 +90,13 @@ B. 幅度值为 16000 的数据，包络 cur_level = 16000^2 = 0xF424000，通�
 ## AEC   
 
 ## VAD  
+### [WebRTC VAD模块分析](http://www.yushuai.xyz/2019/07/15/4404.html)    
+WebRTC VAD将频带分为了6个子带：80Hz~250Hz，250Hz~500Hz，500Hz~1K，1K~2K，2K~3K，3K~4K，在程序里面分别对应了分别对应于feature_vector [0]，feature_vector [1]，feature_vector [2]，feature_vector [3]，feature_vector [4]，feature_vector [5]。**之所以最高为4k是因为，WebRTC在处理的时候采样率统一调整为了8kHz，所以根据奈奎斯特定理，用于的频率就是4kHz以下。**  
+可以看到以1KHz为分界，向下500HZ，250Hz以及170HZ三个段，向上也有三个段，每个段是1KHz，这一频段涵盖了语音中绝大部分的信号能量，且能量越大的子带的区分度越细致。由于我国交流电标准是220V~50Hz，电源50Hz的干扰会混入麦克风采集到的数据中且物理震动也会带来影响，所以取了80Hz以上的信号。
+
+WebRTC VAD使用的是GMM（高斯混合模型）进行分类，使Noise作为一类，Speech作为一类，两类求求后验概率，并且实时更新GMM参数。
+
+WebRTC VAD只能工作在采样率为8000Hz的模式下，故对16kHz、32kHz、48kHz都需要进行重新采样来转换到8000Hz。目前程序仅支持8000Hz、16kHz、32kHz和48kHz。
+
 
 
