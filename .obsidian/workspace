@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/206. 反转链表.md",
+            "file": "leetcode/19. 删除链表的倒数第 N 个结点.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/206. 反转链表.md",
+            "file": "leetcode/19. 删除链表的倒数第 N 个结点.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/206. 反转链表.md",
+                "file": "leetcode/19. 删除链表的倒数第 N 个结点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/19. 删除链表的倒数第 N 个结点.md",
     "leetcode/206. 反转链表.md",
     "leetcode/707. 设计链表.md",
     "webrtc学习笔记.md",
@@ -109,7 +110,6 @@
     "PCM WAV.md",
     "leetcode/54. 螺旋矩阵.md",
     "leetcode/59. 螺旋矩阵 II.md",
-    "近日计划.md",
-    "leetcode/977. 有序数组的平方.md"
+    "近日计划.md"
   ]
 }
