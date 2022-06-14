@@ -163,6 +163,83 @@ Sxd = Sxd * ptrGCoh(1) + (wined_fft_near .* conj(wined_fft_far)) *ptrGCoh(2);
 cohde = (abs(Sde).*abs(Sde))./(Sd.*Se + 1.0e-10);
 cohdx = (abs(Sxd).*abs(Sxd))./(Sx.*Sd + 1.0e-10);
 ```
+
+-   **两个实验**
+    
+
+（1）计算近端信号 d(n) 与远端参考信号 x(n) 的相关性 cohdx，理论上远端回声信号的相干性应该更接近 0（为了方便后续对比，WebRTC 做了反向处理: 1 - cohdx），如图 5(a)，第一行为计算近端信号 d(n)，第二行为远端参考信号 x(n)，第三行为二者相干性曲线: 1 - cohdx，会发现回声部分相干值有明显起伏，最大值有0.7，近端部分整体接近 1.0，但是有持续波动，如果想通过一条固定的门限去区分远近端帧，会存在不同程度的误判，反映到听感上就是回声（远端判断成近端）或丢字（近端判断为远端）。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Ua9PWyGDDPjbeE10H7w2JiaqaR5ujiaBZibgd4d14EdibDHxudicmdC7bjcLlcr0ia6csH3Ks9uhuqLCmnQRqs8CkQLg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+<center> **(a) 近端信号与远端参考信号的相干性** </center>  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Ua9PWyGDDPjbeE10H7w2JiaqaR5ujiaBZibDibZVFro43FPvySMG5xCbGlHymfyvHabyzBDOibT9UEuodwsprKw5icxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+<center> **(b) 近端信号与估计的回声信号的相干性**</center>  
+
+<center>** 图 5 信号的相干性** </center>  
+
+（2）计算近端信号 d(n) 与估计的回声信号 e(n) 的相干性，如图 5(b)，第二行为估计的回声信号 e(n)，第三行为二者相干性 cohde，很明显近端的部分几乎全部逼近 1.0，WebRTC 用比较严格的门限（>=0.98）即可将区分绝大部分近端帧，且误判的概率比较小，WebRTC 工程师设置如此严格的门限想必是宁可牺牲一部分双讲效果，也不愿意接受回声残留。  
+
+  
+
+从图 5 可以体会到，线性滤波之后可以进一步凸显远端参考信号 x(n) 与估计的回声信号 e(n) 的差异，从而提高远近端帧状态的判决的可靠性。
+-   **存在的问题与改进**
+    
+
+理想情况下，远端信号从扬声器播放出来没有非线性失真，那么 e(n) = s(n) + v(n)，但实际情况下 e(n)与d(n) 很像，只是远端区域有一些幅度上的变化，说明 WebRTC AEC **线性部分在这个 case 中表现不佳**，如图 6(a) 从频谱看低频段明显削弱，但中高频部分几乎没变。而利用**变步长的双滤波器结构的结果**会非常明显，如图 6(b) 所示无论是时域波形和频谱与近端信号 x(n) 都有很大差异，目前** aec3 和 speex** 中都采用这种结构，可见 WebRTC AEC 中线性部分还有很大的优化空间。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Ua9PWyGDDPjbeE10H7w2JiaqaR5ujiaBZibicic8ltJTfDFQ4wKzOGDjbxhSRM3rCGGu6D23QF9jhia4ibQsVK6pInjGg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**(a) WebRTC AEC 线性部分输出**   
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Ua9PWyGDDPjbeE10H7w2JiaqaR5ujiaBZibicehrjXiaWbsXS5wZm1tiboqcCjlOsibN7tJEkrPj9912lzDVXjian5R6eg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+ **(b) 改进的线性部分输出**
+
+**图 6 近端信号与估计的回声信号的对比**  
+**如何衡量改进的线性部分效果？**
+
+这里我们对比了现有的固定步长的 NLMS 和变步长的 NLMS，近端信号 d(n) 为加混响的远端参考信号 x(n) +  近端语音信号 s(n)。理论上 NLMS 在处理这种纯线性叠加的信号时，可以不用非线性部分出马，直接干掉远端回声信号。图 7(a) 第一行为近端信号 d(n)，第二列为远端参考信号 x(n)，线性部分输出结果，黄色框中为远端信号。WebRTC AEC 中采用固定步长的 NLMS 算法收敛较慢，有些许回声残留。但是变步长的 NLMS 收敛较快，回声抑制相对好一些，如图 7(b)。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Ua9PWyGDDPjbeE10H7w2JiaqaR5ujiaBZibnxRPO80iabSLyuEkHIPds7gNqicxhJutJm3S3m49WDvia6vwHLjhUQj7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**（a）固定步长的 NLMS**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Ua9PWyGDDPjbeE10H7w2JiaqaR5ujiaBZib9CexhZjsfz3EIn9ylFPr2N7ibvxusVeuKLA5CDDhWcxkJvnUeF82jJA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**（b） 变步长的 NLMS**  
+
+     **图 7 两种 NLMS 算法的效果对比**  
+	 线性滤波器参数设置
+
+```cpp
+#define FRAME_LEN 80
+#define PART_LEN 64
+enum { kExtendedNumPartitions = 32 };
+static const int kNormalNumPartitions = 12;
+```
+
+FRAME_LEN 为每次传给音频 3A 模块的数据的长度，默认为** 80 个采样点**，由于 WebRTC AEC 采用了** 128 点 FFT**，内部拼帧逻辑会取出 **PART_LEN = 64 个样本点**与**前一帧剩余数据连接成128点做 FFT**，**剩余的 16 点遗留到下一次**，因此实际每次处理 PART_LEN 个样本点   16k采样率（4ms 数据）。
+
+默认滤波器阶数仅为 kNormalNumPartitions = 12 个，能够覆盖的数据范围为 kNormalNumPartitions * 4ms = 48ms，如果打开扩展滤波器模式(设置 extended_filter_enabled为true)，覆盖数据范围为 kNormalNumPartitions * 4ms = 132ms。随着芯片处理能力的提升，默认会打开这个扩展滤波器模式，甚至扩展为更高的阶数，以此来应对市面上绝大多数的移动设备。另外，线性滤波器虽然不具备调整延时的能力，但可以通过估计的 index 衡量当前信号的延时状态，范围为 [0, kNormalNumPartitions]，如果 index 处于作用域两端，说明真实延时过小或过大，会影响线性回声估计的效果，严重的会带来回声，此时需要结合固定延时与大延时检测来修正。	
+#### 非线性滤波
+
+非线性部分一共做了两件事，就是想尽千方百计干掉远端信号。
+
+**(1) 根据线性部分提供的估计的回声信号，计算信号间的相干性，判别远近端帧状态。**
+
+**(2) 调整抑制系数，计算非线性滤波参数。**
+
+非线性滤波抑制系数为 hNl，大致表征着估计的回声信号 e(n) 中，期望的近端成分与残留的非线性回声信号 y''(n) 在不同频带上的能量比，hNl 是与相干值是一致的，范围是 [0，1.0]，通过图 5(b) 可以看出需要消除的远端部分幅度值也普遍在 0.5 左右，如果直接使用 hNl 滤波会导致大量的回声残留。
+
+因此 WebRTC 工程师对 hNl 做了如下尺度变换，over_drive 与 nlp_mode 相关，代表不同的抑制激进程度，drive_curve 是一条单调递增的凸曲线，范围 [1.0, 2.0]。由于中高频的尾音在听感上比较明显，所以他们设计了这样的抑制曲线来抑制高频尾音。我们记尺度变换的 α = over_drive_scaling * drive_curve，如果设置 nlp_mode = kAecNlpAggressive，α 大约会在 30 左右。
 ## VAD  
 ### [WebRTC VAD模块分析](http://www.yushuai.xyz/2019/07/15/4404.html)    
 WebRTC VAD将频带分为了6个子带：80Hz~250Hz，250Hz~500Hz，500Hz~1K，1K~2K，2K~3K，3K~4K，在程序里面分别对应了分别对应于feature_vector [0]，feature_vector [1]，feature_vector [2]，feature_vector [3]，feature_vector [4]，feature_vector [5]。**之所以最高为4k是因为，WebRTC在处理的时候采样率统一调整为了8kHz，所以根据奈奎斯特定理，用于的频率就是4kHz以下。**  
