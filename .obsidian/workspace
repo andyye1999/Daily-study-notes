@@ -6,10 +6,11 @@
       {
         "id": "18988743c27790fe",
         "type": "leaf",
+        "dimension": 50.18867924528302,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "重采样.md",
+            "file": "fullaec.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "6ebafaafb72f97dc",
         "type": "leaf",
+        "dimension": 49.81132075471698,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "重采样.md",
+            "file": "fullaec.md",
             "mode": "preview"
           }
         },
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "重采样.md",
+                "file": "fullaec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +103,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "fullaec.md",
+    "webrtc-aec.md",
+    "webrtc-agc.md",
     "重采样.md",
+    "leetcode/350. 两个数组的交集 II.md",
+    "leetcode/349. 两个数组的交集.md",
     "webrtc学习笔记.md",
     "信号的抽取与插值.md",
     "webrtc-vad.md",
-    "webrtc-aec.md",
-    "webrtc-agc.md",
-    "leetcode/209. 长度最小的子数组.md",
-    "leetcode/242. 有效的字母异位词.md",
-    "leetcode/142. 环形链表 II.md",
-    "leetcode/383. 赎金信.md"
+    "leetcode/209. 长度最小的子数组.md"
   ]
 }

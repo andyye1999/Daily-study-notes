@@ -66,4 +66,5 @@ B. 幅度值为 16000 的数据，包络 cur_level = 16000^2 = 0xF424000，通�
 [WebRTC AGC 流程解析](https://zhuanlan.zhihu.com/p/485032369)  
 ### [WebRTC中AGC模块分析（上）](http://www.yushuai.xyz/2019/08/12/4423.html)      
 特别详细解释了AGC函数的各个功能
-### [WebRTC中AGC模块分析（下）](http://www.yushuai.xyz/2019/08/13/4425.html) 
+### [WebRTC中AGC模块分析（下）](http://www.yushuai.xyz/2019/08/13/4425.html)   
+### [#Webrtc AGC 算法原理介绍（一）](https://blog.csdn.net/ssdzdk/article/details/52588415)
