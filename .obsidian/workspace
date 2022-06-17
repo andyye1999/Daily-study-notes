@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "fullaec.md",
+            "file": "webrtc-aec.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "fullaec.md",
+            "file": "webrtc-aec.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fullaec.md",
+                "file": "webrtc-aec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,15 +103,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
-    "fullaec.md",
     "webrtc-aec.md",
+    "leetcode/1. 两数之和.md",
+    "fullaec.md",
+    "leetcode/202. 快乐数.md",
     "webrtc-agc.md",
     "重采样.md",
     "leetcode/350. 两个数组的交集 II.md",
     "leetcode/349. 两个数组的交集.md",
     "webrtc学习笔记.md",
-    "信号的抽取与插值.md",
-    "webrtc-vad.md",
-    "leetcode/209. 长度最小的子数组.md"
+    "信号的抽取与插值.md"
   ]
 }

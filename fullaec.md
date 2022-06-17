@@ -61,6 +61,7 @@ $$\frac{X(n)\mu E(n)}{p(n)}$$
 ```
 
 暂时无法在文档外展示此内容
+![image](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/image.3x591lpnewo0.webp)
 
 这一部分实际并没有用到，是在plot性能分析的时候用到的。所以为了节省性能也为了稳定，并不是每一次都更新，而是每10给块更新一次。WFb就是线性滤波器更新出来的系数矩阵的频域表示，我们首先计算权重矩阵中每个点的功率，然后按列求和（把每一列加起来），得到WFEn，然后寻找WFEn中的最大值为tmp和它对应的下标为dldx。这个时候，在计算权重最大的那个块的列，对其按行求和，得到的就是65*1的矩阵，然后对其进行继续更新，若值小于0.5则为0.5，若值大于4则为4，然后就更新出来了WFbD，将didx保存在didxV的第kk个值（didxV是Nb+1行、1列的矩阵）。
 
@@ -71,7 +72,7 @@ $$\frac{X(n)\mu E(n)}{p(n)}$$
 WebRTC是利用信号之间的频域相干性c（0<=c<=1）来衡量误差信号中残留回声的大小的。首先计算麦克风输入的近端信号d(n)与误差信号e(n)的频域相干性cde【实际上e(n)就是理想情况下我们去除回声后的纯近端语音信号，但是实际上还会有一些残留回声，因此可以简单地把cde当作残留回声在误差信号中的占有比例。假设线性阶段正常运行，cde越接近于1，说明近端信号和误差信号相似性越高，越不需要对误差信号做控制；相反，cde越小，越需要对误差信号做抑制。】。另外还会计算近端信号d(n)和远端信号x(n)之间的频域相关性cxd，令c'xd=1-cxd，c'xd越大，说明回声残留越小，越不需要一直；c'xd越小，说明回声残留越大，越需要抑制。由cxd和c'xd做进一步的处理操作，计算出每个频带相应的抑制因子sγ(k)。将抑制因子与误差信号对应的频带相乘，从而实现残留回声的抑制。
 
 暂时无法在文档外展示此内容
-
+![image](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/image.4hy62bc8fg20.webp)
 下面回到matlab代码里面。由于非线性处理部分较长，所以一部分一部分来讲述。
 
 第一部分是FFT变换到平均相干性的计算。
@@ -126,6 +127,7 @@ H(z)=0.56/(1+0.44z-1)
 然后依旧是求解了在感兴趣频带的cohxd的平均值，保存在了cohxdAvg。cohxdAvg和cohedAvg貌似后面没使用？
 
 暂时无法在文档外展示此内容
+![image](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/image.15m8szi4tulc.webp)
 
 然后继续往下。
 
@@ -195,7 +197,7 @@ end
 ```
 
 暂时无法在文档外展示此内容
-
+![image](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/image.21t9imziprk0.webp)
 计算完hnled，接下来开始计算ovrd。
 
 hnlLocalMin是对hnlPrefAvgLow的最小值跟踪，其初始值为1，在满足了下面判断条件下，实际上就是发现了更小的值（并且这个最小值符合条件），就会对其更新，然后将hnlNewMin设置为1，hnlMinCtr重新置0。
@@ -240,6 +242,7 @@ end
 ```
 
 暂时无法在文档外展示此内容
+![image](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/image.5fwlkdzah2w0.webp)
 
 接下来是进行发散处理。
 
@@ -281,12 +284,14 @@ hnlMinV(kk) = hnlMin;
 ```
 
 暂时无法在文档外展示此内容
+![image](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/image.ztw7lp7xy5s.webp)
 
 接下来开始平滑滤波器系数及抑制指数，计算NLP的权重了。
 
 首先使用权重曲线weight平滑hnled。wegiht是一个频率在较低的时候值很低，随着频率点变大值变大的曲线（如下图所示）。我们用hnlPrefAvg和hnled对应频点的较小值来更新这一次的hnled，更新后的值乘上weight，更新之前的值（上一次）乘1-weight的和来作为最终的hnled。结合weight的曲线我们发现，更新的时候存在这样一个现象：频率越高的点，使用本次更新的hnled的值的占比越大；频率越低的点，使用上一次的值平滑的结果占比越大。
 
-![](https://qouwscohey.feishu.cn/space/api/box/stream/download/asynccode/?code=N2U0YmIyMzgwY2FiN2E2NjhiMmFjZWQ3MjVhY2NmODBfUkJZc2RiVW5QYVpuQms3OFQ1cHhQMDlJdG9sek9naENfVG9rZW46Ym94Y25HM016eHlpWHFDeGtHTzJSSWRuR0piXzE2NTUzODUxNDQ6MTY1NTM4ODc0NF9WNA)
+
+![image](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/image.bzae2q18igo.webp)
 
 ```
 aggFact = 0.3;
@@ -319,5 +324,7 @@ hnlPrefAvgV(kk) = hnlPrefAvg;
 ```
 
 暂时无法在文档外展示此内容
+
+![image](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/image.3urain2timo0.webp)
 
 至此，整个aec的主要流程已经结束。后面就是舒适噪声的生成和将频域信号经过IFFT和重叠相加变回时域信号，然后切到下一帧进行处理，直到所有音频处理完成。
