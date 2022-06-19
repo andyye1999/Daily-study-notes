@@ -1,0 +1,1 @@
+# [语音信号的梅尔频率倒谱系数(MFCC)的原理讲解及python实现](https://www.cnblogs.com/LXP-Never/p/10918590.html)
