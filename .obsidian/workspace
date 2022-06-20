@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/704.二分法.md",
+            "file": "webrtc/webrtc学习笔记.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/704.二分法.md",
+            "file": "webrtc/webrtc学习笔记.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/704.二分法.md",
+                "file": "webrtc/webrtc学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,15 +103,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "webrtc/webrtc学习笔记.md",
+    "webrtc/webrtc-vad.md",
+    "webrtc/webrtc-agc.md",
+    "FDAF自适应滤波器算法综述.md",
+    "单通道语音增强.md",
     "leetcode/704.二分法.md",
     "OLA & OLS.md",
-    "自适应滤波器算法综述以及代码实现.md",
     "FLMS.pdf",
     "近日计划.md",
-    "FXLMS.md",
-    "leetcode/15. 三数之和.md",
-    "MFCC.md",
-    "语音信号基础知识.md",
-    "预加重.md"
+    "FXLMS.md"
   ]
 }
