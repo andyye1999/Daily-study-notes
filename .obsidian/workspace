@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MFCC.md",
+            "file": "leetcode/15. 三数之和.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MFCC.md",
+            "file": "leetcode/15. 三数之和.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MFCC.md",
+                "file": "leetcode/15. 三数之和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/15. 三数之和.md",
     "MFCC.md",
     "语音信号基础知识.md",
     "预加重.md",
@@ -111,7 +112,6 @@
     "深度学习/深度学习中的激活函数.md",
     "leetcode/454. 四数相加 II.md",
     "webrtc-aec.md",
-    "leetcode/1. 两数之和.md",
-    "fullaec.md"
+    "leetcode/1. 两数之和.md"
   ]
 }
