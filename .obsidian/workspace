@@ -8,9 +8,10 @@
         "type": "leaf",
         "dimension": 50.18867924528302,
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "FLMS.pdf"
+            "file": "OLA & OLS.md",
+            "mode": "source"
           }
         },
         "group": "5e912936b77522d2"
@@ -20,9 +21,10 @@
         "type": "leaf",
         "dimension": 49.81132075471698,
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "FLMS.pdf"
+            "file": "OLA & OLS.md",
+            "mode": "preview"
           }
         },
         "group": "5e912936b77522d2"
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FLMS.pdf",
+                "file": "OLA & OLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +101,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "18988743c27790fe",
+  "active": "6ebafaafb72f97dc",
   "lastOpenFiles": [
+    "OLA & OLS.md",
+    "自适应滤波器算法综述以及代码实现.md",
     "FLMS.pdf",
     "近日计划.md",
-    "OLA & OLS.md",
     "FXLMS.md",
     "leetcode/15. 三数之和.md",
     "MFCC.md",
     "语音信号基础知识.md",
     "预加重.md",
-    "PCM WAV.md",
-    "语音活动检测模块.md"
+    "PCM WAV.md"
   ]
 }
