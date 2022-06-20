@@ -8,10 +8,9 @@
         "type": "leaf",
         "dimension": 50.18867924528302,
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "FXLMS.md",
-            "mode": "source"
+            "file": "FLMS.pdf"
           }
         },
         "group": "5e912936b77522d2"
@@ -21,10 +20,9 @@
         "type": "leaf",
         "dimension": 49.81132075471698,
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "FXLMS.md",
-            "mode": "preview"
+            "file": "FLMS.pdf"
           }
         },
         "group": "5e912936b77522d2"
@@ -83,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FXLMS.md",
+                "file": "FLMS.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +101,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "FLMS.pdf",
+    "OLA & OLS.md",
     "FXLMS.md",
     "leetcode/15. 三数之和.md",
     "MFCC.md",
@@ -110,8 +110,6 @@
     "预加重.md",
     "PCM WAV.md",
     "语音活动检测模块.md",
-    "深度学习/深度学习中的激活函数.md",
-    "leetcode/454. 四数相加 II.md",
-    "webrtc-aec.md"
+    "深度学习/深度学习中的激活函数.md"
   ]
 }
