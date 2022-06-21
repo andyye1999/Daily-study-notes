@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "频域RLS.md",
+            "file": "MFCC.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "频域RLS.md",
+            "file": "MFCC.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "频域RLS.md",
+                "file": "MFCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +101,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "18988743c27790fe",
+  "active": "6ebafaafb72f97dc",
   "lastOpenFiles": [
+    "MFCC.md",
     "频域RLS.md",
     "leetcode/18. 四数之和.md",
     "webrtc/webrtc学习笔记.md",
@@ -111,7 +112,6 @@
     "FDAF自适应滤波器算法综述.md",
     "单通道语音增强.md",
     "leetcode/704.二分法.md",
-    "OLA & OLS.md",
-    "FLMS.pdf"
+    "OLA & OLS.md"
   ]
 }
