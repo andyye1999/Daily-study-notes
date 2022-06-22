@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PCM WAV.md",
+            "file": "leetcode/剑指 Offer 05. 替换空格.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PCM WAV.md",
+            "file": "leetcode/剑指 Offer 05. 替换空格.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PCM WAV.md",
+                "file": "leetcode/剑指 Offer 05. 替换空格.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/剑指 Offer 05. 替换空格.md",
     "PCM WAV.md",
     "leetcode/541. 反转字符串 II.md",
     "leetcode/344. 反转字符串.md",
@@ -111,7 +112,6 @@
     "leetcode/18. 四数之和.md",
     "webrtc/webrtc学习笔记.md",
     "webrtc/webrtc-vad.md",
-    "webrtc/webrtc-agc.md",
-    "FDAF自适应滤波器算法综述.md"
+    "webrtc/webrtc-agc.md"
   ]
 }
