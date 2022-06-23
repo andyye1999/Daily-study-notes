@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "现代数字信号处理课程笔记.md",
+            "file": "IIR和FIR滤波器代码.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "现代数字信号处理课程笔记.md",
+            "file": "IIR和FIR滤波器代码.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "现代数字信号处理课程笔记.md",
+                "file": "IIR和FIR滤波器代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "IIR和FIR滤波器代码.md",
     "现代数字信号处理课程笔记.md",
     "傅里叶变换的多种解释.md",
     "leetcode/剑指 Offer 05. 替换空格.md",
@@ -111,7 +112,6 @@
     "leetcode/344. 反转字符串.md",
     "MFCC.md",
     "频域RLS.md",
-    "leetcode/18. 四数之和.md",
-    "webrtc/webrtc学习笔记.md"
+    "leetcode/18. 四数之和.md"
   ]
 }
