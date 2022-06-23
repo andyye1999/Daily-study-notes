@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IIR和FIR滤波器代码.md",
+            "file": "重采样.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IIR和FIR滤波器代码.md",
+            "file": "重采样.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IIR和FIR滤波器代码.md",
+                "file": "重采样.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "重采样.md",
+    "leetcode/151. 颠倒字符串中的单词.md",
     "IIR和FIR滤波器代码.md",
     "现代数字信号处理课程笔记.md",
     "傅里叶变换的多种解释.md",
@@ -110,8 +112,6 @@
     "PCM WAV.md",
     "leetcode/541. 反转字符串 II.md",
     "leetcode/344. 反转字符串.md",
-    "MFCC.md",
-    "频域RLS.md",
-    "leetcode/18. 四数之和.md"
+    "MFCC.md"
   ]
 }
