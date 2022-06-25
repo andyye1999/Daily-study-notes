@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/28. 实现 strStr().md",
+            "file": "leetcode/459. 重复的子字符串.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/28. 实现 strStr().md",
+            "file": "leetcode/459. 重复的子字符串.md",
             "mode": "source"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/28. 实现 strStr().md",
+                "file": "leetcode/459. 重复的子字符串.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/459. 重复的子字符串.md",
     "leetcode/28. 实现 strStr().md",
     "leetcode/59. 螺旋矩阵 II.md",
     "leetcode/剑指 Offer 58 - II. 左旋转字符串.md",
@@ -111,7 +112,6 @@
     "现代数字信号处理课程笔记.md",
     "面试题库整理扫描.pdf",
     "C++ 那些事/const.md",
-    "重采样.md",
-    "leetcode/151. 颠倒字符串中的单词.md"
+    "重采样.md"
   ]
 }
