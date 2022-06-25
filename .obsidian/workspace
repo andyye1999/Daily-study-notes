@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/459. 重复的子字符串.md",
+            "file": "C++ 那些事/static 那些事.md",
             "mode": "source"
           }
         },
@@ -23,8 +23,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/459. 重复的子字符串.md",
-            "mode": "source"
+            "file": "C++ 那些事/static 那些事.md",
+            "mode": "preview"
           }
         },
         "group": "5e912936b77522d2"
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/459. 重复的子字符串.md",
+                "file": "C++ 那些事/static 那些事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "C++ 那些事/static 那些事.md",
     "leetcode/459. 重复的子字符串.md",
     "leetcode/28. 实现 strStr().md",
     "leetcode/59. 螺旋矩阵 II.md",
@@ -111,7 +112,6 @@
     "数字信号处理课程笔记.pdf",
     "现代数字信号处理课程笔记.md",
     "面试题库整理扫描.pdf",
-    "C++ 那些事/const.md",
-    "重采样.md"
+    "C++ 那些事/const.md"
   ]
 }
