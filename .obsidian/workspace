@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc_ns.md",
+            "file": "leetcode/232. 用栈实现队列.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc_ns.md",
+            "file": "leetcode/232. 用栈实现队列.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "leetcode/232. 用栈实现队列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/232. 用栈实现队列.md",
     "webrtc/webrtc_ns.md",
     "C++ 那些事/static 那些事.md",
     "leetcode/459. 重复的子字符串.md",
@@ -111,7 +112,6 @@
     "leetcode/剑指 Offer 58 - II. 左旋转字符串.md",
     "IIR和FIR滤波器代码.md",
     "数字信号处理课程笔记.pdf",
-    "现代数字信号处理课程笔记.md",
-    "面试题库整理扫描.pdf"
+    "现代数字信号处理课程笔记.md"
   ]
 }
