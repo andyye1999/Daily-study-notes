@@ -111,13 +111,17 @@ UpdateBuffer()
 ## NoiseEstimation() 分位数噪声估计  
 ###  [语音增强原理之噪声估计](https://www.cnblogs.com/icoolmedia/p/noise_estimate.html)
 ### [噪声估计](https://www.jianshu.com/p/26e24bbc2358)
-从代码来看，webrtc中包含了两种噪声估计方法，一种是QBNE（Quantile Based Noise Estimation），翻译中文可以叫做分位数噪声估计，前50帧的初始噪声估计是以分位数噪声估计为基础。噪声估计受分位数参数控制，该参数以q表示。根据初始噪声估计步骤确定的噪声估计，仅能用作促进噪声更新/估计的后续流程的初始条件。这个只用在初始噪声估计？另一种也是采用递归的噪声最小估计方法。
+从代码来看，webrtc中包含了两种噪声估计方法，**一种是QBNE（Quantile Based Noise Estimation），翻译中文可以叫做分位数噪声估计**，前50帧的初始噪声估计是以分位数噪声估计为基础。噪声估计受分位数参数控制，该参数以q表示。根据初始噪声估计步骤确定的噪声估计，仅能用作促进噪声更新/估计的后续流程的初始条件。这个只用在初始噪声估计？**另一种也是采用递归的噪声最小估计方法。**
 最小值控制的递归平均（MCRA）算法
 　从上面的推导过程我们可以看到，MCRA算法的主要流程是：
  （1）先用最小值跟踪法获得带噪语音的最小值，它代表的是对噪声的初步估计
 （2）再利用这个最小值来计算语音存在的概率p
 （3）根据上式计算噪声估计的平滑因子
 （4）利用递归平均来估计噪声
+### [webRTC中语音降噪模块ANS细节详解(三)](https://www.cnblogs.com/talkaudiodev/p/15492190.html)
+webRTC中ANS的初始噪声估计用的是分位数噪声估计法（QBNE，Quantile Based Noise Estimation），对应的论文为《Quantile Based Noise Estimation For Spectral Subtraction And Wiener Filtering》。 分位数噪声估计认为，即使是语音段，**输入信号在某些频带分量上也可能没有信号能量**，那么**将某个频带上所有语音帧的能量做一个统计，设定一个分位数值，低于分位数值的认为是噪声，高于分位数值的认为是语音**。算法大致步骤如下：
+
+![](https://img2020.cnblogs.com/blog/1181527/202110/1181527-20211023211535168-2047360130.jpg)
 
 
 ## WebRtcNs_AnalyzeCore()
