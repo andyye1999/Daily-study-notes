@@ -108,9 +108,17 @@ UpdateBuffer()
 ## set_feature_extraction_parameters()
 设置了特征提取使用到的参数，当前WebRTC噪声抑制算法使用了LRT特征/频谱平坦度和频谱差异度三个指标，没有使用频谱熵和频谱方差这两个特征。
 # [Processing of WebRTC noise suppression](http://www.yushuai.xyz/2019/07/01/4396.html)  
-## NoiseEstimation() 噪声估计  
+## NoiseEstimation() 分位数噪声估计  
 ###  [语音增强原理之噪声估计](https://www.cnblogs.com/icoolmedia/p/noise_estimate.html)
 ### [噪声估计](https://www.jianshu.com/p/26e24bbc2358)
+从代码来看，webrtc中包含了两种噪声估计方法，一种是QBNE（Quantile Based Noise Estimation），翻译中文可以叫做分位数噪声估计，前50帧的初始噪声估计是以分位数噪声估计为基础。噪声估计受分位数参数控制，该参数以q表示。根据初始噪声估计步骤确定的噪声估计，仅能用作促进噪声更新/估计的后续流程的初始条件。这个只用在初始噪声估计？另一种也是采用递归的噪声最小估计方法。
+最小值控制的递归平均（MCRA）算法
+　从上面的推导过程我们可以看到，MCRA算法的主要流程是：
+ （1）先用最小值跟踪法获得带噪语音的最小值，它代表的是对噪声的初步估计
+（2）再利用这个最小值来计算语音存在的概率p
+（3）根据上式计算噪声估计的平滑因子
+（4）利用递归平均来估计噪声
+
 
 ## WebRtcNs_AnalyzeCore()
 计算信噪比函数之前的部分分别是：

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "噪声估计.md",
+            "file": "webrtc/webrtc_ns.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "噪声估计.md",
+            "file": "webrtc/webrtc_ns.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "噪声估计.md",
+                "file": "webrtc/webrtc_ns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,8 +103,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
-    "噪声估计.md",
     "webrtc/webrtc_ns.md",
+    "噪声估计.md",
     "单通道语音增强.md",
     "leetcode/150. 逆波兰表达式求值.md",
     "leetcode/1047. 删除字符串中的所有相邻重复项.md",
