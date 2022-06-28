@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc_ns.md",
+            "file": "OLA & OLS.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc_ns.md",
+            "file": "OLA & OLS.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "OLA & OLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "OLA & OLS.md",
     "webrtc/webrtc_ns.md",
     "噪声估计.md",
     "单通道语音增强.md",
@@ -111,7 +112,6 @@
     "leetcode/20. 有效的括号.md",
     "频域RLS.md",
     "leetcode/225. 用队列实现栈.md",
-    "leetcode/232. 用栈实现队列.md",
-    "C++ 那些事/static 那些事.md"
+    "leetcode/232. 用栈实现队列.md"
   ]
 }
