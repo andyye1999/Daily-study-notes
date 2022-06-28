@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/232. 用栈实现队列.md",
+            "file": "频域RLS.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/232. 用栈实现队列.md",
+            "file": "频域RLS.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/232. 用栈实现队列.md",
+                "file": "频域RLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "频域RLS.md",
+    "leetcode/225. 用队列实现栈.md",
     "leetcode/232. 用栈实现队列.md",
     "webrtc/webrtc_ns.md",
     "C++ 那些事/static 那些事.md",
@@ -110,8 +112,6 @@
     "leetcode/28. 实现 strStr().md",
     "leetcode/59. 螺旋矩阵 II.md",
     "leetcode/剑指 Offer 58 - II. 左旋转字符串.md",
-    "IIR和FIR滤波器代码.md",
-    "数字信号处理课程笔记.pdf",
-    "现代数字信号处理课程笔记.md"
+    "IIR和FIR滤波器代码.md"
   ]
 }
