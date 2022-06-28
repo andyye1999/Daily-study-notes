@@ -107,3 +107,18 @@ UpdateBuffer()
 ```
 ## set_feature_extraction_parameters()
 设置了特征提取使用到的参数，当前WebRTC噪声抑制算法使用了LRT特征/频谱平坦度和频谱差异度三个指标，没有使用频谱熵和频谱方差这两个特征。
+# [Processing of WebRTC noise suppression](http://www.yushuai.xyz/2019/07/01/4396.html)  
+## NoiseEstimation() 噪声估计  
+###  [语音增强原理之噪声估计](https://www.cnblogs.com/icoolmedia/p/noise_estimate.html)
+### [噪声估计](https://www.jianshu.com/p/26e24bbc2358)
+
+## WebRtcNs_AnalyzeCore()
+计算信噪比函数之前的部分分别是：
+1.对输入的时域帧数据进行加窗、FFT变换。
+2.然后计算能量，若能量为0，返回；否则继续往下。
+3.然后计算新的能量和幅度。
+4.使用分位数噪声估计进行初始噪声估计。
+5.然后取前50个帧，计算得到高斯白噪声、粉红噪声模型，联合白噪声、粉红噪声模型，得到建模的混合噪声模型。
+在噪声抑制模块WebrtcAnalyzeCore中，输入信号经过时频变换后分成三路信号，分别对这三路信号进行计算频谱平坦度、计算信噪比、计算频谱差异。最后将这三个相应的特征值输入到语音/噪声概率更新模板中。该模块具体的流程图以及功能介绍如下：
+
+![Webrtc NS模块算法](https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9waWFuc2hlbi5jb20vaW1hZ2VzLzYzOS9iN2E0YmNhNGRlOGM4YmYwYWE0ZDNhM2FiMTExMmQyZi5wbmc= "Webrtc NS模块算法")
