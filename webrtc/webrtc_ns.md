@@ -122,6 +122,15 @@ UpdateBuffer()
 webRTC中ANS的初始噪声估计用的是分位数噪声估计法（QBNE，Quantile Based Noise Estimation），对应的论文为《Quantile Based Noise Estimation For Spectral Subtraction And Wiener Filtering》。 分位数噪声估计认为，即使是语音段，**输入信号在某些频带分量上也可能没有信号能量**，那么**将某个频带上所有语音帧的能量做一个统计，设定一个分位数值，低于分位数值的认为是噪声，高于分位数值的认为是语音**。算法大致步骤如下：
 
 ![](https://img2020.cnblogs.com/blog/1181527/202110/1181527-20211023211535168-2047360130.jpg)
+webRTC ANS在做初始估计时，**分三个阶段**，第一个阶段是前50帧，第二个阶段是51~200帧，第三个阶段是200帧以后的。50帧以后的只用分位数噪声估计法来估计噪声，而前50帧是分位数噪声估计法和噪声模型相结合，使噪声估计的更准确。先看每个阶段都有的分位数噪声估计的处理，过程如下：
+1）  算出每个频点的幅度谱的自然对数值，即**对数谱**inst->lmagn，后续用lmagn表示
+2）  更新分位数自然对数值(inst->lquantile，后续用lquantile表示)和概率密度值(inst->density，后续用density表示)。 共有三组lquantile和density值，每一帧有129个频点，所以lquantile和density的数组大小为387（129*3）。内存布局示意如图1：
+
+![](https://img2020.cnblogs.com/blog/1181527/202110/1181527-20211023211722793-325443566.jpg)
+
+                                                图1
+												
+
 
 
 ## WebRtcNs_AnalyzeCore()
