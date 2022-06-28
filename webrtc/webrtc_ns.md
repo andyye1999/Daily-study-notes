@@ -28,3 +28,82 @@ webRTC没有采用上述的方法，而是对**似然比**（VAD检测时就用�
   
 
 初始噪声估计是以分位数噪声估计为基础。噪声估计受分位数参数控制，该参数以q表示。根据初始噪声估计步骤确定的噪声估计，仅能用作促进噪声更新/估计的后续流程的初始条件。
+
+# [Webrtc NS模块算法](https://www.likecs.com/show-203316256.html "Webrtc NS模块算法")  
+算法的主要函数调用关系如下：
+```cpp
+1、初始化模块
+//设置特征提取参数
+set_feature_extraction_parameters()
+//特征参数提取
+FeatureParameterExtraction()
+//初始化状态
+WebRtcNs_InitCore()
+//改变噪声抑制方法的激增性
+WebRtcNs_set_policy_core()
+2、分析模块
+//噪声抑制分析模块
+WebRtcNs_AnalyzeCore()
+//更新数据缓冲
+UpdateBuffer()
+//计算缓冲区的能量
+Energy()
+//窗缓冲区
+Windowing()
+//将信号从时域变换到频域
+FFT()
+//噪声估计
+NoiseEstimation()
+//计算信噪比
+ComputeSnr()
+//特征值更新(主要是谱差和平坦度)
+FeatureUpdate()
+//计算谱平坦度
+ComputeSpectralFlatness()
+ //计算谱差异
+ComputeSpectralDifference()
+//计算语音/噪声概率
+SpeechNoiseProb()
+//更新噪声估计
+UpdateNoiseEstimate()
+//计算缓冲区的能量
+Energy()
+//窗缓冲区
+Windowing()
+3、处理模块
+//噪声抑制处理模块
+WebRtcNs_ProcessCore()
+//更新数据缓冲
+UpdateBuffer()
+//计算缓冲区的能量
+Energy()
+/ /窗缓冲区
+Windowing()
+//将信号从时域变换到频域
+FFT()
+//估计先验信噪比判决定向和计算基于DD的维纳滤波器
+ComputeDdBasedWienerFilter()
+//将信号从频率变换到时域
+IFFT()
+//窗缓冲区
+Windowing()
+//更新数据缓冲
+UpdateBuffer()
+```
+## WebRtcNs_InitCore() 
+```cpp
+// We only support 10ms frames.
+  if (fs == 8000) {
+    self->blockLen = 80;  //帧的点数
+    self->anaLen = 128;  //FFT点数
+    self->window = kBlocks80w128;
+  } else {
+    self->blockLen = 160;
+    self->anaLen = 256;
+    self->window = kBlocks160w256;
+  }
+  self->magnLen = self->anaLen / 2 + 1;  // Number of frequency bins.
+  // 频带数
+```
+## set_feature_extraction_parameters()
+设置了特征提取使用到的参数，当前WebRTC噪声抑制算法使用了LRT特征/频谱平坦度和频谱差异度三个指标，没有使用频谱熵和频谱方差这两个特征。
