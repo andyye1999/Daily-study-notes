@@ -242,6 +242,40 @@ webRTC ANS在做初始估计时，**分三个阶段**，第一个阶段是前50�
 ![](https://img2020.cnblogs.com/blog/1181527/202110/1181527-20211026150233148-457476120.jpg)                                           (12)
 
 这样当前帧的先验SNR和后验SNR都计算出来了，用于后面的语音噪声概率计算中。
+```c
+// Compute prior and post SNR based on quantile noise estimation.
+// Compute DD estimate of prior SNR.
+// Inputs:
+//   * |magn| is the signal magnitude spectrum estimate.
+//   * |noise| is the magnitude noise spectrum estimate.
+// Outputs:
+//   * |snrLocPrior| is the computed prior SNR.
+//   * |snrLocPost| is the computed post SNR.
+static void ComputeSnr(const NoiseSuppressionC* self,
+                       const float* magn,
+                       const float* noise,
+                       float* snrLocPrior,
+                       float* snrLocPost) {
+  size_t i;
+
+  for (i = 0; i < self->magnLen; i++) {
+    // Previous post SNR.
+    // Previous estimate: based on previous frame with gain filter.
+    float previousEstimateStsa = self->magnPrevAnalyze[i] /
+        (self->noisePrev[i] + 0.0001f) * self->smooth[i]; // 前一帧的后验信噪比乘维纳滤波器系数=前一帧后验信噪比 self->magnPrevAnalyze前一帧带噪语音赋值 self->noisePrev前一帧估计噪声
+    // Post SNR.
+    snrLocPost[i] = 0.f;
+    if (magn[i] > noise[i]) {
+      snrLocPost[i] = magn[i] / (noise[i] + 0.0001f) - 1.f; // 当前帧后验信噪比-1=前验信噪比
+    }
+    // DD estimate is sum of two terms: current estimate and previous estimate.
+    // Directed decision update of snrPrior.
+    snrLocPrior[i] =
+        DD_PR_SNR * previousEstimateStsa + (1.f - DD_PR_SNR) * snrLocPost[i];  // 平滑公式
+  }  // End of loop over frequencies.
+}
+```
+
 
 ## FFT()
 先看从时域信号变成频域信号。主要步骤是分帧、加窗和做短时傅里叶变换（STFT）。分帧上面说过，10 ms一帧，每帧160个采样点。加窗的目的是避免频谱泄漏。有多种窗函数，常见的有矩形窗、三角窗、汉宁（hanning）窗和海明（hamming）窗等。语音处理中常用的是汉宁窗和海明窗。ANS中用的是汉宁窗和矩形窗混在一起的混合窗。做STFT要求点数是2的N次方，现在每帧160个点，大于160的最近的2的N次方是256，所以STFT一次处理256个点（这也是代码中256（#define ANAL_BLOCKL_MAX  256）的由来）。现在每帧160个点，需要补成256个点。一种做法是在160个点后面补零补成256个点。ANS用了一种更好的方法。用上一帧的尾部的96个点来补从而形成256个点。这样从时域信号变成频域信号的处理流程如下图2：
@@ -287,6 +321,46 @@ webRTC ANS在做初始估计时，**分三个阶段**，第一个阶段是前50�
 ![](https://img2020.cnblogs.com/blog/1181527/202110/1181527-20211021224607997-774155967.jpg)
 
                                                   图7
+```c
+// Transforms the signal from time to frequency domain.
+// Inputs:
+//   * |time_data| is the signal in the time domain.
+//   * |time_data_length| is the length of the analysis buffer.
+//   * |magnitude_length| is the length of the spectrum magnitude, which equals
+//     the length of both |real| and |imag| (time_data_length / 2 + 1).
+// Outputs:
+//   * |time_data| is the signal in the frequency domain.
+//   * |real| is the real part of the frequency domain.
+//   * |imag| is the imaginary part of the frequency domain.
+//   * |magn| is the calculated signal magnitude in the frequency domain.
+static void FFT(NoiseSuppressionC* self,
+                float* time_data,
+                size_t time_data_length,
+                size_t magnitude_length,
+                float* real,
+                float* imag,
+                float* magn) {
+  size_t i;
+
+  assert(magnitude_length == time_data_length / 2 + 1);
+
+  WebRtc_rdft(time_data_length, 1, time_data, self->ip, self->wfft); // 0和1分别放的是0和N/2直流分量
+
+  imag[0] = 0;
+  real[0] = time_data[0];
+  magn[0] = fabsf(real[0]) + 1.f;
+  imag[magnitude_length - 1] = 0;
+  real[magnitude_length - 1] = time_data[1];
+  magn[magnitude_length - 1] = fabsf(real[magnitude_length - 1]) + 1.f;
+  for (i = 1; i < magnitude_length - 1; ++i) {
+    real[i] = time_data[2 * i];
+    imag[i] = time_data[2 * i + 1];
+    // Magnitude spectrum.
+    magn[i] = sqrtf(real[i] * real[i] + imag[i] * imag[i]) + 1.f;
+  }
+}
+```
+
 ## FeatureUpdate() 提取平均LRT参数、频谱差异、频谱平坦度
 提取平均LRT参数、频谱差异、频谱平坦度
 
@@ -306,9 +380,63 @@ webRTC ANS在做初始估计时，**分三个阶段**，第一个阶段是前50�
 就128个频率点可分成4个频带（低带，中低频带，中高频带，高频），每个频带32个频点。对于**噪声Flatness偏大且为常数**，而**对于语音，计算出的数量则偏小且为变量**。  
 根据上面的公式，**如果接近于1，则是噪声**，（**噪声的幅度谱趋于平坦**），二对于**语音**，**上面的N次根是对乘积结果进行N次缩小，相比于分母部分，缩小的数量级是倍数的，所以语音的平坦度较小，是趋近于0的**	。
 ## ComputeSpectralDifference() 计算频谱差异度
-计算频谱差异度
+计算频谱差异度噪声频谱比语音频谱更稳定，因此，假设噪声频谱体形状在任何给定阶段都倾向于保持相同，  
+此特征用于测量输入频谱与噪声频谱形状的偏差。
 先定义五个变量：avgMagn/varMagn （magnitude的均值和方差均值）和avgPause/varPause（conservative noise spectrum的均值和方差均值），以及covMagnPause（magn和pause的协方差均值）
 ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109075219055-67712467.png)
+定义F3为频谱模板差异度特征，表达式如式16：
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109075329448-184303205.png)                        (16)
+
+同频谱平坦度一样，最后也要做一个平滑。
+```c
+// Compute the difference measure between input spectrum and a template/learned
+// noise spectrum.
+// |magnIn| is the input spectrum.
+// The reference/template spectrum is self->magnAvgPause[i].
+// Returns (normalized) spectral difference in self->featureData[4].
+static void ComputeSpectralDifference(NoiseSuppressionC* self,
+                                      const float* magnIn) {
+  // avgDiffNormMagn = var(magnIn) - cov(magnIn, magnAvgPause)^2 /
+  // var(magnAvgPause)
+  size_t i;
+  float avgPause, avgMagn, covMagnPause, varPause, varMagn, avgDiffNormMagn;
+  // avgMagn/varMagn （magnitude的均值和方差均值）avgPause/varPause（conservative noise spectrum的均值和方差均值）covMagnPause（magn和pause的协方差均值）
+
+  avgPause = 0.0;
+  avgMagn = self->sumMagn;
+  // Compute average quantities.
+  for (i = 0; i < self->magnLen; i++) {
+    // Conservative smooth noise spectrum from pause frames.
+    avgPause += self->magnAvgPause[i];
+  }
+  avgPause /= self->magnLen;
+  avgMagn /= self->magnLen;
+
+  covMagnPause = 0.0;
+  varPause = 0.0;
+  varMagn = 0.0;
+  // Compute variance and covariance quantities.
+  for (i = 0; i < self->magnLen; i++) {
+    covMagnPause += (magnIn[i] - avgMagn) * (self->magnAvgPause[i] - avgPause);
+    varPause +=
+        (self->magnAvgPause[i] - avgPause) * (self->magnAvgPause[i] - avgPause);
+    varMagn += (magnIn[i] - avgMagn) * (magnIn[i] - avgMagn);
+  }
+  covMagnPause /= self->magnLen;
+  varPause /= self->magnLen;
+  varMagn /= self->magnLen;
+  // Update of average magnitude spectrum.
+  self->featureData[6] += self->signalEnergy;
+
+  avgDiffNormMagn =
+      varMagn - (covMagnPause * covMagnPause) / (varPause + 0.0001f);
+  // Normalize and compute time-avg update of difference feature.
+  avgDiffNormMagn = avgDiffNormMagn / (self->featureData[5] + 0.0001f); // 归一化
+  //avgDiffNormMagn = (float)(avgDiffNormMagn / (self->featureData[5] + 0.0001f));
+  self->featureData[4] +=
+      SPECT_DIFF_TAVG * (avgDiffNormMagn - self->featureData[4]);
+}
+```
 
 ## WebRtcNs_AnalyzeCore()
 计算信噪比函数之前的部分分别是：
