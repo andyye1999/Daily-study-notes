@@ -1,3 +1,4 @@
+[toc]
 # [webrtc_ns](https://cxymm.net/article/godloveyuxu/73657931)
 所以对噪声的估计准确性是至关重要的，噪声估计的越准得到的结果就越好，由此又多出来几种估计噪声的方法。
 
@@ -360,6 +361,59 @@ static void FFT(NoiseSuppressionC* self,
   }
 }
 ```
+```c
+// Back to time domain.
+  IFFT(self, real, imag, self->magnLen, self->anaLen, winData);
+
+  // Scale factor: only do it after END_STARTUP_LONG time.
+  factor = 1.f;
+  if (self->gainmap == 1 && self->blockInd > END_STARTUP_LONG) {
+    factor1 = 1.f;
+    factor2 = 1.f;
+
+    energy2 = Energy(winData, self->anaLen);
+	gain = sqrtf(energy2 / (energy1 + 1.f));
+    //gain = (float)sqrt(energy2 / (energy1 + 1.f));
+
+    // Scaling for new version.
+    if (gain > B_LIM) {
+      factor1 = 1.f + 1.3f * (gain - B_LIM);
+      if (gain * factor1 > 1.f) {
+        factor1 = 1.f / gain;
+      }
+    }
+    if (gain < B_LIM) {
+      // Don't reduce scale too much for pause regions:
+      // attenuation here should be controlled by flooring.
+      if (gain <= self->denoiseBound) {
+        gain = self->denoiseBound;
+      }
+      factor2 = 1.f - 0.3f * (B_LIM - gain);
+    }
+    // Combine both scales with speech/noise prob:
+    // note prior (priorSpeechProb) is not frequency dependent.
+    factor = self->priorSpeechProb * factor1 +
+             (1.f - self->priorSpeechProb) * factor2;
+  }  // Out of self->gainmap == 1.
+
+  Windowing(self->window, winData, self->anaLen, winData);
+
+  // Synthesis.
+  for (i = 0; i < self->anaLen; i++) {
+    self->syntBuf[i] += factor * winData[i];
+  }
+  // Read out fully processed segment.
+  for (i = self->windShift; i < self->blockLen + self->windShift; i++) {
+    fout[i - self->windShift] = self->syntBuf[i];
+  }
+  // Update synthesis buffer.
+  UpdateBuffer(NULL, self->blockLen, self->anaLen, self->syntBuf);
+
+  for (i = 0; i < self->blockLen; ++i)
+    outFrame[0][i] =
+        outFrame[0][i] =
+                WEBRTC_SPL_SAT(32767, fout[i], (-32768));
+```
 
 ## FeatureUpdate() 提取平均LRT参数、频谱差异、频谱平坦度
 提取平均LRT参数、频谱差异、频谱平坦度
@@ -379,6 +433,49 @@ static void FFT(NoiseSuppressionC* self,
 算出F2后还要做一个平滑处理。
 就128个频率点可分成4个频带（低带，中低频带，中高频带，高频），每个频带32个频点。对于**噪声Flatness偏大且为常数**，而**对于语音，计算出的数量则偏小且为变量**。  
 根据上面的公式，**如果接近于1，则是噪声**，（**噪声的幅度谱趋于平坦**），二对于**语音**，**上面的N次根是对乘积结果进行N次缩小，相比于分母部分，缩小的数量级是倍数的，所以语音的平坦度较小，是趋近于0的**	。
+```c
+// Compute spectral flatness on input spectrum.
+// |magnIn| is the magnitude spectrum.
+// Spectral flatness is returned in self->featureData[0].
+static void ComputeSpectralFlatness(NoiseSuppressionC* self,
+                                    const float* magnIn) {
+  size_t i;
+  size_t shiftLP = 1;  // Option to remove first bin(s) from spectral measures.
+  float avgSpectralFlatnessNum, avgSpectralFlatnessDen, spectralTmp;
+
+  // Compute spectral measures.
+  // For flatness.
+  avgSpectralFlatnessNum = 0.0;
+  avgSpectralFlatnessDen = self->sumMagn;
+  // 跳过第一个频点，即直流频点Den是denominator（分母）的缩写，avgSpectralFlatnessDen是上述公式分母计算用到的
+  for (i = 0; i < shiftLP; i++) {
+    avgSpectralFlatnessDen -= magnIn[i];
+  }
+  // Compute log of ratio of the geometric to arithmetic mean: check for log(0)
+  // case.
+  for (i = shiftLP; i < self->magnLen; i++) {
+    if (magnIn[i] > 0.0) {
+		avgSpectralFlatnessNum += logf(magnIn[i]);
+      //avgSpectralFlatnessNum += (float)log(magnIn[i]);
+    } else {
+      self->featureData[0] -= SPECT_FL_TAVG * self->featureData[0]; // TVAG是time-average的缩写，对于能量出现异常的处理。利用前一次平坦度直接取平均返回。
+      return;
+    }
+  }
+  // Normalize.
+  avgSpectralFlatnessDen = avgSpectralFlatnessDen / self->magnLen;
+  avgSpectralFlatnessNum = avgSpectralFlatnessNum / self->magnLen; // 频谱平坦度算法是几何平均除以算术平均 几何平均为了方便计算，先取对数变成求和再变回指数运算
+
+  // Ratio and inverse log: check for case of log(0).
+  spectralTmp = expf(avgSpectralFlatnessNum) / avgSpectralFlatnessDen;
+  //spectralTmp = (float)exp(avgSpectralFlatnessNum) / avgSpectralFlatnessDen;
+
+  // Time-avg update of spectral flatness feature.
+  self->featureData[0] += SPECT_FL_TAVG * (spectralTmp - self->featureData[0]); // 平滑处理
+  // Done with flatness feature.
+}
+```
+
 ## ComputeSpectralDifference() 计算频谱差异度
 计算频谱差异度噪声频谱比语音频谱更稳定，因此，假设噪声频谱体形状在任何给定阶段都倾向于保持相同，  
 此特征用于测量输入频谱与噪声频谱形状的偏差。

@@ -93,6 +93,16 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "a74bee2225defe0e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "webrtc/webrtc_ns.md"
+              }
+            }
           }
         ]
       }
@@ -104,6 +114,7 @@
   "active": "18988743c27790fe",
   "lastOpenFiles": [
     "webrtc/webrtc_ns.md",
+    "webrtc/webrtc-aec.md",
     "leetcode/239. 滑动窗口最大值.md",
     "OLA & OLS.md",
     "噪声估计.md",
@@ -111,7 +122,6 @@
     "leetcode/150. 逆波兰表达式求值.md",
     "leetcode/1047. 删除字符串中的所有相邻重复项.md",
     "leetcode/20. 有效的括号.md",
-    "频域RLS.md",
-    "leetcode/225. 用队列实现栈.md"
+    "频域RLS.md"
   ]
 }
