@@ -194,6 +194,148 @@ webRTC ANS在做初始估计时，**分三个阶段**，第一个阶段是前50�
 ![](https://img2020.cnblogs.com/blog/1181527/202110/1181527-20211023212752969-192483303.jpg)                                  (3)
 
 至此，前50帧的结合分位数噪声估计和模型噪声估计的噪声就估计出来了。这样不管是第几帧，初始噪声都能估计出来，下面根据估计出来的初始噪声来算先验信噪比和后验信噪比。
+```c
+// Estimate noise.
+static void NoiseEstimation(NoiseSuppressionC* self,
+                            float* magn,
+                            float* noise) {
+  size_t i, s, offset=0;
+  float lmagn[HALF_ANAL_BLOCKL], delta;
+
+  if (self->updates < END_STARTUP_LONG) {
+    self->updates++;
+  }
+
+  //webRTC ANS在做初始估计时，分三个阶段，第一个阶段是前50帧，第二个阶段是51~200帧，第三个阶段是200帧以后的。
+  //50帧以后的只用分位数噪声估计法来估计噪声，而前50帧是分位数噪声估计法和噪声模型相结合，使噪声估计的更准确。
+  //先看每个阶段都有的分位数噪声估计的处理，过程如下：
+  for (i = 0; i < self->magnLen; i++) {
+	 lmagn[i] = logf(magn[i]); 
+    //lmagn[i] = (float)log(magn[i]);
+  }
+
+  // Loop over simultaneous estimates.
+  for (s = 0; s < SIMULT; s++) {
+    offset = s * self->magnLen;
+
+    // newquantest(...)
+    for (i = 0; i < self->magnLen; i++) {
+      // Compute delta.
+      if (self->density[offset + i] > 1.0) {
+        delta = FACTOR * 1.f / self->density[offset + i]; // 概率密度值inst->density
+      } else {
+        delta = FACTOR;
+      }
+
+      // Update log quantile estimate.
+      if (lmagn[i] > self->lquantile[offset + i]) {
+        self->lquantile[offset + i] +=
+            QUANTILE * delta / (float)(self->counter[s] + 1); // self->lquantile 分位数自然对数值
+      } else {
+        self->lquantile[offset + i] -=
+            (1.f - QUANTILE) * delta / (float)(self->counter[s] + 1);
+      }
+
+      // Update density estimate.
+	  if (fabsf(lmagn[i] - self->lquantile[offset + i]) < WIDTH) {
+      //if (fabs(lmagn[i] - self->lquantile[offset + i]) < WIDTH) {
+        self->density[offset + i] =
+            ((float)self->counter[s] * self->density[offset + i] +
+             1.f / (2.f * WIDTH)) /
+            (float)(self->counter[s] + 1);
+      }
+    }  // End loop over magnitude spectrum.
+
+    if (self->counter[s] >= END_STARTUP_LONG) {
+      self->counter[s] = 0;
+      if (self->updates >= END_STARTUP_LONG) {
+        for (i = 0; i < self->magnLen; i++) {
+          self->quantile[i] = expf(self->lquantile[offset + i]);
+		  //self->quantile[i] = (float)exp(self->lquantile[offset + i]);
+        }
+      }
+    }
+
+    self->counter[s]++;
+  }  // End loop over simultaneous estimates.
+
+  // Sequentially update the noise during startup.
+  if (self->updates < END_STARTUP_LONG) {
+    // Use the last "s" to get noise during startup that differ from zero.
+    for (i = 0; i < self->magnLen; i++) {
+		self->quantile[i] = expf(self->lquantile[offset + i]);
+      //self->quantile[i] = (float)exp(self->lquantile[offset + i]);
+    }
+  }
+
+  for (i = 0; i < self->magnLen; i++) {
+    noise[i] = self->quantile[i];
+  }
+}
+// Compute simplified noise model during startup.
+  if (self->blockInd < END_STARTUP_SHORT) {
+    // Estimate White noise.
+    self->whiteNoiseLevel += sumMagn / self->magnLen * self->overdrive;
+    // Estimate Pink noise parameters.
+    tmpFloat1 = sum_log_i_square * (self->magnLen - kStartBand);
+    tmpFloat1 -= (sum_log_i * sum_log_i);
+    tmpFloat2 =
+        (sum_log_i_square * sum_log_magn - sum_log_i * sum_log_i_log_magn);
+    tmpFloat3 = tmpFloat2 / tmpFloat1;
+    // Constrain the estimated spectrum to be positive.
+    if (tmpFloat3 < 0.f) {
+      tmpFloat3 = 0.f;
+    }
+    self->pinkNoiseNumerator += tmpFloat3;
+    tmpFloat2 = (sum_log_i * sum_log_magn);
+    tmpFloat2 -= (self->magnLen - kStartBand) * sum_log_i_log_magn;
+    tmpFloat3 = tmpFloat2 / tmpFloat1;
+    // Constrain the pink noise power to be in the interval [0, 1].
+    if (tmpFloat3 < 0.f) {
+      tmpFloat3 = 0.f;
+    }
+    if (tmpFloat3 > 1.f) {
+      tmpFloat3 = 1.f;
+    }
+    self->pinkNoiseExp += tmpFloat3;
+
+    // Calculate frequency independent parts of parametric noise estimate.
+    if (self->pinkNoiseExp > 0.f) {
+      // Use pink noise estimate.
+      parametric_num =
+          expf(self->pinkNoiseNumerator / (float)(self->blockInd + 1));
+      parametric_num *= (float)(self->blockInd + 1);
+      parametric_exp = self->pinkNoiseExp / (float)(self->blockInd + 1);
+    }
+    for (i = 0; i < self->magnLen; i++) {
+      // Estimate the background noise using the white and pink noise
+      // parameters.
+      if (self->pinkNoiseExp == 0.f) {
+        // Use white noise estimate.
+        self->parametricNoise[i] = self->whiteNoiseLevel;
+      } else {
+        // Use pink noise estimate.
+        float use_band = (float)(i < kStartBand ? kStartBand : i);
+        self->parametricNoise[i] =
+            parametric_num / powf(use_band, parametric_exp);
+      }
+      // Weight quantile noise with modeled noise.
+      noise[i] *= (self->blockInd);
+      tmpFloat2 =
+          self->parametricNoise[i] * (END_STARTUP_SHORT - self->blockInd);
+      noise[i] += (tmpFloat2 / (float)(self->blockInd + 1));
+      noise[i] /= END_STARTUP_SHORT;
+    }
+  }
+  // Compute average signal during END_STARTUP_LONG time:
+  // used to normalize spectral difference measure.
+  if (self->blockInd < END_STARTUP_LONG) {
+    self->featureData[5] *= self->blockInd;
+    self->featureData[5] += signalEnergy;
+    self->featureData[5] /= (self->blockInd + 1);
+  }
+```
+
 
 ## ComputeSnr()
 **后验信噪比σ是带噪语音Y与噪声N的功率比值**，**先验信噪比ρ是干净语音S与噪声N的功率比值**，表达式如下式4和5：
