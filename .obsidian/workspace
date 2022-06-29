@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OLA & OLS.md",
+            "file": "leetcode/239. 滑动窗口最大值.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OLA & OLS.md",
+            "file": "leetcode/239. 滑动窗口最大值.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLA & OLS.md",
+                "file": "leetcode/239. 滑动窗口最大值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/239. 滑动窗口最大值.md",
     "OLA & OLS.md",
     "webrtc/webrtc_ns.md",
     "噪声估计.md",
@@ -111,7 +112,6 @@
     "leetcode/1047. 删除字符串中的所有相邻重复项.md",
     "leetcode/20. 有效的括号.md",
     "频域RLS.md",
-    "leetcode/225. 用队列实现栈.md",
-    "leetcode/232. 用栈实现队列.md"
+    "leetcode/225. 用队列实现栈.md"
   ]
 }
