@@ -676,6 +676,8 @@ static void ComputeSpectralDifference(NoiseSuppressionC* self,
       SPECT_DIFF_TAVG * (avgDiffNormMagn - self->featureData[4]);
 }
 ```
+
+## FeatureParameterExtraction() 提取特征阈值 没怎么看懂
 ## SpeechNoiseProb()  语音噪声概率更新
 
 ## WebRtcNs_AnalyzeCore()
