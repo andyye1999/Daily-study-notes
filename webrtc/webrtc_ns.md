@@ -676,6 +676,7 @@ static void ComputeSpectralDifference(NoiseSuppressionC* self,
       SPECT_DIFF_TAVG * (avgDiffNormMagn - self->featureData[4]);
 }
 ```
+## SpeechNoiseProb()  语音噪声概率更新
 
 ## WebRtcNs_AnalyzeCore()
 计算信噪比函数之前的部分分别是：
