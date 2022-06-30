@@ -679,6 +679,303 @@ static void ComputeSpectralDifference(NoiseSuppressionC* self,
 
 ## FeatureParameterExtraction() 提取特征阈值 没怎么看懂
 ## SpeechNoiseProb()  语音噪声概率更新
+先看怎么算带噪语音和特征条件下的语音概率。其中会用到先前算好的先验SNR和后验SNR，也会用到特征条件下的语音概率，从而涉及到怎么算特征条件下的语音概率，有了特征条件下的语音概率后结合先前算好的先验SNR和后验SNR带噪语音和特征条件下的语音概率就好算了。
+
+1，  带噪语音和特征条件下的语音概率
+
+令H1(k, m)表示第m帧的第k个频点上是语音状态，表示H0(k, m)第m帧的第k个频点上是噪声状态，Y(k,m)表示第m帧的第k个频点上的幅度谱，{F}表示特征集合。为方便书写，简写为H1、H0、Y和F。P(H1 | Y F)表示在带噪语音和特征条件下是语音的概率，其他类推。因为只有语音和噪声两种类型，所以有式1和2（P(•)表示概率）：
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106185152291-1103843288.png)                               (1)
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106185212963-1899964678.png)                                 (2)
+
+对式1展开得式3：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106185312736-447260115.png)                      (3)
+
+因为
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106185440421-204389775.png)
+
+所以得到式4：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106185539678-2028041838.png)               （4）
+
+还可得到式5：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106185615095-981335249.png)                                   （5）
+
+在带噪语音和特征条件下是语音的概率为P(H1 | YF) ，把式4和5带入得到式6:
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106185822148-3609393.png)                                               (6)
+
+在式2中，令P(H1 | F) = q(k, m)，这里简计为q，则P(H0| F) = 1 – q。
+
+再令Δ(k, m) =  ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106190040870-1151076009.png)为似然比， 所以得到式7:
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106190133669-1129573766.png)                                                                   (7)
+
+看怎么求似然比。这里会用到复高斯分布，先了解一下什么是复高斯分布。假设实随机高斯变量x和y的均值分别为mx与my，方差为σ2，则x的概率密度函数为
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106190447191-345974959.png)
+
+y的概率密度函数为
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106190552593-1527722853.png)
+
+若x与y相互独立，则x与y的联合概率密度函数为
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106190704174-550130182.png)
+
+定义 z = x + iy，则z为复高斯随机变量。求z的均值和方差如下(E(•)表示期望)：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106190759474-2097967274.png)
+
+对于干净语音和噪声来说，转换到频域后是复数，一般假设服从零均值的复高斯分布，所以
+
+ mz= 0， 从而 mx + imy= 0，所以 mx = 0，my = 0。
+
+把mx = 0，my = 0以及σ2 z = 2σ2带入，得到
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106191327276-783745371.png)
+
+这就是干净语音和噪声的概率密度函数。
+
+在H0下（即噪声下），Y(k,m) = N(k,m)，由于噪声服从均值为0的复高斯分布，可得f(Y | H0)为与噪声有相同方差的高斯分布，所以在噪声条件下带噪语音的条件概率密度函数表示如式8:
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106220443611-765148300.png)                                        (8)
+
+在H1下（即语音下），Y(k,m) = S(k,m) + N(k,m)，由于语音和噪声均服从均值为0的复高斯分布，以及S(k,m)和N(k,m)相互独立，可得f(Y | H1)也为高斯分布，方差为语音和噪声的方差和，所以在语音条件下带噪语音的条件概率密度函数表示如式9:
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106220620735-1117982664.png)         (9)
+
+所以
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106220739691-2102375079.png)
+
+软件实现时同计算先后验信噪比一样，用幅值代替能量，从而
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106220905285-1273937198.png)
+
+用上篇（[webRTC中语音降噪模块ANS细节详解(三)](https://www.cnblogs.com/talkaudiodev/p/15492190.html)）计算出的先验信噪比和后验信噪比表示就可以写成式10：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106221102484-186019613.png)                                 （10）
+
+为方便计算，对似然比取自然对数得到式11：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106221438609-1601881132.png)                       (11)
+
+软件实现时，没有严格按照这个表达式来，而是用2ρ(k, m)代替了ρ(k, m)， 用（1+ σ(k, m)）代替了σ(k, m)。所以式11变成了式12:
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211106221528910-365140838.png)        (12)
+
+为了防止帧间频变导致似然比波动较大，对似然比进行了平滑，并将式12带入得到表达式13（![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107062112975-1850100980.png)为平滑系数）：
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211108215507225-685902851.png)       （13）
+
+ln(Δ(k,m))能算出，取自然指数就算出Δ(k,m)了。回看在带噪语音和特征条件下算语音的概率如式7：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107062302846-1275586631.png)
+
+Δ(k,m)已算出，只要再算出q(q = P(H1 | F) ，特征条件下是语音的概率)，就可算出在带噪语音和特征条件下的语音概率了。下面看怎么算在特征条件下语音的概率。
+
+2， 特征条件下的语音概率
+
+webRTC用到的特征有似然比检验（Likelihood Rate Test, LRT）均值、频谱平坦度（Spectral Flatness）和频谱模板差异度（Spectral Difference）。先看这些特征，然后看怎么算在这些特征条件下的语音概率。
+
+1） LRT均值特征
+
+似然比Δ(k,m)上面已算出，定义F1为LRT均值特征，如下式14:
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211108215948997-1059255066.png)                 （14）
+
+N为频点数，当采样率为16k HZ时，N = 129，下同。
+
+2） 频谱平坦度特征
+
+语音比噪声的谐波多，其表现是语音频谱通常在基频和谐波中出现能量峰值，而噪声频谱则相对平坦，因此频谱平坦度可以区分语音和噪声。定义F2为频谱平坦度特征，频谱平坦度算法是几何平均除以算术平均，计算如式15：
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109075426732-1181935106.png)                                                        （15）       
+
+由于![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107062736151-293875047.png)不太方便计算，软件实现时先取对数，变成加法运算，加法算好后再取指数从而得到几何平均，具体如下，令
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109074839031-1752090376.png)
+
+所以
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107062911158-1514485627.png)
+
+算出F2后还要做一个平滑处理。
+
+3）频谱模板差异度特征
+
+先定义五个变量：avgMagn/varMagn （magnitude的均值和方差均值）和avgPause/varPause（conservative noise spectrum的均值和方差均值），以及covMagnPause（magn和pause的协方差均值）
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109075219055-67712467.png)
+
+定义F3为频谱模板差异度特征，表达式如式16：
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109075329448-184303205.png)                        (16)
+
+同频谱平坦度一样，最后也要做一个平滑。
+
+三个特征得到后，特征条件下的语音概率P(H1 | F)或者q(k, m)的更新模型可用式17表示：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107063252318-162113190.png)                                     (17)
+
+其中β为平滑系数，M(F)为映射函数，宜用非线性函数，如人工智能(AI)中常用做激活函数的S函数(sigmoid)和双曲正切(tanh)等，因为它们都把函数的取值范围压在了(0, 1)或者(-1, 1)范围内。映射函数根据特征、阈值和宽度参数，将频点划分为语音（M接近1）或者噪声（M接近0）。WebRTC中用的是tanh。这里简单说一下tanh，它的定义式如下：
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109075712742-1803687161.png)
+
+可以证明它的取值范围是（-1, 1）, 并且是单调递增的。tanh的波形图如下图：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107063614129-610989976.png)
+
+实现中M(F) = 0.5 * [tanh(ω*|F - T|) + 1.0]，因为tanh的取值范围是（-1, 1），所以M(F)的取值范围是（0，1）。这里F表示特征，T是阈值，参数ω代表映射函数的形状和宽度。当有多个特征后，每个特征都有一定的权重，这时q(k, m)的更新模型变为式18:
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107063809965-471110475.png)        (18)
+
+再回看在带噪语音和特征条件下算语音的概率如式7：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107063904582-515739947.png)
+
+似然比Δ(k,m)已求出，特征(F1/F2/F3)条件下语音的概率q(k, m)也求出，在带噪语音和特征条件下算语音的概率P(H1 | YF)就算出来了，代码如下：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107064130357-1577821000.png)
+
+q = inst->priorSpeechProb， Δ = inst->logLrtTimeAvg
+
+根据代码，
+
+ ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109075944797-1981506766.png)
+
+所以语音概率![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107064526195-601058188.png)，跟式7是一致的。 
+
+P(H1 | YF)求出，在带噪语音和特征条件下噪声的概率P(H0 | YF) = 1 - P(H1 | YF) 也就求出来了。
+```c
+// Compute speech/noise probability.
+// Speech/noise probability is returned in |probSpeechFinal|.
+// |magn| is the input magnitude spectrum.
+// |noise| is the noise spectrum.
+// |snrLocPrior| is the prior SNR for each frequency.
+// |snrLocPost| is the post SNR for each frequency.
+static void SpeechNoiseProb(NoiseSuppressionC* self,
+                            float* probSpeechFinal,
+                            const float* snrLocPrior,
+                            const float* snrLocPost) {
+  size_t i;
+  int sgnMap;
+  float invLrt, gainPrior, indPrior;
+  float logLrtTimeAvgKsum, besselTmp;
+  float indicator0, indicator1, indicator2;
+  float tmpFloat1, tmpFloat2;
+  float weightIndPrior0, weightIndPrior1, weightIndPrior2;
+  float threshPrior0, threshPrior1, threshPrior2;
+  float widthPrior, widthPrior0, widthPrior1, widthPrior2;
+
+  widthPrior0 = WIDTH_PR_MAP;
+  // Width for pause region: lower range, so increase width in tanh map.
+  widthPrior1 = 2.f * WIDTH_PR_MAP;
+  widthPrior2 = 2.f * WIDTH_PR_MAP;  // For spectral-difference measure.
+
+  // Threshold parameters for features.
+  threshPrior0 = self->priorModelPars[0];
+  threshPrior1 = self->priorModelPars[1];
+  threshPrior2 = self->priorModelPars[3];
+
+  // Sign for flatness feature.
+  sgnMap = (int)(self->priorModelPars[2]);
+
+  // Weight parameters for features.
+  weightIndPrior0 = self->priorModelPars[4];
+  weightIndPrior1 = self->priorModelPars[5];
+  weightIndPrior2 = self->priorModelPars[6];
+
+  // Compute feature based on average LR factor.
+  // This is the average over all frequencies of the smooth log LRT.
+  logLrtTimeAvgKsum = 0.0;  
+  for (i = 0; i < self->magnLen; i++) {
+    tmpFloat1 = 1.f + 2.f * snrLocPrior[i];
+    tmpFloat2 = 2.f * snrLocPrior[i] / (tmpFloat1 + 0.0001f);
+    besselTmp = (snrLocPost[i] + 1.f) * tmpFloat2;
+    self->logLrtTimeAvg[i] +=
+        LRT_TAVG * (besselTmp - logf(tmpFloat1) - self->logLrtTimeAvg[i]);  // self->logLrtTimeAvg 经过时间平滑处理的似然比因子LR  Δ 
+		//LRT_TAVG * (besselTmp - (float)log(tmpFloat1) - self->logLrtTimeAvg[i]);
+    logLrtTimeAvgKsum += self->logLrtTimeAvg[i];
+  }
+   logLrtTimeAvgKsum = logLrtTimeAvgKsum / (self->magnLen);  // logLrtTimeAvgKsum经过时间平滑处理的似然比因子的几何平均数
+  //logLrtTimeAvgKsum = (float)logLrtTimeAvgKsum / (self->magnLen);
+  self->featureData[3] = logLrtTimeAvgKsum;
+  // Done with computation of LR factor.
+
+  // Compute the indicator functions.
+  // Average LRT feature.
+  widthPrior = widthPrior0;
+  // Use larger width in tanh map for pause regions.
+  if (logLrtTimeAvgKsum < threshPrior0) {
+    widthPrior = widthPrior1;
+  }
+  // Compute indicator function: sigmoid map.
+  indicator0 =
+      0.5f *
+	  (tanhf(widthPrior * (logLrtTimeAvgKsum - threshPrior0)) + 1.f);  // LRT均值再处理
+      //((float)tanh(widthPrior * (logLrtTimeAvgKsum - threshPrior0)) + 1.f);
+
+  // Spectral flatness feature.
+  tmpFloat1 = self->featureData[0];
+  widthPrior = widthPrior0;
+  // Use larger width in tanh map for pause regions.
+  if (sgnMap == 1 && (tmpFloat1 > threshPrior1)) {
+    widthPrior = widthPrior1;
+  }
+  if (sgnMap == -1 && (tmpFloat1 < threshPrior1)) {
+    widthPrior = widthPrior1;
+  }
+  // Compute indicator function: sigmoid map.
+  indicator1 =
+      0.5f *
+	  (tanhf((float) sgnMap * widthPrior * (threshPrior1 - tmpFloat1))+
+     // ((float)tanh((float)sgnMap * widthPrior * (threshPrior1 - tmpFloat1)) +
+       1.f);
+
+  // For template spectrum-difference.
+  tmpFloat1 = self->featureData[4];
+  widthPrior = widthPrior0;
+  // Use larger width in tanh map for pause regions.
+  if (tmpFloat1 < threshPrior2) {
+    widthPrior = widthPrior2;
+  }
+  // Compute indicator function: sigmoid map.
+  indicator2 =
+  0.5f * (tanhf(widthPrior * (tmpFloat1 - threshPrior2)) + 1.f);
+      //0.5f * ((float)tanh(widthPrior * (tmpFloat1 - threshPrior2)) + 1.f);
+
+  // Combine the indicator function with the feature weights.
+  indPrior = weightIndPrior0 * indicator0 + weightIndPrior1 * indicator1 +
+             weightIndPrior2 * indicator2;
+  // Done with computing indicator function.
+
+  // Compute the prior probability.
+  self->priorSpeechProb += PRIOR_UPDATE * (indPrior - self->priorSpeechProb);  // q = inst->priorSpeechProb
+  // Make sure probabilities are within range: keep floor to 0.01.
+  if (self->priorSpeechProb > 1.f) {
+    self->priorSpeechProb = 1.f;
+  }
+  if (self->priorSpeechProb < 0.01f) {
+    self->priorSpeechProb = 0.01f;
+  }
+
+  // Final speech probability: combine prior model with LR factor:.
+  gainPrior = (1.f - self->priorSpeechProb) / (self->priorSpeechProb + 0.0001f);
+  for (i = 0; i < self->magnLen; i++) {
+            invLrt = expf(-self->logLrtTimeAvg[i]);
+        invLrt = gainPrior * invLrt;
+	//invLrt = (float)exp(-self->logLrtTimeAvg[i]);
+    //invLrt = (float)gainPrior * invLrt;
+    probSpeechFinal[i] = 1.f / (1.f + invLrt);
+  }
+}
+```
 
 ## WebRtcNs_AnalyzeCore()
 计算信噪比函数之前的部分分别是：
