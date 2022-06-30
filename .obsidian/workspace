@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc_ns.md",
+            "file": "leetcode/347. 前 K 个高频元素.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc_ns.md",
+            "file": "leetcode/347. 前 K 个高频元素.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "leetcode/347. 前 K 个高频元素.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc_ns.md"
+                "file": "leetcode/347. 前 K 个高频元素.md"
               }
             }
           }
@@ -113,6 +113,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/347. 前 K 个高频元素.md",
     "webrtc/webrtc_ns.md",
     "webrtc/webrtc-aec.md",
     "leetcode/239. 滑动窗口最大值.md",
@@ -121,7 +122,6 @@
     "单通道语音增强.md",
     "leetcode/150. 逆波兰表达式求值.md",
     "leetcode/1047. 删除字符串中的所有相邻重复项.md",
-    "leetcode/20. 有效的括号.md",
-    "频域RLS.md"
+    "leetcode/20. 有效的括号.md"
   ]
 }
