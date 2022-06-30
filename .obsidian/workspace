@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc_ns.md",
+            "file": "深度学习/深度学习中的激活函数.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc_ns.md",
+            "file": "深度学习/深度学习中的激活函数.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "深度学习/深度学习中的激活函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc_ns.md"
+                "file": "深度学习/深度学习中的激活函数.md"
               }
             }
           }
@@ -113,6 +113,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "深度学习/深度学习中的激活函数.md",
     "webrtc/webrtc_ns.md",
     "leetcode/144. 二叉树的前序遍历.md",
     "leetcode/347. 前 K 个高频元素.md",
@@ -121,7 +122,6 @@
     "OLA & OLS.md",
     "噪声估计.md",
     "单通道语音增强.md",
-    "leetcode/150. 逆波兰表达式求值.md",
-    "leetcode/1047. 删除字符串中的所有相邻重复项.md"
+    "leetcode/150. 逆波兰表达式求值.md"
   ]
 }
