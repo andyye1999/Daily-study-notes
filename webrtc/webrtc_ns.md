@@ -1429,7 +1429,7 @@ void WebRtcNs_ProcessCore(NoiseSuppressionC* self,
 
   Windowing(self->window, winData, self->anaLen, winData);
 
-  // Synthesis.
+  // Synthesis. 合成信号
   for (i = 0; i < self->anaLen; i++) {
     self->syntBuf[i] += factor * winData[i];
   }
