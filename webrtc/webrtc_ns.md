@@ -978,6 +978,67 @@ static void SpeechNoiseProb(NoiseSuppressionC* self,
 ```
 
 ## UpdateNoiseEstimate() 噪声估计更新
+在带噪语音和特征条件下语音和噪声的概率求出来后就可以去更新噪声的估计了（因为先前的估计是初始估计，不太准）。表达式如式19：
+
+![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211107065129189-2076419212.png)   （19）
+
+其中N(k, m)为本帧将要估计出来的噪声，N(k, m-1)为上帧已估计出来的更新过的噪声，Y(k,m-1)为本帧带噪的语音，γ为平滑系数，P(H1 | YF)为是语音的概率，P(H0 | YF)为是噪声的概率。
+```c
+// Update the noise estimate.
+// Inputs:
+//   * |magn| is the signal magnitude spectrum estimate.
+//   * |snrLocPrior| is the prior SNR.
+//   * |snrLocPost| is the post SNR.
+// Output:
+//   * |noise| is the updated noise magnitude spectrum estimate.
+static void UpdateNoiseEstimate(NoiseSuppressionC *self,
+                                const float *magn,
+														 
+														
+                                float *noise) {
+    size_t i;
+    float probSpeech, probNonSpeech;
+    // Time-avg parameter for noise update.
+    float gammaNoiseTmp = NOISE_UPDATE;
+    float gammaNoiseOld;
+    float noiseUpdateTmp;
+
+    for (i = 0; i < self->magnLen; i++) {
+        probSpeech = self->speechProb[i];
+        probNonSpeech = 1.f - probSpeech;
+        // Temporary noise update:
+        // Use it for speech frames if update value is less than previous.
+        noiseUpdateTmp = gammaNoiseTmp * self->noisePrev[i] +
+                         (1.f - gammaNoiseTmp) * (probNonSpeech * magn[i] +
+                                                  probSpeech * self->noisePrev[i]);
+        // Time-constant based on speech/noise state.
+        gammaNoiseOld = gammaNoiseTmp;
+        gammaNoiseTmp = NOISE_UPDATE;
+        // Increase gamma (i.e., less noise update) for frame likely to be speech.
+        if (probSpeech > PROB_RANGE) {
+            gammaNoiseTmp = SPEECH_UPDATE;
+        }
+        // Conservative noise update.
+        if (probSpeech < PROB_RANGE) {
+            self->magnAvgPause[i] += GAMMA_PAUSE * (magn[i] - self->magnAvgPause[i]);
+        }
+        // Noise update.
+        if (gammaNoiseTmp == gammaNoiseOld) {
+            noise[i] = noiseUpdateTmp;
+        } else {
+            noise[i] = gammaNoiseTmp * self->noisePrev[i] +
+                       (1.f - gammaNoiseTmp) * (probNonSpeech * magn[i] +
+                                                probSpeech * self->noisePrev[i]);
+            // Allow for noise update downwards:
+            // If noise update decreases the noise, it is safe, so allow it to
+            // happen.
+            if (noiseUpdateTmp < noise[i]) {
+                noise[i] = noiseUpdateTmp;
+            }
+        }
+    }  // End of freq loop.
+}
+```
 
 ## WebRtcNs_AnalyzeCore()
 计算信噪比函数之前的部分分别是：
