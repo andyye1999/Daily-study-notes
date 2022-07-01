@@ -977,6 +977,8 @@ static void SpeechNoiseProb(NoiseSuppressionC* self,
 }
 ```
 
+## UpdateNoiseEstimate() 噪声估计更新
+
 ## WebRtcNs_AnalyzeCore()
 计算信噪比函数之前的部分分别是：
 1.对输入的时域帧数据进行加窗、FFT变换。
