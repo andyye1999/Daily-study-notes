@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FDAF自适应滤波器算法综述.md",
+            "file": "频域维纳滤波.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FDAF自适应滤波器算法综述.md",
+            "file": "频域维纳滤波.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FDAF自适应滤波器算法综述.md",
+                "file": "频域维纳滤波.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FDAF自适应滤波器算法综述.md"
+                "file": "频域维纳滤波.md"
               }
             }
           }
@@ -113,6 +113,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "频域维纳滤波.md",
     "FDAF自适应滤波器算法综述.md",
     "webrtc/webrtc_ns.md",
     "leetcode/637. 二叉树的层平均值.md",
@@ -121,7 +122,6 @@
     "leetcode/102. 二叉树的层序遍历.md",
     "线性卷积圆周卷积.md",
     "噪声估计.md",
-    "傅里叶变换的多种解释.md",
-    "频域RLS.md"
+    "傅里叶变换的多种解释.md"
   ]
 }
