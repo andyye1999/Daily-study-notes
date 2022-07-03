@@ -114,6 +114,7 @@
   "active": "18988743c27790fe",
   "lastOpenFiles": [
     "FDAF自适应滤波器算法综述.md",
+    "webrtc/webrtc_ns.md",
     "leetcode/637. 二叉树的层平均值.md",
     "leetcode/199. 二叉树的右视图.md",
     "leetcode/107. 二叉树的层序遍历 II.md",
@@ -121,7 +122,6 @@
     "线性卷积圆周卷积.md",
     "噪声估计.md",
     "傅里叶变换的多种解释.md",
-    "频域RLS.md",
-    "MFCC.md"
+    "频域RLS.md"
   ]
 }
