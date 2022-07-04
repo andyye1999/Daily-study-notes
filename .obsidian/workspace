@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "频域维纳滤波.md",
+            "file": "leetcode/111. 二叉树的最小深度.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "频域维纳滤波.md",
+            "file": "leetcode/111. 二叉树的最小深度.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "频域维纳滤波.md",
+                "file": "leetcode/111. 二叉树的最小深度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "频域维纳滤波.md"
+                "file": "leetcode/111. 二叉树的最小深度.md"
               }
             }
           }
@@ -113,15 +113,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/111. 二叉树的最小深度.md",
+    "leetcode/104. 二叉树的最大深度.md",
+    "leetcode/116. 填充每个节点的下一个右侧节点指针.md",
     "频域维纳滤波.md",
     "FDAF自适应滤波器算法综述.md",
     "webrtc/webrtc_ns.md",
     "leetcode/637. 二叉树的层平均值.md",
     "leetcode/199. 二叉树的右视图.md",
     "leetcode/107. 二叉树的层序遍历 II.md",
-    "leetcode/102. 二叉树的层序遍历.md",
-    "线性卷积圆周卷积.md",
-    "噪声估计.md",
-    "傅里叶变换的多种解释.md"
+    "leetcode/102. 二叉树的层序遍历.md"
   ]
 }
