@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc-agc.md",
+            "file": "入学培训.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc-agc.md",
+            "file": "入学培训.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-agc.md",
+                "file": "入学培训.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-agc.md"
+                "file": "入学培训.md"
               }
             }
           }
@@ -109,8 +109,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "18988743c27790fe",
+  "active": "80902e05fb688ad6",
   "lastOpenFiles": [
+    "入学培训.md",
+    "现代数字信号处理课程笔记.md",
     "webrtc/webrtc-agc.md",
     "leetcode/111. 二叉树的最小深度.md",
     "leetcode/104. 二叉树的最大深度.md",
@@ -118,8 +120,6 @@
     "fft.md",
     "C++.md",
     "leetcode/101. 对称二叉树.md",
-    "webrtc/webrtc_ns.md",
-    "webrtc/webrtc-aec.md",
-    "leetcode/226. 翻转二叉树.md"
+    "webrtc/webrtc_ns.md"
   ]
 }
