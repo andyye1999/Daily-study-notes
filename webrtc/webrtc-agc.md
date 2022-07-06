@@ -26,7 +26,51 @@ kAgcModeFixedDigital // 固定数字增益模式
 3. 计算**标准分数**，描述短时均值与 “重心线” 的偏差，位于中心之上的部分可以认为发生语音活动的可能性极大  
 ![](https://img2020.cnblogs.com/other/2200703/202105/2200703-20210527102332079-196064004.png)  
 图 2 左：长短时均值与方差 右：输入与 vad 检测门限
-#### WebRtcAgc_ProcessDigital 如何对音频数据进行增益   
+#### WebRtcAgc_ProcessDigital 如何对音频数据进行增益  
+![WebRtcAgc_ProcessDigital流程图1](https://img-blog.csdn.net/20170117162850370?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![WebRtcAgc_ProcessDigital流程图2](https://img-blog.csdn.net/20170117162859734?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![WebRtcAgc_ProcessDigital流程图3](https://img-blog.csdn.net/20170117162912136?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+第一部分首先要计算近端信号的VAD结果，并且当远端信号超过10帧（100ms）之后，使用远端的VAD结果来修正近端VAD，具体的修正公式如下：
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agcgs1.jpg)
+
+    接着就是使用V来计算出衰减decay，其计算公式为
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agcgs2.jpg)
+
+    然后接下来的具体操作在图中都有，就不再叙述。
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agctu32.jpg)
+
+图3.2 ProcessDigital()函数流程图1
+
+第二部分如图3.3中的蓝色部分。该部分通过快、慢包络和增益计算每个子帧的增益数组gain。首先计算了快慢包络，如下所示
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agcgs3.jpg)
+
+然后取两个包络的最大值作为level。最后使用对数的分段线性函数把cur_level转换成gain。对数函数的整数部分是cur_level前面0的个数，如果0越少，说明数值越大，最多是31个0，最少1个0（有符号数）。小数部分用线性差值的方法，找到gain[zeros]，gain[zeros-1]中间的量。
+
+    第三部分如图3.3中的橘色部分，是来计算门限gate。gate意味着衰减原来的增益。gate的计算可以看成两部分，第一部分是基于快慢包络计算出的似然比，相当于快包络与慢包络能量的倍数。第二部分是近端信号的短时方差。然后计算门限
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agcgs4.jpg)
+
+在计算完gate之后，确定gate是否小于0，若小于，则gatePrevious=0，否则就平滑门限。
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agcgs5.jpg)
+
+平滑后，把门限转换成gain_adj。当gate最小的时候为0（语音），gain_adj取到最大，此时不使用gainTable[0]的值作为参考；当gate最大的时候为2500（噪声），gain_adj取到最小，此时g[k+1]要取到相对于gainTable[0]的值的70%；当gate处于最大最小值之间，g[k+1]在gainTable[0]和g[k+1]确定的这条直线上移动。这一部分如图3.4所示。
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agctu33.jpg)
+
+图3.3 ProcessDigital()函数流程图2
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agctu34.jpg)
+
+图3.4 ProcessDigital()函数流程图3
+
+最后一部分就是gain与语音进行处理，如图3.5所示，图中描述已经非常清楚。
+
+![](http://tech.yushuai.xyz/wzpt/speechnotes/agctu35.jpg)
 根据指定的 targetLevelDbfs 和 compressionGaindB，计算增益表 gainTable  
 增益表 gainTable 可以理解为对信号能量值（幅值的平方）的量化  
 基于人耳的听觉曲线，AGC 中在应用增益是是分段的，一帧 160 个样本点会分为 10 段，每段 16 个样本点，因此会引入分段增益数组 gains  
