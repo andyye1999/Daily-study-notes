@@ -2,6 +2,7 @@
 ### [详解 WebRTC 高音质低延时的背后 — AGC（自动增益控制）](https://www.cnblogs.com/VideoCloudTech/p/14816786.html)    
 ### 样本点幅度值 **Sample** 与分贝 **dB** 之间的关系  
 以 16bit 量化的音频采样点为例：**dB = 20 * log10（Sample / 32768.0）**，与 Adobe Audition 右侧纵坐标刻度一致。  分贝表示：最大值为 0 分贝（**分贝值如下图右边栏纵坐标**），一般音量到达 -3dB 已经比较大了，3 也经常设置为 AGC 目标音量。  
+![](https://img2020.cnblogs.com/other/2200703/202105/2200703-20210527102330896-417426353.png)
 
 ### 核心参数  
 **目标音量 - targetLevelDbfs**：表示音量均衡结果的目标值，如设置为 1 表示输出音量的目标值为 - 1dB;
@@ -13,7 +14,11 @@ kAgcModeUnchanged,
 kAgcModeAdaptiveAnalog, // 自适应模拟模式   
 kAgcModeAdaptiveDigital, // 自适应数字增益模式   
 kAgcModeFixedDigital // 固定数字增益模式   
-### 固定数字增益模式是最核心的模式，主要有如下两个方面值得我们深入学习：  
+
+### 固定数字增益模式是最核心的模式，主要有如下两个方面值得我们深入学习：
+固定数字增益模式下仅依靠核心函数 **WebRtcAgc_ProcessDigital** 对输入信号音量进行均衡，由于没有反馈机制，其信号处理流程也是极其简单，设置好参数之后信号会经过如下流程：
+
+![](https://img2020.cnblogs.com/other/2200703/202105/2200703-20210527102331810-472805561.png)  
 #### 语音检测模块 WebRtcAgc_ProcessVad 的基本思想  
 最传统的 VAD 会基于能量，过零率和噪声门限等指标区分语音段和无话段，WebRTC AGC 中为粗略的区分语音段提供了新的思路：  
 1. 计算短时均值和方差，描述语音包络瞬时变化，能够准确反映语音的包络  
