@@ -97,6 +97,51 @@ B. 幅度值为 16000 的数据，包络 cur_level = 16000^2 = 0xF424000，通�
 
 
 ### 自适应模拟增益 - AdaptiveAnalog   
+WebRtcAgc_ProcessAnalog函数的作用是把输入的信号根据能量的大小，饱和标志（WebRtcAgc_StaturationCtrl），零状态(WebRtcAgc_ZeroCtrl)，以及近端语音活度(WebRtcAgc_SpeakerInactiveCtrl)的结果，来初步控制语音的大小。
+#### 1、预处理麦克风音量
+对micVol进行调节。micVol决定了模拟初步调节的音量，将处理后的音量放到本文（7、调节流程）中说的范围中去，但是这个调节必须在AddVirtualMic中通过gainIndex起作用。
+注意：在kAgcModeAdaptiveAnalog下，不调用AddVirtualMic，因此初步调节正常情况下不起作用（异常情况下回起作用）。在kAgcModeAdaptiveDigital下，GainControlImpl::set_stream_analog_level，其实不起作用，micVol起到初步调节的作用，micVol是粗调节的一个中间变量。
+
+![WebRtcAgc_ProcessAnalog 流程图1](https://img-blog.csdn.net/20170109174513700?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+#### 2、检查和处理饱和
+根据信号的能力包络计算信号是否饱和(WebRtcAgc_StaturationCtrl)。该函数输出了饱和标志位saturated。
+接下来根据标志位saturated来
+1)降低micVol的大小，micVol*=0.903。
+2)降低自相关系数（功率谱能量）大小，保证AGC中的VAD判决正常。
+3)设置saturationWarning输出，该标志位只在此处修改。注意：如果kAgcModeAdaptiveAnalog一定进入WebRtcAgc_ProcessAnalog流程；kAgcModeAdaptiveDigital在位大能量的时候进入WebRtcAgc_ProcessAnalog流程；而kAgcModeFixedDigital不会调用该流程。
+4)修改相关阈值。重置音量变化阈值msecSpeechInnerChange,OuterChange，改变模式changeToSlowMode，静音计数器muteGuardMs、调高界限upperLimit，调低界限lowerLimit，目的是摒除音量饱和对这些变量的影响，如果饱和，认为是不正常的语音不进行相关信息更新。降低太高标志位，目的是为了保证不要一下调低阈值。
+#### 3、零检查
+对信号的包络进行低能量检查WebRtcAgc_ZeroCtrl，判断是否是“几乎”全部为0的数据。如果是，micVol调节到一半，对数据适当放大。
+
+#### 4、近端语音活度检查
+对近端的语音活度检查WebRtcAgc_SpeakerInactiveCtrl。通过近端输入信号的方差来调节活度阈值vadThreshold。该阈值决定是否进入micVol和调节主流程。声音越小越难进入调节流程。
+![WebRtcAgc_ProcessAnalog 流程图2](https://img-blog.csdn.net/20170109174730982?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+#### 5、计算子带能量和总能量
+
+计算子带低频能量Rxx16_LPw32和帧能量Rxx160w32。
+![WebRtcAgc_ProcessAnalog 流程图3](https://img-blog.csdn.net/20170109174741627?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+#### 6、根据vadMic.logRatio判断是否进入调节流程
+#### 7、调节流程
+首先计算低频的全帧能量Rxx160_LPw32。该变量根据4个阈值划分成5个界限。
+四个阈值分别是：
+1)upperSecondaryLimit
+2)upperLimit
+3)lowerLimit
+4)lowerSecondaryLimit
+这四个数值的关系是1)>2)>3)>4),其中2)可以选择startUpperLimit和upperPrimaryLimit两个阈值；3)可以选择startLowerLimit和lowerPrimaryLimit两个阈值。在区间[2),3)]中，4000ms后可以触发慢变模式（changeToSlowMode），选择lowerPrimaryLimit,upperPrimaryLimit。
+
+
+| -单位（dB）	 |  正常模式 |	慢变模式|
+| ----------- | ----------- | ----------- |
+| upperSecondaryLimit | 	-15|  	-15|
+|upperLimit|	-19|	-18|
+|lowerLimit	|-21	|-22|
+|lowerSecondaryLimit|	-25	|-25|
+
+
+下面是5个区间不同处理方法的流程图，其核心是对micVol进行调节，其目的是保证一个帧的能量在区间[2),3)]内，也即是初步调节的目的。
+![WebRtcAgc_ProcessAnalog 流程图4](https://img-blog.csdn.net/20170109174748670?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 由于PC端本身也能控制增益，导致控制增益太多，容易产生爆音。因此
 在固定数字增益的基础上主要有两处新增：  
 1. 在数字增益之后，新增了模拟增益更新模块：**WebRtcAgc_ProcessAnalog**，会根据当前模拟增益值 **inMicLevel**（WebRTC 中将尺度映射到 0~255）等中间参数，计算下一次需要调节的模拟增益值 **outMicLevel**，并反馈给设备层。  
@@ -109,6 +154,7 @@ B. 幅度值为 16000 的数据，包络 cur_level = 16000^2 = 0xF424000，通�
 5. 爆音检测不是很敏感，不能及时下调模拟增益  
 6. AddMic 模块精度不够，补偿过程中存在爆音的风险爆音  
 ### 自适应数字增益 - AdaptiveDigital   
+
 基于音频视频通信的娱乐、社交、在线教育等领域离不开多种多样的智能手机和平板设备，然而这些移动端并没有类似 PC 端调节模拟增益的接口。声源与设备的距离，声源音量以及硬件采集能力等因素都会影响采集音量，单纯依赖固定数字增益效果十分有限，尤其是多人会议的时候会明显感受到不同说话人的音量并不一致，听感上音量起伏较大。
 
 为了解决这个问题，WebRTC 科学家仿照了 PC 端模拟增益调节的能力，基于模拟增益框架新增了虚拟麦克风调节模块：WebRtcAgc_VirtualMic，利用两个长度为 128 的数组：增益曲线 - kGainTableVirtualMic 和抑制曲线 - kSuppressionTableVirtualMic 来模拟 PC 端模拟增益（增益部分为单调递增的直线，抑制部分为单调递减的凹曲线），前者提供 1.0~3.0 倍的增益能力，后者提供 1.0~0.1 的下压能力。  
