@@ -30,7 +30,7 @@ kAgcModeFixedDigital // 固定数字增益模式
 ![WebRtcAgc_ProcessDigital流程图1](https://img-blog.csdn.net/20170117162850370?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ![WebRtcAgc_ProcessDigital流程图2](https://img-blog.csdn.net/20170117162859734?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ![WebRtcAgc_ProcessDigital流程图3](https://img-blog.csdn.net/20170117162912136?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-第一部分首先要计算近端信号的VAD结果，并且当远端信号超过10帧（100ms）之后，使用远端的VAD结果来修正近端VAD，具体的修正公式如下：
+第一部分首先要**计算近端信号的VAD结果**，并且**当远端信号超过10帧（100ms）**之后，使用**远端的VAD结果来修正近端VAD**，具体的修正公式如下：
 
 ![](http://tech.yushuai.xyz/wzpt/speechnotes/agcgs1.jpg)
 
@@ -44,7 +44,7 @@ kAgcModeFixedDigital // 固定数字增益模式
 
 图3.2 ProcessDigital()函数流程图1
 
-第二部分如图3.3中的蓝色部分。该部分通过快、慢包络和增益计算每个子帧的增益数组gain。首先计算了快慢包络，如下所示
+第二部分如图3.3中的蓝色部分。该部分**通过快、慢包络和增益计算每个子帧的增益数组gain**。首先计算**快慢包络**，如下所示
 
 ![](http://tech.yushuai.xyz/wzpt/speechnotes/agcgs3.jpg)
 
