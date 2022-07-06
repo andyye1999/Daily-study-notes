@@ -45,8 +45,10 @@ kAgcModeFixedDigital // 固定数字增益模式
 图3.2 ProcessDigital()函数流程图1
 
 第二部分如图3.3中的蓝色部分。该部分**通过快、慢包络和增益计算每个子帧的增益数组gain**。首先计算**快慢包络**，如下所示
+计算每1ms的最大能量作为包络env。
 
 ![](http://tech.yushuai.xyz/wzpt/speechnotes/agcgs3.jpg)
+
 
 然后取两个包络的最大值作为level。最后使用对数的分段线性函数把cur_level转换成gain。对数函数的整数部分是cur_level前面0的个数，如果0越少，说明数值越大，最多是31个0，最少1个0（有符号数）。小数部分用线性差值的方法，找到gain[zeros]，gain[zeros-1]中间的量。
 
