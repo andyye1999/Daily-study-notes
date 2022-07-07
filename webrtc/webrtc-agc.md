@@ -27,6 +27,9 @@ kAgcModeFixedDigital // 固定数字增益模式
 ![](https://img2020.cnblogs.com/other/2200703/202105/2200703-20210527102332079-196064004.png)  
 图 2 左：长短时均值与方差 右：输入与 vad 检测门限
 #### WebRtcAgc_ProcessDigital 如何对音频数据进行增益  
+#### [Webrtc AGC 算法原理介绍（六）](https://blog.csdn.net/ssdzdk/article/details/54890086)
+#### [WebRTC中AGC模块分析（下）](http://www.yushuai.xyz/2019/08/13/4425.html)
+
 ![WebRtcAgc_ProcessDigital流程图1](https://img-blog.csdn.net/20170117162850370?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ![WebRtcAgc_ProcessDigital流程图2](https://img-blog.csdn.net/20170117162859734?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ![WebRtcAgc_ProcessDigital流程图3](https://img-blog.csdn.net/20170117162912136?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3NkemRr/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -98,6 +101,7 @@ B. 幅度值为 16000 的数据，包络 cur_level = 16000^2 = 0xF424000，通�
 
 ### 自适应模拟增益 - AdaptiveAnalog   
 WebRtcAgc_ProcessAnalog函数的作用是把输入的信号根据能量的大小，饱和标志（WebRtcAgc_StaturationCtrl），零状态(WebRtcAgc_ZeroCtrl)，以及近端语音活度(WebRtcAgc_SpeakerInactiveCtrl)的结果，来初步控制语音的大小。
+#### [Webrtc AGC 算法原理介绍（四）]](https://blog.csdn.net/ssdzdk/article/details/54691463)
 #### 1、预处理麦克风音量
 对micVol进行调节。micVol决定了模拟初步调节的音量，将处理后的音量放到本文（7、调节流程）中说的范围中去，但是这个调节必须在AddVirtualMic中通过gainIndex起作用。
 注意：在kAgcModeAdaptiveAnalog下，不调用AddVirtualMic，因此初步调节正常情况下不起作用（异常情况下回起作用）。在kAgcModeAdaptiveDigital下，GainControlImpl::set_stream_analog_level，其实不起作用，micVol起到初步调节的作用，micVol是粗调节的一个中间变量。
