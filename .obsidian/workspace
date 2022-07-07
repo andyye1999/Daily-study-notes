@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/101. 对称二叉树.md",
+            "file": "leetcode/100. 相同的树.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/101. 对称二叉树.md",
+            "file": "leetcode/100. 相同的树.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/101. 对称二叉树.md",
+                "file": "leetcode/100. 相同的树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/101. 对称二叉树.md"
+                "file": "leetcode/100. 相同的树.md"
               }
             }
           }
@@ -111,6 +111,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/100. 相同的树.md",
     "leetcode/101. 对称二叉树.md",
     "leetcode/110. 平衡二叉树.md",
     "leetcode/111. 二叉树的最小深度.md",
@@ -119,7 +120,6 @@
     "leetcode/222. 完全二叉树的节点个数.md",
     "入学培训.md",
     "现代数字信号处理课程笔记.md",
-    "leetcode/104. 二叉树的最大深度.md",
-    "FXLMS.md"
+    "leetcode/104. 二叉树的最大深度.md"
   ]
 }
