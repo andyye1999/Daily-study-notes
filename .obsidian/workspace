@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc-agc.md",
+            "file": "语音活动检测模块.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc-agc.md",
+            "file": "语音活动检测模块.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-agc.md",
+                "file": "语音活动检测模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-agc.md"
+                "file": "语音活动检测模块.md"
               }
             }
           }
@@ -111,8 +111,8 @@
   },
   "active": "80902e05fb688ad6",
   "lastOpenFiles": [
-    "webrtc/webrtc-agc.md",
     "语音活动检测模块.md",
+    "webrtc/webrtc-agc.md",
     "leetcode/112. 路径总和.md",
     "leetcode/102. 二叉树的层序遍历.md",
     "leetcode/404. 左叶子之和.md",
