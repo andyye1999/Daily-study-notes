@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/112. 路径总和.md",
+            "file": "leetcode/113. 路径总和 II.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/112. 路径总和.md",
-            "mode": "preview"
+            "file": "leetcode/113. 路径总和 II.md",
+            "mode": "source"
           }
         },
         "group": "9f60e571c9676a6e"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/112. 路径总和.md",
+                "file": "leetcode/113. 路径总和 II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/112. 路径总和.md"
+                "file": "leetcode/113. 路径总和 II.md"
               }
             }
           }
@@ -109,8 +109,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "80902e05fb688ad6",
+  "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/113. 路径总和 II.md",
+    "leetcode/20. 有效的括号.md",
     "leetcode/112. 路径总和.md",
     "语音活动检测模块.md",
     "webrtc/webrtc-agc.md",
@@ -118,8 +120,6 @@
     "leetcode/404. 左叶子之和.md",
     "leetcode/100. 相同的树.md",
     "leetcode/101. 对称二叉树.md",
-    "leetcode/110. 平衡二叉树.md",
-    "leetcode/111. 二叉树的最小深度.md",
-    "leetcode/257. 二叉树的所有路径.md"
+    "leetcode/110. 平衡二叉树.md"
   ]
 }
