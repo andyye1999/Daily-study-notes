@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/654. 最大二叉树.md",
+            "file": "leetcode/617. 合并二叉树.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/654. 最大二叉树.md",
+            "file": "leetcode/617. 合并二叉树.md",
             "mode": "source"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/654. 最大二叉树.md",
+                "file": "leetcode/617. 合并二叉树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/654. 最大二叉树.md"
+                "file": "leetcode/617. 合并二叉树.md"
               }
             }
           }
@@ -111,6 +111,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/617. 合并二叉树.md",
     "leetcode/654. 最大二叉树.md",
     "leetcode/113. 路径总和 II.md",
     "leetcode/20. 有效的括号.md",
@@ -119,7 +120,6 @@
     "webrtc/webrtc-agc.md",
     "leetcode/102. 二叉树的层序遍历.md",
     "leetcode/404. 左叶子之和.md",
-    "leetcode/100. 相同的树.md",
-    "leetcode/101. 对称二叉树.md"
+    "leetcode/100. 相同的树.md"
   ]
 }
