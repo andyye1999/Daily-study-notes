@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "频域维纳滤波.md",
+            "file": "leetcode/701. 二叉搜索树中的插入操作.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "频域维纳滤波.md",
+            "file": "leetcode/701. 二叉搜索树中的插入操作.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "频域维纳滤波.md",
+                "file": "leetcode/701. 二叉搜索树中的插入操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "频域维纳滤波.md"
+                "file": "leetcode/701. 二叉搜索树中的插入操作.md"
               }
             }
           }
@@ -111,8 +111,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
-    "频域维纳滤波.md",
     "leetcode/701. 二叉搜索树中的插入操作.md",
+    "频域维纳滤波.md",
     "leetcode/235. 二叉搜索树的最近公共祖先.md",
     "leetcode/236. 二叉树的最近公共祖先.md",
     "RNNoise.md",
