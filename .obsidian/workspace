@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RNNoise.md",
+            "file": "leetcode/235. 二叉搜索树的最近公共祖先.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RNNoise.md",
+            "file": "leetcode/235. 二叉搜索树的最近公共祖先.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RNNoise.md",
+                "file": "leetcode/235. 二叉搜索树的最近公共祖先.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RNNoise.md"
+                "file": "leetcode/235. 二叉搜索树的最近公共祖先.md"
               }
             }
           }
@@ -111,15 +111,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/235. 二叉搜索树的最近公共祖先.md",
+    "leetcode/236. 二叉树的最近公共祖先.md",
     "RNNoise.md",
     "MFCC.md",
-    "leetcode/236. 二叉树的最近公共祖先.md",
     "leetcode/501. 二叉搜索树中的众数.md",
     "近日计划.md",
     "单通道语音增强.md",
     "leetcode/98. 验证二叉搜索树.md",
     "频域维纳滤波.md",
-    "webrtc/webrtc_ns.md",
-    "leetcode/617. 合并二叉树.md"
+    "webrtc/webrtc_ns.md"
   ]
 }
