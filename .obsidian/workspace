@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/未命名.md",
+            "file": "leetcode/669. 修剪二叉搜索树.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/未命名.md",
+            "file": "leetcode/669. 修剪二叉搜索树.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/未命名.md",
+                "file": "leetcode/669. 修剪二叉搜索树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/未命名.md"
+                "file": "leetcode/669. 修剪二叉搜索树.md"
               }
             }
           }
@@ -111,6 +111,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/669. 修剪二叉搜索树.md",
     "leetcode/未命名.md",
     "leetcode/701. 二叉搜索树中的插入操作.md",
     "频域维纳滤波.md",
@@ -119,7 +120,6 @@
     "RNNoise.md",
     "MFCC.md",
     "leetcode/501. 二叉搜索树中的众数.md",
-    "近日计划.md",
-    "单通道语音增强.md"
+    "近日计划.md"
   ]
 }
