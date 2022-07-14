@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "leetcode/669. 修剪二叉搜索树.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         },
         "group": "9f60e571c9676a6e"
@@ -22,7 +23,8 @@
           "type": "markdown",
           "state": {
             "file": "leetcode/669. 修剪二叉搜索树.md",
-            "mode": "preview"
+            "mode": "preview",
+            "source": false
           }
         },
         "group": "9f60e571c9676a6e"
