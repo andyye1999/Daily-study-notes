@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/669. 修剪二叉搜索树.md",
+            "file": "leetcode/108. 将有序数组转换为二叉搜索树.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/669. 修剪二叉搜索树.md",
+            "file": "leetcode/108. 将有序数组转换为二叉搜索树.md",
             "mode": "preview",
             "source": false
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/669. 修剪二叉搜索树.md",
+                "file": "leetcode/108. 将有序数组转换为二叉搜索树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/669. 修剪二叉搜索树.md"
+                "file": "leetcode/108. 将有序数组转换为二叉搜索树.md"
               }
             }
           }
