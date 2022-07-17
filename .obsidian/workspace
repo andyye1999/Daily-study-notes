@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "重采样.md",
+            "file": "leetcode/17. 电话号码的字母组合.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "重采样.md",
+                "file": "leetcode/17. 电话号码的字母组合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "重采样.md"
+                "file": "leetcode/17. 电话号码的字母组合.md"
               }
             }
           }
@@ -100,6 +100,7 @@
   "active": "18988743c27790fe",
   "lastOpenFiles": [
     "leetcode/216. 组合总和 III.md",
+    "重采样.md",
     "leetcode/77. 组合.md",
     "leetcode/二叉树递归.md",
     "leetcode/404. 左叶子之和.md",
@@ -107,7 +108,6 @@
     "leetcode/110. 平衡二叉树.md",
     "leetcode/538. 把二叉搜索树转换为累加树.md",
     "leetcode/108. 将有序数组转换为二叉搜索树.md",
-    "leetcode/669. 修剪二叉搜索树.md",
-    "leetcode/未命名.md"
+    "leetcode/669. 修剪二叉搜索树.md"
   ]
 }
