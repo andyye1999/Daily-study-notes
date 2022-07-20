@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/回溯/17. 电话号码的字母组合.md",
+            "file": "leetcode/回溯/78. 子集.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/回溯/17. 电话号码的字母组合.md",
+                "file": "leetcode/回溯/78. 子集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/回溯/17. 电话号码的字母组合.md"
+                "file": "leetcode/回溯/78. 子集.md"
               }
             }
           }
@@ -99,6 +99,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/回溯/40. 组合总和 II.md",
+    "leetcode/回溯/17. 电话号码的字母组合.md",
     "leetcode/回溯/78. 子集.md",
     "leetcode/回溯/131. 分割回文串.md",
     "leetcode/回溯/216. 组合总和 III.md",
@@ -106,8 +108,6 @@
     "leetcode/未命名.md",
     "leetcode/数组/数组.md",
     "leetcode/回溯/39. 组合总和.md",
-    "leetcode/回溯/77. 组合.md",
-    "webrtc/webrtc-aec.md",
-    "fullaec.md"
+    "leetcode/回溯/77. 组合.md"
   ]
 }
