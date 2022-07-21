@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C++.md",
+            "file": "回声/fullaec.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++.md",
+                "file": "回声/fullaec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++.md"
+                "file": "回声/fullaec.md"
               }
             }
           }
@@ -99,15 +99,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "回声/FLMS.pdf",
+    "回声/麦克风阵列波束成形语音分离及声学回声消除方法研究.pdf",
+    "回声/fullaec.md",
+    "C++.md",
     "语音增强.md",
     "噪声估计.md",
-    "回声/fullaec.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "频域维纳滤波.md",
     "RNNoise.md",
-    "webrtc/webrtc-aec.md",
-    "leetcode/回溯/90. 子集 II.md",
-    "leetcode/回溯/78. 子集.md",
-    "leetcode/回溯/40. 组合总和 II.md"
+    "webrtc/webrtc-aec.md"
   ]
 }
