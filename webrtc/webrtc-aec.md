@@ -746,4 +746,11 @@ $\left\|\boldsymbol{S} \boldsymbol{D}_{E_{l} E_{l}}\right\|_{1}>\sigma_{1}\left\
 算法的**第二部分**是根据残留回声的量计算出抑制因子de c ，从而去除残留回声。计
 算抑制因子主要利用近端信号和误差信号的互功率谱密度，互功率谱密度的计算方法与
 “自”功率谱密度相似：
+$\boldsymbol{S} \boldsymbol{D}_{D_{l} E_{l}}=\lambda_{S} \boldsymbol{S} \boldsymbol{D}_{D_{l-1} E_{l-1}}+\left(1-\lambda_{S}\right) \boldsymbol{D}_{l} \boldsymbol{E}_{l}^{*}$
+则抑制因子的计算如下所示：
+$c_{d e}=\frac{S D_{D_{l} E_{l}} S D_{D_{l} E_{l}}^{*}}{S D_{D_{l} D_{l}} S D_{E_{l} E_{l}}}$
+c 满足0<$c_{d e}$  <1，它可以表征残留回声在误差信号中所占的比例，**残留回声越小，
+则$c_{d e}$越接近于1**。这样，如果自适应滤波阶段，回声消除的比较干净，则 $c_{d e}$ ，也就
+是说，不需要再对误差信号进行回声抑制；**如果残留回声较大，则$c_{d e}$的值较小**，可以
+通过$c_{d e}$对残留回声进行抑制。经过NLP 阶段后的输出信号表示如下：
 
