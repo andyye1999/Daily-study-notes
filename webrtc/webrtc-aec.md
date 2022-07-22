@@ -759,4 +759,15 @@ $\boldsymbol{E}_{l}^{\prime}=\boldsymbol{E}_{l} \boldsymbol{c}_{d e}$
 子时，通常还要考虑远端信号和近端信号间的互功率谱密度，同时针对不同情况，还会
 做出多种合理的修正。
 
+在NLMS 自适应调节阶段，为了防止归一化误差信号的频谱过大，此处增加一个门
+限值，正常设为6 2 10  ，超过门限值则将门限值赋给归一化误差频域信号。当采样频率
+为8kHz 时，步长stepsize 设为0.6，16kHz 和32kHz 采样频率下步长设为0.5。计算误
+差信号和近端信号的互相关记为cohde，远端信号和近端信号的互相关记为cohxd，取
+1-cohxd 和cohde 的最小值为hNlDe，取hNlDe 的平均值为hNlDeAvg 来决定利用维纳
+滤波消除残留回声的增益大小。
+当误差能量seSum 大于近端能量sdSum 时，就将近端信号频谱赋值给误差信号频
+谱，并将发散标志位divergeState 置1，如果seSum 的1.05 倍小于sdSum 时，则将
+divergeState 置0，如果seSum 大于sdSum 的19.95 倍时，将权重系数矩阵置0。平滑滤波器系数和抑制系数共同作用来更新最终hNl 滤波器系数。最终将频域误差信号通过该
+滤波器，接着使用重叠相加法恢复成时域信号，整体后移进行下一块迭代。
+
 ![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.5wwy2yyud140.webp)
