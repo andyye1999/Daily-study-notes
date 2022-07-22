@@ -99,15 +99,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/回溯/90. 子集 II.md",
+    "leetcode/回溯/40. 组合总和 II.md",
+    "leetcode/回溯/47. 全排列 II.md",
     "leetcode/回溯/46. 全排列.md",
     "webrtc/webrtc-aec.md",
     "leetcode/回溯/491. 递增子序列.md",
     "回声/fullaec.md",
     "回声/FLMS.pdf",
     "回声/麦克风阵列波束成形语音分离及声学回声消除方法研究.pdf",
-    "C++.md",
-    "语音增强.md",
-    "噪声估计.md",
-    "回声/FDAF自适应滤波器算法综述.md"
+    "C++.md"
   ]
 }
