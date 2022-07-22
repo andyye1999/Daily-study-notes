@@ -320,3 +320,356 @@ WebRTC AEC 存在的问题：
 不论是webRTC还是speex开源的AEC算法都是基于频域来做的。**之所以放在频域而非时域实现的主要原因实时性**，在16kHz采样率的情况下，屋子里的回声持续时间长达0.1~0.5秒（多次反射），这就要求**自适应滤波器的抽头数达到8000之多**，工程上在考虑到计算量和延迟因素时基本都选择在频域实现。 FLMS（Fast LMS）的基本思想是将时域块LMS放到频域来计算。利用FFT算法在频域上完成滤波器系数的自适应。快速卷积算法用重叠相加法和重叠存储法。重叠相加法是将长序列分成大小相等的短片段，分别对各个端片段做FFT变换，再将变换重叠的部分相加构成最终FFT结果，重叠存储法在分段时，各个短的段之间存在重叠，对各个段进行FFT变换，最后将FFT变换得结果直接相加即得最终变换结果。当块的大小和权值个数相等时，运算效率达到最高。
 
 ![aec](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/aec.79h9ujhlh680.webp)
+
+# [WebRTC AEC 流程解析](https://juejin.cn/post/7105607322604404767)
+## I. Introduction
+
+回声消除的简单原理前面已经有介绍过了，可以有参考[解析自适应滤波回声消除](https://link.juejin.cn?target=https%3A%2F%2Flink.zhihu.com%2F%3Ftarget%3Dhttp%253A%2F%2Fmp.weixin.qq.com%2Fs%253F__biz%253DMzA3MjEyMjEwNA%253D%253D%2526mid%253D2247484312%2526idx%253D1%2526sn%253Dafa00c2fb91f72bdfd73fc99f0efede0%2526chksm%253D9f22680fa855e119cdc2fc2c6a4ddb646bf2adff27010a6c0c16383b687c0104fc3d9561c0ef%2526scene%253D21%2523wechat_redirect "https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzA3MjEyMjEwNA%3D%3D%26mid%3D2247484312%26idx%3D1%26sn%3Dafa00c2fb91f72bdfd73fc99f0efede0%26chksm%3D9f22680fa855e119cdc2fc2c6a4ddb646bf2adff27010a6c0c16383b687c0104fc3d9561c0ef%26scene%3D21%23wechat_redirect")和[基于卡尔曼滤波器的回声消除算法](https://link.juejin.cn?target=https%3A%2F%2Flink.zhihu.com%2F%3Ftarget%3Dhttp%253A%2F%2Fmp.weixin.qq.com%2Fs%253F__biz%253DMzA3MjEyMjEwNA%253D%253D%2526mid%253D2247484999%2526idx%253D1%2526sn%253D4bad80ad016cae43b0adcead513e28f6%2526chksm%253D9f226dd0a855e4c6fd0af54380225f1269e9760043d9c4ff15880d623c25f223ccc3e864db35%2526scene%253D21%2523wechat_redirect "https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzA3MjEyMjEwNA%3D%3D%26mid%3D2247484999%26idx%3D1%26sn%3D4bad80ad016cae43b0adcead513e28f6%26chksm%3D9f226dd0a855e4c6fd0af54380225f1269e9760043d9c4ff15880d623c25f223ccc3e864db35%26scene%3D21%23wechat_redirect")。WebRTC AEC的时延估计使用了频域自相关的方法。线性部分采用了分块频域自适应滤波器(Partitioned Block Frequency Domain Adaptive Filter, PBFDAF)，这个滤波器在Speex中称为分块频域波器（Multidelayblock frequency Filter，MDF）, 其实它们原理是一样的。有所不同的是Speex的AEC使用了两个滤波器(前景滤波器和背景滤波器)因此其线性回声消除部分性能更好一点，但是AEC3也引入了两个滤波器，这里就不展开讲了后面有机会再介绍。最后通过计算近端信号、误差信号和远端信号的频域相关性来进行的非线性处理（NonLinearProcessing, NLP）。
+
+WebRTC AEC的流程和其他算法类似，首先我们要create一个实例。
+
+```arduino
+int32_t WebRtcAec_Create(void** aecInst)
+```
+在上面这个函数中我们创建AEC的实例和重采样的实例。
+
+```java
+int WebRtcAec_CreateAec(AecCore** aecInst) 
+int WebRtcAec_CreateResampler(void** resampInst)
+复制代码
+```
+
+在WebRtcAec_CreateAec中会开辟一些buffer，包括近端/远端/输出/延迟估计等。值得一提的是，WebRTC AEC的buffer结构体定义如下，我们可以发现除了数据之外还有一些记录位置的变量。
+
+```arduino
+struct RingBuffer {
+  size_t read_pos;
+  size_t write_pos;
+  size_t element_count;
+  size_t element_size;
+  enum Wrap rw_wrap;
+  char* data;
+};
+复制代码
+```
+
+其中近端和输出的buffer大小一样(FRAME_LEN:80, PART_LEN:64)
+
+```ini
+aec->nearFrBuf = WebRtc_CreateBuffer(FRAME_LEN + PART_LEN, sizeof(int16_t));
+aec->outFrBuf = WebRtc_CreateBuffer(FRAME_LEN + PART_LEN, sizeof(int16_t));
+复制代码
+```
+
+远端buffer要大一点(kBufSizePartitions:250, PART_LEN1:64+1)
+
+```ini
+aec->far_buf = WebRtc_CreateBuffer(kBufSizePartitions, sizeof(float) * 2 * PART_LEN1);
+aec->far_buf_windowed = WebRtc_CreateBuffer(kBufSizePartitions, sizeof(float) * 2 * PART_LEN1);
+复制代码
+```
+
+有关时延估计的内容也会在这里初始化。
+
+```arduino
+void* WebRtc_CreateDelayEstimatorFarend(int spectrum_size, int history_size) 
+void* WebRtc_CreateDelayEstimator(void* farend_handle, int lookahead)
+复制代码
+```
+
+接下来是初始化，这里有两个采样率一个是原始的采样率，另一个是重采样后的采样率。原始采样率只支持8k/16k/32kHz, 重采样的采样率为1—96kHz。
+
+```arduino
+int32_t WebRtcAec_Init(void* aecInst, int32_t sampFreq, int32_t scSampFreq)
+复制代码
+```
+
+在下面这个函数会根据原始采样率设置对应参数，并初始WebRtcAec_Create开辟的各种buffer空间和各种参数变量以及FFT计算的初始化。
+
+```scss
+WebRtcAec_InitAec(AecCore* aec, int sampFreq)
+复制代码
+```
+
+由于涉及到重采样，需要初始化重采样相关内容，可以发现重采样在WebRTC多个算法中均有出现。
+
+```java
+int WebRtcAec_InitResampler(void* resampInst, int deviceSampleRateHz)
+复制代码
+```
+
+最后是参数设定，WebRTC AEC的配置结构体如下
+
+```arduino
+typedef struct {
+  int16_t nlpMode;      // default kAecNlpModerate
+  int16_t skewMode;     // default kAecFalse
+  int16_t metricsMode;  // default kAecFalse
+  int delay_logging;    // default kAecFalse
+} AecConfig;
+复制代码
+```
+
+在初始化过程中，它们被默认配置为如下参数
+
+```ini
+  aecConfig.nlpMode = kAecNlpModerate;
+  aecConfig.skewMode = kAecFalse;
+  aecConfig.metricsMode = kAecFalse;
+  aecConfig.delay_logging = kAecFalse;
+复制代码
+```
+
+可以通过WebRtcAec_set_config来设定各种参数。
+
+```arduino
+int WebRtcAec_set_config(void* handle, AecConfig config)
+复制代码
+```
+
+在处理每一帧时，WebRTC AEC会首先把远端信号放入buffer中
+
+```arduino
+int32_t WebRtcAec_BufferFarend(void* aecInst,
+                               const int16_t* farend,
+                               int16_t nrOfSamples)
+复制代码
+```
+
+如果需要重采样，会在这个函数内部调用重采样函数，aec的重采样非常简单直接线形插值处理，并没有接镜像抑制滤波器。这里的skew好像是对44.1 and 44 kHz 这种奇葩采样率的时钟补偿（更细节可以参考[4]）。
+
+```arduino
+void WebRtcAec_ResampleLinear(void* resampInst,
+                              const short* inspeech,
+                              int size,
+                              float skew,
+                              short* outspeech,
+                              int* size_out)
+复制代码
+```
+
+当far end的buffer有足够多的数据时，进行FFT计算，这里会计算两次，一次是加窗的一次是不加窗的，窗函数带来的影响可以参考[分帧，加窗和DFT](https://link.juejin.cn?target=https%3A%2F%2Flink.zhihu.com%2F%3Ftarget%3Dhttp%253A%2F%2Fmp.weixin.qq.com%2Fs%253F__biz%253DMzA3MjEyMjEwNA%253D%253D%2526mid%253D2247484741%2526idx%253D1%2526sn%253D1e3ebd6d9a0da6879433bf795677006e%2526chksm%253D9f226ed2a855e7c430c53d22b8bd781fde59d6e4760376fcb94708bd8295199a1100971d754a%2526scene%253D21%2523wechat_redirect "https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzA3MjEyMjEwNA%3D%3D%26mid%3D2247484741%26idx%3D1%26sn%3D1e3ebd6d9a0da6879433bf795677006e%26chksm%3D9f226ed2a855e7c430c53d22b8bd781fde59d6e4760376fcb94708bd8295199a1100971d754a%26scene%3D21%23wechat_redirect")。
+
+```arduino
+void WebRtcAec_BufferFarendPartition(AecCore* aec, const float* farend)
+复制代码
+```
+
+## II. Delay Estimation
+
+在软件层面由于各种原因会导致麦克风收到的近端信号与网络传输的远端信号并不是对齐的，当近端信号和远端信号的延迟较大时就不得不使用较长的线性滤波器来处理，这无疑增加了计算量。如果我们能将近端信号和远端信号对齐，那么就可以减少滤波器的系数从而减少算法开销。
+
+然后运行处理函数,其中msInSndCardBuf就是声卡实际输入和输出之间的时间差，即本地音频和消去参考音频之间的错位时间。对于8kHz和16kHz采样率的音频数据在使用时可以不管高频部分，只需要传入低频数据即可，但是对大于32kHz采样率的数据就必须通过滤波接口将数据分为高频和低频传入这就是nearend和nearendH的作用。
+
+```arduino
+int32_t WebRtcAec_Process(void* aecInst,
+                          const int16_t* nearend,
+                          const int16_t* nearendH,
+                          int16_t* out,
+                          int16_t* outH,
+                          int16_t nrOfSamples,
+                          int16_t msInSndCardBuf,
+                          int32_t skew)
+复制代码
+```
+
+首先要进行一些判断，确定函数输入的参数是有效的，然后会根据这个变量的值extended_filter_enabled来确定是否使用extend模式，两种模式划分数目以及处理方式都有所不同。
+
+```ini
+enum {
+  kExtendedNumPartitions = 32
+};
+static const int kNormalNumPartitions = 12;
+复制代码
+```
+
+如果使用extended模式需要人为设定延时(reported_delay_ms)
+
+```arduino
+static void ProcessExtended(aecpc_t* self,
+                            const int16_t* near,
+                            const int16_t* near_high,
+                            int16_t* out,
+                            int16_t* out_high,
+                            int16_t num_samples,
+                            int16_t reported_delay_ms,
+                            int32_t skew) 
+复制代码
+```
+
+将延时转为采样点数后移动远端buffer指针，然后对delay进行筛选和过滤。
+
+```java
+int WebRtcAec_MoveFarReadPtr(AecCore* aec, int elements)
+static void EstBufDelayExtended(aecpc_t* self)
+复制代码
+```
+
+如果使用normal模式
+
+```arduino
+static int ProcessNormal(aecpc_t* aecpc,
+                         const int16_t* nearend,
+                         const int16_t* nearendH,
+                         int16_t* out,
+                         int16_t* outH,
+                         int16_t nrOfSamples,
+                         int16_t msInSndCardBuf,
+                         int32_t skew)
+复制代码
+```
+
+会有一个startup_phase的过程，当系统延迟处于稳定状态后，这个过程结束，AEC才会生效。AEC生效后首先进行对时延估计buffer, delay进行筛选和过滤。
+
+```arduino
+static void EstBufDelayNormal(aecpc_t* aecpc) 
+复制代码
+```
+
+接着就进入AEC的处理环节
+
+```arduino
+void WebRtcAec_ProcessFrame(AecCore* aec,
+                            const short* nearend,
+                            const short* nearendH,
+                            int knownDelay,
+                            int16_t* out,
+                            int16_t* outH)
+复制代码
+```
+
+代码里面有很明确的注释，解释了AEC核心步骤
+
+```vbnet
+   For each frame the process is as follows:
+   1) If the system_delay indicates on being too small for processing a
+      frame we stuff the buffer with enough data for 10 ms.
+   2) Adjust the buffer to the system delay, by moving the read pointer.
+   3) TODO(bjornv): Investigate if we need to add this:
+      If we can't move read pointer due to buffer size limitations we
+      flush/stuff the buffer.
+   4) Process as many partitions as possible.
+   5) Update the |system_delay| with respect to a full frame of FRAME_LEN
+      samples. Even though we will have data left to process (we work with
+      partitions) we consider updating a whole frame, since that's the
+      amount of data we input and output in audio_processing.
+   6) Update the outputs.
+复制代码
+```
+
+我们直接看处理模块，即步骤4
+
+```java
+static void ProcessBlock(AecCore* aec)
+复制代码
+```
+
+首先记住这三个变量分别是近端信号、远端信号和误差信号。
+
+```css
+d[PART_LEN], y[PART_LEN], e[PART_LEN]
+复制代码
+```
+
+第一步会进行舒适噪声的噪声功率谱估计和平滑，接着就是延迟估计了。
+** 我们那个项目在dsp上可以不用延时估计，在代码中找到将那段注释掉
+```cpp
+if (aec->delay_logging_enabled) {
+    int delay_estimate = 0;
+    /*if (WebRtc_AddFarSpectrumFloat(
+            aec->delay_estimator_farend, abs_far_spectrum, PART_LEN1) == 0) {
+      delay_estimate = WebRtc_DelayEstimatorProcessFloat(
+          aec->delay_estimator, abs_near_spectrum, PART_LEN1);
+      if (delay_estimate >= 0) {
+        // Update delay estimate buffer.
+        aec->delay_histogram[delay_estimate]++;
+      }
+    }*/  将上面那段注释，相当于延时为0
+  }
+```
+
+```java
+int WebRtc_DelayEstimatorProcessFloat(void* handle,
+                                      float* near_spectrum,
+                                      int spectrum_size)
+复制代码
+```
+
+其算法原理如下表所示,
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/80bbc4cc35444f6cb07667fd18a37c30~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp)​
+
+首先根据远端信号和近端信号的功率谱计算子带振幅与阈值之间的关系得到二元谱，这样便得到了远端和近端信号二值化的频谱。
+
+```arduino
+static uint32_t BinarySpectrumFloat(float* spectrum,
+                                    SpectrumType* threshold_spectrum,
+                                    int* threshold_initialized)
+复制代码
+```
+
+然后通过求解两者的按位异或值，选择相似度最高的候选远端信号并计算对应的延时。
+
+```arduino
+int WebRtc_ProcessBinarySpectrum(BinaryDelayEstimator* self,
+                                 uint32_t binary_near_spectrum) 
+复制代码
+```
+
+## III. PBFDAF
+
+接下来就是NLMS的部分了，其整体流程如下图所示：
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8eb363bd03f04165aef2fd652a23646b~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp)​
+
+PBFDAF的每一步都可以在上图中找到对应的流程，首先实现远端频域滤波，然后对结果进行IFFT运算，缩放后减去近端信号得到时域误差
+
+```java
+static void FilterFar(AecCore* aec, float yf[2][PART_LEN1])
+复制代码
+```
+
+接着对误差信号进行FFT变换并归一化误差信号
+
+```java
+static void ScaleErrorSignal(AecCore* aec, float ef[2][PART_LEN1])
+复制代码
+```
+
+最后经过了FFT/IFFT，把一半数值置零等操作，在频域更新滤波器权重。
+
+```java
+static void FilterAdaptation(AecCore* aec, float* fft, float ef[2][PART_LEN1])
+复制代码
+```
+
+## IV. NLP
+
+NLMS是线性滤波器并不能消除所有的回声，因为回声的路径不一定是非线性的，因此需要非线性处理来消除这些残余的回声，其基本原理就是信号的频域相干性：近端信号和误差信号的相似度高则不需要进行处理，远端信号和近端信号相似度高则需要进行处理，其中非线性体现在处理是使用指数衰减。WebRTC AEC的NLP处理在这个函数中
+
+```java
+static void NonLinearProcessing(AecCore* aec, short* output, short* outputH)
+复制代码
+```
+
+首先计算近端远端误差信号的功率谱，然后计算他们的互功率谱，从而计算近端-误差子带相干性、远端-近端子带相干性。接着得出平均相干性，估计回声状态，计算抑制因子然后进行非线性处理。
+
+```arduino
+static void OverdriveAndSuppress(AecCore* aec,
+                                 float hNl[PART_LEN1],
+                                 const float hNlFb,
+                                 float efw[2][PART_LEN1])
+复制代码
+```
+
+最后加上舒适噪声后进行IFFT，然后overlap and add得到最终的输出。
+
+```arduino
+static void ComfortNoise(AecCore* aec,
+                         float efw[2][PART_LEN1],
+                         complex_t* comfortNoiseHband,
+                         const float* noisePow,
+                         const float* lambda)
+```
+
+  
