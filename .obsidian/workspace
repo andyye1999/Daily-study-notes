@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc-aec.md",
+            "file": "leetcode/回溯/47. 全排列 II.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-aec.md",
+                "file": "leetcode/回溯/47. 全排列 II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-aec.md"
+                "file": "leetcode/回溯/47. 全排列 II.md"
               }
             }
           }
@@ -99,6 +99,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/回溯/46. 全排列.md",
+    "webrtc/webrtc-aec.md",
     "leetcode/回溯/491. 递增子序列.md",
     "回声/fullaec.md",
     "回声/FLMS.pdf",
@@ -106,8 +108,6 @@
     "C++.md",
     "语音增强.md",
     "噪声估计.md",
-    "回声/FDAF自适应滤波器算法综述.md",
-    "频域维纳滤波.md",
-    "RNNoise.md"
+    "回声/FDAF自适应滤波器算法综述.md"
   ]
 }
