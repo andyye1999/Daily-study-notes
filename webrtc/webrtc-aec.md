@@ -754,3 +754,6 @@ c 满足0<$c_{d e}$  <1，它可以表征残留回声在误差信号中所占的
 是说，不需要再对误差信号进行回声抑制；**如果残留回声较大，则$c_{d e}$的值较小**，可以
 通过$c_{d e}$对残留回声进行抑制。经过NLP 阶段后的输出信号表示如下：
 
+
+
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.5wwy2yyud140.webp)
