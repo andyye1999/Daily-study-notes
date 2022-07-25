@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/贪心算法/376. 摆动序列.md",
+            "file": "leetcode/贪心算法/53. 最大子数组和.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/贪心算法/376. 摆动序列.md",
+                "file": "leetcode/贪心算法/53. 最大子数组和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/贪心算法/376. 摆动序列.md"
+                "file": "leetcode/贪心算法/53. 最大子数组和.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/贪心算法/376. 摆动序列.md",
     "leetcode/贪心算法/455. 分发饼干.md",
     "leetcode/回溯/37. 解数独.md",
     "leetcode/回溯/51. N 皇后.md",
@@ -107,7 +108,6 @@
     "leetcode/回溯/90. 子集 II.md",
     "leetcode/回溯/40. 组合总和 II.md",
     "leetcode/回溯/46. 全排列.md",
-    "leetcode/回溯/491. 递增子序列.md",
-    "回声/fullaec.md"
+    "leetcode/回溯/491. 递增子序列.md"
   ]
 }
