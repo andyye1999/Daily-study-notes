@@ -794,3 +794,4 @@ y(t)=x(t)+n(t)=h(t)∗d(t)+n(t)
 Y(k)=X(k)+N(k)
 
 Y(k) 表示 y(t) 的傅立叶变换; 表示X(k)表示x(t) 的傅立叶变换，其他同理，k 表示频点；
+[WebRTC中AECM算法简介](https://blog.csdn.net/qq_44085437/article/details/124494041)
