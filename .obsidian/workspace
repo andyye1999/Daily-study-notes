@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/贪心算法/1005. K 次取反后最大化的数组和.md",
+            "file": "深度学习/深度学习.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/贪心算法/1005. K 次取反后最大化的数组和.md",
+                "file": "深度学习/深度学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/贪心算法/1005. K 次取反后最大化的数组和.md"
+                "file": "深度学习/深度学习.md"
               }
             }
           }
@@ -99,6 +99,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "深度学习/深度学习中的激活函数.md",
+    "leetcode/贪心算法/1005. K 次取反后最大化的数组和.md",
     "webrtc/webrtc-aec.md",
     "深度学习/深度学习.md",
     "leetcode/贪心算法/45. 跳跃游戏 II.md",
@@ -106,8 +108,6 @@
     "回声/FDAF自适应滤波器算法综述.md",
     "leetcode/贪心算法/55. 跳跃游戏.md",
     "leetcode/贪心算法/122. 买卖股票的最佳时机 II.md",
-    "leetcode/贪心算法/53. 最大子数组和.md",
-    "leetcode/贪心算法/376. 摆动序列.md",
-    "leetcode/贪心算法/455. 分发饼干.md"
+    "leetcode/贪心算法/53. 最大子数组和.md"
   ]
 }
