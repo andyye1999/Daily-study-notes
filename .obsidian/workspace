@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc-aec.md",
+            "file": "回声/AEC3.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-aec.md",
+                "file": "回声/AEC3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-aec.md"
+                "file": "回声/AEC3.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "webrtc/webrtc-aec.md",
     "回声/fullaec.md",
     "leetcode/贪心算法/452. 用最少数量的箭引爆气球.md",
     "leetcode/贪心算法/406. 根据身高重建队列.md",
@@ -107,7 +108,6 @@
     "leetcode/贪心算法/860. 柠檬水找零.md",
     "leetcode/贪心算法/135. 分发糖果.md",
     "leetcode/贪心算法/134. 加油站.md",
-    "leetcode/贪心算法/1005. K 次取反后最大化的数组和.md",
-    "webrtc/webrtc-aec.md"
+    "leetcode/贪心算法/1005. K 次取反后最大化的数组和.md"
   ]
 }
