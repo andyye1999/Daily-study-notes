@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc-agc.md",
+            "file": "webrtc/webrtc_ns.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-agc.md",
+                "file": "webrtc/webrtc_ns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-agc.md"
+                "file": "webrtc/webrtc_ns.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "webrtc/webrtc-agc.md",
     "webrtc/webrtc_ns.md",
     "leetcode/贪心算法/714. 买卖股票的最佳时机含手续费.md",
     "leetcode/贪心算法/738. 单调递增的数字.md",
@@ -107,7 +108,6 @@
     "leetcode/贪心算法/435. 无重叠区间.md",
     "leetcode/贪心算法/452. 用最少数量的箭引爆气球.md",
     "webrtc/webrtc-aec.md",
-    "回声/fullaec.md",
-    "leetcode/贪心算法/406. 根据身高重建队列.md"
+    "回声/fullaec.md"
   ]
 }
