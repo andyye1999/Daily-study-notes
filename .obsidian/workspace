@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "回声/AEC3.md",
+            "file": "leetcode/贪心算法/738. 单调递增的数字.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回声/AEC3.md",
+                "file": "leetcode/贪心算法/738. 单调递增的数字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回声/AEC3.md"
+                "file": "leetcode/贪心算法/738. 单调递增的数字.md"
               }
             }
           }
@@ -99,10 +99,10 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "回声/AEC3.md",
     "leetcode/贪心算法/56. 合并区间.md",
     "leetcode/贪心算法/435. 无重叠区间.md",
     "leetcode/贪心算法/452. 用最少数量的箭引爆气球.md",
-    "回声/AEC3.md",
     "webrtc/webrtc-aec.md",
     "回声/fullaec.md",
     "leetcode/贪心算法/406. 根据身高重建队列.md",
