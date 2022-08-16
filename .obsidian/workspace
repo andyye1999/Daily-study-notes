@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/动态规划/70. 爬楼梯.md",
+            "file": "语音信号基础知识.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/动态规划/70. 爬楼梯.md",
+                "file": "语音信号基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/动态规划/70. 爬楼梯.md"
+                "file": "语音信号基础知识.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/动态规划/70. 爬楼梯.md",
     "leetcode/动态规划/509. 斐波那契数.md",
     "webrtc/webrtc_ns.md",
     "webrtc/webrtc-agc.md",
@@ -107,7 +108,6 @@
     "回声/AEC3.md",
     "leetcode/贪心算法/56. 合并区间.md",
     "leetcode/贪心算法/435. 无重叠区间.md",
-    "leetcode/贪心算法/452. 用最少数量的箭引爆气球.md",
-    "webrtc/webrtc-aec.md"
+    "leetcode/贪心算法/452. 用最少数量的箭引爆气球.md"
   ]
 }
