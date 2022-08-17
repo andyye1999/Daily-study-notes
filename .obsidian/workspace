@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "leetcode/动态规划/746. 使用最小花费爬楼梯.md",
+            "file": "leetcode/动态规划/62. 不同路径.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/动态规划/746. 使用最小花费爬楼梯.md",
+                "file": "leetcode/动态规划/62. 不同路径.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/动态规划/746. 使用最小花费爬楼梯.md"
+                "file": "leetcode/动态规划/62. 不同路径.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/动态规划/746. 使用最小花费爬楼梯.md",
     "语音信号基础知识.md",
     "leetcode/动态规划/70. 爬楼梯.md",
     "leetcode/动态规划/509. 斐波那契数.md",
@@ -107,7 +108,6 @@
     "leetcode/贪心算法/714. 买卖股票的最佳时机含手续费.md",
     "leetcode/贪心算法/738. 单调递增的数字.md",
     "回声/AEC3.md",
-    "leetcode/贪心算法/56. 合并区间.md",
-    "leetcode/贪心算法/435. 无重叠区间.md"
+    "leetcode/贪心算法/56. 合并区间.md"
   ]
 }
