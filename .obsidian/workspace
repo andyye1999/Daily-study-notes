@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "webrtc/webrtc-agc.md",
+            "file": "噪声估计.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-agc.md",
+                "file": "噪声估计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-agc.md"
+                "file": "噪声估计.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "webrtc/webrtc-agc.md",
     "webrtc/webrtc-aec.md",
     "PCM WAV.md",
     "噪声估计.md",
@@ -107,7 +108,6 @@
     "leetcode/动态规划/96. 不同的二叉搜索树.md",
     "leetcode/动态规划/343. 整数拆分.md",
     "leetcode/动态规划/62. 不同路径.md",
-    "leetcode/动态规划/746. 使用最小花费爬楼梯.md",
-    "语音信号基础知识.md"
+    "leetcode/动态规划/746. 使用最小花费爬楼梯.md"
   ]
 }
