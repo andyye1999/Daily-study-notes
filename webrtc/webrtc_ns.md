@@ -1215,6 +1215,16 @@ void WebRtcNs_AnalyzeCore(NoiseSuppressionC* self, const int16_t *speechFrame) {
 即用β替代1。β是根据设定的降噪程度来取值的，设定的降噪程度越厉害，β取值越大。同时对H(k, m)做一定的防越界处理，最大值是1（即不降噪），最小值也是根据设定的降噪程度来取值的，比如取0.5。算出的H(k, m)保存在数组inst->smooth里。
 
 得到H(k, m)后，降噪后的语音就可以利用表达式 S(k, m) = H(k, m)Y(k,m)求出来了。
+
+[webrtc中的噪声抑制之一：频域维纳滤波](https://blog.csdn.net/golfbears/article/details/90673051?spm=1001.2014.3001.5502)
+频域维纳滤波器
+使用维纳滤波进行语音降噪的过程，其实是把降噪过程视为一个线性时不变系统，当带噪语音通过这个系统时，在均方误差最小化准则下，使得系统的输出与期望的纯净语音信号最接近的过程。
+实际当中我们能观察到的信号y ( n )是含有噪声的。 假设带噪语音信号可以表述为
+y(n)=s(n)+n(n)
+s(n)为语音信号，d ( n ) 为加性噪声。维纳滤波方法就是涉及一个数字滤波器h ( n ) ，当输入y ( n ) 经过滤波器后，滤波器的输出可以最大程度的逼近s ( n )。
+
+
+
 ```c
 // Estimate prior SNR decision-directed and compute DD based Wiener Filter.
 // Input:
