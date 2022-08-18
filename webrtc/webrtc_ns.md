@@ -1223,6 +1223,19 @@ void WebRtcNs_AnalyzeCore(NoiseSuppressionC* self, const int16_t *speechFrame) {
 y(n)=s(n)+n(n)
 s(n)为语音信号，d ( n ) 为加性噪声。维纳滤波方法就是涉及一个数字滤波器h ( n ) ，当输入y ( n ) 经过滤波器后，滤波器的输出可以最大程度的逼近s ( n )。
 
+$$ \hat{s}(n)=y(n) * h(n)=\sum_{k=0}^{K-1} y(n-k) h(k)$$
+上式进行DFT得到
+S^(ω)=H(ω)Y(ω)
+在任意频率ωk,我们可以计算出误差估计
+E(ωk​)=S(ωk​)−S^(ωk​)=S(ωk​)−H(ωk​)Y(ωk​)
+由此定义频域均方误差的代价函数
+$$ \begin{aligned}
+J_{2} &=E\left[\left|E\left(\omega_{k}\right)\right|^{2}\right] \\
+&=E\left\{\left[S\left(\omega_{k}\right)-H\left(\omega_{k}\right) Y\left(\omega_{k}\right)\right]^{*}\left[S\left(\omega_{k}\right)-H\left(\omega_{k}\right) Y\left(\omega_{k}\right)\right]\right\} \\
+&=E\left[\left|S\left(\omega_{k}\right)\right|^{2}\right]-H\left(\omega_{k}\right) E\left[S^{*}\left(\omega_{k}\right) Y\left(\omega_{k}\right)\right]-H^{*}\left(\omega_{k}\right) E\left[S\left(\omega_{k}\right) Y^{*}\left(\omega_{k}\right)\right]+\left|H\left(\omega_{k}\right)\right|^{2} E\left[\mid Y\left(\omega_{k}\right)\right.\\
+&=E\left[\left|S\left(\omega_{k}\right)\right|^{2}\right]-H\left(\omega_{k}\right) P_{y s}\left(\omega_{k}\right)-H^{*}\left(\omega_{k}\right) P_{s y}\left(\omega_{k}\right)+\left|H\left(\omega_{k}\right)\right|^{2} P_{y y}\left(\omega_{k}\right)
+\end{aligned}$$
+公式的最后一行定义了$P yy​(ω k​)=E[∣Y(ω k​)∣ 2 ]$ 叫做信号的功率谱
 
 
 ```c
