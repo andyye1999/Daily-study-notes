@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "噪声估计.md",
+            "file": "语音增强理论与实践.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "噪声估计.md",
+                "file": "语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "噪声估计.md"
+                "file": "语音增强理论与实践.md"
               }
             }
           }
@@ -99,11 +99,11 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "噪声估计.md",
     "webrtc/webrtc-agc.md",
     "webrtc/webrtc-aec.md",
     "PCM WAV.md",
-    "噪声估计.md",
-    "未命名.md",
+    "语音增强理论与实践.md",
     "webrtc/webrtc_ns.md",
     "leetcode/动态规划/96. 不同的二叉搜索树.md",
     "leetcode/动态规划/343. 整数拆分.md",
