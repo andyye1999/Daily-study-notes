@@ -7,11 +7,9 @@
         "id": "18988743c27790fe",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "leetcode/动态规划/01背包.md",
-            "mode": "source",
-            "source": false
+            "file": "回声/基于WebRTC回声消除的音频系统研究与实现.pdf"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/动态规划/01背包.md",
+                "file": "回声/基于WebRTC回声消除的音频系统研究与实现.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/动态规划/01背包.md"
+                "file": "回声/基于WebRTC回声消除的音频系统研究与实现.pdf"
               }
             }
           }
@@ -99,12 +97,12 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "leetcode/动态规划/01背包.md",
     "leetcode/动态规划/494. 目标和.md",
     "语音增强理论与实践.md",
     "噪声估计.md",
     "leetcode/动态规划/343. 整数拆分.md",
     "leetcode/动态规划/416. 分割等和子集.md",
-    "leetcode/动态规划/01背包.md",
     "webrtc/webrtc-agc.md",
     "webrtc/webrtc-aec.md",
     "PCM WAV.md",
