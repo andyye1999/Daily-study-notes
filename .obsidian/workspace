@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "语音增强/语音降噪模型归纳汇总.md",
+            "file": "leetcode/贪心算法/452. 用最少数量的箭引爆气球.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音降噪模型归纳汇总.md",
+                "file": "leetcode/贪心算法/452. 用最少数量的箭引爆气球.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音降噪模型归纳汇总.md"
+                "file": "leetcode/贪心算法/452. 用最少数量的箭引爆气球.md"
               }
             }
           }
@@ -99,10 +99,10 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "语音增强/语音降噪模型归纳汇总.md",
     "语音增强/基于Mask的语音分离.md",
     "语音基础/短时傅里叶变换.md",
     "语音增强/语音增强理论与实践.md",
-    "语音增强/语音降噪模型归纳汇总.md",
     "语音增强/RNNoise.md",
     "leetcode/动态规划/337.打家劫舍 III.md",
     "leetcode/动态规划/213.打家劫舍II.md",
