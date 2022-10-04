@@ -7,8 +7,12 @@
         "id": "18988743c27790fe",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "波束形成/皮尔森系数.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "波束形成/皮尔森系数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "波束形成/皮尔森系数.md"
+              }
             }
           }
         ],
@@ -90,8 +97,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "回声/变步长.md",
+    "语音增强/语音增强理论与实践_中文版.pdf",
     "波束形成/基于麦克风阵列的语音增强系统V2.0.pdf",
     "波束形成/皮尔森系数.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
@@ -99,8 +108,6 @@
     "深度学习/深度学习.md",
     "变换/fft与实数fft.md",
     "webrtc/webrtc-aec.md",
-    "语音基础/IIR和FIR滤波器代码.md",
-    "课程笔记/入学培训.md",
-    "语音增强/语音增强理论与实践_中文版.pdf"
+    "语音基础/IIR和FIR滤波器代码.md"
   ]
 }
