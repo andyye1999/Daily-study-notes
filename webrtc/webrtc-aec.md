@@ -419,7 +419,7 @@ typedef struct {
   aecConfig.skewMode = kAecFalse;
   aecConfig.metricsMode = kAecFalse;
   aecConfig.delay_logging = kAecFalse;
-复制代码
+
 ```
 
 可以通过WebRtcAec_set_config来设定各种参数。
