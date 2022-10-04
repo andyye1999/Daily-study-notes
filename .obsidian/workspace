@@ -7,9 +7,11 @@
         "id": "18988743c27790fe",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "波束形成/基于麦克风阵列的语音增强系统V2.0.pdf"
+            "file": "webrtc/webrtc-aec.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/基于麦克风阵列的语音增强系统V2.0.pdf",
+                "file": "webrtc/webrtc-aec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/基于麦克风阵列的语音增强系统V2.0.pdf"
+                "file": "webrtc/webrtc-aec.md"
               }
             }
           }
@@ -97,8 +99,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
-    "webrtc/webrtc-aec.md",
     "波束形成/基于麦克风阵列的语音增强系统V2.0.pdf",
+    "webrtc/webrtc-aec.md",
     "webrtc/webrtc学习笔记.md",
     "webrtc/webrtc-vad.md",
     "波束形成/皮尔森系数.md",
