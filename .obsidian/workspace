@@ -7,12 +7,8 @@
         "id": "18988743c27790fe",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "leetcode/动态规划/674. 最长连续递增序列.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/动态规划/674. 最长连续递增序列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "leetcode/动态规划/674. 最长连续递增序列.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -97,17 +90,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "18988743c27790fe",
+  "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
-    "leetcode/动态规划/300.最长递增子序列.md",
-    "[.md",
-    "leetcode/动态规划/股票问题总结.md",
-    "leetcode/动态规划/714.买卖股票的最佳时机含手续费.md",
-    "leetcode/动态规划/309. 最佳买卖股票时机含冷冻期.md",
-    "leetcode/动态规划/188. 买卖股票的最佳时机 IV.md",
-    "语音增强/语音降噪模型归纳汇总.md",
-    "leetcode/动态规划/123.买卖股票的最佳时机III.md",
-    "leetcode/动态规划/122.买卖股票的最佳时机II.md",
-    "leetcode/动态规划/121. 买卖股票的最佳时机.md"
+    "波束形成/基于麦克风阵列的语音增强系统V2.0.pdf",
+    "波束形成/皮尔森系数.md",
+    "波束形成/波束形成学习笔记发布版本.pdf",
+    "波束形成/差分阵列.md",
+    "深度学习/深度学习.md",
+    "变换/fft与实数fft.md",
+    "webrtc/webrtc-aec.md",
+    "语音基础/IIR和FIR滤波器代码.md",
+    "课程笔记/入学培训.md",
+    "语音增强/语音增强理论与实践_中文版.pdf"
   ]
 }
