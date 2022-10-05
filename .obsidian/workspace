@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "语音增强/DCCRN.md",
+            "file": "语音增强/DPRNN.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/DCCRN.md",
+                "file": "语音增强/DPRNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/DCCRN.md"
+                "file": "语音增强/DPRNN.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "语音增强/DCCRN.md",
     "语音增强/conv-tesnet.md",
     "深度学习/深度学习中的激活函数.md",
     "深度学习/深度学习.md",
@@ -107,7 +108,6 @@
     "webrtc/webrtc学习笔记.md",
     "webrtc/webrtc-vad.md",
     "波束形成/皮尔森系数.md",
-    "回声/变步长.md",
-    "语音增强/语音增强理论与实践_中文版.pdf"
+    "回声/变步长.md"
   ]
 }
