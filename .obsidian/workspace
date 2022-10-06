@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "深度学习/基于深度学习的语音增强概述.md",
+            "file": "波束形成/皮尔森系数.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/基于深度学习的语音增强概述.md",
+                "file": "波束形成/皮尔森系数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/基于深度学习的语音增强概述.md"
+                "file": "波束形成/皮尔森系数.md"
               }
             }
           }
@@ -99,15 +99,15 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
-    "波束形成/皮尔森系数.md",
+    "波束形成/基于麦克风阵列的语音增强系统V2.0.pdf",
     "深度学习/基于深度学习的语音增强概述.md",
+    "波束形成/皮尔森系数.md",
     "深度学习/深度学习中的激活函数.md",
     "语音增强/基于Mask的语音分离.md",
     "深度学习/深度学习.md",
     "语音增强/单通道语音增强.md",
     "语音增强/DPRNN.md",
     "语音增强/DCCRN.md",
-    "语音增强/conv-tesnet.md",
-    "webrtc/webrtc-aec.md"
+    "语音增强/conv-tesnet.md"
   ]
 }
