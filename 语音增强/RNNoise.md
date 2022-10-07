@@ -1,4 +1,5 @@
 # [RNNoise超详细解读](https://zhuanlan.zhihu.com/p/397288851)
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221007/image.9xxl8f6lpo0.webp)
 1.  **SIGNAL MODEL**
 作者提出了一种用于噪声抑制的快速算法，在降噪时需要精细调整的部分使用深度学习方法，而其他部分使用传统的DSP方法。使用的窗长为20ms，窗之间的overlap为10ms，噪声抑制的主要部分是将RNN计算出的增益作用于分辨率较低的噪声频谱包络。后面还用pitch filter进行进一步地优化。
 **A. band struction**

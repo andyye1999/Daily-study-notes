@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "语音增强/PercepNet.md",
+            "file": "语音增强/RNNoise.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/PercepNet.md",
+                "file": "语音增强/RNNoise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/PercepNet.md"
+                "file": "语音增强/RNNoise.md"
               }
             }
           }
@@ -99,8 +99,8 @@
   },
   "active": "18988743c27790fe",
   "lastOpenFiles": [
-    "语音增强/RNNoise.md",
     "语音增强/PercepNet.md",
+    "语音增强/RNNoise.md",
     "webrtc/webrtc_ns.md",
     "语音增强/频域维纳滤波.md",
     "语音增强/conv-tasnet.md",
