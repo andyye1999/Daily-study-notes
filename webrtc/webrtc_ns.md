@@ -376,6 +376,10 @@ static void NoiseEstimation(NoiseSuppressionC* self,
 即**先验SNR等于后验SNR – 1**。
 
 至于算先验SNR，用的是**判决引导法**（Decision-Directed，简称DD）。根据式5和式6可以得到式7：
+### [判决引导法](https://www.cnblogs.com/icoolmedia/p/snr_estimate.html)
+[判决引导](https://blog.csdn.net/u010592995/article/details/101782648)
+
+
 
 ![](https://img2020.cnblogs.com/blog/1181527/202110/1181527-20211026145840109-1391328590.jpg)                                                                                       (7)
 
