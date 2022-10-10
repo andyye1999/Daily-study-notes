@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "波束形成/差分阵列.md",
+            "file": "语音增强/语音增强理论与实践.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "合并",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/差分阵列.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/差分阵列.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -97,8 +97,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "18988743c27790fe",
+  "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
+    "波束形成/差分阵列.md",
     "webrtc/webrtc-agc.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/语音增强.md",
@@ -107,7 +108,6 @@
     "语音增强/RNNoise.md",
     "语音增强/PercepNet.md",
     "语音增强/频域维纳滤波.md",
-    "语音增强/conv-tasnet.md",
-    "波束形成/皮尔森系数.md"
+    "语音增强/conv-tasnet.md"
   ]
 }
