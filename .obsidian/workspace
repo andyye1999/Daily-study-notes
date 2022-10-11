@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "语音增强/语音增强理论与实践.md",
+            "file": "深度学习/数据增广.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "深度学习/数据增广.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "深度学习/数据增广.md"
               }
             }
           }
@@ -97,11 +97,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "18988743c27790fe",
   "lastOpenFiles": [
+    "语音增强/语音增强理论与实践.md",
     "波束形成/差分阵列.md",
     "webrtc/webrtc-agc.md",
-    "语音增强/语音增强理论与实践.md",
     "语音增强/语音增强.md",
     "语音增强/单通道语音增强.md",
     "webrtc/webrtc_ns.md",
