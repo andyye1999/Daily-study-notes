@@ -35,4 +35,5 @@ MVDR中文名字叫**最小均方无畸变响应**，**最小方差无失真响�
 
 ### [Overview of Beamformer](https://www.funcwj.cn/2017/11/11/overview-of-beamformer/)
 
+![QQ截图20221011203113](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221011/QQ截图20221011203113.5p0397nrs7s0.webp)
 
