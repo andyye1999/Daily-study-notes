@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18988743c27790fe",
+            "id": "6e1a74321e638374",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音基础/语音信号基础知识.md",
+                "file": "波束形成/差分阵列.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "49d64147f9d6ac66",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/语音信号基础知识.md",
+                "file": "波束形成/差分阵列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/语音信号基础知识.md"
+                "file": "波束形成/差分阵列.md"
               }
             }
           }
@@ -119,17 +108,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "49d64147f9d6ac66",
+  "active": "6e1a74321e638374",
   "lastOpenFiles": [
+    "语音基础/语音信号基础知识.md",
+    "波束形成/差分阵列.md",
     "波束形成/MVDR.md",
     "webrtc/webrtc_ns.md",
     "深度学习/基于深度学习的语音增强概述.md",
     "深度学习/数据增广.md",
     "语音增强/语音增强理论与实践.md",
-    "波束形成/差分阵列.md",
     "webrtc/webrtc-agc.md",
     "语音增强/语音增强.md",
-    "语音增强/单通道语音增强.md",
-    "语音增强/RNNoise.md"
+    "语音增强/单通道语音增强.md"
   ]
 }
