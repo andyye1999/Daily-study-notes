@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/差分阵列.md",
+                "file": "语音基础/MFCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/差分阵列.md",
+                "file": "语音基础/MFCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/差分阵列.md"
+                "file": "语音基础/MFCC.md"
               }
             }
           }
@@ -110,8 +110,8 @@
   },
   "active": "6e1a74321e638374",
   "lastOpenFiles": [
-    "波束形成/波束形成.md",
     "波束形成/差分阵列.md",
+    "波束形成/波束形成.md",
     "语音基础/语音信号基础知识.md",
     "webrtc/webrtc_ns.md",
     "深度学习/基于深度学习的语音增强概述.md",
