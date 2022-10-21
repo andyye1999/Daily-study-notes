@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音基础/MFCC.md",
+                "file": "ANC/FXLMS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1d5c5e471701d46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "骨传导/带宽扩展.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/MFCC.md",
+                "file": "骨传导/带宽扩展.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/MFCC.md"
+                "file": "骨传导/带宽扩展.md"
               }
             }
           }
@@ -108,17 +121,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6e1a74321e638374",
+  "active": "e1d5c5e471701d46",
   "lastOpenFiles": [
+    "Pasted image 20221020220721.png",
+    "骨传导/带宽扩展.md",
+    "ANC/FXLMS.md",
+    "ANC/SFANC.md",
+    "语音基础/重采样.md",
+    "语音基础/MFCC.md",
     "波束形成/差分阵列.md",
     "波束形成/波束形成.md",
     "语音基础/语音信号基础知识.md",
-    "webrtc/webrtc_ns.md",
-    "深度学习/基于深度学习的语音增强概述.md",
-    "深度学习/数据增广.md",
-    "语音增强/语音增强理论与实践.md",
-    "webrtc/webrtc-agc.md",
-    "语音增强/语音增强.md",
-    "语音增强/单通道语音增强.md"
+    "webrtc/webrtc_ns.md"
   ]
 }
