@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "07350f747ab8a09c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "深度学习/se_development.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/se_development.pdf",
+                "file": "深度学习/基于深度学习的语音增强概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/se_development.pdf"
+                "file": "深度学习/基于深度学习的语音增强概述.md"
               }
             }
           }
@@ -119,10 +108,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "07350f747ab8a09c",
+  "active": "e1d5c5e471701d46",
   "lastOpenFiles": [
-    "深度学习/基于深度学习的语音增强概述.md",
     "深度学习/se_development.pdf",
+    "深度学习/基于深度学习的语音增强概述.md",
     "骨传导/带宽扩展.md",
     "ANC/FXLMS.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
