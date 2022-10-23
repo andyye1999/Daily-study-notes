@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e1a74321e638374",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ANC/FXLMS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e1d5c5e471701d46",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,15 +110,15 @@
   },
   "active": "e1d5c5e471701d46",
   "lastOpenFiles": [
-    "Pasted image 20221020220721.png",
-    "骨传导/带宽扩展.md",
     "ANC/FXLMS.md",
+    "骨传导/带宽扩展.md",
+    "webrtc/WebRTC_NS单通道降噪.pdf",
+    "Pasted image 20221020220721.png",
     "ANC/SFANC.md",
     "语音基础/重采样.md",
     "语音基础/MFCC.md",
     "波束形成/差分阵列.md",
     "波束形成/波束形成.md",
-    "语音基础/语音信号基础知识.md",
-    "webrtc/webrtc_ns.md"
+    "语音基础/语音信号基础知识.md"
   ]
 }
