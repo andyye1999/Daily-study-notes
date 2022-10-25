@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "26ea591dc474c820",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "骨传导/agc程序.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/基于深度学习的语音增强概述.md",
+                "file": "骨传导/agc程序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/基于深度学习的语音增强概述.md"
+                "file": "骨传导/agc程序.md"
               }
             }
           }
@@ -108,17 +121,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e1d5c5e471701d46",
+  "active": "26ea591dc474c820",
   "lastOpenFiles": [
-    "深度学习/se_development.pdf",
     "深度学习/基于深度学习的语音增强概述.md",
+    "骨传导/agc程序.md",
+    "深度学习/se_development.pdf",
     "骨传导/带宽扩展.md",
     "ANC/FXLMS.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "Pasted image 20221020220721.png",
     "ANC/SFANC.md",
     "语音基础/重采样.md",
-    "语音基础/MFCC.md",
-    "波束形成/差分阵列.md"
+    "语音基础/MFCC.md"
   ]
 }
