@@ -35,11 +35,9 @@
             "id": "a920dd933743f217",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "定点化/网络的定点化.md",
-                "mode": "source",
-                "source": false
+                "file": "课程笔记/数字信号处理课程笔记.pdf"
               }
             }
           }
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "定点化/网络的定点化.md",
+                "file": "课程笔记/数字信号处理课程笔记.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "定点化/网络的定点化.md"
+                "file": "课程笔记/数字信号处理课程笔记.pdf"
               }
             }
           }
@@ -135,6 +133,7 @@
   },
   "active": "a920dd933743f217",
   "lastOpenFiles": [
+    "定点化/网络的定点化.md",
     "骨传导/agc程序.md",
     "深度学习/基于深度学习的语音增强概述.md",
     "深度学习/se_development.pdf",
@@ -143,7 +142,6 @@
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "Pasted image 20221020220721.png",
     "ANC/SFANC.md",
-    "语音基础/重采样.md",
-    "语音基础/MFCC.md"
+    "语音基础/重采样.md"
   ]
 }
