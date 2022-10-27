@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "26ea591dc474c820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/agc程序.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a920dd933743f217",
             "type": "leaf",
             "state": {
@@ -41,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程笔记/数字信号处理课程笔记.pdf",
+                "file": "深度学习/基于深度学习的语音增强概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程笔记/数字信号处理课程笔记.pdf"
+                "file": "深度学习/基于深度学习的语音增强概述.md"
               }
             }
           }
@@ -131,8 +118,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a920dd933743f217",
+  "active": "e1d5c5e471701d46",
   "lastOpenFiles": [
+    "课程笔记/数字信号处理课程笔记.pdf",
     "定点化/网络的定点化.md",
     "骨传导/agc程序.md",
     "深度学习/基于深度学习的语音增强概述.md",
@@ -141,7 +129,6 @@
     "ANC/FXLMS.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "Pasted image 20221020220721.png",
-    "ANC/SFANC.md",
-    "语音基础/重采样.md"
+    "ANC/SFANC.md"
   ]
 }
