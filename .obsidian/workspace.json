@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "4988ef5b53c878fc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          },
+          {
             "id": "a920dd933743f217",
             "type": "leaf",
             "state": {
@@ -29,7 +39,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,10 +126,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "e1d5c5e471701d46",
+  "active": "4988ef5b53c878fc",
   "lastOpenFiles": [
     "课程笔记/数字信号处理课程笔记.pdf",
     "定点化/网络的定点化.md",
