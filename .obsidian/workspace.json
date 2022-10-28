@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "4988ef5b53c878fc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
-          },
-          {
             "id": "a920dd933743f217",
             "type": "leaf",
             "state": {
@@ -39,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,12 +115,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4988ef5b53c878fc",
+  "active": "e1d5c5e471701d46",
   "lastOpenFiles": [
     "课程笔记/数字信号处理课程笔记.pdf",
+    "深度学习/基于深度学习的语音增强概述.md",
     "定点化/网络的定点化.md",
     "骨传导/agc程序.md",
-    "深度学习/基于深度学习的语音增强概述.md",
     "深度学习/se_development.pdf",
     "骨传导/带宽扩展.md",
     "ANC/FXLMS.md",
