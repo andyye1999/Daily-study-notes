@@ -151,6 +151,19 @@ UpdateBuffer()
 
 通过观察，发现出现频率最高的值对应特定频带的噪声水平。上图是一个典型的双峰分布，即低频带峰值为噪声水平，高频带峰值对应带噪（辅音）能量分布 。当然不同的语音片段的统计结果会有差异，典型的（长时间统计）应该是低频峰值更大，这样的现象启发了人们设计了基于直方图的噪声估计方法，而QBNE应该算是此方法的衍生算法。
 
+### [分位数和最小值噪声估计小结](https://zhuanlan.zhihu.com/p/370937758)
+
+执行步骤如下:
+
+> 1、时域信号 s(t)s(t) 转换为 S(k,l)S(k,l) 。 kk 为频点， ll 为帧数。  
+> 2、对时间 TT 内的信号幅度谱做一个从小到大的排序， S(k,l0)≤S(k,l1)≤...≤S(k,lT)S(k,l_{0})\leq S(k,l_{1})\leq ... \leq S(k,l_{T})  
+> 3、 q=quantileq = quantile 为分位数， 0∼10\sim1 之间。在上面的排序中，序列在 q∗Tq*T 以下的全视为噪声。即  
+> N(k)=S(k,lq∗T)N(k) = S(k,l_{q*T}) N(k)N(k) 为估计的噪声信号。
+
+上述基本就是分位数噪声估计的原理和执行步骤。
+
+当然，有许许多多的调参和优化的地方。比如时长 TT 和 qq 值可以调节或者自适应优化。噪声的更新也可以迭代平滑更新。
+
 ### [webRTC中语音降噪模块ANS细节详解(三)](https://www.cnblogs.com/talkaudiodev/p/15492190.html)
 webRTC中ANS的初始噪声估计用的是分位数噪声估计法（QBNE，Quantile Based Noise Estimation），对应的论文为《Quantile Based Noise Estimation For Spectral Subtraction And Wiener Filtering》。 分位数噪声估计认为，即使是语音段，**输入信号在某些频带分量上也可能没有信号能量**，那么**将某个频带上所有语音帧的能量做一个统计，设定一个分位数值，低于分位数值的认为是噪声，高于分位数值的认为是语音**。算法大致步骤如下：
 

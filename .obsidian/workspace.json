@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a920dd933743f217",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/频域RLS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3ce5d1955882ec57",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,11 +107,11 @@
   },
   "active": "3ce5d1955882ec57",
   "lastOpenFiles": [
+    "webrtc/webrtc_ns.md",
+    "语音增强/平滑之收敛时间计算.md",
     "语音增强/频域RLS.md",
     "课程笔记/数字信号处理课程笔记.pdf",
-    "语音增强/平滑之收敛时间计算.md",
     "语音增强/语音活动检测模块.md",
-    "webrtc/webrtc_ns.md",
     "深度学习/基于深度学习的语音增强概述.md",
     "定点化/网络的定点化.md",
     "骨传导/agc程序.md",
