@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa3affa4ebcb0e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "骨传导/语音转换.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/带宽扩展.md",
+                "file": "骨传导/语音转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/带宽扩展.md"
+                "file": "骨传导/语音转换.md"
               }
             }
           }
@@ -105,8 +118,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8d9711213c33cfac",
+  "active": "fa3affa4ebcb0e94",
   "lastOpenFiles": [
+    "骨传导/带宽扩展.md",
     "深度学习/基于深度学习的语音增强概述.md",
     "波束形成/波束形成.md",
     "leetcode/二分法.md",
@@ -115,7 +129,6 @@
     "webrtc/webrtc_ns.md",
     "语音增强/频域RLS.md",
     "语音增强/语音活动检测模块.md",
-    "定点化/网络的定点化.md",
-    "骨传导/agc程序.md"
+    "定点化/网络的定点化.md"
   ]
 }
