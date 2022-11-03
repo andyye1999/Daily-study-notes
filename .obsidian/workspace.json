@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "骨传导/带宽扩展.md",
+                "file": "脚本/重采样.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-aec.md",
+                "file": "脚本/重采样.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-aec.md"
+                "file": "脚本/重采样.md"
               }
             }
           }
@@ -118,13 +117,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "8d9711213c33cfac",
   "lastOpenFiles": [
+    "骨传导/带宽扩展.md",
     "骨传导/WORLD声码器.md",
     "骨传导/语音转换.md",
     "脚本/重采样.md",
     "脚本/pcm2wav.md",
-    "骨传导/带宽扩展.md",
     "深度学习/基于深度学习的语音增强概述.md",
     "波束形成/波束形成.md",
     "leetcode/二分法.md",
