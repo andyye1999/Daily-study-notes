@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "脚本/重采样.md",
+                "file": "脚本/pcm2wav.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "脚本/重采样.md",
+                "file": "脚本/pcm2wav.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "脚本/重采样.md"
+                "file": "脚本/pcm2wav.md"
               }
             }
           }
@@ -119,10 +119,10 @@
   },
   "active": "8d9711213c33cfac",
   "lastOpenFiles": [
+    "脚本/重采样.md",
     "骨传导/带宽扩展.md",
     "骨传导/WORLD声码器.md",
     "骨传导/语音转换.md",
-    "脚本/重采样.md",
     "脚本/pcm2wav.md",
     "深度学习/基于深度学习的语音增强概述.md",
     "波束形成/波束形成.md",
