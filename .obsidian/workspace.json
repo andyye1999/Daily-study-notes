@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "语音基础/重采样.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "语音基础/重采样.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "语音基础/重采样.md"
               }
             }
           }
@@ -119,15 +119,15 @@
   },
   "active": "8d9711213c33cfac",
   "lastOpenFiles": [
-    "语音增强/单通道语音增强.md",
     "语音增强/语音增强理论与实践.md",
+    "语音基础/重采样.md",
+    "语音基础/信号的抽取与插值.md",
+    "语音增强/单通道语音增强.md",
     "语音增强/平滑之收敛时间计算.md",
     "语音增强/频域维纳滤波.md",
     "脚本/pcm2wav.md",
     "脚本/重采样.md",
     "脚本/文件名.md",
-    "骨传导/带宽扩展.md",
-    "骨传导/WORLD声码器.md",
-    "骨传导/语音转换.md"
+    "骨传导/带宽扩展.md"
   ]
 }
