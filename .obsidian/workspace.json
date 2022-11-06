@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc_ns.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -118,10 +117,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "17ae44aefbf5bfb1",
+  "active": "fa3affa4ebcb0e94",
   "lastOpenFiles": [
-    "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc_ns.md",
+    "语音增强/语音增强理论与实践.md",
     "骨传导/语音转换.md",
     "语音基础/重采样.md",
     "语音基础/信号的抽取与插值.md",
