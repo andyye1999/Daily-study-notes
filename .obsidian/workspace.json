@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2e5a842ed052f065",
+        "id": "9f7e402dd47d749b",
         "type": "tabs",
         "children": [
           {
-            "id": "fa3affa4ebcb0e94",
+            "id": "232838dda2487d7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "webrtc/webrtc-aec.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +101,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "fa3affa4ebcb0e94",
+  "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
     "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc_ns.md",
