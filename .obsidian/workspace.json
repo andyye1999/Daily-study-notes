@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "eacc724e5dbb6e8e",
+        "id": "02f4aad3da47f77c",
         "type": "tabs",
         "children": [
           {
-            "id": "766c54a783e64b88",
+            "id": "b4182ae13f7b9cde",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "课程笔记/数字信号处理课程笔记.pdf"
+                "file": "语音增强/语音增强理论与实践.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -75,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程笔记/数字信号处理课程笔记.pdf",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程笔记/数字信号处理课程笔记.pdf"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -103,12 +105,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "766c54a783e64b88",
+  "active": "b4182ae13f7b9cde",
   "lastOpenFiles": [
-    "定点化/网络的定点化.md",
     "骨传导/带宽扩展.md",
-    "骨传导/语音转换.md",
     "课程笔记/数字信号处理课程笔记.pdf",
+    "定点化/网络的定点化.md",
+    "骨传导/语音转换.md",
     "webrtc/webrtc-aec.md",
     "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc_ns.md",
