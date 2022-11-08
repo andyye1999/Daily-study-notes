@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9f7e402dd47d749b",
+        "id": "eacc724e5dbb6e8e",
         "type": "tabs",
         "children": [
           {
-            "id": "232838dda2487d7f",
+            "id": "766c54a783e64b88",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "课程笔记/数字信号处理课程笔记.pdf"
+              }
             }
           }
         ]
@@ -73,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-aec.md",
+                "file": "课程笔记/数字信号处理课程笔记.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-aec.md"
+                "file": "课程笔记/数字信号处理课程笔记.pdf"
               }
             }
           }
@@ -101,8 +103,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "766c54a783e64b88",
   "lastOpenFiles": [
+    "定点化/网络的定点化.md",
+    "webrtc/webrtc-aec.md",
     "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc_ns.md",
     "骨传导/语音转换.md",
@@ -110,8 +114,6 @@
     "语音基础/信号的抽取与插值.md",
     "语音增强/单通道语音增强.md",
     "语音增强/平滑之收敛时间计算.md",
-    "语音增强/频域维纳滤波.md",
-    "脚本/pcm2wav.md",
-    "脚本/重采样.md"
+    "语音增强/频域维纳滤波.md"
   ]
 }
