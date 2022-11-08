@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "定点化/网络的定点化.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "定点化/网络的定点化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "定点化/网络的定点化.md"
               }
             }
           }
@@ -107,12 +107,12 @@
   },
   "active": "b4182ae13f7b9cde",
   "lastOpenFiles": [
+    "语音增强/语音增强理论与实践.md",
     "骨传导/带宽扩展.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "定点化/网络的定点化.md",
     "骨传导/语音转换.md",
     "webrtc/webrtc-aec.md",
-    "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc_ns.md",
     "语音基础/重采样.md",
     "语音基础/信号的抽取与插值.md",
