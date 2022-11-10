@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4182ae13f7b9cde",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "课程笔记/数字信号处理课程笔记.pdf"
-              }
-            }
-          },
-          {
             "id": "1b91be71227a27ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "定点化/网络的定点化.md",
+                "file": "波束形成/差分阵列.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "定点化/网络的定点化.md",
+                "file": "波束形成/差分阵列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "定点化/网络的定点化.md"
+                "file": "波束形成/差分阵列.md"
               }
             }
           }
@@ -118,15 +107,15 @@
   },
   "active": "1b91be71227a27ad",
   "lastOpenFiles": [
-    "课程笔记/数字信号处理课程笔记.pdf",
+    "波束形成/波束形成.md",
     "定点化/网络的定点化.md",
+    "课程笔记/数字信号处理课程笔记.pdf",
     "语音增强/语音增强理论与实践.md",
     "骨传导/带宽扩展.md",
     "骨传导/语音转换.md",
     "webrtc/webrtc-aec.md",
     "webrtc/webrtc_ns.md",
     "语音基础/重采样.md",
-    "语音基础/信号的抽取与插值.md",
-    "语音增强/单通道语音增强.md"
+    "语音基础/信号的抽取与插值.md"
   ]
 }
