@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "02f4aad3da47f77c",
+        "id": "c9627888f0bb381f",
         "type": "tabs",
         "children": [
           {
-            "id": "1b91be71227a27ad",
+            "id": "a2ad828314e08506",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/差分阵列.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/差分阵列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "波束形成/差分阵列.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -105,8 +98,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1b91be71227a27ad",
+  "active": "a2ad828314e08506",
   "lastOpenFiles": [
+    "语音增强/平滑之收敛时间计算.md",
+    "波束形成/差分阵列.md",
     "波束形成/波束形成.md",
     "定点化/网络的定点化.md",
     "课程笔记/数字信号处理课程笔记.pdf",
@@ -114,8 +109,6 @@
     "骨传导/带宽扩展.md",
     "骨传导/语音转换.md",
     "webrtc/webrtc-aec.md",
-    "webrtc/webrtc_ns.md",
-    "语音基础/重采样.md",
-    "语音基础/信号的抽取与插值.md"
+    "webrtc/webrtc_ns.md"
   ]
 }
