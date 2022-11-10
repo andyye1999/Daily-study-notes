@@ -11,6 +11,16 @@
             "id": "b4182ae13f7b9cde",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "课程笔记/数字信号处理课程笔记.pdf"
+              }
+            }
+          },
+          {
+            "id": "1b91be71227a27ad",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "定点化/网络的定点化.md",
@@ -19,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,12 +116,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b4182ae13f7b9cde",
+  "active": "1b91be71227a27ad",
   "lastOpenFiles": [
-    "语音增强/语音增强理论与实践.md",
-    "骨传导/带宽扩展.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "定点化/网络的定点化.md",
+    "语音增强/语音增强理论与实践.md",
+    "骨传导/带宽扩展.md",
     "骨传导/语音转换.md",
     "webrtc/webrtc-aec.md",
     "webrtc/webrtc_ns.md",
