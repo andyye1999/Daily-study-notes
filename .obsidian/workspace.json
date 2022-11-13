@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c9627888f0bb381f",
+        "id": "bb91c18135a85e1c",
         "type": "tabs",
         "children": [
           {
-            "id": "a2ad828314e08506",
+            "id": "7f2aa77eb28cb229",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/波束形成.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a5d6a4888710e2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/差分阵列.md",
+                "file": "骨传导/语音转换.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/差分阵列.md",
+                "file": "骨传导/语音转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/差分阵列.md"
+                "file": "骨传导/语音转换.md"
               }
             }
           }
@@ -118,12 +105,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4a5d6a4888710e2a",
+  "active": "7f2aa77eb28cb229",
   "lastOpenFiles": [
-    "骨传导/语音转换.md",
     "波束形成/波束形成.md",
-    "语音增强/平滑之收敛时间计算.md",
     "波束形成/差分阵列.md",
+    "骨传导/语音转换.md",
+    "语音增强/平滑之收敛时间计算.md",
     "定点化/网络的定点化.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音增强/语音增强理论与实践.md",
