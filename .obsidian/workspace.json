@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bb91c18135a85e1c",
+        "id": "35880b4ea47161d9",
         "type": "tabs",
         "children": [
           {
-            "id": "7f2aa77eb28cb229",
+            "id": "7c6179d7d2e717c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webrtc/webrtc-aec.md",
+                "file": "回声/FDAF自适应滤波器算法综述.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc-aec.md",
+                "file": "回声/FDAF自适应滤波器算法综述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc-aec.md"
+                "file": "回声/FDAF自适应滤波器算法综述.md"
               }
             }
           }
@@ -105,17 +105,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7f2aa77eb28cb229",
+  "active": "7c6179d7d2e717c3",
   "lastOpenFiles": [
-    "骨传导/语音转换.md",
-    "波束形成/波束形成.md",
-    "波束形成/差分阵列.md",
-    "语音增强/平滑之收敛时间计算.md",
-    "定点化/网络的定点化.md",
-    "课程笔记/数字信号处理课程笔记.pdf",
-    "语音增强/语音增强理论与实践.md",
-    "骨传导/带宽扩展.md",
+    "回声/FLMS.pdf",
     "webrtc/webrtc-aec.md",
-    "webrtc/webrtc_ns.md"
+    "git.md",
+    "ANC/SFANC.md",
+    "ANC/FXLMS.md",
+    "ANC/有源噪声控制技术研究.pdf",
+    "变换/fft与实数fft.md",
+    "变换/小波变换.md",
+    "变换/傅里叶变换的多种解释.md",
+    "变换/经典小波变换.md"
   ]
 }
