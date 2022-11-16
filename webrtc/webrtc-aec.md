@@ -722,6 +722,12 @@ D的值时，(1,0)共现的概率会大大降低；** 如果**补偿值与D相�
 对于第q个量、第m个候选延迟和在K个时刻内的平均代价，计算如下： Δ𝑞,𝑚=1𝐾Σ𝑝𝑒𝑛𝑎𝑙𝑡𝑦(𝑋𝑞,𝑘+𝐷𝑒𝑙𝑎𝑦𝑚,𝐷𝑞,𝑘)
 在所有候选延迟的平均代价计算完成后，按照下式进行加权和计算： Δ𝑚=Σ𝐶𝑞Δ𝑞,𝑚𝑄𝑞
 其中系数𝐶1，𝐶2，…，𝐶𝑞优选地反应每个量的重要性。在生成加权和Δ1，Δ2 ，…，Δ𝑚之后，对应候选延迟𝐷𝑒𝑙𝑎𝑦1，𝐷𝑒𝑙𝑎𝑦2，…，𝐷𝑒𝑙𝑎𝑦𝑀当中的最小的值，将是最好的估计𝐷𝑒𝑙𝑎𝑦𝑀。
+
+## 改进 联合判决
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221116/image.68lhimqmjio0.webp)
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221116/image.1d7z358c8fq8.webp)
+
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221116/image.700hmr0mxvk0.webp)
 ## 非线性处理NLP
 算法的**第一部分**是判断滤波器是否处于“发散”状态。当滤波器收敛良好时，由于
 误差信号E(l,k)是将近端信号中的回声滤除后得到的，所以它的能量应该小于近端信号
