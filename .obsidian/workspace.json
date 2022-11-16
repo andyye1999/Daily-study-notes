@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e1972e3ce82b78ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "webrtc/webrtc-aec.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回声/FDAF自适应滤波器算法综述.md",
+                "file": "webrtc/webrtc-aec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回声/FDAF自适应滤波器算法综述.md"
+                "file": "webrtc/webrtc-aec.md"
               }
             }
           }
@@ -105,8 +118,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7c6179d7d2e717c3",
+  "active": "e1972e3ce82b78ef",
   "lastOpenFiles": [
+    "回声/FDAF自适应滤波器算法综述.md",
     "回声/FLMS.pdf",
     "webrtc/webrtc-aec.md",
     "git.md",
@@ -115,7 +129,6 @@
     "ANC/有源噪声控制技术研究.pdf",
     "变换/fft与实数fft.md",
     "变换/小波变换.md",
-    "变换/傅里叶变换的多种解释.md",
-    "变换/经典小波变换.md"
+    "变换/傅里叶变换的多种解释.md"
   ]
 }
