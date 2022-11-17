@@ -8,36 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c6179d7d2e717c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "回声/FDAF自适应滤波器算法综述.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dabe5889715ac928",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "回声/卡尔曼滤波 回声消除.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e1972e3ce82b78ef",
+            "id": "fe361c333d66b052",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webrtc/webrtc-aec.md",
+                "file": "回声/卡尔曼滤波 回声消除.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,8 +118,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "dabe5889715ac928",
+  "active": "fe361c333d66b052",
   "lastOpenFiles": [
+    "语音增强/语音增强理论与实践.md",
+    "回声/卡尔曼滤波 回声消除.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "webrtc/webrtc-aec.md",
     "回声/FLMS.pdf",
@@ -139,8 +129,6 @@
     "ANC/SFANC.md",
     "ANC/FXLMS.md",
     "ANC/有源噪声控制技术研究.pdf",
-    "变换/fft与实数fft.md",
-    "变换/小波变换.md",
-    "变换/傅里叶变换的多种解释.md"
+    "变换/fft与实数fft.md"
   ]
 }
