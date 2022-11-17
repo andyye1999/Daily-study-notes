@@ -121,3 +121,7 @@ RNN可以对时间序列建模，而噪声抑制需要在时域获得良好的�
 
 # [深度学习降噪方案-RNNoise简介和环境配置](https://blog.csdn.net/danteLiujie/article/details/102769905)
 ![](https://img-blog.csdnimg.cn/20191027185115916.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhbnRlTGl1amll,size_16,color_FFFFFF,t_70)
+
+# 量化
+RNNoise 采用8bit量化，具体操作是将权重和偏执限制在-0.5到+0.5之间
+这样写data.c时乘以256取整 可以char类型量化 另外在c语言dense中 out应该除以256

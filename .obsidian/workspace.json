@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "回声/卡尔曼滤波 回声消除.md",
+                "file": "语音增强/RNNoise.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回声/卡尔曼滤波 回声消除.md",
+                "file": "语音增强/RNNoise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回声/卡尔曼滤波 回声消除.md"
+                "file": "语音增强/RNNoise.md"
               }
             }
           }
@@ -120,8 +120,8 @@
   },
   "active": "fe361c333d66b052",
   "lastOpenFiles": [
-    "语音增强/语音增强理论与实践.md",
     "回声/卡尔曼滤波 回声消除.md",
+    "语音增强/语音增强理论与实践.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "webrtc/webrtc-aec.md",
     "回声/FLMS.pdf",
