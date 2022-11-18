@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "35880b4ea47161d9",
+        "id": "9a7e7fdfcee3ab53",
         "type": "tabs",
         "children": [
           {
-            "id": "dabe5889715ac928",
+            "id": "4fca3bf2f63f5a0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe361c333d66b052",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/RNNoise.md",
+                "file": "深度学习/深度学习.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/RNNoise.md",
+                "file": "深度学习/深度学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/RNNoise.md"
+                "file": "深度学习/深度学习.md"
               }
             }
           }
@@ -118,17 +105,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "fe361c333d66b052",
+  "active": "4fca3bf2f63f5a0b",
   "lastOpenFiles": [
-    "回声/卡尔曼滤波 回声消除.md",
     "语音增强/语音增强理论与实践.md",
+    "语音增强/RNNoise.md",
+    "回声/卡尔曼滤波 回声消除.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "webrtc/webrtc-aec.md",
     "回声/FLMS.pdf",
     "git.md",
     "ANC/SFANC.md",
     "ANC/FXLMS.md",
-    "ANC/有源噪声控制技术研究.pdf",
-    "变换/fft与实数fft.md"
+    "ANC/有源噪声控制技术研究.pdf"
   ]
 }
