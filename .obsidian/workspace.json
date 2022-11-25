@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a7e7fdfcee3ab53",
+        "id": "ab99309b16ed7634",
         "type": "tabs",
         "children": [
           {
-            "id": "4fca3bf2f63f5a0b",
+            "id": "1161eeb30135928f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/深度学习.md",
+                "file": "波束形成/差分阵列.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/深度学习.md",
+                "file": "波束形成/差分阵列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/深度学习.md"
+                "file": "波束形成/差分阵列.md"
               }
             }
           }
@@ -105,8 +105,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4fca3bf2f63f5a0b",
+  "active": "1161eeb30135928f",
   "lastOpenFiles": [
+    "深度学习/深度学习.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/RNNoise.md",
     "回声/卡尔曼滤波 回声消除.md",
@@ -115,7 +116,6 @@
     "回声/FLMS.pdf",
     "git.md",
     "ANC/SFANC.md",
-    "ANC/FXLMS.md",
-    "ANC/有源噪声控制技术研究.pdf"
+    "ANC/FXLMS.md"
   ]
 }
