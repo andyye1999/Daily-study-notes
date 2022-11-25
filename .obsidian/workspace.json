@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ab99309b16ed7634",
+        "id": "e9b0757bc28dcc25",
         "type": "tabs",
         "children": [
           {
-            "id": "1161eeb30135928f",
+            "id": "a940dbe4e12bd3a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/差分阵列.md",
+                "file": "波束形成/波束形成.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7984bbbccf3eb94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "波束形成/TDOA进行声源定位.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/差分阵列.md",
+                "file": "波束形成/TDOA进行声源定位.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/差分阵列.md"
+                "file": "波束形成/TDOA进行声源定位.md"
               }
             }
           }
@@ -105,17 +118,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1161eeb30135928f",
+  "active": "f7984bbbccf3eb94",
   "lastOpenFiles": [
+    "波束形成/波束形成.md",
+    "波束形成/波束形成学习笔记发布版本.pdf",
+    "波束形成/差分阵列.md",
     "深度学习/深度学习.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/RNNoise.md",
     "回声/卡尔曼滤波 回声消除.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "webrtc/webrtc-aec.md",
-    "回声/FLMS.pdf",
-    "git.md",
-    "ANC/SFANC.md",
-    "ANC/FXLMS.md"
+    "回声/FLMS.pdf"
   ]
 }
