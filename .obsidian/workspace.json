@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e9b0757bc28dcc25",
+        "id": "5728d95557c34ac4",
         "type": "tabs",
         "children": [
           {
-            "id": "a940dbe4e12bd3a3",
+            "id": "30280e6841c2331e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "波束形成/波束形成.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7984bbbccf3eb94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/TDOA进行声源定位.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,12 +105,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a940dbe4e12bd3a3",
+  "active": "30280e6841c2331e",
   "lastOpenFiles": [
     "波束形成/TDOA进行声源定位.md",
-    "语音基础/PCM WAV.md",
-    "波束形成/波束形成.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
+    "波束形成/波束形成.md",
+    "语音基础/PCM WAV.md",
     "波束形成/差分阵列.md",
     "深度学习/深度学习.md",
     "语音增强/语音增强理论与实践.md",
