@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程笔记/入学培训.md",
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程笔记/入学培训.md",
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程笔记/入学培训.md"
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md"
               }
             }
           }
@@ -107,6 +107,7 @@
   },
   "active": "405219066b82cbee",
   "lastOpenFiles": [
+    "课程笔记/入学培训.md",
     "webrtc/webrtc-agc.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "波束形成/波束形成.md",
@@ -115,7 +116,6 @@
     "语音基础/PCM WAV.md",
     "波束形成/差分阵列.md",
     "深度学习/深度学习.md",
-    "语音增强/语音增强理论与实践.md",
-    "语音增强/RNNoise.md"
+    "语音增强/语音增强理论与实践.md"
   ]
 }
