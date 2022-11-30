@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/波束形成.md",
+                "file": "回声/卡尔曼滤波 回声消除.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/波束形成.md",
+                "file": "回声/卡尔曼滤波 回声消除.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/波束形成.md"
+                "file": "回声/卡尔曼滤波 回声消除.md"
               }
             }
           }
@@ -132,9 +132,9 @@
   },
   "active": "3b2a23a9de5400ba",
   "lastOpenFiles": [
+    "波束形成/波束形成.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "深度学习/基于深度学习的语音增强概述.md",
-    "波束形成/波束形成.md",
     "课程笔记/现代数字信号处理课程笔记.md",
     "语音基础/MFCC.md",
     "语音基础/PCM WAV.md",
