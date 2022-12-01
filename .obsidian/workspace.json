@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "d10a5774e7fa0b9e",
+            "id": "c7af5fe6ac50e952",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c7af5fe6ac50e952",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/GSC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/GSC.md",
+                "file": "波束形成/MVDR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/GSC.md"
+                "file": "波束形成/MVDR.md"
               }
             }
           }
@@ -132,9 +120,9 @@
   },
   "active": "c7af5fe6ac50e952",
   "lastOpenFiles": [
+    "波束形成/TDOA进行声源定位.md",
     "波束形成/MVDR.md",
     "波束形成/GSC.md",
-    "波束形成/TDOA进行声源定位.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "回声/卡尔曼滤波 回声消除.md",
     "语音基础/PCM WAV.md",
