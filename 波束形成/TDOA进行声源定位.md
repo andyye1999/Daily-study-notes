@@ -62,3 +62,7 @@ Gx1x2(ω)为互频谱，其计算公式为：
 
 ![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.6jpg3tq8n6o0.webp)
 
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.2reov44zze40.webp)
+
+
+通过G729类似的LP分析滤波器AZ，算出残差信号
