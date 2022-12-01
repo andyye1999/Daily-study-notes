@@ -49,21 +49,11 @@ mvdr + lefkim postfilter
 mvdr + stsa postfilter 
 mvdr + log-stsa postfilter
 
-# GSC
-
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221128/image.72aidcnwuhg0.webp)
-
-## Griffiths-Jim
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.xjharf7cw40.webp)
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221128/image.4k86t30sq3y0.webp)
-
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221128/image.3ao2o5eqpho0.webp)
 
 
-# [Rank1 Constrained in PMWF](https://www.funcwj.cn/2019/01/10/rank1-const-pmwf/)
 
-# [TDOA - GCC-PHAT方法](https://www.funcwj.cn/2018/05/10/gcc-phat-for-tdoa-estimate/)
 
-# [TDOA - SRP-PHAT方法](https://www.funcwj.cn/2018/05/29/srp-phat-for-tdoa-estimate/)
 
