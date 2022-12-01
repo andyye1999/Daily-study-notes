@@ -55,3 +55,10 @@ Gx1x2(ω)为互频谱，其计算公式为：
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/R3j7FT5mhhepIGZSD6HUa1UbwnxBjEHjAzvHBWc45Lq5g8K4NZ8RiaiafV9geDKN6OzztZKMvM32Q0FhBNwu4OIg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 其中τ12，τ13通过时延估计得到，因此可以求解公式(11)到(13)的方程组，进而使用正弦定理可以得到θ2和θ3。
+
+# 基于线性预测残差的广义互相关算法
+
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.4cpevdjwbuq0.webp)
+
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.6jpg3tq8n6o0.webp)
+
