@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f595ee63c07e0372",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "脚本/重采样.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/信号与系统知识点.md",
+                "file": "脚本/重采样.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/信号与系统知识点.md"
+                "file": "脚本/重采样.md"
               }
             }
           }
@@ -118,8 +130,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "716a063cdf116ef0",
+  "active": "f595ee63c07e0372",
   "lastOpenFiles": [
+    "语音基础/信号与系统知识点.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "波束形成/TDOA进行声源定位.md",
     "波束形成/MVDR.md",
@@ -128,7 +141,6 @@
     "波束形成/GSC.md",
     "回声/卡尔曼滤波 回声消除.md",
     "语音基础/PCM WAV.md",
-    "骨传导/agc程序.md",
-    "深度学习/基于深度学习的语音增强概述.md"
+    "骨传导/agc程序.md"
   ]
 }
