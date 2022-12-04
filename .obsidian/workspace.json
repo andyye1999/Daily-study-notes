@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "16c5ad6cfce4dc85",
+        "id": "b5add416ecb09fd6",
         "type": "tabs",
         "children": [
           {
-            "id": "41423e26733c147d",
+            "id": "7b8e3350630c0ef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "脚本/vscode快捷键.md",
+                "file": "波束形成/MVDR.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "脚本/vscode快捷键.md",
+                "file": "波束形成/MVDR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "脚本/vscode快捷键.md"
+                "file": "波束形成/MVDR.md"
               }
             }
           }
@@ -105,10 +105,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "41423e26733c147d",
+  "active": "7b8e3350630c0ef3",
   "lastOpenFiles": [
-    "webrtc/webrtc_ns.md",
     "脚本/vscode快捷键.md",
+    "webrtc/webrtc_ns.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音基础/重采样.md",
     "语音基础/信号与系统知识点.md",
