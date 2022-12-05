@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e6a02a0e009f664a",
+        "id": "76a58fb6dc6f4aaf",
         "type": "tabs",
         "children": [
           {
-            "id": "fde5d9f31cb26a8c",
+            "id": "8167444426bf6b7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程笔记/入学培训.md",
+                "file": "波束形成/MVDR.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程笔记/入学培训.md",
+                "file": "波束形成/MVDR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程笔记/入学培训.md"
+                "file": "波束形成/MVDR.md"
               }
             }
           }
@@ -105,10 +105,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "8167444426bf6b7b",
   "lastOpenFiles": [
-    "语音基础/IIR和FIR滤波器代码.md",
     "课程笔记/入学培训.md",
+    "语音基础/IIR和FIR滤波器代码.md",
     "波束形成/MVDR.md",
     "脚本/vscode快捷键.md",
     "webrtc/webrtc_ns.md",
