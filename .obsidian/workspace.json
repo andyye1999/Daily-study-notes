@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "03bbef357423512b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/重采样.md",
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/重采样.md"
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md"
               }
             }
           }
@@ -105,8 +118,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3427cb6ee135f72f",
+  "active": "03bbef357423512b",
   "lastOpenFiles": [
+    "语音基础/重采样.md",
     "语音基础/信号与系统知识点.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "波束形成/MVDR.md",
@@ -114,7 +128,6 @@
     "语音基础/IIR和FIR滤波器代码.md",
     "脚本/vscode快捷键.md",
     "webrtc/webrtc_ns.md",
-    "语音基础/重采样.md",
     "脚本/pcm2wav.md",
     "脚本/重采样.md"
   ]
