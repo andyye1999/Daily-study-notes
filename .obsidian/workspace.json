@@ -32,28 +32,6 @@
             }
           },
           {
-            "id": "809a8e136b9a6d4f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "回声/声学回声消除与波束成形语音增强方法研究.pdf"
-              }
-            }
-          },
-          {
-            "id": "27f4a8651490570e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/皮尔森系数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f5975d2e27f63f6e",
             "type": "leaf",
             "state": {
@@ -62,9 +40,21 @@
                 "file": "回声/麦克风阵列波束成形语音分离及声学回声消除方法研究.pdf"
               }
             }
+          },
+          {
+            "id": "450d74b4db8e1a76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "webrtc/webrtc-aec.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回声/麦克风阵列波束成形语音分离及声学回声消除方法研究.pdf",
+                "file": "波束形成/阵列软著总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回声/麦克风阵列波束成形语音分离及声学回声消除方法研究.pdf"
+                "file": "波束形成/阵列软著总结.md"
               }
             }
           }
@@ -150,17 +140,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f5975d2e27f63f6e",
+  "active": "50e4b3e55b5c4101",
   "lastOpenFiles": [
-    "回声/声学回声消除与波束成形语音增强方法研究.pdf",
+    "回声/麦克风阵列波束成形语音分离及声学回声消除方法研究.pdf",
     "webrtc/webrtc-aec.md",
     "波束形成/阵列软著总结.md",
+    "回声/声学回声消除与波束成形语音增强方法研究.pdf",
     "波束形成/皮尔森系数.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音基础/重采样.md",
     "语音基础/信号与系统知识点.md",
     "波束形成/MVDR.md",
-    "课程笔记/入学培训.md",
-    "语音基础/IIR和FIR滤波器代码.md"
+    "课程笔记/入学培训.md"
   ]
 }
