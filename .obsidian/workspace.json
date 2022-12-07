@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/阵列软著总结.md",
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/阵列软著总结.md"
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md"
               }
             }
           }
@@ -130,8 +130,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "50e4b3e55b5c4101",
+  "active": "03bbef357423512b",
   "lastOpenFiles": [
+    "波束形成/阵列软著总结.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音基础/重采样.md",
     "语音基础/信号与系统知识点.md",
@@ -140,7 +141,6 @@
     "语音基础/IIR和FIR滤波器代码.md",
     "脚本/vscode快捷键.md",
     "webrtc/webrtc_ns.md",
-    "脚本/pcm2wav.md",
-    "脚本/重采样.md"
+    "脚本/pcm2wav.md"
   ]
 }
