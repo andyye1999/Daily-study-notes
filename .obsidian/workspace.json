@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9384ebc2bcd8a316",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "深度学习/se_development.pdf"
+              }
+            }
           }
         ]
       }
@@ -107,9 +117,9 @@
   },
   "active": "5f15b0759e52b510",
   "lastOpenFiles": [
-    "近日计划.md",
     "深度学习/se_development.pdf",
     "work/preparation.md",
+    "近日计划.md",
     "深度学习/基于深度学习的语音增强概述.md",
     "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc-aec.md",
