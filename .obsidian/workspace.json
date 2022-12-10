@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2cfaaa08eac74341",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/语音增强理论与实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fff580b69dc26705",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深度学习/基于深度学习的语音增强概述.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -130,17 +105,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "2cfaaa08eac74341",
+  "active": "5f15b0759e52b510",
   "lastOpenFiles": [
+    "近日计划.md",
+    "深度学习/se_development.pdf",
     "work/preparation.md",
-    "语音增强/语音增强理论与实践.md",
     "深度学习/基于深度学习的语音增强概述.md",
+    "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc-aec.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "ANC/FXLMS.md",
     "语音增强/频域RLS.md",
-    "骨传导/带宽扩展.md",
-    "骨传导/语音转换.md",
-    "变换/语音信号线性预测(LPC).md"
+    "骨传导/带宽扩展.md"
   ]
 }
