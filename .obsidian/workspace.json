@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "96683e73163c273a",
+        "id": "1ff2c990461718f9",
         "type": "tabs",
         "children": [
           {
-            "id": "50e4b3e55b5c4101",
+            "id": "3966fb8b4befd773",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "回声/FDAF自适应滤波器算法综述.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0909a214aa60690",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/语音转换.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/语音转换.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/语音转换.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -118,8 +105,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "e0909a214aa60690",
+  "active": "3966fb8b4befd773",
   "lastOpenFiles": [
+    "骨传导/语音转换.md",
     "波束形成/阵列软著总结.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "回声/麦克风阵列波束成形语音分离及声学回声消除方法研究.pdf",
@@ -128,7 +116,6 @@
     "波束形成/皮尔森系数.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音基础/重采样.md",
-    "语音基础/信号与系统知识点.md",
-    "波束形成/MVDR.md"
+    "语音基础/信号与系统知识点.md"
   ]
 }
