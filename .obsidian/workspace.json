@@ -13,23 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/preparation.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9384ebc2bcd8a316",
+            "id": "8511c9469cfa7244",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "深度学习/se_development.pdf"
+                "file": "webrtc/WebRTC_NS单通道降噪.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "webrtc/WebRTC_NS单通道降噪.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "webrtc/WebRTC_NS单通道降噪.pdf"
               }
             }
           }
@@ -115,13 +116,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "5f15b0759e52b510",
+  "active": "8511c9469cfa7244",
   "lastOpenFiles": [
-    "深度学习/se_development.pdf",
+    "语音增强/语音增强理论与实践.md",
     "work/preparation.md",
+    "深度学习/se_development.pdf",
     "近日计划.md",
     "深度学习/基于深度学习的语音增强概述.md",
-    "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc-aec.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "ANC/FXLMS.md",
