@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音基础/短时傅里叶变换.md",
+                "file": "语音基础/信号与系统知识点.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/短时傅里叶变换.md",
+                "file": "语音基础/信号与系统知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/短时傅里叶变换.md"
+                "file": "语音基础/信号与系统知识点.md"
               }
             }
           }
@@ -107,15 +107,15 @@
   },
   "active": "bcab220bbf777426",
   "lastOpenFiles": [
+    "语音基础/信号的抽取与插值与子带滤波器组.md",
+    "语音基础/面试题库整理扫描.pdf",
+    "语音基础/短时傅里叶变换.md",
     "语音增强/语音增强理论与实践.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "work/preparation.md",
     "深度学习/se_development.pdf",
     "近日计划.md",
     "深度学习/基于深度学习的语音增强概述.md",
-    "webrtc/webrtc-aec.md",
-    "回声/FDAF自适应滤波器算法综述.md",
-    "ANC/FXLMS.md",
-    "语音增强/频域RLS.md"
+    "webrtc/webrtc-aec.md"
   ]
 }
