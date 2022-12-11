@@ -8,24 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f15b0759e52b510",
+            "id": "bcab220bbf777426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "语音基础/短时傅里叶变换.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "8511c9469cfa7244",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "webrtc/WebRTC_NS单通道降噪.pdf"
               }
             }
           }
@@ -87,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "语音基础/短时傅里叶变换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "语音基础/短时傅里叶变换.md"
               }
             }
           }
@@ -115,10 +105,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "5f15b0759e52b510",
+  "active": "bcab220bbf777426",
   "lastOpenFiles": [
-    "webrtc/WebRTC_NS单通道降噪.pdf",
     "语音增强/语音增强理论与实践.md",
+    "webrtc/WebRTC_NS单通道降噪.pdf",
     "work/preparation.md",
     "深度学习/se_development.pdf",
     "近日计划.md",
