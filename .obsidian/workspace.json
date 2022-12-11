@@ -18,8 +18,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cf09ae835e011b2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/语音信号基础知识.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8826c668b424bdd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "语音基础/面试题库整理扫描.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/信号与系统知识点.md",
+                "file": "语音基础/语音信号基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/信号与系统知识点.md"
+                "file": "语音基础/语音信号基础知识.md"
               }
             }
           }
@@ -105,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "bcab220bbf777426",
+  "active": "cf09ae835e011b2d",
   "lastOpenFiles": [
-    "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音基础/面试题库整理扫描.pdf",
+    "语音基础/语音信号基础知识.md",
+    "语音基础/信号与系统知识点.md",
+    "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音基础/短时傅里叶变换.md",
     "语音增强/语音增强理论与实践.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "work/preparation.md",
     "深度学习/se_development.pdf",
-    "近日计划.md",
-    "深度学习/基于深度学习的语音增强概述.md",
-    "webrtc/webrtc-aec.md"
+    "近日计划.md"
   ]
 }
