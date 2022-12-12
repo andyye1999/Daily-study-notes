@@ -11,8 +11,12 @@
             "id": "53985a4ec0eaefb0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "波束形成/MVDR.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "波束形成/MVDR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "波束形成/MVDR.md"
+              }
             }
           }
         ],
@@ -100,6 +107,7 @@
   },
   "active": "53985a4ec0eaefb0",
   "lastOpenFiles": [
+    "波束形成/皮尔森系数.md",
     "语音基础/信号与系统知识点.md",
     "语音基础/语音信号基础知识.md",
     "回声/FDAF自适应滤波器算法综述.md",
@@ -108,7 +116,6 @@
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音基础/短时傅里叶变换.md",
     "语音增强/语音增强理论与实践.md",
-    "webrtc/WebRTC_NS单通道降噪.pdf",
-    "work/preparation.md"
+    "webrtc/WebRTC_NS单通道降噪.pdf"
   ]
 }
