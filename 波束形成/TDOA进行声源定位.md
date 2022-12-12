@@ -66,6 +66,7 @@ Gx1x2(ω)为互频谱，其计算公式为：
 
 
 通过G729类似的LP分析滤波器AZ，算出残差信号
+这个想法在RNNoise中也用到了，在其基因搜索时用到[[RNNoise]]
 
 
 # [TDOA - GCC-PHAT方法](https://www.funcwj.cn/2018/05/10/gcc-phat-for-tdoa-estimate/)
