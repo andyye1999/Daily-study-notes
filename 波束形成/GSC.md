@@ -11,3 +11,5 @@
 
 
 # [Rank1 Constrained in PMWF](https://www.funcwj.cn/2019/01/10/rank1-const-pmwf/)
+
+一般beita取10 论文中这么取的
