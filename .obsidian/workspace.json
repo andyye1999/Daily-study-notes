@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ef432329d6f89c62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/IIR和FIR滤波器代码.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/阵列软著总结.md",
+                "file": "语音基础/IIR和FIR滤波器代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/阵列软著总结.md"
+                "file": "语音基础/IIR和FIR滤波器代码.md"
               }
             }
           }
@@ -130,17 +142,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "11f2ac5831a21299",
+  "active": "ef432329d6f89c62",
   "lastOpenFiles": [
+    "波束形成/阵列软著总结.md",
+    "语音基础/IIR和FIR滤波器代码.md",
     "波束形成/TDOA进行声源定位.md",
     "波束形成/MVDR.md",
-    "波束形成/阵列软著总结.md",
     "语音增强/RNNoise.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "深度学习/深度学习.md",
     "语音增强/频域RLS.md",
     "work/preparation.md",
-    "回声/FDAF自适应滤波器算法综述.md",
-    "骨传导/带宽扩展.md"
+    "回声/FDAF自适应滤波器算法综述.md"
   ]
 }
