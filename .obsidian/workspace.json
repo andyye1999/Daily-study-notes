@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0a40dbca95ff3733",
+        "id": "32c0598cc7617245",
         "type": "tabs",
         "children": [
           {
-            "id": "963a6bde68fd79df",
+            "id": "a022cf4db0a8f440",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "深度学习/se_development.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -75,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "深度学习/se_development.pdf"
-              }
+              "state": {}
             }
           }
         ],
@@ -103,8 +98,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "963a6bde68fd79df",
+  "active": "a022cf4db0a8f440",
   "lastOpenFiles": [
+    "深度学习/se_development.pdf",
     "波束形成/GSC.md",
     "波束形成/MVDR.md",
     "波束形成/阵列软著总结.md",
@@ -113,7 +109,6 @@
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音增强/RNNoise.md",
     "深度学习/深度学习.md",
-    "语音增强/频域RLS.md",
-    "work/preparation.md"
+    "语音增强/频域RLS.md"
   ]
 }
