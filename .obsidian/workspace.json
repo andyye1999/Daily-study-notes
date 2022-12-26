@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "beeff3ca41d2aaff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/preparation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6aa8926ffa47d846",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "波束形成/阵列软著总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/MVDR.md",
+                "file": "波束形成/阵列软著总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/MVDR.md"
+                "file": "波束形成/阵列软著总结.md"
               }
             }
           }
@@ -105,17 +130,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a022cf4db0a8f440",
+  "active": "6aa8926ffa47d846",
   "lastOpenFiles": [
-    "波束形成/GSC.md",
-    "深度学习/se_development.pdf",
+    "work/preparation.md",
     "波束形成/MVDR.md",
     "波束形成/阵列软著总结.md",
+    "波束形成/GSC.md",
+    "深度学习/se_development.pdf",
     "波束形成/TDOA进行声源定位.md",
     "语音基础/IIR和FIR滤波器代码.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音增强/RNNoise.md",
-    "深度学习/深度学习.md",
-    "语音增强/频域RLS.md"
+    "深度学习/深度学习.md"
   ]
 }
