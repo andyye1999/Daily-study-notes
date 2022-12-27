@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d431d6a0c3808859",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +140,16 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "6aa8926ffa47d846",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "d431d6a0c3808859",
   "lastOpenFiles": [
     "work/preparation.md",
     "波束形成/MVDR.md",
