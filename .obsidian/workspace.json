@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/preparation.md",
+                "file": "波束形成/阵列软著总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "波束形成/阵列软著总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "波束形成/阵列软著总结.md"
               }
             }
           }
@@ -140,9 +140,9 @@
   },
   "active": "20c8011c619173b9",
   "lastOpenFiles": [
+    "work/preparation.md",
     "work/牛客面经.md",
     "work/面经中的C++.md",
-    "work/preparation.md",
     "回声/卡尔曼滤波 回声消除.md",
     "未命名.canvas",
     "波束形成/MVDR.md",
