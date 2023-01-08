@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1999deec648492f0",
+        "id": "ad9623c729605575",
         "type": "tabs",
         "children": [
           {
-            "id": "4c2e3173835f8623",
+            "id": "042486d71e56c2b8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/线性卷积圆周卷积.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db4125612de94521",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/牛客面经.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "work/牛客面经.md"
+              }
             }
           }
         ],
@@ -107,17 +127,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4c2e3173835f8623",
+  "active": "db4125612de94521",
   "lastOpenFiles": [
+    "语音基础/线性卷积圆周卷积.md",
     "work/牛客面经.md",
+    "work/preparation.md",
     "C++.md",
     "批处理.md",
     "波束形成/阵列软著总结.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "TOC.md",
     "webrtc/webrtc_ns.md",
-    "语音基础/面试题库整理扫描.pdf",
-    "语音基础/MFCC.md",
-    "波束形成/波束形成学习笔记发布版本.pdf"
+    "语音基础/面试题库整理扫描.pdf"
   ]
 }
