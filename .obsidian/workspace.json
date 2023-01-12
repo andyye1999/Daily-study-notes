@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5b21ebf71019e4f7",
+        "id": "8314227524e79f07",
         "type": "tabs",
         "children": [
           {
-            "id": "8c81f2968e33afd3",
+            "id": "5b225d61950931c4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "深度学习/se_development.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -75,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "深度学习/se_development.pdf"
-              }
+              "state": {}
             }
           }
         ],
@@ -112,8 +107,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "8c81f2968e33afd3",
+  "active": "5b225d61950931c4",
   "lastOpenFiles": [
+    "深度学习/se_development.pdf",
     "变换/fft与实数fft.md",
     "work/牛客面经.md",
     "变换/经验模态分解(EMD).md",
@@ -122,7 +118,6 @@
     "C++ 那些事/static 那些事.md",
     "语音基础/语音信号基础知识.md",
     "语音基础/信号与系统知识点.md",
-    "语音基础/短时傅里叶变换.md",
-    "语音基础/线性卷积圆周卷积.md"
+    "语音基础/短时傅里叶变换.md"
   ]
 }
