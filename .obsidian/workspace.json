@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "work/preparation.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -116,9 +116,9 @@
   },
   "active": "5b225d61950931c4",
   "lastOpenFiles": [
+    "work/牛客面经.md",
     "深度学习/se_development.pdf",
     "变换/fft与实数fft.md",
-    "work/牛客面经.md",
     "变换/经验模态分解(EMD).md",
     "课程笔记/入学培训.md",
     "C++ 那些事/const.md",
