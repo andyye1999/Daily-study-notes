@@ -24,6 +24,8 @@
 
 [[频域RLS]]
 
+Background noise reduction 和 Statistical noise reduction 区别是前者是在VAD判决为噪声时
+
 ## 谱线增强
 
 对每帧每个频段计算能量，算自相关和互相关
