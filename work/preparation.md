@@ -103,10 +103,10 @@ Background noise reduction 和 Statistical noise reduction 区别是前者是在
 
 ## 硬件
 
-### 改进webrtc aec
+### 简化webrtc aec
 
 fft换成自己的，我们的fft跟原来的相比，需要除以64.不知道为什么
-不能轻易使用malloc，dsp容易溢出
+不能轻易使用malloc，dsp容易溢出，将它们事先放进结构体中，这样直接占用栈空间
 nlp中步长的判决简单化
 
 ### 定点化
