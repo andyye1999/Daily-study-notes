@@ -10,6 +10,8 @@ vv和1-vv 是递归加权的功率谱求法 可以看作IIR滤波器形式
 
 RLS 在频域上不是N * N了 是1 * 1
 
+代码注释在20220515文件夹内
+
 
 
 ![IMG_3137(20220621-195527)](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3137(20220621-195527).3f8ibl5jf120.webp)
