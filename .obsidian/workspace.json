@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "80a02f3df081e14f",
+        "id": "b82a60d11f3389cf",
         "type": "tabs",
         "children": [
           {
-            "id": "1ddbc57389c6c9aa",
+            "id": "4ab2bac0d7488110",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "回声/FDAF自适应滤波器算法综述.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -114,7 +110,7 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "1ddbc57389c6c9aa",
+  "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
     "work/preparation.md",
     "变换/傅里叶变换的多种解释.md",
