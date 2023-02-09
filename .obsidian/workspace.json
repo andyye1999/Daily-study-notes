@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/牛客面经.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -116,8 +116,8 @@
   },
   "active": "4ab2bac0d7488110",
   "lastOpenFiles": [
-    "回声/FDAF自适应滤波器算法综述.md",
     "work/preparation.md",
+    "回声/FDAF自适应滤波器算法综述.md",
     "变换/傅里叶变换的多种解释.md",
     "ANC/SFANC.md",
     "语音增强/语音增强理论与实践.md",
