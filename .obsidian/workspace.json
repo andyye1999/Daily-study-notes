@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "定点化/网络的定点化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "定点化/网络的定点化.md"
               }
             }
           }
@@ -126,12 +127,12 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "310435bda93b46e4",
+  "active": "c3f2c70bf85fd92e",
   "lastOpenFiles": [
+    "work/牛客面经.md",
     "work/面经中的C++.md",
     "work/preparation.md",
     "定点化/网络的定点化.md",
-    "work/牛客面经.md",
     "webrtc/webrtc_ns.md",
     "语音基础/预加重.md",
     "语音基础/线性卷积圆周卷积.md",
