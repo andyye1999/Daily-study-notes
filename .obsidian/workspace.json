@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/牛客面经.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -128,9 +128,9 @@
   },
   "active": "310435bda93b46e4",
   "lastOpenFiles": [
-    "定点化/网络的定点化.md",
-    "work/preparation.md",
     "work/面经中的C++.md",
+    "work/preparation.md",
+    "定点化/网络的定点化.md",
     "work/牛客面经.md",
     "webrtc/webrtc_ns.md",
     "语音基础/预加重.md",
