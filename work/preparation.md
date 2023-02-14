@@ -59,6 +59,8 @@ NLMS滤波器采用10阶系数 也是10个block  原来webrtc是12阶
 webrtc的NSX中fft定点化inst->stages = inst->order 80点->128FFt 为7 160点->256FFT 为8
 FFT的定点化之后的Q值为(norm-stages)
 
+窗函数或者查表的数组浮点为1时，定点为32767，不是32768
+
 # 阵列
 
 [[阵列软著总结]]
