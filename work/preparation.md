@@ -39,7 +39,7 @@ Background noise reduction 和 Statistical noise reduction 区别是前者是在
 
 ### 简化webrtc aec
 
-fft换成自己的，我们的fft跟原来的相比，需要除以64.不知道为什么
+fft换成自己的，我们的fft跟原来的相比，需要除以64.不知道为什么 因为我们的FFT本身就是是真正的FFT/64的 128点FFT是除以64  256点FFT是除以128
 不能轻易使用malloc，dsp容易溢出，将它们事先放进结构体中，这样直接占用栈空间
 nlp中步长的判决简单化
 
