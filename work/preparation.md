@@ -35,6 +35,8 @@ Background noise reduction 和 Statistical noise reduction 区别是前者是在
 
 代码在BCE工程中  md中删除了，防止保密协议
 
+为什么直方图用log，因为为了使容器的容量小，语音波动大，转换成db后波动小
+
 ## 硬件
 
 ### 简化webrtc aec
