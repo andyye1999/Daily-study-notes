@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "c1f9cd4617329829",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
+          },
+          {
             "id": "c3f2c70bf85fd92e",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,14 +130,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "canvas:Create new canvas": false
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "310435bda93b46e4",
+  "active": "c1f9cd4617329829",
   "lastOpenFiles": [
     "定点化/网络的定点化.md",
     "语音增强/频域RLS.md",
