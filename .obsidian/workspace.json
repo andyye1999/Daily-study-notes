@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "语音增强/单通道语音增强.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "语音增强/单通道语音增强.md"
               }
             }
           }
@@ -139,11 +139,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6322a5007686cdb4",
+  "active": "71b42666eb7b16ec",
   "lastOpenFiles": [
+    "语音增强/语音增强理论与实践.md",
     "语音增强/单通道语音增强.md",
     "语音增强/语音增强.md",
-    "语音增强/语音增强理论与实践.md",
     "work/preparation.md",
     "定点化/网络的定点化.md",
     "语音增强/频域RLS.md",
