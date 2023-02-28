@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc_ns.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -151,17 +150,18 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "4a0dc4076519a5c2",
   "lastOpenFiles": [
+    "定点化/定点化AGC长时平滑.md",
+    "work/preparation.md",
+    "webrtc/webrtc_ns.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/单通道语音增强.md",
     "语音增强/语音增强.md",
-    "work/preparation.md",
     "定点化/网络的定点化.md",
     "语音增强/频域RLS.md",
     "work/牛客面经.md",
     "work/面经中的C++.md",
-    "webrtc/webrtc_ns.md",
     "语音基础/预加重.md",
     "语音基础/线性卷积圆周卷积.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
