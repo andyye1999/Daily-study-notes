@@ -13,43 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "语音增强/RNNoise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c54acf5f3d317032",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "work/preparation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71b42666eb7b16ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/单通道语音增强.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6322a5007686cdb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/语音增强理论与实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cce785b2baa438e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "webrtc/webrtc_ns.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "语音增强/RNNoise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "语音增强/RNNoise.md"
               }
             }
           }
@@ -152,13 +128,14 @@
   },
   "active": "4a0dc4076519a5c2",
   "lastOpenFiles": [
-    "骨传导/矢量量化.md",
     "work/preparation.md",
+    "语音增强/RNNoise.md",
+    "语音增强/语音增强理论与实践.md",
+    "语音增强/单通道语音增强.md",
+    "骨传导/矢量量化.md",
     "定点化/平方根.md",
     "webrtc/webrtc_ns.md",
     "定点化/定点化AGC长时平滑.md",
-    "语音增强/语音增强理论与实践.md",
-    "语音增强/单通道语音增强.md",
     "语音增强/语音增强.md",
     "定点化/网络的定点化.md",
     "语音增强/频域RLS.md",
