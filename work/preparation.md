@@ -88,7 +88,7 @@ DIV_32类似，32位的除法
 
 ### 后置滤波
 
-基音滤波 仿照rnnoise 和编解码器中的后置滤波，因为求了基音周期了，看rnnoise中的后置滤波模块[[RNNoise#[RNNoise超详细解读](https://zhuanlan.zhihu.com/p/397288851)]]
+基音滤波 仿照rnnoise 和编解码器中的后置滤波，因为音色增强中求了基音周期了，看rnnoise中的后置滤波模块[[RNNoise#[RNNoise超详细解读](https://zhuanlan.zhihu.com/p/397288851)]]
 
 # 阵列
 
