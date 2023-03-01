@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/preparation.md",
+                "file": "波束形成/阵列软著总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "波束形成/阵列软著总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "波束形成/阵列软著总结.md"
               }
             }
           }
@@ -129,8 +129,8 @@
   },
   "active": "c54acf5f3d317032",
   "lastOpenFiles": [
-    "语音增强/RNNoise.md",
     "work/preparation.md",
+    "语音增强/RNNoise.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/单通道语音增强.md",
     "骨传导/矢量量化.md",
