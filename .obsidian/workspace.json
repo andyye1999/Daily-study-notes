@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "3cf08dc6e1d8a9ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/矢量量化.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "71b42666eb7b16ec",
             "type": "leaf",
             "state": {
@@ -67,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/矢量量化.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/矢量量化.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -163,10 +150,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3cf08dc6e1d8a9ef",
+  "active": "4a0dc4076519a5c2",
   "lastOpenFiles": [
-    "work/preparation.md",
     "骨传导/矢量量化.md",
+    "work/preparation.md",
     "定点化/平方根.md",
     "webrtc/webrtc_ns.md",
     "定点化/定点化AGC长时平滑.md",
