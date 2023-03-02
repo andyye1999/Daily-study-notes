@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/MVDR.md",
+                "file": "波束形成/GSC.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/MVDR.md",
+                "file": "波束形成/GSC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/MVDR.md"
+                "file": "波束形成/GSC.md"
               }
             }
           }
@@ -141,6 +141,7 @@
   },
   "active": "66f9a8ef66e680b8",
   "lastOpenFiles": [
+    "波束形成/MVDR.md",
     "波束形成/阵列基础.md",
     "波束形成/阵列软著总结.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
