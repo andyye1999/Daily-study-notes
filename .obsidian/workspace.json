@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "670b919c7cc8c6ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "波束形成/MVDR后置滤波.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/阵列软著总结.md",
+                "file": "波束形成/MVDR后置滤波.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/阵列软著总结.md"
+                "file": "波束形成/MVDR后置滤波.md"
               }
             }
           }
@@ -114,14 +127,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b9a10b6c5abfdc24",
+  "active": "670b919c7cc8c6ac",
   "lastOpenFiles": [
+    "波束形成/阵列软著总结.md",
+    "波束形成/MVDR后置滤波.md",
     "波束形成/GSC.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "波束形成/差分阵列.md",
     "波束形成/期望声源方向可调的双麦克风降噪.md",
     "Pasted image 20230302195928.png",
-    "波束形成/阵列软著总结.md",
     "波束形成/MVDR.md",
     "波束形成/阵列基础.md",
     "变换/经典小波变换.md",
