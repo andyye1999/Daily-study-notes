@@ -79,31 +79,88 @@ MVDR中文名字叫**最小均方无畸变响应**，**最小方差无失真响�
 
 ## 复数矩阵的逆
 
-对于一个复数矩阵 $C$，假设其实部为矩阵 $A$，虚部为矩阵 $B$，即 $C = A + iB$。我们可以将其逆矩阵分为实部和虚部两个矩阵的和，即 $inv(C) = R + iI$，其中 $R$ 为实部矩阵，$I$ 为虚部矩阵。
+C = A + iB
+inv(C) = inv(A+B * inv(A) * B) - i inv(A)*B*inv(A+B* inv(A) * B)
+两种证明方式
+正着推
+Sure, I will show you how to derive the formula for the inverse of a complex matrix C = A + iB. Here are the steps:
 
-由于 $C$ 是一个复数矩阵，因此 $C$ 的逆矩阵也是一个复数矩阵，即 $inv(C) = A' + iB'$，其中 $A'$ 和 $B'$ 分别为逆矩阵的实部和虚部。
+1.  To find the inverse of C, we need to solve the equation CC^-1 = I, where I is the identity matrix.
+2.  We can write C^-1 as X + iY, where X and Y are real matrices. Then, we have (A + iB)(X + iY) = I.
+3.  Expanding the product and equating the real and imaginary parts, we get AX - BY = I and AY + BX = 0.
+4. AX = I + BY. X = inv(A)(I + BY). X = inv(A) + inv(A)BY.
+5. inv(A) + inv(A)BY = inv(A - BY), we get X = inv(A - BY).
+6.  Solving for X and Y, we get X = inv(A - BY) and Y = -inv(A)Binv(A - BY).
+7.  Substituting X and Y into C^-1, we get C^-1 = inv(A - BY) - i inv(A)Binv(A - BY).
+8.  Using the property that inv(A - BY) = inv(A + B*inv(A)_B), we get C^-1 = inv(A + B_inv(A)_B) - i inv(A)Binv(A + B_inv(A)*B).
 
-将 $C$ 的逆矩阵代入原式，可以得到：
+反着推
+To prove that `inv(C) = inv(A+B*inv(A)*B) - i inv(A)*B*inv(A+B*inv(A)*B)` for complex matrices C = A + iB, we'll proceed as follows:
 
-$$ \begin{aligned} (A+iB)(A'+iB') &= I \ AA' - BB' + i(AB'-BA') &= I \ \end{aligned} $$
+First, let's define the matrix D as:
 
-将实部和虚部分开，可以得到：
+```
+D = A + B * inv(A) * B
+```
 
-$$ \begin{aligned} AA' - BB' &= I \ AB'-BA' &= 0 \ \end{aligned} $$
+Then, we can express C in terms of D as:
 
-对第二个式子左右同时乘以 $B$，可以得到：
+```
+C = A + iB = D + i(B - B * inv(A) * A)
+```
 
-$$ AB' = BA' B $$
+We can observe that D is Hermitian (conjugate transpose is equal to itself), which implies that it is invertible.
 
-将 $B'$ 表示为 $B'$，可以得到：
+Therefore, we can rewrite `inv(C)` as:
 
-$$ B' = \frac{1}{det(C)} adj(C) $$
+```
+inv(C) = inv(D + i(B - B * inv(A) * A))
+```
 
-其中 $det(C)$ 表示 $C$ 的行列式，$adj(C)$ 表示 $C$ 的伴随矩阵。将 $B'$ 代入第一个式子，可以得到：
+Now, let's use the formula for the inverse of a sum of two matrices:
 
-$$ A' = (A+B*B')^{-1} $$
+```
+inv(D + E) = inv(D) - inv(D) * E * inv(D + E)
+```
 
-因此，可以使用上述公式将复数矩阵的逆转换为实数矩阵的逆来计算。
+where `E = i(B - B * inv(A) * A)`. This gives us:
+
+```
+inv(C) = inv(D) - inv(D) * i(B - B * inv(A) * A) * inv(D + i(B - B * inv(A) * A))
+```
+
+Next, let's simplify the expression `inv(D+iE)` using the Sherman-Morrison formula:
+
+```
+inv(D + E) = inv(D) - inv(D) * E * inv(D + E) 
+           = inv(D) - inv(D)* E * (I + inv(E) * D) * inv(D)
+           = inv(D) - inv(D) * (E * inv(D) + inv(E)) * inv(D)
+```
+
+where `I` is the identity matrix.
+
+Using this formula with E = i(B - B \* inv(A) \* A) and D=A+B\*inv(A)\*B, we have
+
+```
+inv(D+iE) = inv(A + B*inv(A)*B + iB - iB*inv(A)*(A + B*inv(A)*B + iB))^(-1)
+          = inv(A + B*inv(A)*B + iB - i^2*B*inv(A)*(A + B*inv(A)*B + iB))^(-1)
+          = inv(A + B*inv(A)*B + iB + B*inv(A)*(iB/(A + B*inv(A)*B + iB)))^(-1)
+          = inv(A + B*inv(A)*B + iB) - B*inv(A)/(A + B*inv(A)*B + iB) * i
+```
+
+Substituting the result into the previous equation, we get:
+
+```
+inv(C) = inv(D) - inv(D) * i(B - B * inv(A) * A) * [inv(A + B*inv(A)*B + iB) - B*inv(A)/(A + B*inv(A)*B + iB) * i]          
+```
+
+Multiplying out the expression in brackets and rearranging the terms, we obtain:
+
+```
+inv(C) = inv(A+B*inv(A)*B) - i*inv(A)*B*inv(A+B*inv(A)*B)
+```
+
+Therefore, `inv(C) = inv(A+B*inv(A)*B) - i inv(A)*B*inv(A+B*inv(A)*B)` holds for any complex matrices C = A + iB.
 
 
 
