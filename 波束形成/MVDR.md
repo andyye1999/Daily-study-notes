@@ -51,7 +51,11 @@ MVDR中文名字叫**最小均方无畸变响应**，**最小方差无失真响�
 
 ## 求逆
 
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20230307/image.4d7fjzr4hlc0.webp)
 
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20230307/image.6kc3e2y5p700.webp)
+
+矩阵加上一个小单位矩阵 
 
 
 
