@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/环形麦克风阵列.md",
+                "file": "波束形成/MVDR后置滤波.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/环形麦克风阵列.md"
+                "file": "波束形成/MVDR后置滤波.md"
               }
             }
           }
@@ -150,11 +151,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1d599202d9ab2571",
+  "active": "29457d070280a6d4",
   "lastOpenFiles": [
+    "波束形成/环形麦克风阵列.md",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
     "波束形成/MVDR后置滤波.md",
-    "波束形成/环形麦克风阵列.md",
     "波束形成/阵列软著总结.md",
     "work/preparation.md",
     "work/牛客面经.md",

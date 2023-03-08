@@ -35,3 +35,7 @@ Zelinski将噪声场假定为非相干噪声场，但是实际场景中如办公
 
 
 ![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.4u5m30xq5li0.webp)
+
+# Lefkin
+
+和硕士论文里类似
