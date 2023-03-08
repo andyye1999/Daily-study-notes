@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f1b809bd49c19885",
+        "id": "295c9a9bad64bd45",
         "type": "tabs",
         "children": [
           {
-            "id": "c98a98d6cc4928a4",
+            "id": "4343559a84ddbedc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/preparation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09800c468b3dd6be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/环形麦克风阵列.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -89,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "work/preparation.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -115,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -126,11 +107,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "c98a98d6cc4928a4",
+  "active": "4343559a84ddbedc",
   "lastOpenFiles": [
-    "定点化/定点化.md",
+    "work/牛客面经.md",
     "work/preparation.md",
+    "work/面经中的C++.md",
+    "脚本/git.md",
     "波束形成/环形麦克风阵列.md",
+    "脚本/批处理.md",
+    "近日计划.md",
+    "定点化/定点化.md",
     "波束形成/MVDR后置滤波.md",
     "语音增强/语音活动检测模块.md",
     "波束形成/阵列软著总结.md",
@@ -149,11 +135,6 @@
     "骨传导/矢量量化.md",
     "定点化/平方根.md",
     "webrtc/webrtc_ns.md",
-    "定点化/定点化AGC长时平滑.md",
-    "语音增强/语音增强.md",
-    "语音增强/频域RLS.md",
-    "work/牛客面经.md",
-    "work/面经中的C++.md",
-    "语音基础/预加重.md"
+    "定点化/定点化AGC长时平滑.md"
   ]
 }
