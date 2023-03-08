@@ -14,8 +14,33 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "1677f3d116f43467",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/preparation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23097597380bb93e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "波束形成/阵列软著总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "波束形成/阵列软著总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "波束形成/阵列软著总结.md"
+              }
             }
           }
         ],
@@ -107,10 +135,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4343559a84ddbedc",
+  "active": "23097597380bb93e",
   "lastOpenFiles": [
-    "work/牛客面经.md",
     "work/preparation.md",
+    "work/牛客面经.md",
     "work/面经中的C++.md",
     "脚本/git.md",
     "波束形成/环形麦克风阵列.md",
