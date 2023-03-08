@@ -56,6 +56,13 @@ Gx1x2(ω)为互频谱，其计算公式为：
 
 其中τ12，τ13通过时延估计得到，因此可以求解公式(11)到(13)的方程组，进而使用正弦定理可以得到θ2和θ3。
 
+# 编程
+
+beamforming中
+最后一步计算时延差时，运用了fftshift函数，做了一个matlab中fftshift函数，fft函数先输出直流分量，然后是正频分量，接着是负频分量
+
+fftshift将频率按负频频率，直流分量，正频分量排列，详情看实时语音处理实践指南P12
+
 # 基于线性预测残差的广义互相关算法
 
 ![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.4cpevdjwbuq0.webp)
