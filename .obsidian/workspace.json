@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/MVDR后置滤波.md",
+                "file": "骨传导/语音转换.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/MVDR后置滤波.md",
+                "file": "骨传导/语音转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/MVDR后置滤波.md"
+                "file": "骨传导/语音转换.md"
               }
             }
           }
@@ -153,9 +153,9 @@
   },
   "active": "29457d070280a6d4",
   "lastOpenFiles": [
+    "波束形成/MVDR后置滤波.md",
     "波束形成/环形麦克风阵列.md",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
-    "波束形成/MVDR后置滤波.md",
     "波束形成/阵列软著总结.md",
     "work/preparation.md",
     "work/牛客面经.md",
