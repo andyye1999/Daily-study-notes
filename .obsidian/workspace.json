@@ -20,48 +20,12 @@
             }
           },
           {
-            "id": "6afe423819513b9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/MVDR后置滤波.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "265bc01ec0c7486d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/带宽扩展.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b2438746b5f7b50d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "波束形成/MVDR后置滤波.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29457d070280a6d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/带宽扩展.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/带宽扩展.md",
+                "file": "波束形成/MVDR后置滤波.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/带宽扩展.md"
+                "file": "波束形成/MVDR后置滤波.md"
               }
             }
           }
@@ -187,14 +151,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "265bc01ec0c7486d",
+  "active": "b2438746b5f7b50d",
   "lastOpenFiles": [
-    "波束形成/MVDR后置滤波.md",
-    "波束形成/环形麦克风阵列.md",
-    "骨传导/带宽扩展.md",
-    "语音增强/语音活动检测模块.md",
     "work/preparation.md",
     "骨传导/语音转换.md",
+    "波束形成/环形麦克风阵列.md",
+    "波束形成/MVDR后置滤波.md",
+    "骨传导/带宽扩展.md",
+    "语音增强/语音活动检测模块.md",
     "波束形成/TDOA进行声源定位.md",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
     "波束形成/阵列软著总结.md",
