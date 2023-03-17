@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "4fefffdc74b70336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/带宽扩展.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b60685d946d5ae6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/语音转换.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1677f3d116f43467",
             "type": "leaf",
             "state": {
@@ -66,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bbe210ffd9d5e61b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "骨传导/恒玄2500.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/带宽扩展.md",
+                "file": "骨传导/恒玄2500.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/带宽扩展.md"
+                "file": "骨传导/恒玄2500.md"
               }
             }
           }
@@ -163,13 +151,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4fefffdc74b70336",
+  "active": "bbe210ffd9d5e61b",
   "lastOpenFiles": [
-    "骨传导/语音转换.md",
-    "波束形成/MVDR后置滤波.md",
     "work/preparation.md",
+    "骨传导/恒玄2500.md",
     "波束形成/环形麦克风阵列.md",
+    "波束形成/MVDR后置滤波.md",
     "骨传导/带宽扩展.md",
+    "骨传导/语音转换.md",
     "语音增强/语音活动检测模块.md",
     "波束形成/TDOA进行声源定位.md",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
@@ -191,7 +180,6 @@
     "变换/经典小波变换.md",
     "语音增强/RNNoise.md",
     "语音增强/语音增强理论与实践.md",
-    "骨传导/矢量量化.md",
-    "定点化/平方根.md"
+    "骨传导/矢量量化.md"
   ]
 }
