@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/恒玄2500.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/恒玄2500.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -151,10 +151,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "bbe210ffd9d5e61b",
+  "active": "1677f3d116f43467",
   "lastOpenFiles": [
-    "work/preparation.md",
     "骨传导/恒玄2500.md",
+    "work/preparation.md",
     "波束形成/环形麦克风阵列.md",
     "波束形成/MVDR后置滤波.md",
     "骨传导/带宽扩展.md",
