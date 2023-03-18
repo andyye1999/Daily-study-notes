@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "eca1b26a62cea249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音增强/语音增强理论与实践.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "47b57a4f127d561f",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/环形麦克风阵列.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/环形麦克风阵列.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -126,10 +139,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1d599202d9ab2571",
+  "active": "eca1b26a62cea249",
   "lastOpenFiles": [
-    "波束形成/MVDR后置滤波.md",
     "波束形成/环形麦克风阵列.md",
+    "波束形成/MVDR后置滤波.md",
     "work/preparation.md",
     "骨传导/恒玄2500.md",
     "Pasted image 20230317231143.png",
