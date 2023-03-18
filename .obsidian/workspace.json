@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b2438746b5f7b50d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/MVDR后置滤波.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1677f3d116f43467",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/preparation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbe210ffd9d5e61b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/恒玄2500.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/恒玄2500.md",
+                "file": "波束形成/环形麦克风阵列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/恒玄2500.md"
+                "file": "波束形成/环形麦克风阵列.md"
               }
             }
           }
@@ -151,12 +114,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "bbe210ffd9d5e61b",
+  "active": "1d599202d9ab2571",
   "lastOpenFiles": [
-    "work/preparation.md",
     "波束形成/MVDR后置滤波.md",
-    "波束形成/环形麦克风阵列.md",
+    "work/preparation.md",
     "骨传导/恒玄2500.md",
+    "Pasted image 20230317231143.png",
+    "波束形成/环形麦克风阵列.md",
     "骨传导/带宽扩展.md",
     "骨传导/语音转换.md",
     "语音增强/语音活动检测模块.md",
@@ -179,7 +143,6 @@
     "波束形成/阵列基础.md",
     "变换/经典小波变换.md",
     "语音增强/RNNoise.md",
-    "语音增强/语音增强理论与实践.md",
-    "骨传导/矢量量化.md"
+    "语音增强/语音增强理论与实践.md"
   ]
 }
