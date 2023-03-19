@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "3a2561f02558f2f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/阵列基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3484d5a6d6ff0d1d",
             "type": "leaf",
             "state": {
@@ -90,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -148,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/se_development.pdf",
+                "file": "波束形成/阵列软著总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/se_development.pdf"
+                "file": "波束形成/阵列软著总结.md"
               }
             }
           }
@@ -185,8 +173,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3484d5a6d6ff0d1d",
+  "active": "d0c6465a8b8eb436",
   "lastOpenFiles": [
+    "波束形成/阵列基础.md",
+    "深度学习/se_development.pdf",
     "语音增强/conv-tasnet.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/语音增强.md",
@@ -197,7 +187,6 @@
     "语音增强/RNNoise.md",
     "深度学习/基于深度学习的语音增强概述.md",
     "深度学习/深度学习中的激活函数.md",
-    "波束形成/阵列基础.md",
     "波束形成/MVDR.md",
     "波束形成/阵列软著总结.md",
     "波束形成/GSC.md",
@@ -214,7 +203,6 @@
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
     "work/牛客面经.md",
     "work/面经中的C++.md",
-    "脚本/git.md",
     "Pasted image 20230302195928.png"
   ]
 }
