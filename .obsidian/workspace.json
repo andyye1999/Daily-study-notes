@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/OMLSA-IMCRA论文.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/OMLSA-IMCRA论文.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -151,10 +151,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "87b44fc5f8ba7244",
+  "active": "eca1b26a62cea249",
   "lastOpenFiles": [
-    "语音增强/语音增强理论与实践.md",
     "语音增强/OMLSA-IMCRA论文.md",
+    "语音增强/语音增强理论与实践.md",
     "波束形成/环形麦克风阵列.md",
     "波束形成/MVDR后置滤波.md",
     "work/preparation.md",
