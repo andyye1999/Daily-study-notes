@@ -56,6 +56,16 @@
             }
           },
           {
+            "id": "3484d5a6d6ff0d1d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "深度学习/se_development.pdf"
+              }
+            }
+          },
+          {
             "id": "87b44fc5f8ba7244",
             "type": "leaf",
             "state": {
@@ -80,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/阵列基础.md",
+                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/阵列基础.md"
+                "file": "深度学习/se_development.pdf"
               }
             }
           }
@@ -175,11 +185,21 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3a2561f02558f2f2",
+  "active": "3484d5a6d6ff0d1d",
   "lastOpenFiles": [
+    "语音增强/conv-tasnet.md",
+    "语音增强/语音增强理论与实践.md",
+    "语音增强/语音增强.md",
+    "语音增强/语音降噪模型归纳汇总.md",
+    "语音增强/基于Mask的语音分离.md",
+    "语音增强/DCCRN.md",
+    "语音增强/PercepNet.md",
+    "语音增强/RNNoise.md",
+    "深度学习/基于深度学习的语音增强概述.md",
+    "深度学习/深度学习中的激活函数.md",
+    "波束形成/阵列基础.md",
     "波束形成/MVDR.md",
     "波束形成/阵列软著总结.md",
-    "语音增强/语音增强理论与实践.md",
     "波束形成/GSC.md",
     "波束形成/MVDR后置滤波.md",
     "语音增强/OMLSA-IMCRA论文.md",
@@ -195,16 +215,6 @@
     "work/牛客面经.md",
     "work/面经中的C++.md",
     "脚本/git.md",
-    "脚本/批处理.md",
-    "近日计划.md",
-    "定点化/定点化.md",
-    "语音增强/单通道语音增强.md",
-    "语音基础/信号的抽取与插值与子带滤波器组.md",
-    "波束形成/差分阵列.md",
-    "波束形成/期望声源方向可调的双麦克风降噪.md",
-    "Pasted image 20230302195928.png",
-    "波束形成/阵列基础.md",
-    "变换/经典小波变换.md",
-    "语音增强/RNNoise.md"
+    "Pasted image 20230302195928.png"
   ]
 }
