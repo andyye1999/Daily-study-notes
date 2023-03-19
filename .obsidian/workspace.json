@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/MVDR后置滤波.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/MVDR后置滤波.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -151,12 +151,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "47b57a4f127d561f",
+  "active": "eca1b26a62cea249",
   "lastOpenFiles": [
+    "波束形成/MVDR后置滤波.md",
+    "波束形成/GSC.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/OMLSA-IMCRA论文.md",
     "波束形成/环形麦克风阵列.md",
-    "波束形成/MVDR后置滤波.md",
     "work/preparation.md",
     "骨传导/恒玄2500.md",
     "Pasted image 20230317231143.png",
@@ -174,7 +175,6 @@
     "定点化/定点化.md",
     "波束形成/MVDR.md",
     "语音增强/单通道语音增强.md",
-    "波束形成/GSC.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "波束形成/差分阵列.md",
     "波束形成/期望声源方向可调的双麦克风降噪.md",
