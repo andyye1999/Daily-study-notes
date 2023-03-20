@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d0c6465a8b8eb436",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/阵列软著总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8bdb8c109e1361f7",
             "type": "leaf",
             "state": {
@@ -54,19 +42,29 @@
             }
           },
           {
-            "id": "47b57a4f127d561f",
+            "id": "63e180cd8d08ae53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/MVDR后置滤波.md",
+                "file": "波束形成/GSC后置滤波.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "7cfe69f1566330e9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "波束形成/波束形成学习笔记发布版本.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "波束形成/波束形成学习笔记发布版本.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "波束形成/波束形成学习笔记发布版本.pdf"
               }
             }
           }
@@ -161,13 +159,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "8bdb8c109e1361f7",
+  "active": "7cfe69f1566330e9",
   "lastOpenFiles": [
-    "波束形成/阵列软著总结.md",
+    "波束形成/GSC后置滤波.md",
     "work/preparation.md",
-    "深度学习/se_development.pdf",
+    "波束形成/阵列软著总结.md",
+    "波束形成/波束形成学习笔记发布版本.pdf",
     "语音增强/OMLSA-IMCRA论文.md",
     "波束形成/MVDR后置滤波.md",
+    "深度学习/se_development.pdf",
     "波束形成/环形麦克风阵列.md",
     "语音增强/语音增强理论与实践.md",
     "波束形成/阵列基础.md",
@@ -190,7 +190,6 @@
     "波束形成/TDOA进行声源定位.md",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
     "work/牛客面经.md",
-    "work/面经中的C++.md",
     "Pasted image 20230302195928.png"
   ]
 }
