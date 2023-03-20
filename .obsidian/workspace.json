@@ -8,36 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d599202d9ab2571",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/环形麦克风阵列.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eca1b26a62cea249",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/语音增强理论与实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d0c6465a8b8eb436",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "波束形成/阵列软著总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8bdb8c109e1361f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/preparation.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/阵列软著总结.md",
+                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/阵列软著总结.md"
+                "file": "深度学习/se_development.pdf"
               }
             }
           }
@@ -173,12 +161,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "d0c6465a8b8eb436",
+  "active": "3484d5a6d6ff0d1d",
   "lastOpenFiles": [
+    "work/preparation.md",
+    "波束形成/阵列软著总结.md",
+    "波束形成/环形麦克风阵列.md",
+    "语音增强/语音增强理论与实践.md",
+    "波束形成/MVDR后置滤波.md",
     "波束形成/阵列基础.md",
     "深度学习/se_development.pdf",
     "语音增强/conv-tasnet.md",
-    "语音增强/语音增强理论与实践.md",
     "语音增强/语音增强.md",
     "语音增强/语音降噪模型归纳汇总.md",
     "语音增强/基于Mask的语音分离.md",
@@ -188,12 +180,8 @@
     "深度学习/基于深度学习的语音增强概述.md",
     "深度学习/深度学习中的激活函数.md",
     "波束形成/MVDR.md",
-    "波束形成/阵列软著总结.md",
     "波束形成/GSC.md",
-    "波束形成/MVDR后置滤波.md",
     "语音增强/OMLSA-IMCRA论文.md",
-    "波束形成/环形麦克风阵列.md",
-    "work/preparation.md",
     "骨传导/恒玄2500.md",
     "Pasted image 20230317231143.png",
     "骨传导/带宽扩展.md",
