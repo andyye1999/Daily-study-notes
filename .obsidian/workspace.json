@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "a835e6f889e95ac1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "深度学习/se_development.pdf"
+              }
+            }
+          },
+          {
             "id": "7cfe69f1566330e9",
             "type": "leaf",
             "state": {
@@ -42,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/GSC后置滤波.md",
+                "file": "波束形成/波束形成学习笔记发布版本.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/GSC后置滤波.md"
+                "file": "波束形成/波束形成学习笔记发布版本.pdf"
               }
             }
           }
@@ -137,16 +147,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "cac2aad009750a00",
+  "active": "7cfe69f1566330e9",
   "lastOpenFiles": [
+    "深度学习/se_development.pdf",
+    "波束形成/GSC后置滤波.md",
     "语音增强/OMLSA-IMCRA论文.md",
     "work/preparation.md",
     "语音增强/单通道语音增强.md",
     "语音增强/语音增强理论与实践.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
-    "波束形成/GSC后置滤波.md",
     "波束形成/MVDR后置滤波.md",
-    "深度学习/se_development.pdf",
     "波束形成/阵列软著总结.md",
     "波束形成/环形麦克风阵列.md",
     "波束形成/阵列基础.md",
