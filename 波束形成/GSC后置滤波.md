@@ -1,5 +1,5 @@
 论文和专利
-结合OMLSA
+结合OMLSA，里面解释了OMLSA中的
 低频比MVDR好，固定波束形成，有指向性
 跟OMLSA增添在
 
