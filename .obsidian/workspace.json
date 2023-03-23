@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/GSC后置滤波.md",
+                "file": "波束形成/波束形成学习笔记发布版本.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/GSC后置滤波.md"
+                "file": "波束形成/波束形成学习笔记发布版本.pdf"
               }
             }
           }
@@ -149,11 +149,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "c86b05d28c5b34a8",
+  "active": "7cfe69f1566330e9",
   "lastOpenFiles": [
+    "波束形成/GSC后置滤波.md",
     "BILSTM.py",
     "波束形成/波束形成学习笔记发布版本.pdf",
-    "波束形成/GSC后置滤波.md",
     "深度学习/se_development.pdf",
     "语音增强/OMLSA-IMCRA论文.md",
     "work/preparation.md",
