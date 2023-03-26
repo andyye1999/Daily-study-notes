@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/单通道语音增强.md",
+                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/单通道语音增强.md"
+                "file": "深度学习/se_development.pdf"
               }
             }
           }
@@ -147,13 +147,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4a6e7ed30d0e0295",
+  "active": "49e166bfb621cc56",
   "lastOpenFiles": [
+    "语音增强/单通道语音增强.md",
     "深度学习/se_development.pdf",
     "波束形成/GSC后置滤波.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
     "波束形成/MVDR.md",
-    "语音增强/单通道语音增强.md",
     "BILSTM.py",
     "语音增强/OMLSA-IMCRA论文.md",
     "work/preparation.md",
