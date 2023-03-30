@@ -35,9 +35,11 @@
             "id": "49e166bfb621cc56",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "深度学习/se_development.pdf"
+                "file": "语音增强/DCCRN.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -54,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/DPRNN.md",
+                "file": "语音增强/DCCRN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/DPRNN.md"
+                "file": "语音增强/DCCRN.md"
               }
             }
           }
@@ -149,13 +151,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7cfe69f1566330e9",
+  "active": "49e166bfb621cc56",
   "lastOpenFiles": [
+    "深度学习/se_development.pdf",
+    "语音增强/DPRNN.md",
     "深度学习/深度学习.md",
     "Pasted image 20230328170904.png",
     "波束形成/波束形成学习笔记发布版本.pdf",
     "语音增强/单通道语音增强.md",
-    "深度学习/se_development.pdf",
     "波束形成/GSC后置滤波.md",
     "波束形成/MVDR.md",
     "BILSTM.py",
@@ -180,8 +183,6 @@
     "Pasted image 20230317231143.png",
     "骨传导/带宽扩展.md",
     "骨传导/语音转换.md",
-    "语音增强/语音活动检测模块.md",
-    "波束形成/TDOA进行声源定位.md",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
     "Pasted image 20230302195928.png"
   ]
