@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/深度学习.md",
+                "file": "语音增强/DPRNN.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/深度学习.md",
+                "file": "语音增强/DPRNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/深度学习.md"
+                "file": "语音增强/DPRNN.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "7cfe69f1566330e9",
   "lastOpenFiles": [
+    "深度学习/深度学习.md",
     "Pasted image 20230328170904.png",
     "波束形成/波束形成学习笔记发布版本.pdf",
     "语音增强/单通道语音增强.md",
