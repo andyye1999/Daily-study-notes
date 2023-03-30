@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "295c9a9bad64bd45",
+        "id": "425986f593300411",
         "type": "tabs",
         "children": [
           {
-            "id": "5961ad32fea8fd83",
+            "id": "4fa67b12d4507e97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音增强/OMLSA-IMCRA论文.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7cfe69f1566330e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/DPRNN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49e166bfb621cc56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/DCCRN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a6e7ed30d0e0295",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/单通道语音增强.md",
+                "file": "骨传导/骨导映射.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/DCCRN.md",
+                "file": "骨传导/骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/DCCRN.md"
+                "file": "骨传导/骨导映射.md"
               }
             }
           }
@@ -151,8 +114,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "49e166bfb621cc56",
+  "active": "4fa67b12d4507e97",
   "lastOpenFiles": [
+    "语音增强/DCCRN.md",
+    "骨传导/骨导映射.md",
     "深度学习/se_development.pdf",
     "语音增强/DPRNN.md",
     "深度学习/深度学习.md",
@@ -173,7 +138,6 @@
     "语音增强/语音增强.md",
     "语音增强/语音降噪模型归纳汇总.md",
     "语音增强/基于Mask的语音分离.md",
-    "语音增强/DCCRN.md",
     "语音增强/PercepNet.md",
     "语音增强/RNNoise.md",
     "深度学习/基于深度学习的语音增强概述.md",
