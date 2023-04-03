@@ -11,11 +11,9 @@
             "id": "4fa67b12d4507e97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "骨传导/骨导映射.md",
-                "mode": "source",
-                "source": false
+                "file": "深度学习/se_development.pdf"
               }
             }
           }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/骨导映射.md",
+                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/骨导映射.md"
+                "file": "深度学习/se_development.pdf"
               }
             }
           }
@@ -116,8 +114,8 @@
   },
   "active": "4fa67b12d4507e97",
   "lastOpenFiles": [
-    "语音增强/DCCRN.md",
     "骨传导/骨导映射.md",
+    "语音增强/DCCRN.md",
     "深度学习/se_development.pdf",
     "语音增强/DPRNN.md",
     "深度学习/深度学习.md",
