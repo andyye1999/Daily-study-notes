@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/GSC后置滤波.md",
+                "file": "波束形成/阵列基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/GSC后置滤波.md",
+                "file": "波束形成/阵列基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/GSC后置滤波.md"
+                "file": "波束形成/阵列基础.md"
               }
             }
           }
@@ -129,14 +129,15 @@
   },
   "active": "bcd548a8409dfec5",
   "lastOpenFiles": [
-    "波束形成/环形麦克风阵列.md",
+    "波束形成/阵列软著总结.md",
     "波束形成/阵列基础.md",
+    "波束形成/GSC后置滤波.md",
+    "波束形成/环形麦克风阵列.md",
     "波束形成/皮尔森系数.md",
     "波束形成/TDOA进行声源定位.md",
     "波束形成/MVDR后置滤波.md",
     "波束形成/MVDR.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
-    "波束形成/GSC后置滤波.md",
     "骨传导/深度学习骨导映射.md",
     "骨传导/语音转换.md",
     "深度学习/se_development.pdf",
@@ -149,7 +150,6 @@
     "语音增强/OMLSA-IMCRA论文.md",
     "work/preparation.md",
     "语音增强/语音增强理论与实践.md",
-    "波束形成/阵列软著总结.md",
     "语音增强/conv-tasnet.md",
     "语音增强/语音增强.md",
     "语音增强/语音降噪模型归纳汇总.md",
