@@ -11,11 +11,9 @@
             "id": "bcd548a8409dfec5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
-                "mode": "source",
-                "source": false
+                "file": "波束形成/波束形成学习笔记发布版本.pdf"
               }
             }
           }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "波束形成/波束形成学习笔记发布版本.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "波束形成/波束形成学习笔记发布版本.pdf"
               }
             }
           }
@@ -116,6 +114,7 @@
   },
   "active": "bcd548a8409dfec5",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
     "波束形成/阵列基础.md",
     "语音增强/conv-tasnet.md",
     "语音增强/OMLSA-IMCRA论文.md",
@@ -127,7 +126,6 @@
     "波束形成/MVDR后置滤波.md",
     "波束形成/MVDR.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
-    "骨传导/深度学习骨导映射.md",
     "骨传导/语音转换.md",
     "深度学习/se_development.pdf",
     "语音增强/DCCRN.md",
