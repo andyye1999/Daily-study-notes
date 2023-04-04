@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29e99fda4b1321d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/GSC后置滤波.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bcd548a8409dfec5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "波束形成/阵列基础.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "波束形成/阵列基础.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "波束形成/阵列基础.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -129,9 +116,11 @@
   },
   "active": "bcd548a8409dfec5",
   "lastOpenFiles": [
-    "波束形成/阵列软著总结.md",
     "波束形成/阵列基础.md",
+    "语音增强/conv-tasnet.md",
+    "语音增强/OMLSA-IMCRA论文.md",
     "波束形成/GSC后置滤波.md",
+    "波束形成/阵列软著总结.md",
     "波束形成/环形麦克风阵列.md",
     "波束形成/皮尔森系数.md",
     "波束形成/TDOA进行声源定位.md",
@@ -147,10 +136,8 @@
     "Pasted image 20230328170904.png",
     "语音增强/单通道语音增强.md",
     "BILSTM.py",
-    "语音增强/OMLSA-IMCRA论文.md",
     "work/preparation.md",
     "语音增强/语音增强理论与实践.md",
-    "语音增强/conv-tasnet.md",
     "语音增强/语音增强.md",
     "语音增强/语音降噪模型归纳汇总.md",
     "语音增强/基于Mask的语音分离.md",
