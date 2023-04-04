@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "变换/fft与实数fft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "901d8b97e58d631f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "work/牛客面经.md",
                 "mode": "source",
                 "source": false
@@ -77,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "变换/fft与实数fft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "变换/fft与实数fft.md"
               }
             }
           }
@@ -116,6 +128,10 @@
   },
   "active": "bcd548a8409dfec5",
   "lastOpenFiles": [
+    "work/牛客面经.md",
+    "work/面经中的C++.md",
+    "变换/fft与实数fft.md",
+    "work/preparation.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
     "骨传导/深度学习骨导映射.md",
     "波束形成/阵列基础.md",
@@ -136,15 +152,12 @@
     "Pasted image 20230328170904.png",
     "语音增强/单通道语音增强.md",
     "BILSTM.py",
-    "work/preparation.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/语音增强.md",
     "语音增强/语音降噪模型归纳汇总.md",
     "语音增强/基于Mask的语音分离.md",
     "语音增强/PercepNet.md",
     "语音增强/RNNoise.md",
-    "深度学习/基于深度学习的语音增强概述.md",
-    "深度学习/深度学习中的激活函数.md",
     "Pasted image 20230317231143.png",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
     "Pasted image 20230302195928.png"
