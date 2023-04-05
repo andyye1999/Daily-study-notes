@@ -177,6 +177,7 @@
   "lastOpenFiles": [
     "语音基础/语音信号基础知识.md",
     "work/牛客面经.md",
+    "语音基础/预加重.md",
     "深度学习/深度学习.md",
     "work/面经中的C++.md",
     "深度学习/深度学习中的激活函数.md",
@@ -203,7 +204,6 @@
     "语音增强/DCCRN.md",
     "语音增强/DPRNN.md",
     "Pasted image 20230328170904.png",
-    "语音增强/单通道语音增强.md",
     "BILSTM.py",
     "Pasted image 20230317231143.png",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
