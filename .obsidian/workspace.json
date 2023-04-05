@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "08ada8eb35a272ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "深度学习/深度学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3e9039c91fd87371",
             "type": "leaf",
             "state": {
@@ -173,7 +185,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3e9039c91fd87371",
+  "active": "08ada8eb35a272ba",
   "lastOpenFiles": [
     "work/牛客面经.md",
     "深度学习/深度学习.md",
