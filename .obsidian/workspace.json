@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -129,8 +129,8 @@
   },
   "active": "901d8b97e58d631f",
   "lastOpenFiles": [
-    "变换/fft与实数fft.md",
     "work/牛客面经.md",
+    "变换/fft与实数fft.md",
     "work/面经中的C++.md",
     "work/preparation.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
