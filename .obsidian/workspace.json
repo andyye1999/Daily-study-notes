@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "87a63c2cfa74b74a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/语音信号基础知识.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2d43decd4884733d",
             "type": "leaf",
             "state": {
@@ -54,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "语音基础/语音信号基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "语音基础/语音信号基础知识.md"
               }
             }
           }
@@ -149,10 +161,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6c59508d21d38299",
+  "active": "87a63c2cfa74b74a",
   "lastOpenFiles": [
-    "work/面经中的C++.md",
     "work/牛客面经.md",
+    "语音基础/语音信号基础知识.md",
+    "深度学习/深度学习.md",
+    "work/面经中的C++.md",
     "深度学习/深度学习中的激活函数.md",
     "脚本/重采样.md",
     "骨传导/深度学习骨导映射.md",
@@ -176,11 +190,9 @@
     "骨传导/语音转换.md",
     "语音增强/DCCRN.md",
     "语音增强/DPRNN.md",
-    "深度学习/深度学习.md",
     "Pasted image 20230328170904.png",
     "语音增强/单通道语音增强.md",
     "BILSTM.py",
-    "语音增强/语音增强理论与实践.md",
     "Pasted image 20230317231143.png",
     "webrtc/A9Rw89rxt_3sv59o_6kk.tmp",
     "Pasted image 20230302195928.png"
