@@ -20,48 +20,24 @@
             }
           },
           {
+            "id": "b384a7a9bcf71b98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/MFCC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6c59508d21d38299",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "work/牛客面经.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec46c1b26b1c7898",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音基础/语音信号基础知识.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08ada8eb35a272ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深度学习/深度学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d43decd4884733d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/面经中的C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,14 +151,15 @@
   },
   "active": "6c59508d21d38299",
   "lastOpenFiles": [
-    "语音基础/语音信号基础知识.md",
+    "语音基础/MFCC.md",
     "work/牛客面经.md",
+    "骨传导/深度学习骨导映射.md",
+    "语音基础/语音信号基础知识.md",
     "语音基础/预加重.md",
     "深度学习/深度学习.md",
     "work/面经中的C++.md",
     "深度学习/深度学习中的激活函数.md",
     "脚本/重采样.md",
-    "骨传导/深度学习骨导映射.md",
     "脚本/文件名.md",
     "脚本/批处理.md",
     "脚本/分离左右声道.md",
@@ -202,7 +179,6 @@
     "波束形成/MVDR.md",
     "骨传导/语音转换.md",
     "语音增强/DCCRN.md",
-    "语音增强/DPRNN.md",
     "Pasted image 20230328170904.png",
     "BILSTM.py",
     "Pasted image 20230317231143.png",
