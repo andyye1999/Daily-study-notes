@@ -20,24 +20,36 @@
             }
           },
           {
-            "id": "b384a7a9bcf71b98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音基础/MFCC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6c59508d21d38299",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "work/牛客面经.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0068ef8016281838",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音增强/conv-tasnet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc86124ce1fb206e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "深度学习/深度学习中的激活函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,14 +163,15 @@
   },
   "active": "6c59508d21d38299",
   "lastOpenFiles": [
-    "语音基础/MFCC.md",
+    "语音增强/conv-tasnet.md",
     "work/牛客面经.md",
+    "深度学习/深度学习中的激活函数.md",
+    "语音基础/MFCC.md",
     "骨传导/深度学习骨导映射.md",
     "语音基础/语音信号基础知识.md",
     "语音基础/预加重.md",
     "深度学习/深度学习.md",
     "work/面经中的C++.md",
-    "深度学习/深度学习中的激活函数.md",
     "脚本/重采样.md",
     "脚本/文件名.md",
     "脚本/批处理.md",
@@ -168,7 +181,6 @@
     "变换/fft与实数fft.md",
     "波束形成/波束形成学习笔记发布版本.pdf",
     "波束形成/阵列基础.md",
-    "语音增强/conv-tasnet.md",
     "语音增强/OMLSA-IMCRA论文.md",
     "波束形成/GSC后置滤波.md",
     "波束形成/阵列软著总结.md",
