@@ -7,6 +7,11 @@ SI-SNR 是[scale](https://so.csdn.net/so/search?q=scale&spm=1001.2101.3001.7020)
 ![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220920/image.19zvvnqhaiww.webp)
 
 
+向量的内积，其几何意义是什么？
+
+**答：表征两个向量的夹角，表征一个向量在另一个向量上的投影**
+所以L2范数是做向量内积，求投影，对应图片的投影
+
 ```python
 def l2_norm(s1, s2):
     norm = torch.sum(s1 * s2, -1, keepdim=True)
