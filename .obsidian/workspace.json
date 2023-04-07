@@ -65,7 +65,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -160,12 +161,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "901d8b97e58d631f",
+  "active": "4af89b766bb3a398",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
     "work/牛客面经.md",
     "[模型训练——Loss函数.md",
     "语音增强/conv-tasnet.md",
-    "骨传导/深度学习骨导映射.md",
     "深度学习/深度学习中的激活函数.md",
     "语音基础/MFCC.md",
     "语音基础/语音信号基础知识.md",
