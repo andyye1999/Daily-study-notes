@@ -1,5 +1,5 @@
 
-平滑处理，相当于IIR形式 rab 互相关 raa 自相关 其中参考信号d(n)相当于bone_buf
+平滑处理，相当于**IIR形式** rab 互相关 raa 自相关 其中参考信号d(n)相当于bone_buf
 RLS自适应滤波器的输入信号x(n)为air_buf参考麦信号 e(n)=d(n)-h(n)*x(n)  即e(n)=bone(n)-h(n)*air(n)  h(n)为RLS滤波器系数   
 RLS中 h(n)迭代公式为 Rm(n)^-1 x Dm(n) 其中Rm(n)为x(n)的自相关函数 Dm(n)为x(n)与d(n)的互相关函数 
 在频域是矩阵乘法 矩阵的逆 在频域就是向量相乘和相除 
@@ -12,12 +12,28 @@ RLS 在频域上不是N * N了 是1 * 1
 
 代码注释在20220515文件夹内
 
+```c
+st->rab[2 * j] = vv * st->rab[2 * j] + alpha * (x[2 * j] * d[2 * j] + x[2 * j + 1] * d[2 * j + 1]);
+		st->rab[2 * j + 1] = vv * st->rab[2 * j + 1] + alpha * (-x[2 * j + 1] * d[2 * j] + x[2 * j] * d[2 * j + 1]);
+		st->raa[j] = vv * st->raa[j] + alpha * (x[2 * j] * x[2 * j] + x[2 * j + 1] * x[2 * j + 1]);
 
+		err[2 * j] = d[2 * j] - (x[2 * j] * st->rab[2 * j] - x[2 * j + 1] * st->rab[2 * j + 1]) / st->raa[j];   // ���ƹ�ʽ����������棬��Ƶ����ǳ���
+		err[2 * j + 1] = d[2 * j + 1] - (x[2 * j + 1] * st->rab[2 * j] + x[2 * j] * st->rab[2 * j + 1]) / st->raa[j];
+```
 
 ![IMG_3137(20220621-195527)](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3137(20220621-195527).3f8ibl5jf120.webp)
+
+
 ![IMG_3136](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3136.4h06ez76mx0.webp)
+
+
 ![IMG_3025](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3025.72t7ux5sarg0.webp)
+
+
+
 ![IMG_3026](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3026.1ptp2u0i8ds0.webp)
+
+
 ![IMG_3027](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3027.48cglv2c9ci0.webp)
 ![IMG_3029](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3029.3x7t7f4cxdi0.webp)
 ![IMG_3028](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3028.3fqtmw8xnfg0.webp)
