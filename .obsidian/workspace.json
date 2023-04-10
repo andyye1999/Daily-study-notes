@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "语音增强/语音活动检测模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "语音增强/语音活动检测模块.md"
               }
             }
           }
@@ -150,15 +151,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ae26d83620b7748e",
+  "active": "9560ccfc7695f2e5",
   "lastOpenFiles": [
+    "Pasted image 20230410165303.png",
+    "work/preparation.md",
     "语音增强/语音活动检测模块.md",
     "语音增强/频域RLS.md",
     "work/牛客面经.md",
     "语音增强/平滑之收敛时间计算.md",
     "语音基础/OLA & OLS.md",
     "语音基础/MFCC.md",
-    "work/preparation.md",
     "语音基础/预加重.md",
     "语音基础/信号与系统知识点.md",
     "深度学习/基于深度学习的语音增强概述.md",
@@ -178,7 +180,6 @@
     "语音基础/短时傅里叶变换.md",
     "骨传导/语音转换.md",
     "[模型训练——Loss函数.md",
-    "语音增强/conv-tasnet.md",
     "深度学习/se_development.pdf",
     "波束形成/波束形成学习笔记发布版本.pdf",
     "Pasted image 20230328170904.png",
