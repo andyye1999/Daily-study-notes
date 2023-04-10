@@ -77,6 +77,29 @@ FFT的定点化之后的Q值为(norm-stages)
 log函数怎么实现看那个定点化文档的PDF，最后有详细解释
 log10(x) = log10(2) *  log2(x)
 
+```c
+// lmagn(i)=log(magn(i))=log(2)*log2(magn(i))
+  // magn is in Q(-stages), and the real lmagn values are:
+  // real_lmagn(i)=log(magn(i)*2^stages)=log(magn(i))+log(2^stages)
+  // lmagn in Q8
+zeros = WebRtcSpl_NormU32((uint32_t)magn[i]);
+      frac = (int16_t)((((uint32_t)magn[i] << zeros)
+                              & 0x7FFFFFFF) >> 23);
+      // log2(magn(i))
+      assert(frac < 256);
+      log2 = (int16_t)(((31 - zeros) << 8)
+                             + WebRtcNsx_kLogTableFrac[frac]);
+      // log2(magn(i))*log(2)
+      lmagn[i] = (int16_t)WEBRTC_SPL_MUL_16_16_RSFT(log2, log2_const, 15);
+      // + log(2^stages)
+      lmagn[i] += logval;
+      frac的计算方法是将magn(i)左移zeros位，然后将结果的31位取出来，再右移23位，这样就得到了magn(i)的分数部分。最后，frac的值被用来查表，得到log2(magn(i))的分数部分的值。
+```
+
+
+![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230410/image.tesssc4czc0.webp)
+
+
 用电脑去模拟指令集，芯片是恒玄2500，arm指令集。32位分为高16位低16位
 basic_op.c 这个文件中有以下几种函数：
 
