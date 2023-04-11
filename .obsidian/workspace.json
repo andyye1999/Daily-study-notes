@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "032785e0f8610dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/自适应滤波.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b6244735ebc09ab3",
             "type": "leaf",
             "state": {
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "变换/fft与实数fft.md",
+                "file": "语音基础/自适应滤波.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "变换/fft与实数fft.md"
+                "file": "语音基础/自适应滤波.md"
               }
             }
           }
@@ -175,9 +187,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b6244735ebc09ab3",
+  "active": "032785e0f8610dc5",
   "lastOpenFiles": [
     "work/牛客面经.md",
+    "语音基础/自适应滤波.md",
+    "语音增强/频域RLS.md",
+    "语音增强/频域维纳滤波.md",
     "变换/fft与实数fft.md",
     "work/preparation.md",
     "骨传导/矢量量化.md",
@@ -186,13 +201,11 @@
     "课程笔记/现代数字信号处理课程笔记.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/单通道语音增强.md",
-    "语音增强/频域维纳滤波.md",
     "定点化/定点化.md",
     "语音增强/语音活动检测模块.md",
     "语音增强/语音增强.md",
     "语音增强/语音降噪模型归纳汇总.md",
     "Pasted image 20230410165303.png",
-    "语音增强/频域RLS.md",
     "语音增强/平滑之收敛时间计算.md",
     "语音基础/OLA & OLS.md",
     "语音基础/MFCC.md",
@@ -204,7 +217,6 @@
     "定点化/平方根.md",
     "变换/语音信号线性预测(LPC).md",
     "骨传导/深度学习骨导映射.md",
-    "语音基础/语音信号基础知识.md",
     "定点化/定点化基础.pdf",
     "深度学习/se_development.pdf",
     "波束形成/波束形成学习笔记发布版本.pdf",
