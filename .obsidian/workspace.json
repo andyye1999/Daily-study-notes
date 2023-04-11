@@ -20,6 +20,40 @@
             }
           },
           {
+            "id": "4e21c3be903a79e8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "课程笔记/数字信号处理课程笔记.pdf"
+              }
+            }
+          },
+          {
+            "id": "8c213bd95121f255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd499b29aabe6bf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程笔记/现代数字信号处理课程笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "20f6981ac3a2bf30",
             "type": "leaf",
             "state": {
@@ -42,21 +76,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "812c727e6f5e15b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/单通道语音增强.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "课程笔记/数字信号处理课程笔记.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "课程笔记/数字信号处理课程笔记.pdf"
               }
             }
           }
@@ -151,14 +173,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f40c20fb7318253a",
+  "active": "4e21c3be903a79e8",
   "lastOpenFiles": [
-    "语音增强/频域维纳滤波.md",
+    "语音基础/信号的抽取与插值与子带滤波器组.md",
+    "课程笔记/现代数字信号处理课程笔记.md",
+    "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/单通道语音增强.md",
+    "课程笔记/数字信号处理课程笔记.pdf",
     "work/preparation.md",
+    "语音增强/频域维纳滤波.md",
     "定点化/定点化.md",
-    "work/牛客面经.md",
     "语音增强/语音活动检测模块.md",
     "语音增强/语音增强.md",
     "语音增强/语音降噪模型归纳汇总.md",
@@ -179,8 +204,6 @@
     "语音基础/PCM WAV.md",
     "定点化/定点化基础.pdf",
     "深度学习/深度学习.md",
-    "骨传导/矢量量化.md",
-    "语音基础/信号的抽取与插值与子带滤波器组.md",
     "深度学习/se_development.pdf",
     "波束形成/波束形成学习笔记发布版本.pdf",
     "Pasted image 20230328170904.png",
