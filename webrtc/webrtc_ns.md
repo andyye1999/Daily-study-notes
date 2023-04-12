@@ -655,6 +655,7 @@ static void ComputeSpectralFlatness(NoiseSuppressionC* self,
 
 ## ComputeSpectralDifference() 计算频谱差异度
 计算频谱差异度噪声频谱比语音频谱更稳定，因此，假设噪声频谱体形状在任何给定阶段都倾向于保持相同，  
+噪声频谱在语音概率低的时候更新
 此特征用于测量输入频谱与噪声频谱形状的偏差。
 先定义五个变量：avgMagn/varMagn （magnitude的均值和方差均值）和avgPause/varPause（conservative noise spectrum的均值和方差均值），以及covMagnPause（magn和pause的协方差均值）
 ![](https://img2020.cnblogs.com/blog/1181527/202111/1181527-20211109075219055-67712467.png)
