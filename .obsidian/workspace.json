@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "73a419322313bfd3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "webrtc/WebRTC_NS单通道降噪.pdf"
+              }
+            }
+          },
+          {
             "id": "20f6981ac3a2bf30",
             "type": "leaf",
             "state": {
@@ -68,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "webrtc/WebRTC_NS单通道降噪.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc_ns.md"
+                "file": "webrtc/WebRTC_NS单通道降噪.pdf"
               }
             }
           }
@@ -163,10 +173,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1b995e884c1f8bbe",
+  "active": "73a419322313bfd3",
   "lastOpenFiles": [
-    "课程笔记/现代数字信号处理课程笔记.md",
     "webrtc/webrtc_ns.md",
+    "课程笔记/现代数字信号处理课程笔记.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音增强/频域RLS.md",
     "work/牛客面经.md",
