@@ -46,5 +46,3 @@ st->rab[2 * j] = vv * st->rab[2 * j] + alpha * (x[2 * j] * d[2 * j] + x[2 * j + 
 
 # PPT
 
-
-![2](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230411/2.661puvnc14g0.webp)
