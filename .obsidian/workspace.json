@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "骨传导/SEANET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "骨传导/SEANET.md"
               }
             }
           }
@@ -187,10 +187,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "20f6981ac3a2bf30",
+  "active": "c047463220340359",
   "lastOpenFiles": [
-    "深度学习/深度学习中的激活函数.md",
     "work/牛客面经.md",
+    "深度学习/深度学习中的激活函数.md",
     "work/preparation.md",
     "骨传导/语音转换.md",
     "webrtc/webrtc_ns.md",
