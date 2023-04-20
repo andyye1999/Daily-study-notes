@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/语音转换.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/语音转换.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -175,17 +175,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "16394395d8a1f395",
+  "active": "20f6981ac3a2bf30",
   "lastOpenFiles": [
+    "深度学习/深度学习.md",
     "work/牛客面经.md",
-    "骨传导/深度学习骨导映射.md",
+    "work/preparation.md",
     "语音增强/语音增强理论与实践.md",
+    "骨传导/语音转换.md",
+    "骨传导/深度学习骨导映射.md",
     "深度学习/深度学习中的激活函数.md",
     "骨传导/SEANET.md",
-    "work/preparation.md",
-    "骨传导/语音转换.md",
     "webrtc/webrtc_ns.md",
-    "深度学习/深度学习.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "语音增强/频域RLS.md",
     "课程笔记/现代数字信号处理课程笔记.md",
