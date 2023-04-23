@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/乒乓buffer.md",
+                "file": "骨传导/语音转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/乒乓buffer.md"
+                "file": "骨传导/语音转换.md"
               }
             }
           }
@@ -163,16 +163,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "400171ea6f32af8e",
+  "active": "e461008b0b88f0b3",
   "lastOpenFiles": [
-    "深度学习/se_development.pdf",
-    "骨传导/乒乓buffer.md",
-    "骨传导/语音转换.md",
     "work/preparation.md",
+    "work/牛客面经.md",
+    "骨传导/乒乓buffer.md",
+    "深度学习/se_development.pdf",
+    "骨传导/语音转换.md",
     "骨传导/带宽扩展.md",
     "骨传导/深度学习骨导映射.md",
     "骨传导/SEANET.md",
-    "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
     "骨传导/矢量量化.md",
     "[深度学习中Dropout原理解析.md",
