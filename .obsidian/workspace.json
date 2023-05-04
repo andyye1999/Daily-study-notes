@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/语音转换.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/语音转换.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -161,12 +161,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e461008b0b88f0b3",
+  "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
+    "面经/哲库codec实习.md",
+    "骨传导/语音转换.md",
+    "面经",
     "课程笔记/数字信号处理课程笔记.pdf",
     "骨传导/SEANET.md",
     "work/preparation.md",
-    "骨传导/语音转换.md",
     "work/牛客面经.md",
     "骨传导/乒乓buffer.md",
     "深度学习/se_development.pdf",
