@@ -54,6 +54,18 @@
             }
           },
           {
+            "id": "1f6981c649c108cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面经/哲库codec实习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f40c20fb7318253a",
             "type": "leaf",
             "state": {
@@ -66,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "面经/哲库codec实习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "面经/哲库codec实习.md"
               }
             }
           }
@@ -161,15 +173,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "1f6981c649c108cb",
   "lastOpenFiles": [
+    "work/牛客面经.md",
+    "work/preparation.md",
     "面经/哲库codec实习.md",
     "骨传导/语音转换.md",
     "面经",
     "课程笔记/数字信号处理课程笔记.pdf",
     "骨传导/SEANET.md",
-    "work/preparation.md",
-    "work/牛客面经.md",
     "骨传导/乒乓buffer.md",
     "深度学习/se_development.pdf",
     "骨传导/带宽扩展.md",
