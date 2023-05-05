@@ -54,14 +54,12 @@
             }
           },
           {
-            "id": "a1df379bea0c5104",
+            "id": "b5e069e1fde07220",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "work/面经中的C++.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.2.7"
               }
             }
           },
@@ -115,6 +113,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "a6348b1a2dfc5466",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -136,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -173,11 +179,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "a1df379bea0c5104",
+  "active": "b5e069e1fde07220",
   "lastOpenFiles": [
+    "work/preparation.md",
+    "语音增强/语音增强理论与实践.md",
+    "work/面经中的C++.md",
     "work/牛客面经.md",
     "面经/哲库codec实习.md",
-    "work/preparation.md",
     "骨传导/语音转换.md",
     "面经",
     "课程笔记/数字信号处理课程笔记.pdf",
@@ -186,7 +194,6 @@
     "深度学习/se_development.pdf",
     "骨传导/带宽扩展.md",
     "骨传导/深度学习骨导映射.md",
-    "语音增强/语音增强理论与实践.md",
     "骨传导/矢量量化.md",
     "[深度学习中Dropout原理解析.md",
     "深度学习/深度学习.md",
@@ -204,7 +211,6 @@
     "定点化/定点化.md",
     "语音增强/语音活动检测模块.md",
     "语音增强/语音增强.md",
-    "语音增强/语音降噪模型归纳汇总.md",
     "Pasted image 20230410165303.png",
     "定点化/定点化基础.pdf",
     "波束形成/波束形成学习笔记发布版本.pdf",
