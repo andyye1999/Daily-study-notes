@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "6882d378eca2eb58",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "课程笔记/数字信号处理课程笔记.pdf"
-              }
-            }
-          },
-          {
             "id": "11d27cf93c4f87d4",
             "type": "leaf",
             "state": {
@@ -54,12 +44,26 @@
             }
           },
           {
-            "id": "b5e069e1fde07220",
+            "id": "5de651a21230a9cc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.7"
+                "file": "深度学习/深度学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6327d5ed06274442",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -76,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "深度学习/深度学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "深度学习/深度学习.md"
               }
             }
           }
@@ -179,16 +183,18 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b5e069e1fde07220",
+  "active": "5de651a21230a9cc",
   "lastOpenFiles": [
+    "work/牛客面经.md",
+    "语音基础/信号的抽取与插值与子带滤波器组.md",
+    "语音基础/语音信号基础知识.md",
+    "课程笔记/数字信号处理课程笔记.pdf",
+    "骨传导/语音转换.md",
     "work/preparation.md",
     "语音增强/语音增强理论与实践.md",
     "work/面经中的C++.md",
-    "work/牛客面经.md",
     "面经/哲库codec实习.md",
-    "骨传导/语音转换.md",
     "面经",
-    "课程笔记/数字信号处理课程笔记.pdf",
     "骨传导/SEANET.md",
     "骨传导/乒乓buffer.md",
     "深度学习/se_development.pdf",
@@ -202,7 +208,6 @@
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "语音增强/频域RLS.md",
     "课程笔记/现代数字信号处理课程笔记.md",
-    "语音基础/信号的抽取与插值与子带滤波器组.md",
     "变换/fft与实数fft.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "语音基础/自适应滤波.md",
@@ -210,7 +215,6 @@
     "语音增强/单通道语音增强.md",
     "定点化/定点化.md",
     "语音增强/语音活动检测模块.md",
-    "语音增强/语音增强.md",
     "Pasted image 20230410165303.png",
     "定点化/定点化基础.pdf",
     "波束形成/波束形成学习笔记发布版本.pdf",
