@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/深度学习.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/深度学习.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -183,8 +183,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "5de651a21230a9cc",
+  "active": "11d27cf93c4f87d4",
   "lastOpenFiles": [
+    "深度学习/深度学习.md",
     "work/牛客面经.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "语音基础/语音信号基础知识.md",
@@ -202,7 +203,6 @@
     "骨传导/深度学习骨导映射.md",
     "骨传导/矢量量化.md",
     "[深度学习中Dropout原理解析.md",
-    "深度学习/深度学习.md",
     "深度学习/深度学习中的激活函数.md",
     "webrtc/webrtc_ns.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
