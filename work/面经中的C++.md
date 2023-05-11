@@ -54,3 +54,9 @@ left与right的逻辑处理;         // 中
 在回溯的过程中，必然要遍历整棵二叉树，即使已经找到结果了，依然要把其他节点遍历完，因为要使用递归函数的返回值（也就是代码中的left和right）做逻辑判断。
 
 要理解如果返回值left为空，right不为空为什么要返回right，为什么可以用返回right传给上一层结果。
+
+# 指针常量 常量指针
+
+![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230511/image.2xrwxuw0g500.webp)
+
+
