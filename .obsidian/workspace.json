@@ -103,8 +103,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -207,8 +206,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "911f1d3f76a14ea4",
+  "active": "ae26d83620b7748e",
   "lastOpenFiles": [
+    "work/面经中的C++.md",
+    "work/preparation.md",
     "骨传导/深度学习骨导映射.md",
     "[(41.md",
     "[细读经典：HiFiGAN，拥有多尺度和多周期判别器的高效声码器.md",
@@ -225,9 +226,7 @@
     "深度学习/深度学习.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "课程笔记/数字信号处理课程笔记.pdf",
-    "work/preparation.md",
     "语音增强/语音增强理论与实践.md",
-    "work/面经中的C++.md",
     "面经/哲库codec实习.md",
     "面经",
     "骨传导/SEANET.md",
