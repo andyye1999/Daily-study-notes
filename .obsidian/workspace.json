@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -183,19 +183,19 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f40c20fb7318253a",
+  "active": "f65e927f87a9d79a",
   "lastOpenFiles": [
+    "work/牛客面经.md",
     "骨传导/深度学习骨导映射.md",
+    "语音增强/语音增强理论与实践.md",
     "work/面经中的C++.md",
     "定点化/定点化.md",
     "深度学习/深度学习.md",
-    "语音增强/语音增强理论与实践.md",
     "语音增强/频域RLS.md",
     "骨传导/语音转换.md",
     "work/preparation.md",
     "[(41.md",
     "[细读经典：HiFiGAN，拥有多尺度和多周期判别器的高效声码器.md",
-    "work/牛客面经.md",
     "定点化/定点化基础.pdf",
     "语音基础/PCM WAV.md",
     "语音增强/conv-tasnet.md",
