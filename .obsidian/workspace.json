@@ -56,42 +56,6 @@
             }
           },
           {
-            "id": "911f1d3f76a14ea4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/面经中的C++.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "126a3da8ebb194af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "定点化/定点化.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5de651a21230a9cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深度学习/深度学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f40c20fb7318253a",
             "type": "leaf",
             "state": {
@@ -102,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aee23933310f5ad8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音增强/频域RLS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -207,16 +183,19 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f65e927f87a9d79a",
+  "active": "f40c20fb7318253a",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
+    "work/面经中的C++.md",
+    "定点化/定点化.md",
+    "深度学习/深度学习.md",
+    "语音增强/语音增强理论与实践.md",
+    "语音增强/频域RLS.md",
     "骨传导/语音转换.md",
     "work/preparation.md",
-    "work/面经中的C++.md",
-    "骨传导/深度学习骨导映射.md",
     "[(41.md",
     "[细读经典：HiFiGAN，拥有多尺度和多周期判别器的高效声码器.md",
     "work/牛客面经.md",
-    "定点化/定点化.md",
     "定点化/定点化基础.pdf",
     "语音基础/PCM WAV.md",
     "语音增强/conv-tasnet.md",
@@ -224,10 +203,8 @@
     "变换/fft与实数fft.md",
     "语音基础/线性卷积圆周卷积.md",
     "语音基础/语音信号基础知识.md",
-    "深度学习/深度学习.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "课程笔记/数字信号处理课程笔记.pdf",
-    "语音增强/语音增强理论与实践.md",
     "面经/哲库codec实习.md",
     "面经",
     "骨传导/SEANET.md",
@@ -238,7 +215,6 @@
     "[深度学习中Dropout原理解析.md",
     "webrtc/webrtc_ns.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
-    "语音增强/频域RLS.md",
     "课程笔记/现代数字信号处理课程笔记.md",
     "Pasted image 20230410165303.png",
     "波束形成/波束形成学习笔记发布版本.pdf",
