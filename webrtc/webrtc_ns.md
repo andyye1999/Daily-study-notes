@@ -591,6 +591,7 @@ static void FFT(NoiseSuppressionC* self,
 ```
 
 ## FeatureUpdate() 提取平均LRT参数、频谱差异、频谱平坦度
+
 提取平均LRT参数、频谱差异、频谱平坦度
 
 [LRT均值特征是一种用于区分语音和噪声的指标，它是对时间平滑后的似然比（likelihood ratio，LRT）的均值的计算。似然比是用后验信噪比（posteriori SNR）和先验信噪比（priori SNR）计算的一个量，它反映了语音存在的可能性。LRT均值特征越大，说明语音概率越高。](https://zhuanlan.zhihu.com/p/459864339)[4](https://zhuanlan.zhihu.com/p/459864339)

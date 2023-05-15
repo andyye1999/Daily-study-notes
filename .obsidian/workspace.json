@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/频域RLS.md",
+                "file": "webrtc/webrtc_ns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/频域RLS.md"
+                "file": "webrtc/webrtc_ns.md"
               }
             }
           }
@@ -219,20 +219,20 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "aee23933310f5ad8",
+  "active": "6d70d28c9f11919f",
   "lastOpenFiles": [
+    "webrtc/webrtc-aec.md",
+    "webrtc/webrtc_ns.md",
+    "语音增强/语音增强理论与实践.md",
     "work/preparation.md",
-    "骨传导/语音转换.md",
-    "work/牛客面经.md",
     "work/面经中的C++.md",
     "骨传导/深度学习骨导映射.md",
-    "语音增强/语音增强理论与实践.md",
-    "webrtc/webrtc_ns.md",
-    "webrtc/webrtc-aec.md",
+    "语音增强/频域RLS.md",
+    "骨传导/语音转换.md",
+    "work/牛客面经.md",
     "语音增强/频域维纳滤波.md",
     "定点化/定点化.md",
     "深度学习/深度学习.md",
-    "语音增强/频域RLS.md",
     "[(41.md",
     "[细读经典：HiFiGAN，拥有多尺度和多周期判别器的高效声码器.md",
     "定点化/定点化基础.pdf",
