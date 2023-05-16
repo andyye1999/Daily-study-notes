@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc_ns.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -219,13 +219,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6d70d28c9f11919f",
+  "active": "11d27cf93c4f87d4",
   "lastOpenFiles": [
+    "work/preparation.md",
+    "webrtc/webrtc_ns.md",
     "webrtc/webrtc-aec.md",
     "语音增强/频域RLS.md",
-    "webrtc/webrtc_ns.md",
     "语音增强/语音增强理论与实践.md",
-    "work/preparation.md",
     "work/面经中的C++.md",
     "骨传导/深度学习骨导映射.md",
     "骨传导/语音转换.md",
