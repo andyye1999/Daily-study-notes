@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "webrtc/webrtc-aec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "webrtc/webrtc-aec.md"
               }
             }
           }
@@ -207,16 +207,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f65e927f87a9d79a",
+  "active": "711d4b83436a5933",
   "lastOpenFiles": [
-    "Pasted image 20230516175059.png",
     "work/preparation.md",
-    "骨传导/语音转换.md",
+    "webrtc/webrtc-aec.md",
+    "webrtc/webrtc_ns.md",
     "骨传导/深度学习骨导映射.md",
+    "Pasted image 20230516175059.png",
+    "骨传导/语音转换.md",
     "语音增强/语音增强理论与实践.md",
     "work/牛客面经.md",
-    "webrtc/webrtc_ns.md",
-    "webrtc/webrtc-aec.md",
     "语音增强/频域RLS.md",
     "work/面经中的C++.md",
     "语音增强/频域维纳滤波.md",

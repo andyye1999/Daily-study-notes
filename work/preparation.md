@@ -64,6 +64,9 @@ NLMS滤波器采用10阶系数 也是10个block  原来webrtc是12阶
 
 后面采用先RLS再非线性处理
 
+# 回声的NLP
+
+[[webrtc-aec#非线性处理NLP]]
 
 ### 定点化
 

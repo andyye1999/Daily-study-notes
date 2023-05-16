@@ -728,6 +728,7 @@ D的值时，(1,0)共现的概率会大大降低；** 如果**补偿值与D相�
 ![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221116/image.1d7z358c8fq8.webp)
 
 ![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221116/image.700hmr0mxvk0.webp)
+
 ## 非线性处理NLP
 
 
