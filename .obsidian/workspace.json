@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae26d83620b7748e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/preparation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "11d27cf93c4f87d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "面经/小米实习.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "骨传导/深度学习骨导映射.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6aed9112d4ec4b15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/preparation.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "面经/小米实习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "面经/小米实习.md"
               }
             }
           }
@@ -194,18 +194,19 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ae26d83620b7748e",
+  "active": "11d27cf93c4f87d4",
   "lastOpenFiles": [
+    "work/preparation.md",
+    "骨传导/深度学习骨导映射.md",
+    "语音增强/语音增强理论与实践.md",
+    "面经/小米实习.md",
     "work/牛客面经.md",
+    "Pasted image 20230516175059.png",
     "语音增强/conv-tasnet.md",
     "深度学习/深度学习中的激活函数.md",
     "webrtc/webrtc-aec.md",
-    "work/preparation.md",
     "webrtc/webrtc_ns.md",
-    "骨传导/深度学习骨导映射.md",
-    "Pasted image 20230516175059.png",
     "骨传导/语音转换.md",
-    "语音增强/语音增强理论与实践.md",
     "语音增强/频域RLS.md",
     "work/面经中的C++.md",
     "语音增强/频域维纳滤波.md",
