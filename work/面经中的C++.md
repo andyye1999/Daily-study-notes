@@ -69,3 +69,21 @@ left与right的逻辑处理;         // 中
 
 [23. 合并K个排序链表](https://leetcode.cn/problems/merge-k-sorted-lists)
 
+
+
+```cpp
+less<int> // 大顶堆
+greater<int> // 小顶堆 
+priority_queue<int,vector<int>,less<int>> maxHeap;
+```
+
+要么
+```cpp
+struct cmp
+{
+	bool operator()(int a,int b)
+	{
+		return a < b;  // 大顶堆
+	}
+};
+```
