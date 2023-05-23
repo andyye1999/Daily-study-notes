@@ -59,4 +59,13 @@ left与right的逻辑处理;         // 中
 
 ![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230511/image.2xrwxuw0g500.webp)
 
+# 大顶堆 优先队列
+
+[剑指 Offer 41. 数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof)
+
+[347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements)
+
+[239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum) 单调队列或者优先队列  
+
+[23. 合并K个排序链表](https://leetcode.cn/problems/merge-k-sorted-lists)
 

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/面经中的C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -197,9 +197,9 @@
   },
   "active": "f65e927f87a9d79a",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
     "面经/小米实习.md",
     "work/preparation.md",
-    "骨传导/深度学习骨导映射.md",
     "语音增强/语音增强理论与实践.md",
     "work/牛客面经.md",
     "Pasted image 20230516175059.png",
