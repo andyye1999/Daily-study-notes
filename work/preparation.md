@@ -177,5 +177,5 @@ SISDR: 18 LSD:1.8 HLSD:3.12
 
 用频域的比时域的在实时效果时稳定很多  
 时域的在处理帧与帧之间会出现问题
-频域模型：
+频域模型： [(31条消息) DPCRN: Dual-Path Convolution Recurrent Network for Single Channel Speech Enhancement---论文翻译_我和代码有个约会.的博客-CSDN博客](https://blog.csdn.net/caixiaobaideye/article/details/118958325)  DPCRN
 PESQ:3.43 STOI:0.98 SI-SDR17.33 LSD: 1.63 HLSD:2.54
