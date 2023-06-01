@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "992a3d9631192492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音增强/RNNoise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6cf2a4f8ada3a29e",
             "type": "leaf",
             "state": {
@@ -197,10 +209,12 @@
   },
   "active": "06f4d3e456543569",
   "lastOpenFiles": [
+    "语音基础/语音信号基础知识.md",
+    "work/牛客面经.md",
+    "语音增强/RNNoise.md",
     "work/面经中的C++.md",
     "work/preparation.md",
     "深度学习/深度学习.md",
-    "work/牛客面经.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "骨传导/乒乓buffer.md",
     "骨传导/恒玄2500.md",
@@ -224,8 +238,6 @@
     "[(41.md",
     "[细读经典：HiFiGAN，拥有多尺度和多周期判别器的高效声码器.md",
     "定点化/定点化基础.pdf",
-    "语音基础/PCM WAV.md",
-    "变换/fft与实数fft.md",
     "面经",
     "深度学习/se_development.pdf",
     "webrtc/WebRTC_NS单通道降噪.pdf",
