@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "3a3f392a873c647f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "定点化/定点化.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "992a3d9631192492",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "定点化/定点化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "定点化/定点化.md"
               }
             }
           }
@@ -207,16 +219,19 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "06f4d3e456543569",
+  "active": "3a3f392a873c647f",
   "lastOpenFiles": [
-    "语音基础/语音信号基础知识.md",
     "work/牛客面经.md",
+    "定点化/定点化基础.pdf",
+    "定点化/定点化.md",
+    "骨传导/乒乓buffer.md",
+    "定点化/平方根.md",
+    "语音基础/语音信号基础知识.md",
     "语音增强/RNNoise.md",
     "work/面经中的C++.md",
     "work/preparation.md",
     "深度学习/深度学习.md",
     "回声/FDAF自适应滤波器算法综述.md",
-    "骨传导/乒乓buffer.md",
     "骨传导/恒玄2500.md",
     "骨传导/深度学习骨导映射.md",
     "语音增强/conv-tasnet.md",
@@ -234,10 +249,6 @@
     "深度学习/深度学习中的激活函数.md",
     "webrtc/webrtc_ns.md",
     "骨传导/语音转换.md",
-    "定点化/定点化.md",
-    "[(41.md",
-    "[细读经典：HiFiGAN，拥有多尺度和多周期判别器的高效声码器.md",
-    "定点化/定点化基础.pdf",
     "面经",
     "深度学习/se_development.pdf",
     "webrtc/WebRTC_NS单通道降噪.pdf",
