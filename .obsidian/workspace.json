@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "骨传导/乒乓buffer.md",
+                "file": "骨传导/opus.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/乒乓buffer.md",
+                "file": "骨传导/opus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/乒乓buffer.md"
+                "file": "骨传导/opus.md"
               }
             }
           }
@@ -209,13 +209,16 @@
   },
   "active": "5b99c43812b16469",
   "lastOpenFiles": [
+    "骨传导/矢量量化.md",
+    "骨传导/opus.md",
+    "骨传导/带宽扩展.md",
+    "骨传导/乒乓buffer.md",
     "work/preparation.md",
     "深度学习/深度学习.md",
     "骨传导/恒玄2500.md",
     "定点化/定点化.md",
     "work/牛客面经.md",
     "定点化/定点化基础.pdf",
-    "骨传导/乒乓buffer.md",
     "定点化/平方根.md",
     "语音基础/语音信号基础知识.md",
     "语音增强/RNNoise.md",
@@ -235,8 +238,6 @@
     "语音增强/语音增强理论与实践.md",
     "Pasted image 20230516175059.png",
     "深度学习/深度学习中的激活函数.md",
-    "webrtc/webrtc_ns.md",
-    "骨传导/语音转换.md",
     "面经",
     "深度学习/se_development.pdf",
     "webrtc/WebRTC_NS单通道降噪.pdf",
