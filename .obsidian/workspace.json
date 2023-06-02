@@ -91,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -157,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -194,8 +195,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f65e927f87a9d79a",
+  "active": "6cf2a4f8ada3a29e",
   "lastOpenFiles": [
+    "work/面经中的C++.md",
     "骨传导/opus.md",
     "骨传导/矢量量化.md",
     "骨传导/带宽扩展.md",
@@ -209,7 +211,6 @@
     "定点化/平方根.md",
     "语音基础/语音信号基础知识.md",
     "语音增强/RNNoise.md",
-    "work/面经中的C++.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "骨传导/深度学习骨导映射.md",
     "语音增强/conv-tasnet.md",
