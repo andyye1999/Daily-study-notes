@@ -94,3 +94,24 @@ struct cmp
 ```cpp
 #include <bits/stdc++.h>
 ```
+
+# 排序
+
+冒泡排序：从左到右遍历，两两比较大小并交换位置，一次遍历下来后最右侧为最值
+
+快速排序：一次遍历后，数组被分为＜=num和＞num的两部分，递推执行
+
+归并排序：递归的分裂数组，然后进行小子序列的排序，然后将有序的子序列进行归并，最终得到完全有序的序列
+
+# ASCII码
+
+[ASCII码一览表，ASCII码对照表 (biancheng.net)](http://c.biancheng.net/c/ascii/)
+
+小写字母比大写字母大
+
+# 向上取整 向下取整
+
+[(31条消息) 取整函数（ceil、floor、round）_aouixh的博客-CSDN博客](https://blog.csdn.net/aouixh/article/details/53483556)
+
+ceil 天花板的意思 向上取整  
+floor  地板 向下取整 
