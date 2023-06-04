@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -195,12 +195,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6cf2a4f8ada3a29e",
+  "active": "06f4d3e456543569",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
     "work/面经中的C++.md",
     "深度学习/深度学习.md",
     "work/preparation.md",
-    "骨传导/深度学习骨导映射.md",
     "骨传导/opus.md",
     "骨传导/矢量量化.md",
     "骨传导/带宽扩展.md",
