@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "c25794dde769af92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++ 那些事/C++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34a5b1bf08128fdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面经/吉利汽车实习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6aed9112d4ec4b15",
             "type": "leaf",
             "state": {
@@ -184,13 +208,13 @@
   },
   "active": "f65e927f87a9d79a",
   "lastOpenFiles": [
+    "面经/吉利汽车实习.md",
+    "work/面经中的C++.md",
+    "C++ 那些事/C++.md",
     "work/preparation.md",
     "work/牛客面经.md",
-    "面经/吉利汽车实习.md",
     "面经/小米实习.md",
-    "C++ 那些事/C++.md",
     "骨传导/深度学习骨导映射.md",
-    "work/面经中的C++.md",
     "深度学习/深度学习.md",
     "骨传导/opus.md",
     "骨传导/矢量量化.md",
