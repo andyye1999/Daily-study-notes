@@ -91,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "C++ 那些事/C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "C++ 那些事/C++.md"
               }
             }
           }
@@ -194,10 +195,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f65e927f87a9d79a",
+  "active": "c25794dde769af92",
   "lastOpenFiles": [
-    "C++ 那些事/C++.md",
     "work/面经中的C++.md",
+    "C++ 那些事/C++.md",
     "面经/吉利汽车实习.md",
     "work/preparation.md",
     "work/牛客面经.md",
