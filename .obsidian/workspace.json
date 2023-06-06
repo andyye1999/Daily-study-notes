@@ -91,8 +91,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "C++ 那些事/程序员面试宝典.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "C++ 那些事/程序员面试宝典.md"
               }
             }
           }
@@ -195,10 +194,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "9e3abef760b6ddec",
+  "active": "5303b4c175992b82",
   "lastOpenFiles": [
-    "C++ 那些事/程序员面试宝典.md",
     "work/面经中的C++.md",
+    "C++ 那些事/程序员面试宝典.md",
     "work/preparation.md",
     "骨传导/恒玄2500.md",
     "C++ 那些事/C++.md",

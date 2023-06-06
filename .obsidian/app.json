@@ -1,5 +1,5 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "autoPairMarkdown": true
+  "autoPairMarkdown": false
 }
