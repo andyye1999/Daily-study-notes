@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c25794dde769af92",
+            "id": "5303b4c175992b82",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -91,8 +91,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "C++ 那些事/程序员面试宝典.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "C++ 那些事/程序员面试宝典.md"
               }
             }
           }
@@ -195,11 +194,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "5303b4c175992b82",
   "lastOpenFiles": [
-    "C++ 那些事/程序员面试宝典.md",
     "work/面经中的C++.md",
+    "C++ 那些事/程序员面试宝典.md",
     "work/preparation.md",
+    "骨传导/恒玄2500.md",
     "C++ 那些事/C++.md",
     "未命名.canvas",
     "webrtc/webrtc-agc.md",
@@ -212,7 +212,6 @@
     "骨传导/矢量量化.md",
     "骨传导/带宽扩展.md",
     "骨传导/乒乓buffer.md",
-    "骨传导/恒玄2500.md",
     "定点化/定点化.md",
     "定点化/定点化基础.pdf",
     "定点化/平方根.md",
