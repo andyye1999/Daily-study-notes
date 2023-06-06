@@ -179,3 +179,15 @@ main n:  30
 3) 由`{ }`包围的代码块也拥有独立的作用域，printf() 使用它自己内部的变量 n，输出 40。  
   
 4) C语言规定，只能从小的作用域向大的作用域中去寻找变量，而不能反过来，使用更小的作用域中的变量。对于 main() 函数，即使代码块中的 n 离输出语句更近，但它仍然会使用 main() 函数开头定义的 n，所以输出结果是 30。
+
+# 排序算法
+
+[1.0 十大经典排序算法 | 菜鸟教程 (runoob.com)](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
+
+常见的内部排序算法有：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等。用一张图概括：
+
+![](https://www.runoob.com/wp-content/uploads/2019/03/sort.png)
+
+点击以下图片查看大图：
+
+[![](https://www.runoob.com/wp-content/uploads/2019/03/0B319B38-B70E-4118-B897-74EFA7E368F9.png)](https://www.runoob.com/wp-content/uploads/2019/03/0B319B38-B70E-4118-B897-74EFA7E368F9.png)
