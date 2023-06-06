@@ -183,4 +183,4 @@ WebRtcAgc_ProcessAnalog函数的作用是把输入的信号根据能量的大小
 ### [WebRTC中AGC模块分析（上）](http://www.yushuai.xyz/2019/08/12/4423.html)      
 特别详细解释了AGC函数的各个功能
 ### [WebRTC中AGC模块分析（下）](http://www.yushuai.xyz/2019/08/13/4425.html)   
-### [#Webrtc AGC 算法原理介绍（一）](https://blog.csdn.net/ssdzdk/article/details/52588415)
+### [Webrtc AGC 算法原理介绍（一）](https://blog.csdn.net/ssdzdk/article/details/52588415)
