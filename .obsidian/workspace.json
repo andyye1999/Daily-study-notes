@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "8421c913d9e2074c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++ 那些事/C++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9e3abef760b6ddec",
             "type": "leaf",
             "state": {
@@ -50,18 +62,6 @@
               "type": "markdown",
               "state": {
                 "file": "work/牛客面经.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a3f392a873c647f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/恒玄2500.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,11 +196,11 @@
   },
   "active": "5303b4c175992b82",
   "lastOpenFiles": [
-    "work/面经中的C++.md",
+    "C++ 那些事/C++.md",
     "C++ 那些事/程序员面试宝典.md",
+    "work/面经中的C++.md",
     "work/preparation.md",
     "骨传导/恒玄2500.md",
-    "C++ 那些事/C++.md",
     "未命名.canvas",
     "webrtc/webrtc-agc.md",
     "面经/吉利汽车实习.md",
