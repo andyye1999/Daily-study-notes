@@ -91,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ 那些事/程序员面试宝典.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ 那些事/程序员面试宝典.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -194,7 +195,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "5303b4c175992b82",
+  "active": "9e3abef760b6ddec",
   "lastOpenFiles": [
     "C++ 那些事/C++.md",
     "C++ 那些事/程序员面试宝典.md",
