@@ -184,6 +184,9 @@ main n:  30
 
 [1.0 十大经典排序算法 | 菜鸟教程 (runoob.com)](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
 
+[【C++】十大排序（冒泡、选择、插入、希尔、归并、快排、堆、计数、桶、基数） - 排序数组 - 力扣（LeetCode）](https://leetcode.cn/problems/sort-an-array/solution/by-peaceful-thompsonfsu-b3bu/)
+
+
 常见的内部排序算法有：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等。用一张图概括：
 
 ![](https://www.runoob.com/wp-content/uploads/2019/03/sort.png)
