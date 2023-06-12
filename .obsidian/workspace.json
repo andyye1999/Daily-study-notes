@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "c49c31e958617552",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "webrtc/webrtc-aec.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "06f4d3e456543569",
             "type": "leaf",
             "state": {
@@ -185,8 +197,9 @@
   },
   "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
-    "work/牛客面经.md",
+    "webrtc/webrtc-aec.md",
     "work/preparation.md",
+    "work/牛客面经.md",
     "C++ 那些事/排序.md",
     "深度学习/深度学习.md",
     "work/面经中的C++.md",
@@ -213,7 +226,6 @@
     "语音基础/IIR和FIR滤波器代码.md",
     "课程笔记/入学培训.md",
     "课程笔记/数字信号处理课程笔记.pdf",
-    "波束形成/皮尔森系数.md",
     "Pasted image 20230516175059.png",
     "面经",
     "深度学习/se_development.pdf",
