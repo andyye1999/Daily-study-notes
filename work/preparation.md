@@ -2,12 +2,20 @@
 [[FDAF自适应滤波器算法综述]]
 [[FXLMS]]
 # webrtc
-[[webrtc_ns]]
-[[webrtc-aec]]
+[[webrtc_ns]]  NS的算法原理
+[[webrtc-aec]]  NLP
 
 # 降噪
 
 [[语音增强理论与实践]]
+
+# Rnnoise
+
+[[RNNoise]]
+
+# 带宽扩展及AIcodec
+
+[[深度学习骨导映射]]
 
 # 深度学习
 
