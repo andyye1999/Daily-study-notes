@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/深度学习.md",
+                "file": "C++ 那些事/排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/深度学习.md"
+                "file": "C++ 那些事/排序.md"
               }
             }
           }
@@ -195,8 +195,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1e7d81d632abaaf0",
+  "active": "9e3abef760b6ddec",
   "lastOpenFiles": [
+    "深度学习/深度学习.md",
     "C++ 那些事/排序.md",
     "work/面经中的C++.md",
     "C++ 那些事/C++.md",
@@ -209,7 +210,6 @@
     "work/牛客面经.md",
     "面经/小米实习.md",
     "骨传导/深度学习骨导映射.md",
-    "深度学习/深度学习.md",
     "骨传导/opus.md",
     "骨传导/矢量量化.md",
     "骨传导/带宽扩展.md",
