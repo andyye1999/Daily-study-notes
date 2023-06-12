@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "C++ 那些事/排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "C++ 那些事/排序.md"
               }
             }
           }
@@ -183,11 +183,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3950586750f2650e",
+  "active": "9e3abef760b6ddec",
   "lastOpenFiles": [
+    "work/面经中的C++.md",
     "C++ 那些事/C++.md",
     "C++ 那些事/排序.md",
-    "work/面经中的C++.md",
     "work/preparation.md",
     "C++ 那些事/程序员面试宝典.md",
     "骨传导/恒玄2500.md",
