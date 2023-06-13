@@ -111,7 +111,9 @@ struct cmp
 [ASCII码一览表，ASCII码对照表 (biancheng.net)](http://c.biancheng.net/c/ascii/)
 
 小写字母比大写字母大
+大写字母+32等于小写字母  
 
+A 65 a 97 0：48
 # 向上取整 向下取整
 
 [(31条消息) 取整函数（ceil、floor、round）_aouixh的博客-CSDN博客](https://blog.csdn.net/aouixh/article/details/53483556)
