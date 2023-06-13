@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -195,10 +195,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6aed9112d4ec4b15",
+  "active": "06f4d3e456543569",
   "lastOpenFiles": [
-    "webrtc/webrtc-aec.md",
     "work/preparation.md",
+    "webrtc/webrtc-aec.md",
     "work/牛客面经.md",
     "C++ 那些事/排序.md",
     "深度学习/深度学习.md",
