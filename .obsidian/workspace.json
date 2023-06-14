@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
+                "file": "语音基础/重采样.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/信号的抽取与插值与子带滤波器组.md",
+                "file": "语音基础/重采样.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/信号的抽取与插值与子带滤波器组.md"
+                "file": "语音基础/重采样.md"
               }
             }
           }
@@ -221,6 +221,7 @@
   },
   "active": "e652c5d7e224501e",
   "lastOpenFiles": [
+    "语音基础/信号的抽取与插值与子带滤波器组.md",
     "骨传导/深度学习骨导映射.md",
     "work/preparation.md",
     "work/面经中的C++.md",
@@ -248,7 +249,6 @@
     "回声/FDAF自适应滤波器算法综述.md",
     "语音增强/conv-tasnet.md",
     "语音增强/频域RLS.md",
-    "语音基础/IIR和FIR滤波器代码.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "Pasted image 20230516175059.png",
     "面经",
