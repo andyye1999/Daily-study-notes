@@ -92,28 +92,6 @@
             }
           },
           {
-            "id": "99fcc23cc9fa6dfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "师兄项目笔记/数字信号处理_.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0efc98a75fd83ee0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "语音基础/面试题库整理扫描.pdf"
-              }
-            }
-          },
-          {
             "id": "168dd423f5a40d78",
             "type": "leaf",
             "state": {
@@ -138,6 +116,18 @@
             }
           },
           {
+            "id": "195400d399b7ccd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "深度学习/深度学习中的激活函数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "33b06a8438b9115e",
             "type": "leaf",
             "state": {
@@ -150,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -216,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "深度学习/深度学习中的激活函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "深度学习/深度学习中的激活函数.md"
               }
             }
           }
@@ -253,14 +243,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4cac8f5338aa832f",
+  "active": "195400d399b7ccd2",
   "lastOpenFiles": [
-    "语音基础/面试题库整理扫描.pdf",
     "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
+    "语音基础/面试题库整理扫描.pdf",
+    "骨传导/深度学习骨导映射.md",
     "师兄项目笔记/数字信号处理_.md",
     "语音基础/语音信号基础知识.md",
-    "骨传导/深度学习骨导映射.md",
     "师兄项目笔记/专利笔记_.md",
     "work/面经中的C++.md",
     "C++笔记/C++C八股文.md",
