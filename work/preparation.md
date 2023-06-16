@@ -171,7 +171,8 @@ DIV_32类似，32位的除法
 
 PESQ? 
 
-音色的统计指标？ PESQ STOI LSD 语音识别错误率 主观mos
+音色的统计指标？ PESQ STOI LSD 语音识别错误率 主观mos 
+算力指标RTF 运算所需时间除以音频长度
 
 恒玄2700 时延9mm
 

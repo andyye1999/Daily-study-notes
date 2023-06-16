@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -219,8 +219,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e389b3d86b59ebaa",
+  "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
+    "C++ 那些事/排序.md",
+    "骨传导/深度学习骨导映射.md",
     "work/preparation.md",
     "语音增强/RNNoise.md",
     "语音增强/conv-tasnet.md",
@@ -229,8 +231,6 @@
     "C++ 那些事/C++.md",
     "面经/小米实习.md",
     "C++ 那些事/程序员面试宝典.md",
-    "C++ 那些事/排序.md",
-    "骨传导/深度学习骨导映射.md",
     "深度学习/深度学习.md",
     "语音基础/重采样.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
