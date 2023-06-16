@@ -102,18 +102,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9ff764941ad18473",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深度学习/深度学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 7
@@ -221,8 +209,9 @@
   },
   "active": "4cac8f5338aa832f",
   "lastOpenFiles": [
-    "深度学习/深度学习.md",
+    "语音基础/线性卷积圆周卷积.md",
     "work/牛客面经.md",
+    "深度学习/深度学习.md",
     "语音增强/语音增强理论与实践.md",
     "骨传导/深度学习骨导映射.md",
     "work/preparation.md",
@@ -248,7 +237,6 @@
     "骨传导/乒乓buffer.md",
     "定点化/定点化.md",
     "定点化/定点化基础.pdf",
-    "定点化/平方根.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "Pasted image 20230516175059.png",
     "面经",
