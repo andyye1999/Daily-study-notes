@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -219,10 +219,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6aed9112d4ec4b15",
+  "active": "e389b3d86b59ebaa",
   "lastOpenFiles": [
-    "语音增强/RNNoise.md",
     "work/preparation.md",
+    "语音增强/RNNoise.md",
+    "语音增强/conv-tasnet.md",
+    "深度学习/数据增广.md",
     "work/面经中的C++.md",
     "C++ 那些事/C++.md",
     "面经/小米实习.md",
@@ -247,8 +249,6 @@
     "定点化/定点化基础.pdf",
     "定点化/平方根.md",
     "语音基础/语音信号基础知识.md",
-    "回声/FDAF自适应滤波器算法综述.md",
-    "语音增强/conv-tasnet.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "Pasted image 20230516175059.png",
     "面经",
