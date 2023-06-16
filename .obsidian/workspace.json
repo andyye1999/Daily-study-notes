@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/RNNoise.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/RNNoise.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -219,8 +219,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "bed1f09864a8b19c",
+  "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
+    "语音增强/RNNoise.md",
     "work/preparation.md",
     "work/面经中的C++.md",
     "C++ 那些事/C++.md",
@@ -246,7 +247,6 @@
     "定点化/定点化基础.pdf",
     "定点化/平方根.md",
     "语音基础/语音信号基础知识.md",
-    "语音增强/RNNoise.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "语音增强/conv-tasnet.md",
     "课程笔记/数字信号处理课程笔记.pdf",
