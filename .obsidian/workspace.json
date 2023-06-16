@@ -104,6 +104,16 @@
             }
           },
           {
+            "id": "0efc98a75fd83ee0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "语音基础/面试题库整理扫描.pdf"
+              }
+            }
+          },
+          {
             "id": "168dd423f5a40d78",
             "type": "leaf",
             "state": {
@@ -140,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -206,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "师兄项目笔记/数字信号处理_.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "师兄项目笔记/数字信号处理_.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -243,14 +253,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "99fcc23cc9fa6dfd",
+  "active": "4cac8f5338aa832f",
   "lastOpenFiles": [
+    "语音基础/面试题库整理扫描.pdf",
+    "work/牛客面经.md",
+    "语音增强/语音增强理论与实践.md",
+    "师兄项目笔记/数字信号处理_.md",
+    "语音基础/语音信号基础知识.md",
     "骨传导/深度学习骨导映射.md",
     "师兄项目笔记/专利笔记_.md",
-    "语音增强/语音增强理论与实践.md",
     "work/面经中的C++.md",
     "C++笔记/C++C八股文.md",
-    "work/牛客面经.md",
     "C++笔记/面试程序.md",
     "C++笔记/C++核心编程.md",
     "C++笔记/C++提高编程.md",
@@ -258,7 +271,6 @@
     "师兄项目笔记/自适应滤波综述_.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "师兄项目笔记/WebRTC_NS单通道降噪_.md",
-    "师兄项目笔记/数字信号处理_.md",
     "师兄项目笔记/个人技能_.md",
     "师兄项目笔记",
     "项目笔记/自适应滤波综述_.md",
@@ -268,12 +280,10 @@
     "项目笔记/WebRT_AEC回声消除_.md",
     "项目笔记/WebRTC_NS单通道降噪_.md",
     "项目笔记",
-    "语音基础/语音信号基础知识.md",
     "语音基础/线性卷积圆周卷积.md",
     "深度学习/深度学习.md",
     "work/preparation.md",
     "C++ 那些事/排序.md",
-    "语音增强/RNNoise.md",
     "未命名.canvas",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
@@ -284,7 +294,6 @@
     "Pasted image 20230410165303.png",
     "波束形成/波束形成学习笔记发布版本.pdf",
     "Pasted image 20230328170904.png",
-    "BILSTM.py",
     "Pasted image 20230317231143.png",
     "Pasted image 20230302195928.png"
   ]
