@@ -19,7 +19,13 @@ CPU一次可处理的数据大小区别，这影响操作系统所支持的内�
 
 # 指针和引用的区别
 
+# int与unsigned int之间的运算与比较
 
+
+int 会转成unsigned int 不过需要源码 补码 
+[(33条消息) int与unsigned int之间的运算与比较_int和unsigned int比较_西南小镇的博客-CSDN博客](https://blog.csdn.net/u012675103/article/details/45953183)
+
+[(33条消息) 【C++】两个例子解决 unsigned int 与 int 运算问题_RiceVan的博客-CSDN博客](https://blog.csdn.net/RiceVan/article/details/108336848)
 
 # shell命令
 
