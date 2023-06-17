@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc_ns.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -243,8 +243,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2373de9a2a5d573a",
+  "active": "e389b3d86b59ebaa",
   "lastOpenFiles": [
+    "webrtc/webrtc_ns.md",
     "work/牛客面经.md",
     "师兄项目笔记/数字信号处理_.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
@@ -274,7 +275,6 @@
     "项目笔记/WebRT_AEC回声消除_.md",
     "项目笔记/WebRTC_NS单通道降噪_.md",
     "项目笔记",
-    "语音基础/线性卷积圆周卷积.md",
     "未命名.canvas",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
