@@ -104,36 +104,12 @@
             }
           },
           {
-            "id": "c3ef9e93de669e73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "师兄项目笔记/自适应滤波综述_.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d378d58c83ba1e9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "师兄项目笔记/WebRTC_NS单通道降噪_.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "195400d399b7ccd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深度学习/深度学习中的激活函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -230,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回声/FDAF自适应滤波器算法综述.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回声/FDAF自适应滤波器算法综述.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -267,12 +243,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ee764e2abac6b568",
+  "active": "4cac8f5338aa832f",
   "lastOpenFiles": [
+    "师兄项目笔记/自适应滤波综述_.md",
+    "师兄项目笔记/WebRTC_NS单通道降噪_.md",
+    "深度学习/深度学习中的激活函数.md",
+    "回声/FDAF自适应滤波器算法综述.md",
     "语音基础/语音信号基础知识.md",
     "work/牛客面经.md",
-    "师兄项目笔记/WebRTC_NS单通道降噪_.md",
-    "师兄项目笔记/自适应滤波综述_.md",
     "语音增强/频域维纳滤波.md",
     "webrtc/webrtc_ns.md",
     "骨传导/深度学习骨导映射.md",
@@ -282,7 +260,6 @@
     "语音增强/语音增强理论与实践.md",
     "深度学习/深度学习.md",
     "语音基础/MFCC.md",
-    "深度学习/深度学习中的激活函数.md",
     "语音基础/面试题库整理扫描.pdf",
     "师兄项目笔记/专利笔记_.md",
     "work/面经中的C++.md",
@@ -297,7 +274,6 @@
     "项目笔记/数字信号处理_.md",
     "项目笔记/个人技能_.md",
     "项目笔记/专利笔记_.md",
-    "项目笔记/WebRT_AEC回声消除_.md",
     "项目笔记",
     "未命名.canvas",
     "定点化/定点化基础.pdf",
