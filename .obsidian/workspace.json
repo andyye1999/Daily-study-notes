@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -279,8 +279,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4cac8f5338aa832f",
+  "active": "e389b3d86b59ebaa",
   "lastOpenFiles": [
+    "work/牛客面经.md",
     "师兄项目笔记/数字信号处理_.md",
     "波束形成/GSC.md",
     "波束形成/MVDR.md",
@@ -288,7 +289,6 @@
     "语音基础/信号与系统知识点.md",
     "波束形成/环形麦克风阵列.md",
     "语音基础/语音信号基础知识.md",
-    "work/牛客面经.md",
     "语音增强/RNNoise.md",
     "work/preparation.md",
     "骨传导/带宽扩展.md",
