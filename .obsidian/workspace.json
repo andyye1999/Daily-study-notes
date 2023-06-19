@@ -116,6 +116,30 @@
             }
           },
           {
+            "id": "845a55da7415ef7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "波束形成/MVDR.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2126ed1107bf5f45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/信号与系统知识点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4bd8c6f18c8aa74c",
             "type": "leaf",
             "state": {
@@ -164,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -230,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "师兄项目笔记/数字信号处理_.md",
+                "file": "波束形成/MVDR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "师兄项目笔记/数字信号处理_.md"
+                "file": "波束形成/MVDR.md"
               }
             }
           }
@@ -267,10 +291,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4e7a3ad52c996eca",
+  "active": "845a55da7415ef7d",
   "lastOpenFiles": [
-    "语音基础/语音信号基础知识.md",
     "师兄项目笔记/数字信号处理_.md",
+    "波束形成/MVDR.md",
+    "波束形成/阵列基础.md",
+    "语音基础/信号与系统知识点.md",
+    "波束形成/环形麦克风阵列.md",
+    "语音基础/语音信号基础知识.md",
     "work/牛客面经.md",
     "语音增强/RNNoise.md",
     "work/preparation.md",
@@ -292,12 +320,8 @@
     "C++笔记/C++C八股文.md",
     "C++笔记/面试程序.md",
     "C++笔记/C++核心编程.md",
-    "C++笔记/C++提高编程.md",
     "C++笔记",
-    "师兄项目笔记/个人技能_.md",
     "师兄项目笔记",
-    "项目笔记/自适应滤波综述_.md",
-    "项目笔记/数字信号处理_.md",
     "项目笔记",
     "未命名.canvas",
     "定点化/定点化基础.pdf",
