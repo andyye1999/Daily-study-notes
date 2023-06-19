@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/深度学习.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/深度学习.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -243,11 +243,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4bd8c6f18c8aa74c",
+  "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
+    "深度学习/深度学习.md",
     "work/牛客面经.md",
     "骨传导/深度学习骨导映射.md",
-    "深度学习/深度学习.md",
     "语音增强/语音增强理论与实践.md",
     "师兄项目笔记/自适应滤波综述_.md",
     "师兄项目笔记/WebRTC_NS单通道降噪_.md",
