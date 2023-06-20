@@ -493,5 +493,22 @@ C++保留struct关键字，主要有如下原因
 - 析构函数。
 - 赋值运算符。
 
+# new/delete和malloc/free之间有什么关系？
+
+```cpp
+int *p = new int[2];
+int *q = (int *)malloc(2*sizeof(int));
+```
+
+- new与delete直接**带具体类型的指针**，malloc和free返回**void类型**的指针。
+- new分配内存失败后，会抛出bac_alloc异常，malloc返回NULL
+- new类型是安全的，而malloc不是。例如int *p = new float[2];就会报错；而int p = malloc(2sizeof(int))编译时编译器就无法指出错误来。
+- new一般分为两步：new操作和构造。new操作对应与malloc，但new操作可以重载，可以自定义内存分配策略，不做内存分配，甚至分配到非内存设备上，而malloc不行。
+- new**调用构造函数**，malloc不能；delete**调用析构函数**，而free不能。
+- malloc/free需要库文件stdlib.h的支持，new/delete则不需要！，是运算符
+
+**「注意」**：delete和free被调用后，内存不会立即回收，指针也不会指向空，delete或free仅仅是告诉操作系统，这一块内存被释放了，可以用作其他用途。但是由于没有重新对这块内存进行写操作，所以内存中的变量数值并没有发生变化，出现野指针的情况。因此，释放完内存后，应该讲该指针指向NULL。
+
+![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230620/image.428ou86aodk0.webp)
 
 
