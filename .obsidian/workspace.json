@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ 那些事/程序员面试宝典.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ 那些事/程序员面试宝典.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -303,11 +303,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "53ba29f2605ca957",
+  "active": "3950586750f2650e",
   "lastOpenFiles": [
-    "work/面经中的C++.md",
     "C++ 那些事/程序员面试宝典.md",
     "C++笔记/C++C八股文.md",
+    "work/面经中的C++.md",
     "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
     "骨传导/深度学习骨导映射.md",
