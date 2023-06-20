@@ -104,6 +104,30 @@
             }
           },
           {
+            "id": "53ba29f2605ca957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++ 那些事/程序员面试宝典.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "216c103f6fe7980f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++笔记/C++C八股文.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4e7a3ad52c996eca",
             "type": "leaf",
             "state": {
@@ -176,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -279,10 +303,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4cac8f5338aa832f",
+  "active": "3950586750f2650e",
   "lastOpenFiles": [
-    "语音增强/语音增强理论与实践.md",
+    "C++ 那些事/程序员面试宝典.md",
+    "C++笔记/C++C八股文.md",
     "work/牛客面经.md",
+    "语音增强/语音增强理论与实践.md",
     "骨传导/深度学习骨导映射.md",
     "work/面经中的C++.md",
     "C++ 那些事/C++.md",
@@ -306,8 +332,6 @@
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "语音基础/MFCC.md",
     "语音基础/面试题库整理扫描.pdf",
-    "师兄项目笔记/专利笔记_.md",
-    "C++笔记/C++C八股文.md",
     "C++笔记",
     "师兄项目笔记",
     "项目笔记",
