@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -255,16 +255,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3950586750f2650e",
+  "active": "4cac8f5338aa832f",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
+    "语音增强/语音增强理论与实践.md",
+    "work/牛客面经.md",
+    "work/面经中的C++.md",
     "work/preparation.md",
     "webrtc/webrtc-aec.md",
-    "work/面经中的C++.md",
-    "work/牛客面经.md",
     "深度学习/深度学习中的激活函数.md",
-    "骨传导/深度学习骨导映射.md",
     "语音增强/RNNoise.md",
-    "语音增强/语音增强理论与实践.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "[超详细图解Self-Attention.md",
     "[熬了一晚上，我从零实现了Transformer模型，把代码讲给你听.md",
