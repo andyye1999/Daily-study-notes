@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "语音基础/线性卷积圆周卷积.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "语音基础/线性卷积圆周卷积.md"
               }
             }
           }
@@ -279,15 +279,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3950586750f2650e",
+  "active": "6b68894f1038650e",
   "lastOpenFiles": [
-    "语音基础/线性卷积圆周卷积.md",
-    "work/牛客面经.md",
-    "面经/科大讯飞.md",
-    "回声/FDAF自适应滤波器算法综述.md",
     "骨传导/深度学习骨导映射.md",
     "语音增强/语音增强理论与实践.md",
+    "work/牛客面经.md",
+    "面经/科大讯飞.md",
     "work/面经中的C++.md",
+    "语音基础/线性卷积圆周卷积.md",
+    "回声/FDAF自适应滤波器算法综述.md",
     "work/preparation.md",
     "webrtc/webrtc-aec.md",
     "深度学习/深度学习中的激活函数.md",
