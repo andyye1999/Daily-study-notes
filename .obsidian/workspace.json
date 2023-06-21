@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -255,13 +255,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4cac8f5338aa832f",
+  "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
-    "[超详细图解Self-Attention.md",
+    "骨传导/深度学习骨导映射.md",
+    "语音增强/RNNoise.md",
+    "work/preparation.md",
     "work/牛客面经.md",
+    "[超详细图解Self-Attention.md",
     "[熬了一晚上，我从零实现了Transformer模型，把代码讲给你听.md",
     "语音基础/IIR和FIR滤波器代码.md",
-    "骨传导/深度学习骨导映射.md",
     "语音增强/语音增强理论与实践.md",
     "深度学习/深度学习.md",
     "C++ 那些事/程序员面试宝典.md",
@@ -271,7 +273,6 @@
     "师兄项目笔记/WebRTC_NS单通道降噪_.md",
     "语音基础/语音信号基础知识.md",
     "骨传导/带宽扩展.md",
-    "work/preparation.md",
     "work/面经中的C++.md",
     "C++ 那些事/C++.md",
     "C++ 那些事/排序.md",
@@ -280,7 +281,6 @@
     "波束形成/MVDR.md",
     "波束形成/阵列基础.md",
     "波束形成/环形麦克风阵列.md",
-    "语音增强/RNNoise.md",
     "师兄项目笔记/自适应滤波综述_.md",
     "深度学习/深度学习中的激活函数.md",
     "回声/FDAF自适应滤波器算法综述.md",
