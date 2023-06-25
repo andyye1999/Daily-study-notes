@@ -116,18 +116,6 @@
             }
           },
           {
-            "id": "73503d7e2a5a97b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面经/科大讯飞.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d8384007ebb6b2d0",
             "type": "leaf",
             "state": {
@@ -140,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -206,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面经/科大讯飞.md",
+                "file": "回声/FDAF自适应滤波器算法综述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面经/科大讯飞.md"
+                "file": "回声/FDAF自适应滤波器算法综述.md"
               }
             }
           }
@@ -243,11 +231,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "73503d7e2a5a97b4",
+  "active": "189624bd34aea91c",
   "lastOpenFiles": [
+    "面经/科大讯飞.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "work/牛客面经.md",
-    "面经/科大讯飞.md",
     "语音基础/IIR和FIR滤波器代码.md",
     "C++ 那些事/程序员面试宝典.md",
     "深度学习/深度学习.md",
