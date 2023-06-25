@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "482dd5b9b03d719d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "脚本/重采样.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "168dd423f5a40d78",
             "type": "leaf",
             "state": {
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "脚本/重采样.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "脚本/重采样.md"
               }
             }
           }
@@ -231,8 +243,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e389b3d86b59ebaa",
+  "active": "482dd5b9b03d719d",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "面经/科大讯飞.md",
     "work/牛客面经.md",
@@ -240,7 +253,6 @@
     "C++ 那些事/程序员面试宝典.md",
     "深度学习/深度学习.md",
     "语音基础/线性卷积圆周卷积.md",
-    "骨传导/深度学习骨导映射.md",
     "语音增强/语音增强理论与实践.md",
     "work/面经中的C++.md",
     "work/preparation.md",
