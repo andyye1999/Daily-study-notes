@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -231,12 +231,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e389b3d86b59ebaa",
+  "active": "3950586750f2650e",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
     "面经/科大讯飞.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "webrtc/webrtc-aec.md",
-    "骨传导/深度学习骨导映射.md",
     "脚本/重采样.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "work/牛客面经.md",

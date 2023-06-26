@@ -700,3 +700,6 @@ vector().swap(vec)：清空内容，且释放内存，想得到一个全新的ve
 vec.shrink_to_fit()：请求容器降低其capacity和size匹配。
 
 vec.clear();vec.shrink_to_fit();：清空内容，且释放内存。
+
+# 什么是右值引用
+
