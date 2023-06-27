@@ -703,3 +703,6 @@ vec.clear();vec.shrink_to_fit();：清空内容，且释放内存。
 
 # 什么是右值引用
 
+[理解 C/C++ 中的左值和右值 | nettee 的 blog](https://nettee.github.io/posts/2018/Understanding-lvalues-and-rvalues-in-C-and-C/)
+
+![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230626/image.6guct2ckun00.png)
