@@ -140,18 +140,6 @@
             }
           },
           {
-            "id": "189624bd34aea91c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "回声/FDAF自适应滤波器算法综述.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d8384007ebb6b2d0",
             "type": "leaf",
             "state": {
@@ -164,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -230,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "语音基础/IIR和FIR滤波器代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "语音基础/IIR和FIR滤波器代码.md"
               }
             }
           }
@@ -267,10 +255,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6aed9112d4ec4b15",
+  "active": "d8384007ebb6b2d0",
   "lastOpenFiles": [
-    "语音增强/频域RLS.md",
     "work/preparation.md",
+    "语音增强/频域RLS.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "回声/FLMS.pdf",
