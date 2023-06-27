@@ -44,5 +44,34 @@ st->rab[2 * j] = vv * st->rab[2 * j] + alpha * (x[2 * j] * d[2 * j] + x[2 * j + 
 ![IMG_3016](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3016.6gesqckjen80.webp)
 
 
-# PPT
+# 陈老师找到的书籍
 
+
+![IMG_20230627_165532](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165532.vajk3svv4ao.webp)
+
+
+# 基于线性卷积的频域LMS自适应算法 FLMS
+
+![IMG_20230627_165817](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165817.69bhbquku600.webp)
+
+
+![IMG_20230627_165823](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165823.67vl9m9s7eo0.webp)
+
+
+![IMG_20230627_165850](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165850.5k4byt4yy340.webp)
+
+
+![IMG_20230627_165854](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165854.10axgfm7hc1c.webp)
+
+# 频域RLS 退化为一阶时的算法
+
+![IMG_20230627_165910](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165910.6d9kc1c1a1c0.webp)
+
+![IMG_20230627_165916](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165916.wsp58x62m34.webp)
+
+
+![IMG_20230627_165948](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165948.5qlowytz2w80.webp)
+
+
+
+![IMG_20230627_165952](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165952.4wl5bysxwya0.webp)
