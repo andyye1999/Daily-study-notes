@@ -80,16 +80,6 @@
             }
           },
           {
-            "id": "f65687dc457a6843",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "回声/FLMS.pdf"
-              }
-            }
-          },
-          {
             "id": "6aed9112d4ec4b15",
             "type": "leaf",
             "state": {
@@ -174,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -240,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/频域RLS.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/频域RLS.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -277,10 +267,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "67afab6025ae2d17",
+  "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
-    "师兄项目笔记/WebRT_AEC回声消除_.md",
+    "语音增强/频域RLS.md",
     "work/preparation.md",
+    "师兄项目笔记/WebRT_AEC回声消除_.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "回声/FLMS.pdf",
     "work/面经中的C++.md",

@@ -67,6 +67,7 @@ st->rab[2 * j] = vv * st->rab[2 * j] + alpha * (x[2 * j] * d[2 * j] + x[2 * j + 
 
 ![IMG_20230627_165910](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165910.6d9kc1c1a1c0.webp)
 
+
 ![IMG_20230627_165916](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230627/IMG_20230627_165916.wsp58x62m34.webp)
 
 
