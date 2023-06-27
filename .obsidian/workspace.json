@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "师兄项目笔记/WebRT_AEC回声消除_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "师兄项目笔记/WebRT_AEC回声消除_.md"
               }
             }
           }
@@ -265,8 +265,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6aed9112d4ec4b15",
+  "active": "ece420f992ccbc76",
   "lastOpenFiles": [
+    "work/preparation.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "回声/FLMS.pdf",
@@ -281,7 +282,6 @@
     "深度学习/深度学习.md",
     "语音基础/线性卷积圆周卷积.md",
     "语音增强/语音增强理论与实践.md",
-    "work/preparation.md",
     "深度学习/深度学习中的激活函数.md",
     "语音增强/RNNoise.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
