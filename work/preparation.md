@@ -174,19 +174,21 @@ PESQ?
 音色的统计指标？ PESQ STOI LSD 语音识别错误率 主观mos  分段噪声比、分段干扰比、语音失真度
 算力指标RTF 运算所需时间除以音频长度
 
+## 延时
 恒玄2700 时延9mm
 
 回声的延时 60ms
 
 帧长160
 
+## 音色指标
 音色：
 LSD：2.37 HLSD: 2.5
 SISDR:4.5 不知道为什么这么低
 PESQ:原始1.608 补偿：2.021
 STOI: 原始0.68 补偿 0.851
 
-
+## BWE
 BWE：
 SISDR: 18 LSD:1.8 HLSD:3.12
 
@@ -195,6 +197,8 @@ SISDR: 18 LSD:1.8 HLSD:3.12
 频域模型： [(31条消息) DPCRN: Dual-Path Convolution Recurrent Network for Single Channel Speech Enhancement---论文翻译_我和代码有个约会.的博客-CSDN博客](https://blog.csdn.net/caixiaobaideye/article/details/118958325)  DPCRN
 PESQ:3.43 STOI:0.98 SI-SDR17.33 LSD: 1.63 HLSD:2.54
 
+
+## OPUS
 DPCRN修复
 opus SI_SDR: 2.5799457628579643, LSD: 4.999016284942627, LSD_high: 8.153860092163086 PESQ: 2.217040777206421, STOI: 0.9297654788366524
 处理后 SI_SDR: 4.046725547297675, LSD: 2.107752561569214, LSD_high: 2.413111448287964, PESQ: 2.760394811630249, STOI: 0.9432520335999617
