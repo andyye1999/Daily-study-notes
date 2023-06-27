@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/IIR和FIR滤波器代码.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/IIR和FIR滤波器代码.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -255,21 +255,21 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "d8384007ebb6b2d0",
+  "active": "168dd423f5a40d78",
   "lastOpenFiles": [
-    "work/preparation.md",
+    "骨传导/深度学习骨导映射.md",
     "语音增强/频域RLS.md",
+    "work/preparation.md",
+    "语音基础/IIR和FIR滤波器代码.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "回声/FLMS.pdf",
     "work/面经中的C++.md",
     "C++ 那些事/程序员面试宝典.md",
-    "骨传导/深度学习骨导映射.md",
     "面经/科大讯飞.md",
     "webrtc/webrtc-aec.md",
     "脚本/重采样.md",
     "work/牛客面经.md",
-    "语音基础/IIR和FIR滤波器代码.md",
     "深度学习/深度学习.md",
     "语音基础/线性卷积圆周卷积.md",
     "语音增强/语音增强理论与实践.md",
