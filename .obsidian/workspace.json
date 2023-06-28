@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音活动检测模块.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音活动检测模块.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -279,9 +279,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "0fd03e6eb9e0089f",
+  "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
+    "语音增强/频域RLS.md",
     "work/preparation.md",
+    "语音增强/语音活动检测模块.md",
     "语音增强/RNNoise.md",
     "work/牛客面经.md",
     "语音基础/PCM WAV.md",
@@ -296,7 +298,6 @@
     "语音基础/IIR和FIR滤波器代码.md",
     "师兄项目笔记/个人技能_.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
-    "语音增强/频域RLS.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "回声/FLMS.pdf",
@@ -307,7 +308,6 @@
     "语音基础/线性卷积圆周卷积.md",
     "[超详细图解Self-Attention.md",
     "[熬了一晚上，我从零实现了Transformer模型，把代码讲给你听.md",
-    "语音基础/信号与系统知识点.md",
     "Pasted image 20230620192408.png",
     "语音基础/面试题库整理扫描.pdf",
     "C++笔记",
