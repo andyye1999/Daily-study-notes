@@ -13,12 +13,13 @@ RLS 在频域上不是N * N了 是1 * 1
 代码注释在20220515文件夹内
 
 ```c
-st->rab[2 * j] = vv * st->rab[2 * j] + alpha * (x[2 * j] * d[2 * j] + x[2 * j + 1] * d[2 * j + 1]);
-		st->rab[2 * j + 1] = vv * st->rab[2 * j + 1] + alpha * (-x[2 * j + 1] * d[2 * j] + x[2 * j] * d[2 * j + 1]);
-		st->raa[j] = vv * st->raa[j] + alpha * (x[2 * j] * x[2 * j] + x[2 * j + 1] * x[2 * j + 1]);
+tmp = 1 - alpha;
+st->rab[2 * j] = tmp * st->rab[2 * j] + alpha * (x[2 * j] * d[2 * j] + x[2 * j + 1] * d[2 * j + 1]);
+		st->rab[2 * j + 1] = tmp * st->rab[2 * j + 1] + alpha * (-x[2 * j + 1] * d[2 * j] + x[2 * j] * d[2 * j + 1]);
+		st->raa[j] = tmp * st->raa[j] + alpha * (x[2 * j] * x[2 * j] + x[2 * j + 1] * x[2 * j + 1]);
 
-		err[2 * j] = d[2 * j] - (x[2 * j] * st->rab[2 * j] - x[2 * j + 1] * st->rab[2 * j + 1]) / st->raa[j];   // ���ƹ�ʽ����������棬��Ƶ����ǳ���
-		err[2 * j + 1] = d[2 * j + 1] - (x[2 * j + 1] * st->rab[2 * j] + x[2 * j] * st->rab[2 * j + 1]) / st->raa[j];
+		e[2 * j] = d[2 * j] - (x[2 * j] * st->rab[2 * j] - x[2 * j + 1] * st->rab[2 * j + 1]) / st->raa[j];   // e = d - 互相关*x/自相关
+		e[2 * j + 1] = d[2 * j + 1] - (x[2 * j + 1] * st->rab[2 * j] + x[2 * j] * st->rab[2 * j + 1]) / st->raa[j];
 ```
 
 ![IMG_3137(20220621-195527)](https://raw.githubusercontent.com/andyye1999/image-hosting/master/20220524/IMG_3137(20220621-195527).3f8ibl5jf120.webp)

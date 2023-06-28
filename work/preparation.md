@@ -58,40 +58,39 @@ Background noise reduction 和 Statistical noise reduction 区别是前者是在
 代码在BCE工程中  md中删除了，防止保密协议
 
 ```cpp
-for (i = 0; i < 100; i++) hist[i] = 0;
+for (i = 0; i < 100; i++) list[i] = 0;
 		for (j = 1; j < fftpoint / 2; j++)
 		{
-			vv = 10 * (float)log10(1.0 + st->refenergyaverage[j]);
-			hist[(Word16)vv]++; 
+			tmp = 10 * (float)log10(1.0 + st->refenergyaverage[j]);
+			list[(Word16)tmp]++; 
 		}
-		for (freq_num = 0, i = 99; i > 0; i--)
+		for (num = 0, i = 99; i > 0; i--)
 		{
-			freq_num += hist[i];
-			if (freq_num > 12) break; 
+			num += list[i];
+			if (num > 12) break; 
 		}
-		vv = (float)pow(10, i / 10.0); 
-		for (aver_level = freq_num = 0, j = 1; j < FFT_LEN / 2; j++)
+		tmp = (float)pow(10, i / 10.0); 
+		for (energaverage = num = 0, j = 1; j < fftpoint / 2; j++)
 		{
-			if (st->ener_ref_aver[j] < vv)
+			if (st->refenergyaverage[j] < tmp)
 			{
-				aver_level += st->refenergyaverage[j];
-				freq_num++;
+				energaverage += st->refenergyaverage[j];
+				num++;
 			}
 		}
-		if (freq_num == 0)
+		if (num == 0)
 		{
-			freq_num = FFT_LEN / 2 - 1;
-			for (aver_level = 0, j = 1; j < FFT_LEN / 2; j++) energaverage += st->refenergyaverage[j];
+			num = fftpoint / 2 - 1;
+			for (energaverage = 0, j = 1; j < FFT_LEN / 2; j++) energaverage += st->refenergyaverage[j];
 		}
 		energaverage /= freq_num;
-		for (i = 1; i < FFT_LEN / 2; i++)
+		for (i = 1; i < fftpoint / 2; i++)
 		{
-			vv = (float)sqrt(energaverage / st->refenergyaverage[i]);
-			if (vv > 1.0f) vv = 1.0f;
-			vv = (float)sqrt(vv);
-			vv = (float)sqrt(vv);
-			send_dat_buf[2 * i] *= vv;
-			send_dat_buf[2 * i + 1] *= vv;
+			tmp = (float)sqrt(energaverage / st->refenergyaverage[i]);
+			if (tmp > 1.0f) tmp = 1.0f;
+			tmp = (float)sqrt(tmp);
+			input[2 * i] *= tmp;
+			input[2 * i + 1] *= tmp;
 		}
 ```
 
