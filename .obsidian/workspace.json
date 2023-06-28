@@ -269,8 +269,9 @@
   },
   "active": "4cac8f5338aa832f",
   "lastOpenFiles": [
-    "C++ 那些事/排序.md",
+    "深度学习/深度学习中的激活函数.md",
     "work/牛客面经.md",
+    "C++ 那些事/排序.md",
     "work/面经中的C++.md",
     "深度学习/深度学习.md",
     "语音基础/重采样.md",
@@ -290,7 +291,6 @@
     "webrtc/webrtc-aec.md",
     "脚本/重采样.md",
     "语音基础/线性卷积圆周卷积.md",
-    "深度学习/深度学习中的激活函数.md",
     "语音增强/RNNoise.md",
     "[超详细图解Self-Attention.md",
     "[熬了一晚上，我从零实现了Transformer模型，把代码讲给你听.md",
