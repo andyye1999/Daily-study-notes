@@ -602,6 +602,34 @@ int *q = (int *)malloc(2*sizeof(int));
 如果反过来使用，即对于单个对象使用`delete []`，对于对象数组使用`delete`，其行为是未定义的；
 所以，最恰当的方式就是如果用了`new`，就用`delete`；如果用了`new []`，就用`delete []`。
 
+```cpp
+#include <iostream>
+using namespace std;
+/////////class Babe
+class Babe
+{
+public:
+    Babe()
+    {
+        cout << \"Create a Babe to talk with me\" << endl;
+    }
+    ~Babe()
+    {
+        cout << \"Babe don\'t Go away,listen to me\" << endl;
+    }
+};
+//////////main function
+int main()
+{
+    Babe* pbabe = new Babe[3];
+    delete pbabe;
+    pbabe = new Babe[3];
+    delete pbabe[];
+    return 0;
+}
+```
+
+
 # 内存泄漏的场景有哪些？
 
 `malloc`和`free`未成对出现；`new/new []`和`delete/delete []`未成对出现；
