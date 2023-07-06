@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ 那些事/排序.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ 那些事/排序.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -267,20 +267,20 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "9e3abef760b6ddec",
+  "active": "e389b3d86b59ebaa",
   "lastOpenFiles": [
-    "语音增强/RNNoise.md",
+    "work/preparation.md",
+    "骨传导/深度学习骨导映射.md",
     "C++ 那些事/排序.md",
+    "语音增强/RNNoise.md",
     "面经/小米实习.md",
     "面经/科大讯飞.md",
     "work/牛客面经.md",
-    "work/preparation.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/语音活动检测模块.md",
     "work/面经中的C++.md",
     "语音增强/频域RLS.md",
     "语音基础/PCM WAV.md",
-    "骨传导/深度学习骨导映射.md",
     "深度学习/深度学习中的激活函数.md",
     "深度学习/深度学习.md",
     "语音基础/重采样.md",
