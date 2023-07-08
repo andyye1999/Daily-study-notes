@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "0fd03e6eb9e0089f",
+            "id": "da82c63c30c176cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音增强/语音活动检测模块.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "毕业论文/阅读文献.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "毕业论文/阅读文献.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           }
@@ -267,19 +267,19 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e389b3d86b59ebaa",
+  "active": "da82c63c30c176cf",
   "lastOpenFiles": [
-    "骨传导/深度学习骨导映射.md",
-    "毕业论文/阅读文献.md",
-    "毕业论文",
     "work/preparation.md",
+    "语音增强/语音活动检测模块.md",
+    "毕业论文/阅读文献.md",
+    "骨传导/深度学习骨导映射.md",
+    "毕业论文",
     "C++ 那些事/排序.md",
     "语音增强/RNNoise.md",
     "面经/小米实习.md",
     "面经/科大讯飞.md",
     "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
-    "语音增强/语音活动检测模块.md",
     "work/面经中的C++.md",
     "语音增强/频域RLS.md",
     "语音基础/PCM WAV.md",
