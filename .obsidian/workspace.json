@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "浮点数",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ 那些事/C++.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ 那些事/C++.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -269,6 +269,7 @@
   },
   "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
+    "C++ 那些事/C++.md",
     "骨传导/深度学习骨导映射.md",
     "work/preparation.md",
     "语音增强/语音活动检测模块.md",
@@ -296,7 +297,6 @@
     "C++ 那些事/程序员面试宝典.md",
     "webrtc/webrtc-aec.md",
     "脚本/重采样.md",
-    "语音基础/线性卷积圆周卷积.md",
     "Pasted image 20230620192408.png",
     "语音基础/面试题库整理扫描.pdf",
     "C++笔记",

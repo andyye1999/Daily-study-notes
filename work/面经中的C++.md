@@ -229,6 +229,12 @@ C++来说，支持函数的重载，编译后的函数一般是以函数名和�
 
 例如函数**void fun(int, int)，编译后的可能是_fun_int_int(不同编译器可能不同，但都采用了类似的机制，用函数名和参数类型来命名编译后的函数名)；而C语言没有类似的重载机制，一般是利用函数名来指明编译后的函数名的，对应上面的函数可能会是_fun这样的名字。**
 
+# 异或
+
+![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230709/image.2e9dh7q308ys.webp)
+
+
+
 # define和const有什么区别？
 
 
