@@ -285,6 +285,10 @@ void test_1_wei_bag_problem() {
 
 # 浮点数
 
+
+
+[2.7 为什么 0.1 + 0.2 不等于 0.3 ？ | 小林coding (xiaolincoding.com)](https://xiaolincoding.com/os/1_hardware/float.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B4%9F%E6%95%B0%E8%A6%81%E7%94%A8%E8%A1%A5%E7%A0%81%E8%A1%A8%E7%A4%BA)
+
 某个32位浮点数，符号位1位，指数位8位，尾数部分23位，问该浮点数最大能表述的正数是多少？
 一个32位浮点数遵循IEEE 754标准，其结构如下：  
   

@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/面经中的C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "浮点数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "C++ 那些事/C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "C++ 那些事/C++.md"
               }
             }
           }
@@ -267,12 +267,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "da82c63c30c176cf",
+  "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
+    "骨传导/深度学习骨导映射.md",
     "work/preparation.md",
     "语音增强/语音活动检测模块.md",
     "毕业论文/阅读文献.md",
-    "骨传导/深度学习骨导映射.md",
     "毕业论文",
     "C++ 那些事/排序.md",
     "语音增强/RNNoise.md",
