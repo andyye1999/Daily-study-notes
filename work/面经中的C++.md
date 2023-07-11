@@ -64,6 +64,8 @@ left与right的逻辑处理;         // 中
 
 要理解如果返回值left为空，right不为空为什么要返回right，为什么可以用返回right传给上一层结果。
 
+
+
 # 指针常量 常量指针
 
 常量指针：const int * p （底层const）

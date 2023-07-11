@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "C++ 那些事/刷题遇见的常用知识点.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音基础/IIR和FIR滤波器代码.md",
+                "file": "C++ 那些事/刷题遇见的常用知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音基础/IIR和FIR滤波器代码.md"
+                "file": "C++ 那些事/刷题遇见的常用知识点.md"
               }
             }
           }
@@ -267,8 +267,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "d8384007ebb6b2d0",
+  "active": "3950586750f2650e",
   "lastOpenFiles": [
+    "work/面经中的C++.md",
+    "C++ 那些事/刷题遇见的常用知识点.md",
+    "语音基础/IIR和FIR滤波器代码.md",
     "面经/韶音.md",
     "面经/科大讯飞.md",
     "C++ 那些事/C++.md",
@@ -282,21 +285,18 @@
     "面经/小米实习.md",
     "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
-    "work/面经中的C++.md",
     "语音增强/频域RLS.md",
     "语音基础/PCM WAV.md",
     "深度学习/深度学习中的激活函数.md",
     "深度学习/深度学习.md",
     "语音基础/重采样.md",
     "师兄项目笔记/数字信号处理_.md",
-    "语音基础/IIR和FIR滤波器代码.md",
     "师兄项目笔记/个人技能_.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "回声/FLMS.pdf",
     "C++ 那些事/程序员面试宝典.md",
-    "webrtc/webrtc-aec.md",
     "Pasted image 20230620192408.png",
     "语音基础/面试题库整理扫描.pdf",
     "C++笔记",
