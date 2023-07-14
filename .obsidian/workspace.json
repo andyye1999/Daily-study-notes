@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ 那些事/刷题遇见的常用知识点.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ 那些事/刷题遇见的常用知识点.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -279,14 +279,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3950586750f2650e",
+  "active": "f535d301d759622b",
   "lastOpenFiles": [
+    "C++ 那些事/刷题遇见的常用知识点.md",
     "work/面经中的C++.md",
     "C++ 那些事/排序.md",
     "C++ 那些事/C++.md",
     "骨传导/opus.md",
     "骨传导/深度学习骨导映射.md",
-    "C++ 那些事/刷题遇见的常用知识点.md",
     "语音基础/IIR和FIR滤波器代码.md",
     "面经/韶音.md",
     "面经/科大讯飞.md",
