@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "e63994b9023120d8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "语音基础/面试题库整理扫描.pdf"
+              }
+            }
+          },
+          {
             "id": "3950586750f2650e",
             "type": "leaf",
             "state": {
@@ -176,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "语音基础/面试题库整理扫描.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "语音基础/面试题库整理扫描.pdf"
               }
             }
           }
@@ -279,10 +289,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f535d301d759622b",
+  "active": "e63994b9023120d8",
   "lastOpenFiles": [
-    "C++ 那些事/刷题遇见的常用知识点.md",
     "work/面经中的C++.md",
+    "C++ 那些事/刷题遇见的常用知识点.md",
     "C++ 那些事/排序.md",
     "C++ 那些事/C++.md",
     "骨传导/opus.md",
