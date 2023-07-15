@@ -155,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "面经/中兴.md",
                 "mode": "source",
                 "source": false
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "面经/中兴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "面经/中兴.md"
               }
             }
           }
@@ -291,6 +291,8 @@
   },
   "active": "4cac8f5338aa832f",
   "lastOpenFiles": [
+    "work/牛客面经.md",
+    "面经/中兴.md",
     "语音基础/面试题库整理扫描.pdf",
     "work/面经中的C++.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
@@ -307,7 +309,6 @@
     "毕业论文",
     "语音增强/RNNoise.md",
     "面经/小米实习.md",
-    "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
     "语音增强/频域RLS.md",
     "语音基础/PCM WAV.md",
