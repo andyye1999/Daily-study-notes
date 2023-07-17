@@ -163,8 +163,7 @@
               }
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "C++ 那些事/排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "C++ 那些事/排序.md"
               }
             }
           }
@@ -267,10 +266,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "bf9db437144e6494",
+  "active": "9e3abef760b6ddec",
   "lastOpenFiles": [
-    "语音基础/IIR和FIR滤波器代码.md",
     "work/牛客面经.md",
+    "语音基础/IIR和FIR滤波器代码.md",
     "深度学习/深度学习.md",
     "师兄项目笔记/数字信号处理_.md",
     "语音增强/语音增强理论与实践.md",
