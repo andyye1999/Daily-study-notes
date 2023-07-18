@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "251d53bb0e9e3892",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "骨传导/乒乓buffer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bed1f09864a8b19c",
             "type": "leaf",
             "state": {
@@ -110,18 +122,6 @@
               "type": "markdown",
               "state": {
                 "file": "语音增强/语音增强理论与实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ede663c6a763afe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "师兄项目笔记/数字信号处理_.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webrtc/webrtc_ns.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -279,14 +279,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b32f044b207a92c5",
+  "active": "bf9db437144e6494",
   "lastOpenFiles": [
+    "语音增强/语音增强理论与实践.md",
+    "师兄项目笔记/数字信号处理_.md",
+    "骨传导/乒乓buffer.md",
+    "work/preparation.md",
     "work/牛客面经.md",
+    "webrtc/webrtc_ns.md",
     "C++ 那些事/排序.md",
     "语音基础/IIR和FIR滤波器代码.md",
     "深度学习/深度学习.md",
-    "师兄项目笔记/数字信号处理_.md",
-    "语音增强/语音增强理论与实践.md",
     "语音增强/RNNoise.md",
     "毕业论文/阅读文献.md",
     "work/面经中的C++.md",
@@ -294,7 +297,6 @@
     "骨传导/深度学习骨导映射.md",
     "骨传导/opus.md",
     "语音增强/频域RLS.md",
-    "work/preparation.md",
     "面经/中兴.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "C++ 那些事/C++.md",
@@ -307,7 +309,6 @@
     "深度学习/深度学习中的激活函数.md",
     "语音基础/重采样.md",
     "师兄项目笔记/个人技能_.md",
-    "语音基础/信号的抽取与插值与子带滤波器组.md",
     "回声/FLMS.pdf",
     "Pasted image 20230620192408.png",
     "C++笔记",
