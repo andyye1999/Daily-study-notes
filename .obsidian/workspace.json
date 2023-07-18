@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           }
@@ -279,13 +279,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6aed9112d4ec4b15",
+  "active": "168dd423f5a40d78",
   "lastOpenFiles": [
+    "面经/韶音.md",
+    "语音增强/语音增强理论与实践.md",
+    "work/preparation.md",
     "work/牛客面经.md",
     "语音基础/IIR和FIR滤波器代码.md",
-    "语音增强/语音增强理论与实践.md",
     "语音增强/语音活动检测模块.md",
-    "work/preparation.md",
     "骨传导/乒乓buffer.md",
     "语音增强/RNNoise.md",
     "work/面经中的C++.md",
@@ -301,7 +302,6 @@
     "面经/中兴.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "C++ 那些事/C++.md",
-    "面经/韶音.md",
     "面经/科大讯飞.md",
     "毕业论文",
     "面经/小米实习.md",
