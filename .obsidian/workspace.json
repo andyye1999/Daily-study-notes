@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -279,8 +279,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f535d301d759622b",
+  "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
+    "work/面经中的C++.md",
     "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
     "师兄项目笔记/数字信号处理_.md",
@@ -292,7 +293,6 @@
     "深度学习/深度学习.md",
     "语音增强/RNNoise.md",
     "毕业论文/阅读文献.md",
-    "work/面经中的C++.md",
     "语音基础/面试题库整理扫描.pdf",
     "骨传导/深度学习骨导映射.md",
     "骨传导/opus.md",
