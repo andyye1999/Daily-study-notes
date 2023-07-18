@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -279,13 +279,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "bf9db437144e6494",
+  "active": "f535d301d759622b",
   "lastOpenFiles": [
+    "work/牛客面经.md",
     "语音增强/语音增强理论与实践.md",
     "师兄项目笔记/数字信号处理_.md",
     "骨传导/乒乓buffer.md",
     "work/preparation.md",
-    "work/牛客面经.md",
     "webrtc/webrtc_ns.md",
     "C++ 那些事/排序.md",
     "语音基础/IIR和FIR滤波器代码.md",
