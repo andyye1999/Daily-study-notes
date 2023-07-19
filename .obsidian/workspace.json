@@ -116,18 +116,6 @@
             }
           },
           {
-            "id": "168dd423f5a40d78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/语音增强理论与实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d8384007ebb6b2d0",
             "type": "leaf",
             "state": {
@@ -176,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -205,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "牛顿",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md",
+                "file": "C++ 那些事/排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/语音增强理论与实践.md"
+                "file": "C++ 那些事/排序.md"
               }
             }
           }
@@ -279,11 +267,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "168dd423f5a40d78",
+  "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
-    "面经/韶音.md",
-    "语音增强/语音增强理论与实践.md",
+    "定点化/平方根.md",
     "work/preparation.md",
+    "语音增强/语音增强理论与实践.md",
+    "面经/韶音.md",
     "work/牛客面经.md",
     "语音基础/IIR和FIR滤波器代码.md",
     "语音增强/语音活动检测模块.md",
@@ -308,7 +297,6 @@
     "语音基础/PCM WAV.md",
     "深度学习/深度学习中的激活函数.md",
     "语音基础/重采样.md",
-    "师兄项目笔记/个人技能_.md",
     "回声/FLMS.pdf",
     "Pasted image 20230620192408.png",
     "C++笔记",
