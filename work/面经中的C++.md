@@ -233,6 +233,10 @@ C++来说，支持函数的重载，编译后的函数一般是以函数名和�
 
 例如函数**void fun(int, int)，编译后的可能是_fun_int_int(不同编译器可能不同，但都采用了类似的机制，用函数名和参数类型来命名编译后的函数名)；而C语言没有类似的重载机制，一般是利用函数名来指明编译后的函数名的，对应上面的函数可能会是_fun这样的名字。**
 
+# 手写string
+
+[(34条消息) 编写一个String类（c++实现）_试建立一个类string,实现将两个成员数组(str1和str2)中的字符串连接成一个字_kylee1512的博客-CSDN博客](https://blog.csdn.net/qq_40821469/article/details/108913326)
+
 # 异或
 
 ![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230709/image.2e9dh7q308ys.webp)
