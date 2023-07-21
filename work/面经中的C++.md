@@ -257,41 +257,7 @@ C++来说，支持函数的重载，编译后的函数一般是以函数名和�
 使用sizeof看一个指针的大小是4，而引用则是被引用对象的大小；
 指针可以有多级指针（**p），而引用止于一级
 
-# 组合 排列 子集
 
-46全排列
-77组合
-78子集
-
-# 背包问题
-
-问能否能装满背包（或者最多装多少）：dp[j] = max(dp[j], dp[j - nums[i]] + nums[i]);
-
-```cpp
-void test_1_wei_bag_problem() {
-    vector<int> weight = {1, 3, 4};
-    vector<int> value = {15, 20, 30};
-    int bagWeight = 4;
-
-    // 初始化
-    vector<int> dp(bagWeight + 1, 0);
-    for(int i = 0; i < weight.size(); i++) { // 遍历物品
-        for(int j = bagWeight; j >= weight[i]; j--) { // 遍历背包容量
-            dp[j] = max(dp[j], dp[j - weight[i]] + value[i]);
-        }
-    }
-    cout << dp[bagWeight] << endl;
-}
-```
-416 1049
-问装满背包有几种方法：dp[j] += dp[j - nums[i]]
-**如果求组合数就是外层for循环遍历物品，内层for遍历背包**。
-
-**如果求排列数就是外层for遍历背包，内层for循环遍历物品**。
-494 518 377 
-问装满背包所有物品的最小个数：dp[j] = min(dp[j - coins[i]] + 1, dp[j]);
-
-322 279
 
 # 浮点数
 
