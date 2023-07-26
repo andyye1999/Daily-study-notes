@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "f535d301d759622b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面经/oppo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3950586750f2650e",
             "type": "leaf",
             "state": {
@@ -164,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -230,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面经/oppo.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面经/oppo.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -267,20 +255,24 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f535d301d759622b",
+  "active": "6aed9112d4ec4b15",
   "lastOpenFiles": [
-    "work/面经中的C++.md",
-    "面经/oppo.md",
+    "语音增强/语音活动检测模块.md",
+    "work/preparation.md",
+    "师兄项目笔记/WebRT_AEC回声消除_.md",
     "work/牛客面经.md",
+    "语音基础/PCM WAV.md",
+    "语音增强/RNNoise.md",
+    "C++ 那些事/排序.md",
+    "面经/oppo.md",
+    "work/面经中的C++.md",
     "Pasted image 20230724170853.png",
     "语音基础/面试题库整理扫描.pdf",
     "深度学习/深度学习.md",
     "语音基础/IIR和FIR滤波器代码.md",
-    "work/preparation.md",
     "C++笔记/C++核心编程.md",
     "骨传导/深度学习骨导映射.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
-    "C++ 那些事/排序.md",
     "C++笔记/C++C八股文.md",
     "C++笔记/C++提高编程.md",
     "C++笔记/面试程序.md",
@@ -288,15 +280,11 @@
     "定点化/平方根.md",
     "语音增强/语音增强理论与实践.md",
     "面经/韶音.md",
-    "语音增强/语音活动检测模块.md",
     "骨传导/乒乓buffer.md",
-    "语音增强/RNNoise.md",
     "师兄项目笔记/数字信号处理_.md",
     "webrtc/webrtc_ns.md",
     "毕业论文/阅读文献.md",
     "骨传导/opus.md",
-    "语音增强/频域RLS.md",
-    "面经/中兴.md",
     "毕业论文",
     "回声/FLMS.pdf",
     "Pasted image 20230620192408.png",
