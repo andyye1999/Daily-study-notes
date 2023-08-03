@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -243,17 +243,18 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "13302243b52fdb45",
+  "active": "a95c800daba733cc",
   "lastOpenFiles": [
-    "work/牛客面经.md",
-    "语音基础/PCM WAV.md",
+    "骨传导/深度学习骨导映射.md",
     "work/preparation.md",
+    "work/牛客面经.md",
+    "webrtc/webrtc_ns.md",
+    "语音基础/PCM WAV.md",
     "语音增强/频域RLS.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "语音增强/语音活动检测模块.md",
     "深度学习/深度学习.md",
     "语音增强/RNNoise.md",
-    "骨传导/深度学习骨导映射.md",
     "语音基础/面试题库整理扫描.pdf",
     "变换/fft与实数fft.md",
     "课程笔记/数字信号处理课程笔记.pdf",
