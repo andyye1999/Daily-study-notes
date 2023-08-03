@@ -226,3 +226,9 @@ void r_fft(float* bone_buf, short isign)
 
 
 ![99114626071eab5a921974c54807ee5](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230411/99114626071eab5a921974c54807ee5.rebwb1vz200.webp)
+
+IFFT程序步骤
+
+1. 将X(K)取共轭
+2. 直接做FFT
+3. 对FFT结果取共轭并乘以1/N
