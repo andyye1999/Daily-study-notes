@@ -128,6 +128,30 @@
             }
           },
           {
+            "id": "6d72ac3983b79ddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语音基础/重采样.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70874dfe5613cc78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面经/快手.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b32f044b207a92c5",
             "type": "leaf",
             "state": {
@@ -140,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -206,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "面经/快手.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "面经/快手.md"
               }
             }
           }
@@ -243,24 +267,27 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "bf9db437144e6494",
+  "active": "70874dfe5613cc78",
   "lastOpenFiles": [
-    "骨传导/深度学习骨导映射.md",
+    "语音基础/重采样.md",
     "work/牛客面经.md",
-    "语音增强/RNNoise.md",
-    "work/preparation.md",
+    "语音基础/信号的抽取与插值与子带滤波器组.md",
+    "面经/快手.md",
+    "师兄项目笔记/WebRT_AEC回声消除_.md",
     "语音增强/频域RLS.md",
+    "work/preparation.md",
+    "课程笔记/数字信号处理课程笔记.pdf",
+    "骨传导/深度学习骨导映射.md",
+    "语音增强/RNNoise.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "语音基础/预加重.md",
     "work/面经中的C++.md",
     "webrtc/webrtc_ns.md",
     "语音基础/PCM WAV.md",
-    "师兄项目笔记/WebRT_AEC回声消除_.md",
     "语音增强/语音活动检测模块.md",
     "深度学习/深度学习.md",
     "语音基础/面试题库整理扫描.pdf",
     "变换/fft与实数fft.md",
-    "课程笔记/数字信号处理课程笔记.pdf",
     "Pasted image 20230803152802.png",
     "回声/FDAF自适应滤波器算法综述.md",
     "C++ 那些事/排序.md",
@@ -271,10 +298,6 @@
     "语音基础/IIR和FIR滤波器代码.md",
     "C++笔记/C++核心编程.md",
     "C++笔记/C++C八股文.md",
-    "C++笔记/C++提高编程.md",
-    "C++笔记/面试程序.md",
-    "webrtc/webrtc-agc.md",
-    "定点化/平方根.md",
     "毕业论文",
     "回声/FLMS.pdf",
     "Pasted image 20230620192408.png",
