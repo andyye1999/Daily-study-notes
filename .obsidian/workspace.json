@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/面经中的C++.md",
+                "file": "C++ 那些事/刷题遇见的常用知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/面经中的C++.md"
+                "file": "C++ 那些事/刷题遇见的常用知识点.md"
               }
             }
           }
@@ -243,8 +243,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "a95c800daba733cc",
+  "active": "3950586750f2650e",
   "lastOpenFiles": [
+    "work/面经中的C++.md",
     "骨传导/深度学习骨导映射.md",
     "work/preparation.md",
     "work/牛客面经.md",
@@ -263,7 +264,6 @@
     "C++ 那些事/刷题遇见的常用知识点.md",
     "C++ 那些事/排序.md",
     "面经/字节.md",
-    "work/面经中的C++.md",
     "面经/oppo.md",
     "webrtc/webrtc-aec.md",
     "Pasted image 20230724170853.png",
