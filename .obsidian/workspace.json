@@ -140,18 +140,6 @@
             }
           },
           {
-            "id": "70874dfe5613cc78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面经/快手.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b32f044b207a92c5",
             "type": "leaf",
             "state": {
@@ -164,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -230,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面经/快手.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面经/快手.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -267,12 +255,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "70874dfe5613cc78",
+  "active": "bf9db437144e6494",
   "lastOpenFiles": [
     "语音基础/重采样.md",
+    "面经/快手.md",
     "work/牛客面经.md",
     "语音基础/信号的抽取与插值与子带滤波器组.md",
-    "面经/快手.md",
     "师兄项目笔记/WebRT_AEC回声消除_.md",
     "语音增强/频域RLS.md",
     "work/preparation.md",
