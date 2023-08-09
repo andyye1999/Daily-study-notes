@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "面经/百度.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "面经/百度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "面经/百度.md"
               }
             }
           }
@@ -257,10 +257,11 @@
   },
   "active": "aad5299b4214f56c",
   "lastOpenFiles": [
+    "work/牛客面经.md",
+    "面经/百度.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "面经/中兴.md",
     "work/面经中的C++.md",
-    "work/牛客面经.md",
     "语音增强/RNNoise.md",
     "面经/联想.md",
     "work/preparation.md",
@@ -286,7 +287,6 @@
     "webrtc/webrtc-aec.md",
     "Pasted image 20230724170853.png",
     "语音基础/IIR和FIR滤波器代码.md",
-    "C++笔记/C++核心编程.md",
     "毕业论文",
     "回声/FLMS.pdf",
     "Pasted image 20230620192408.png",
