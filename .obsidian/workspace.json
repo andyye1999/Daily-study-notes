@@ -128,6 +128,18 @@
             }
           },
           {
+            "id": "32086acf65b5c6f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面经/百度.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6d72ac3983b79ddd",
             "type": "leaf",
             "state": {
@@ -152,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "面经/百度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "面经/百度.md"
               }
             }
           }
@@ -255,14 +267,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "638707072464bedd",
+  "active": "32086acf65b5c6f4",
   "lastOpenFiles": [
-    "变换/fft与实数fft.md",
     "work/牛客面经.md",
+    "面经/百度.md",
+    "变换/fft与实数fft.md",
     "work/preparation.md",
     "C++ 那些事/排序.md",
     "语音增强/RNNoise.md",
-    "面经/百度.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "面经/中兴.md",
     "work/面经中的C++.md",
