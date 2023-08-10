@@ -128,18 +128,6 @@
             }
           },
           {
-            "id": "32086acf65b5c6f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面经/百度.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6d72ac3983b79ddd",
             "type": "leaf",
             "state": {
@@ -164,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -230,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面经/百度.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面经/百度.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -267,11 +255,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "32086acf65b5c6f4",
+  "active": "638707072464bedd",
   "lastOpenFiles": [
+    "面经/百度.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "work/面经中的C++.md",
-    "面经/百度.md",
     "work/牛客面经.md",
     "变换/fft与实数fft.md",
     "work/preparation.md",
