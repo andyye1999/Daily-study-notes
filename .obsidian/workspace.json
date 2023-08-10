@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ 那些事/刷题遇见的常用知识点.md",
+                "file": "面经/百度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ 那些事/刷题遇见的常用知识点.md"
+                "file": "面经/百度.md"
               }
             }
           }
@@ -267,8 +267,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3950586750f2650e",
+  "active": "32086acf65b5c6f4",
   "lastOpenFiles": [
+    "C++ 那些事/刷题遇见的常用知识点.md",
     "work/面经中的C++.md",
     "面经/百度.md",
     "work/牛客面经.md",
@@ -276,7 +277,6 @@
     "work/preparation.md",
     "C++ 那些事/排序.md",
     "语音增强/RNNoise.md",
-    "C++ 那些事/刷题遇见的常用知识点.md",
     "面经/中兴.md",
     "面经/联想.md",
     "骨传导/深度学习骨导映射.md",
