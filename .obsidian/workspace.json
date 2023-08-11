@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "38e16ba48944f0d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面经/快手.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bed1f09864a8b19c",
             "type": "leaf",
             "state": {
@@ -188,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -254,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -291,12 +303,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "13302243b52fdb45",
+  "active": "f09c4091eea4bbac",
   "lastOpenFiles": [
-    "语音增强/频域RLS.md",
-    "work/牛客面经.md",
     "面经/快手.md",
     "work/preparation.md",
+    "语音增强/频域RLS.md",
+    "work/牛客面经.md",
     "深度学习/深度学习中的激活函数.md",
     "深度学习/深度学习.md",
     "语音增强/RNNoise.md",
