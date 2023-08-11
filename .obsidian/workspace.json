@@ -116,12 +116,24 @@
             }
           },
           {
-            "id": "638707072464bedd",
+            "id": "f09c4091eea4bbac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "work/牛客面经.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbad39fec48d476c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "深度学习/深度学习中的激活函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -242,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/深度学习.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/深度学习.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -279,10 +291,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "734308c7ed1806a8",
+  "active": "f09c4091eea4bbac",
   "lastOpenFiles": [
+    "深度学习/深度学习中的激活函数.md",
     "work/牛客面经.md",
     "深度学习/深度学习.md",
+    "语音增强/RNNoise.md",
     "语音基础/IIR和FIR滤波器代码.md",
     "面经/快手.md",
     "面经/百度.md",
@@ -291,7 +305,6 @@
     "变换/fft与实数fft.md",
     "work/preparation.md",
     "C++ 那些事/排序.md",
-    "语音增强/RNNoise.md",
     "面经/中兴.md",
     "面经/联想.md",
     "骨传导/深度学习骨导映射.md",
@@ -309,7 +322,6 @@
     "回声/FDAF自适应滤波器算法综述.md",
     "面经/字节.md",
     "面经/oppo.md",
-    "webrtc/webrtc-aec.md",
     "Pasted image 20230724170853.png",
     "毕业论文",
     "回声/FLMS.pdf",
