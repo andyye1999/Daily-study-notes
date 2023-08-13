@@ -104,18 +104,6 @@
             }
           },
           {
-            "id": "38e16ba48944f0d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面经/快手.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bed1f09864a8b19c",
             "type": "leaf",
             "state": {
@@ -134,18 +122,6 @@
               "type": "markdown",
               "state": {
                 "file": "work/牛客面经.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbad39fec48d476c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深度学习/深度学习中的激活函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -200,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -305,12 +281,13 @@
   },
   "active": "f09c4091eea4bbac",
   "lastOpenFiles": [
-    "面经/快手.md",
-    "work/preparation.md",
-    "语音增强/频域RLS.md",
-    "work/牛客面经.md",
-    "深度学习/深度学习中的激活函数.md",
     "深度学习/深度学习.md",
+    "work/preparation.md",
+    "面经/快手.md",
+    "work/牛客面经.md",
+    "波束形成/TDOA进行声源定位.md",
+    "语音增强/频域RLS.md",
+    "深度学习/深度学习中的激活函数.md",
     "语音增强/RNNoise.md",
     "语音基础/IIR和FIR滤波器代码.md",
     "面经/百度.md",
@@ -333,7 +310,6 @@
     "Pasted image 20230803152802.png",
     "回声/FDAF自适应滤波器算法综述.md",
     "面经/字节.md",
-    "面经/oppo.md",
     "Pasted image 20230724170853.png",
     "毕业论文",
     "回声/FLMS.pdf",
