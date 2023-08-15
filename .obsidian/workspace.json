@@ -116,7 +116,19 @@
             }
           },
           {
-            "id": "f09c4091eea4bbac",
+            "id": "479f39e751c0f4c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "深度学习/深度学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9829a26fdf1cd4ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -279,12 +291,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f09c4091eea4bbac",
+  "active": "9829a26fdf1cd4ab",
   "lastOpenFiles": [
     "深度学习/深度学习.md",
+    "work/牛客面经.md",
     "work/preparation.md",
     "面经/快手.md",
-    "work/牛客面经.md",
     "波束形成/TDOA进行声源定位.md",
     "语音增强/频域RLS.md",
     "深度学习/深度学习中的激活函数.md",
