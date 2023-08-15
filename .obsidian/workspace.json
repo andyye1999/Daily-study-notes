@@ -293,8 +293,9 @@
   },
   "active": "9829a26fdf1cd4ab",
   "lastOpenFiles": [
-    "变换/fft与实数fft.md",
+    "面经/百度.md",
     "work/牛客面经.md",
+    "变换/fft与实数fft.md",
     "work/preparation.md",
     "语音增强/频域RLS.md",
     "面经/oppo.md",
@@ -304,7 +305,6 @@
     "深度学习/深度学习中的激活函数.md",
     "语音增强/RNNoise.md",
     "语音基础/IIR和FIR滤波器代码.md",
-    "面经/百度.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "work/面经中的C++.md",
     "C++ 那些事/排序.md",
