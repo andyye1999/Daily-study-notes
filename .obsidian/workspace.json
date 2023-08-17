@@ -188,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -291,10 +291,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "9829a26fdf1cd4ab",
+  "active": "13302243b52fdb45",
   "lastOpenFiles": [
-    "面经/百度.md",
     "work/牛客面经.md",
+    "面经/百度.md",
     "变换/fft与实数fft.md",
     "work/preparation.md",
     "语音增强/频域RLS.md",
