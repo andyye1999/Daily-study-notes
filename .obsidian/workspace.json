@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/频域RLS.md",
+                "file": "C++ 那些事/刷题遇见的常用知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/频域RLS.md"
+                "file": "C++ 那些事/刷题遇见的常用知识点.md"
               }
             }
           }
@@ -279,15 +279,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "67afab6025ae2d17",
+  "active": "3950586750f2650e",
   "lastOpenFiles": [
+    "语音增强/频域RLS.md",
     "面经/亿联网络.md",
     "work/preparation.md",
     "面经/oppo.md",
     "work/牛客面经.md",
     "面经/百度.md",
     "变换/fft与实数fft.md",
-    "语音增强/频域RLS.md",
     "深度学习/深度学习.md",
     "面经/快手.md",
     "波束形成/TDOA进行声源定位.md",
