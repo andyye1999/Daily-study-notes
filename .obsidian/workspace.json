@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ 那些事/刷题遇见的常用知识点.md",
+                "file": "work/面经中的C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ 那些事/刷题遇见的常用知识点.md"
+                "file": "work/面经中的C++.md"
               }
             }
           }
@@ -279,13 +279,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3950586750f2650e",
+  "active": "a95c800daba733cc",
   "lastOpenFiles": [
+    "C++笔记/C++核心编程.md",
+    "work/牛客面经.md",
+    "C++ 那些事/刷题遇见的常用知识点.md",
     "语音增强/频域RLS.md",
     "面经/亿联网络.md",
     "work/preparation.md",
     "面经/oppo.md",
-    "work/牛客面经.md",
     "面经/百度.md",
     "变换/fft与实数fft.md",
     "深度学习/深度学习.md",
@@ -294,7 +296,6 @@
     "深度学习/深度学习中的激活函数.md",
     "语音增强/RNNoise.md",
     "语音基础/IIR和FIR滤波器代码.md",
-    "C++ 那些事/刷题遇见的常用知识点.md",
     "work/面经中的C++.md",
     "C++ 那些事/排序.md",
     "面经/中兴.md",
@@ -307,7 +308,6 @@
     "语音基础/预加重.md",
     "webrtc/webrtc_ns.md",
     "语音基础/PCM WAV.md",
-    "语音增强/语音活动检测模块.md",
     "语音基础/面试题库整理扫描.pdf",
     "Pasted image 20230803152802.png",
     "Pasted image 20230724170853.png",
