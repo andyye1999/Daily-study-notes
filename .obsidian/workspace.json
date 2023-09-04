@@ -116,6 +116,16 @@
             }
           },
           {
+            "id": "46ad32f1c4892c60",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
+          },
+          {
             "id": "734308c7ed1806a8",
             "type": "leaf",
             "state": {
@@ -140,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -206,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "work/preparation.md"
               }
             }
           }
@@ -243,10 +253,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6452bf6ec7f86b46",
+  "active": "46ad32f1c4892c60",
   "lastOpenFiles": [
-    "变换/fft与实数fft.md",
     "work/牛客面经.md",
+    "变换/fft与实数fft.md",
     "work/preparation.md",
     "面经/华橙网络.md",
     "语音增强/RNNoise.md",
