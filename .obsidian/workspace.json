@@ -104,28 +104,6 @@
             }
           },
           {
-            "id": "e94accfac2612f35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/preparation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46ad32f1c4892c60",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
-              }
-            }
-          },
-          {
             "id": "734308c7ed1806a8",
             "type": "leaf",
             "state": {
@@ -150,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -216,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "work/牛客面经.md"
               }
             }
           }
@@ -253,11 +231,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "46ad32f1c4892c60",
+  "active": "6452bf6ec7f86b46",
   "lastOpenFiles": [
+    "面经/思必驰.md",
+    "work/preparation.md",
     "work/牛客面经.md",
     "变换/fft与实数fft.md",
-    "work/preparation.md",
     "面经/华橙网络.md",
     "语音增强/RNNoise.md",
     "面经/蔚来.md",
@@ -280,7 +259,6 @@
     "面经/联想.md",
     "骨传导/深度学习骨导映射.md",
     "语音基础/重采样.md",
-    "师兄项目笔记/WebRT_AEC回声消除_.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
     "Pasted image 20230803152802.png",
