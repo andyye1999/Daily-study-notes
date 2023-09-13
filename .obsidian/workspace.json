@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面经/思必驰.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面经/思必驰.md"
+                "file": "work/牛客面经.md"
               }
             }
           },
@@ -265,8 +265,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "9a9bc34daad8df89",
+  "active": "6452bf6ec7f86b46",
   "lastOpenFiles": [
+    "面经/思必驰.md",
     "work/preparation.md",
     "work/牛客面经.md",
     "面经/腾讯.md",
@@ -276,7 +277,6 @@
     "C++ 那些事/刷题遇见的常用知识点.md",
     "骨传导/深度学习骨导映射.md",
     "回声/FDAF自适应滤波器算法综述.md",
-    "面经/思必驰.md",
     "面经/快手.md",
     "面经/亿联网络.md",
     "面经/华橙网络.md",
