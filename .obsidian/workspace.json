@@ -226,6 +226,16 @@
                 "file": "work/preparation.md"
               }
             }
+          },
+          {
+            "id": "42ff36fc84066a0a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -245,11 +255,11 @@
   },
   "active": "ba405897b68c36b8",
   "lastOpenFiles": [
+    "work/牛客面经.md",
+    "work/preparation.md",
     "面经/腾讯.md",
     "语音增强/语音增强理论与实践.md",
-    "work/preparation.md",
     "面经/蔚来.md",
-    "work/牛客面经.md",
     "work/面经中的C++.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "骨传导/深度学习骨导映射.md",
