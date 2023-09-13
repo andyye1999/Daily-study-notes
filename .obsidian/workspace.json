@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "C++ 那些事/刷题遇见的常用知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "C++ 那些事/刷题遇见的常用知识点.md"
               }
             }
           },
@@ -265,15 +265,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6452bf6ec7f86b46",
+  "active": "3950586750f2650e",
   "lastOpenFiles": [
+    "work/面经中的C++.md",
+    "work/牛客面经.md",
     "面经/思必驰.md",
     "work/preparation.md",
-    "work/牛客面经.md",
     "面经/腾讯.md",
     "语音增强/语音增强理论与实践.md",
     "面经/蔚来.md",
-    "work/面经中的C++.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
     "骨传导/深度学习骨导映射.md",
     "回声/FDAF自适应滤波器算法综述.md",
