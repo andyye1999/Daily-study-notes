@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面经/思必驰.md",
+                "file": "面经/腾讯.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,7 +139,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -205,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ 那些事/排序.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ 那些事/排序.md"
+                "file": "work/牛客面经.md"
               }
             }
           },
@@ -252,18 +253,19 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "9e3abef760b6ddec",
+  "active": "6452bf6ec7f86b46",
   "lastOpenFiles": [
+    "面经/腾讯.md",
+    "面经/思必驰.md",
+    "骨传导/深度学习骨导映射.md",
+    "work/面经中的C++.md",
+    "C++ 那些事/排序.md",
     "面经/华为.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
-    "work/面经中的C++.md",
     "work/牛客面经.md",
-    "面经/思必驰.md",
     "work/preparation.md",
-    "面经/腾讯.md",
     "语音增强/语音增强理论与实践.md",
     "面经/蔚来.md",
-    "骨传导/深度学习骨导映射.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "面经/快手.md",
     "面经/亿联网络.md",
@@ -280,7 +282,6 @@
     "语音基础/信号的抽取与插值与子带滤波器组.md",
     "C++笔记/C++核心编程.md",
     "面经/oppo.md",
-    "面经/百度.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
     "Pasted image 20230803152802.png",
