@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "语音增强/语音增强理论与实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "语音增强/语音增强理论与实践.md"
               }
             }
           },
@@ -253,23 +253,26 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6452bf6ec7f86b46",
+  "active": "a7c8dce632363db2",
   "lastOpenFiles": [
     "面经/腾讯.md",
+    "面经/字节.md",
+    "面经/亿联网络.md",
+    "面经/蔚来.md",
+    "面经/快手.md",
+    "面经/科大讯飞.md",
+    "面经/华橙网络.md",
+    "面经/百度.md",
     "面经/思必驰.md",
+    "work/preparation.md",
+    "work/牛客面经.md",
     "骨传导/深度学习骨导映射.md",
     "work/面经中的C++.md",
     "C++ 那些事/排序.md",
     "面经/华为.md",
     "C++ 那些事/刷题遇见的常用知识点.md",
-    "work/牛客面经.md",
-    "work/preparation.md",
     "语音增强/语音增强理论与实践.md",
-    "面经/蔚来.md",
     "回声/FDAF自适应滤波器算法综述.md",
-    "面经/快手.md",
-    "面经/亿联网络.md",
-    "面经/华橙网络.md",
     "语音基础/线性卷积圆周卷积.md",
     "定点化/定点化基础.pdf",
     "定点化/平方根.md",
@@ -279,9 +282,6 @@
     "语音增强/RNNoise.md",
     "波束形成/阵列基础.md",
     "语音增强/频域RLS.md",
-    "语音基础/信号的抽取与插值与子带滤波器组.md",
-    "C++笔记/C++核心编程.md",
-    "面经/oppo.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
     "Pasted image 20230803152802.png",
