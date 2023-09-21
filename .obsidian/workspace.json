@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "b5f38b2a6791eea6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面经/思必驰.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ba405897b68c36b8",
             "type": "leaf",
             "state": {
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "面经/思必驰.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "面经/思必驰.md"
               }
             }
           },
@@ -241,8 +253,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ba405897b68c36b8",
+  "active": "b5f38b2a6791eea6",
   "lastOpenFiles": [
+    "work/牛客面经.md",
+    "work/preparation.md",
     "面经/腾讯.md",
     "语音增强/语音增强理论与实践.md",
     "面经/字节.md",
@@ -253,8 +267,6 @@
     "面经/华橙网络.md",
     "面经/百度.md",
     "面经/思必驰.md",
-    "work/preparation.md",
-    "work/牛客面经.md",
     "骨传导/深度学习骨导映射.md",
     "work/面经中的C++.md",
     "C++ 那些事/排序.md",
