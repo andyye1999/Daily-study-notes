@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "922c979db2fa5be2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "骨传导/带宽扩展.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a7c8dce632363db2",
             "type": "leaf",
             "state": {
@@ -255,9 +267,11 @@
   },
   "active": "455b996f9728f0fd",
   "lastOpenFiles": [
-    "work/牛客面经.md",
+    "骨传导/带宽扩展.md",
     "work/preparation.md",
     "面经/CVTE.md",
+    "骨传导/语音转换.md",
+    "work/牛客面经.md",
     "语音增强/RNNoise.md",
     "面经/荣耀.md",
     "面经/思必驰.md",
@@ -280,8 +294,6 @@
     "定点化/定点化基础.pdf",
     "定点化/平方根.md",
     "定点化/定点化.md",
-    "波束形成/MVDR.md",
-    "变换/fft与实数fft.md",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
     "Pasted image 20230803152802.png",
