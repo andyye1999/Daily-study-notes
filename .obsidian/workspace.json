@@ -92,16 +92,6 @@
             }
           },
           {
-            "id": "6feaadb5c9f974e8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
-          },
-          {
             "id": "a7c8dce632363db2",
             "type": "leaf",
             "state": {
@@ -138,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -204,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "work/preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "work/preparation.md"
               }
             }
           },
@@ -251,13 +241,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6feaadb5c9f974e8",
+  "active": "ba405897b68c36b8",
   "lastOpenFiles": [
+    "面经/蔚来.md",
+    "work/preparation.md",
+    "work/牛客面经.md",
     "面经/荣耀.md",
     "骨传导/带宽扩展.md",
-    "work/牛客面经.md",
     "面经/CVTE.md",
-    "work/preparation.md",
     "骨传导/语音转换.md",
     "语音增强/RNNoise.md",
     "面经/思必驰.md",
@@ -266,7 +257,6 @@
     "语音增强/语音增强理论与实践.md",
     "面经/字节.md",
     "面经/亿联网络.md",
-    "面经/蔚来.md",
     "面经/快手.md",
     "面经/科大讯飞.md",
     "面经/华橙网络.md",
