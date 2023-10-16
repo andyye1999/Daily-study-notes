@@ -50,6 +50,7 @@
 
 **LSF怎么算的**
 
+![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221020/image.4g4746syuly0.webp)
 
 [[带宽扩展#LSF系数]]
 ## VAD
@@ -73,7 +74,7 @@ Background noise reduction 和 Statistical noise reduction 区别是前者是在
 找到前12个较大的参考麦能量，将剩余的比第12个小的所有频点能量相加取平均
 将它除以每个频点能量（参考麦）开根号，与主麦信号相乘
 
-代码在BCE工程中  md中删除了，防止保密协议
+
 
 ```cpp
 for (i = 0; i < 100; i++) list[i] = 0;
