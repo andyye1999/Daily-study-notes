@@ -80,6 +80,16 @@
             }
           },
           {
+            "id": "57b841a68afc13ef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
             "id": "a7c8dce632363db2",
             "type": "leaf",
             "state": {
@@ -116,7 +126,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -182,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/RNNoise.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/RNNoise.md"
+                "file": "work/牛客面经.md"
               }
             }
           },
@@ -229,8 +239,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "bed1f09864a8b19c",
+  "active": "57b841a68afc13ef",
   "lastOpenFiles": [
+    "语音增强/RNNoise.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "面经/大华.md",
     "work/preparation.md",
@@ -240,7 +251,6 @@
     "骨传导/带宽扩展.md",
     "面经/CVTE.md",
     "骨传导/语音转换.md",
-    "语音增强/RNNoise.md",
     "面经/思必驰.md",
     "work/面经中的C++.md",
     "面经/腾讯.md",
@@ -271,7 +281,6 @@
     "未命名.canvas",
     "Pasted image 20230516175059.png",
     "面经",
-    "深度学习/se_development.pdf",
     "Pasted image 20230410165303.png",
     "Pasted image 20230328170904.png",
     "Pasted image 20230317231143.png",
