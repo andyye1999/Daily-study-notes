@@ -80,12 +80,26 @@
             }
           },
           {
-            "id": "57b841a68afc13ef",
+            "id": "4168d3ad3f29abf0",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "变换/fft与实数fft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bb69031cdb03809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/preparation.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -126,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -239,14 +253,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "57b841a68afc13ef",
+  "active": "702374643a26944f",
   "lastOpenFiles": [
+    "变换/fft与实数fft.md",
+    "面经/大华.md",
+    "work/牛客面经.md",
+    "work/preparation.md",
     "语音增强/RNNoise.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
-    "面经/大华.md",
-    "work/preparation.md",
     "面经/蔚来.md",
-    "work/牛客面经.md",
     "面经/荣耀.md",
     "骨传导/带宽扩展.md",
     "面经/CVTE.md",
