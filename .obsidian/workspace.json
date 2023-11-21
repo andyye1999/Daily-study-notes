@@ -4,155 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e1e56e9982d5534a",
+        "id": "a8ccc360c61ed84b",
         "type": "tabs",
         "children": [
           {
-            "id": "9e3abef760b6ddec",
+            "id": "25938e139fa92fde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++ 那些事/排序.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfdfdc66befbb8f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/面经中的C++.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afb2095aa3b57652",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "骨传导/深度学习骨导映射.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67afab6025ae2d17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/频域RLS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bed1f09864a8b19c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/RNNoise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "702374643a26944f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/牛客面经.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca5853b0c7e523ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "波束形成/MVDR.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bb69031cdb03809",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/preparation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49df44fa5dfb2f48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "webrtc/webrtc-aec.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7c8dce632363db2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/语音增强理论与实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "734308c7ed1806a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深度学习/深度学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b32f044b207a92c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "webrtc/webrtc_ns.md",
+                "file": "深度学习/深度学习中的激活函数.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/preparation.md",
+                "file": "深度学习/深度学习中的激活函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md"
+                "file": "深度学习/深度学习中的激活函数.md"
               }
             }
           },
@@ -265,20 +132,22 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2bb69031cdb03809",
+  "active": "25938e139fa92fde",
   "lastOpenFiles": [
+    "webrtc/webrtc_ns.md",
     "深度学习/深度学习.md",
-    "work/preparation.md",
+    "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc-aec.md",
-    "work/牛客面经.md",
+    "work/preparation.md",
     "波束形成/MVDR.md",
+    "work/牛客面经.md",
+    "语音增强/RNNoise.md",
     "波束形成/GSC.md",
     "波束形成/阵列基础.md",
     "work/面经中的C++.md",
     "骨传导/带宽扩展.md",
     "变换/fft与实数fft.md",
     "面经/大华.md",
-    "语音增强/RNNoise.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "面经/蔚来.md",
     "面经/荣耀.md",
@@ -286,14 +155,12 @@
     "骨传导/语音转换.md",
     "面经/思必驰.md",
     "面经/腾讯.md",
-    "语音增强/语音增强理论与实践.md",
     "面经/字节.md",
     "面经/亿联网络.md",
     "面经/快手.md",
     "面经/科大讯飞.md",
     "面经/华橙网络.md",
     "面经/百度.md",
-    "骨传导/深度学习骨导映射.md",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
