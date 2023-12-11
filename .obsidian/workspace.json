@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/深度学习中的激活函数.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/深度学习中的激活函数.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/深度学习中的激活函数.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           },
@@ -134,6 +134,7 @@
   },
   "active": "25938e139fa92fde",
   "lastOpenFiles": [
+    "深度学习/深度学习中的激活函数.md",
     "webrtc/webrtc_ns.md",
     "深度学习/深度学习.md",
     "语音增强/语音增强理论与实践.md",
@@ -160,7 +161,6 @@
     "面经/快手.md",
     "面经/科大讯飞.md",
     "面经/华橙网络.md",
-    "面经/百度.md",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
