@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "569c05f22d728e35",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,10 +134,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "569c05f22d728e35",
+  "active": "ae01c5bc4be2aa8d",
   "lastOpenFiles": [
-    "work/牛客面经.md",
     "深度学习/深度学习.md",
+    "work/牛客面经.md",
     "骨传导/深度学习骨导映射.md",
     "深度学习/深度学习中的激活函数.md",
     "webrtc/webrtc_ns.md",
