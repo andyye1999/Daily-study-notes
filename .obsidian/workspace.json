@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "569c05f22d728e35",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +123,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -132,7 +145,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ae01c5bc4be2aa8d",
+  "active": "569c05f22d728e35",
   "lastOpenFiles": [
     "work/牛客面经.md",
     "深度学习/深度学习.md",
