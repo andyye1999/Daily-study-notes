@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "47bb81e04c1e809c",
+        "id": "1f0a37040b7ec097",
         "type": "tabs",
         "children": [
           {
-            "id": "ae01c5bc4be2aa8d",
+            "id": "ab08775f65cb2942",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语音增强/conv-tasnet.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语音增强/conv-tasnet.md",
+                "file": "骨传导/深度学习骨导映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语音增强/conv-tasnet.md"
+                "file": "骨传导/深度学习骨导映射.md"
               }
             }
           },
@@ -134,9 +134,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ae01c5bc4be2aa8d",
+  "active": "ab08775f65cb2942",
   "lastOpenFiles": [
+    "骨传导/带宽扩展.md",
+    "毕业论文/阅读文献.md",
     "work/牛客面经.md",
+    "语音增强/conv-tasnet.md",
     "深度学习/深度学习.md",
     "骨传导/深度学习骨导映射.md",
     "深度学习/深度学习中的激活函数.md",
@@ -149,7 +152,6 @@
     "波束形成/GSC.md",
     "波束形成/阵列基础.md",
     "work/面经中的C++.md",
-    "骨传导/带宽扩展.md",
     "变换/fft与实数fft.md",
     "面经/大华.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
@@ -161,8 +163,6 @@
     "面经/腾讯.md",
     "面经/字节.md",
     "面经/亿联网络.md",
-    "面经/快手.md",
-    "面经/科大讯飞.md",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
