@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/牛客面经.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/深度学习骨导映射.md"
+                "file": "work/牛客面经.md"
               }
             }
           },
@@ -136,12 +136,13 @@
   },
   "active": "ab08775f65cb2942",
   "lastOpenFiles": [
+    "深度学习/se_development.pdf",
+    "work/牛客面经.md",
+    "骨传导/深度学习骨导映射.md",
     "骨传导/带宽扩展.md",
     "毕业论文/阅读文献.md",
-    "work/牛客面经.md",
     "语音增强/conv-tasnet.md",
     "深度学习/深度学习.md",
-    "骨传导/深度学习骨导映射.md",
     "深度学习/深度学习中的激活函数.md",
     "webrtc/webrtc_ns.md",
     "语音增强/语音增强理论与实践.md",
@@ -162,7 +163,6 @@
     "面经/思必驰.md",
     "面经/腾讯.md",
     "面经/字节.md",
-    "面经/亿联网络.md",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
