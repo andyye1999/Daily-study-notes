@@ -11,11 +11,9 @@
             "id": "ab08775f65cb2942",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "work/牛客面经.md",
-                "mode": "source",
-                "source": false
+                "file": "深度学习/se_development.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "深度学习/se_development.pdf"
               }
             }
           },
@@ -136,8 +134,8 @@
   },
   "active": "ab08775f65cb2942",
   "lastOpenFiles": [
-    "深度学习/se_development.pdf",
     "work/牛客面经.md",
+    "深度学习/se_development.pdf",
     "骨传导/深度学习骨导映射.md",
     "骨传导/带宽扩展.md",
     "毕业论文/阅读文献.md",
@@ -176,7 +174,6 @@
     "项目笔记",
     "未命名.canvas",
     "Pasted image 20230516175059.png",
-    "面经",
     "Pasted image 20230410165303.png",
     "Pasted image 20230328170904.png",
     "Pasted image 20230317231143.png",
