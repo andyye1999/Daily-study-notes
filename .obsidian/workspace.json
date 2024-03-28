@@ -16,8 +16,19 @@
                 "file": "深度学习/se_development.pdf"
               }
             }
+          },
+          {
+            "id": "680da182ea7ec776",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +143,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ab08775f65cb2942",
+  "active": "680da182ea7ec776",
   "lastOpenFiles": [
     "work/牛客面经.md",
     "深度学习/se_development.pdf",
