@@ -26,9 +26,21 @@
                 "currentVersion": "1.5.8"
               }
             }
+          },
+          {
+            "id": "f25fc464ce6e6488",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/牛客面经.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/se_development.pdf",
+                "file": "work/牛客面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/se_development.pdf"
+                "file": "work/牛客面经.md"
               }
             }
           },
@@ -143,9 +155,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "680da182ea7ec776",
+  "active": "f25fc464ce6e6488",
   "lastOpenFiles": [
+    "师兄项目笔记/自适应滤波综述_.md",
+    "师兄项目笔记/数字信号处理_.md",
     "work/牛客面经.md",
+    "语音基础/MFCC.md",
     "深度学习/se_development.pdf",
     "骨传导/深度学习骨导映射.md",
     "骨传导/带宽扩展.md",
@@ -170,8 +185,6 @@
     "面经/CVTE.md",
     "骨传导/语音转换.md",
     "面经/思必驰.md",
-    "面经/腾讯.md",
-    "面经/字节.md",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
