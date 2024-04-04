@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "骨传导/带宽扩展.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/牛客面经.md",
+                "file": "骨传导/带宽扩展.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/牛客面经.md"
+                "file": "骨传导/带宽扩展.md"
               }
             }
           },
@@ -157,9 +157,9 @@
   },
   "active": "f25fc464ce6e6488",
   "lastOpenFiles": [
+    "work/牛客面经.md",
     "师兄项目笔记/自适应滤波综述_.md",
     "师兄项目笔记/数字信号处理_.md",
-    "work/牛客面经.md",
     "语音基础/MFCC.md",
     "深度学习/se_development.pdf",
     "骨传导/深度学习骨导映射.md",
