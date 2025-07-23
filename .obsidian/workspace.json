@@ -38,9 +38,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2446d4b90cb3adca",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -155,7 +165,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f25fc464ce6e6488",
+  "active": "2446d4b90cb3adca",
   "lastOpenFiles": [
     "work/牛客面经.md",
     "师兄项目笔记/自适应滤波综述_.md",
