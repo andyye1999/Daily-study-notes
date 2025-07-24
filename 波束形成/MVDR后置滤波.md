@@ -17,15 +17,15 @@ mvdr + lefkim postfilter
 mvdr + stsa postfilter 
 mvdr + log-stsa postfilter
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.xjharf7cw40.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221201/image.xjharf7cw40.webp)
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.3rj3rsjxzyu0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221201/image.3rj3rsjxzyu0.webp)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.21o574xamy5c.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221201/image.21o574xamy5c.webp)
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.3gb0b0tvq8c0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221201/image.3gb0b0tvq8c0.webp)
 
 噪声相关性如果较大，会出现欠估计。如果噪声相关性较小，会出现过估计。
 Zelinski将噪声场假定为非相干噪声场，但是实际场景中如办公室，商场，汽车 为散射场 
@@ -34,7 +34,7 @@ Zelinski将噪声场假定为非相干噪声场，但是实际场景中如办公
 ## 噪声场
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.4u5m30xq5li0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221201/image.4u5m30xq5li0.webp)
 
 # Lefkin
 

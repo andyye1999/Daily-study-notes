@@ -93,6 +93,6 @@ W(k+1)=W(k)+μF[∇→T(k),0,0,…,0]T
 
 ![](https://img2018.cnblogs.com/blog/1433301/201911/1433301-20191103221551679-266669524.png)
 
-![Fdaf_1](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/Fdaf_1.3sdj2wyg79m0.webp)
-![Fdaf_2](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/Fdaf_2.13rl1h2ucvs0.webp)
-![Fdaf_3](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/Fdaf_3.5smgfvptcjg0.webp)
+![Fdaf_1](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/Fdaf_1.3sdj2wyg79m0.webp)
+![Fdaf_2](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/Fdaf_2.13rl1h2ucvs0.webp)
+![Fdaf_3](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/Fdaf_3.5smgfvptcjg0.webp)

@@ -724,27 +724,27 @@ D的值时，(1,0)共现的概率会大大降低；** 如果**补偿值与D相�
 其中系数𝐶1，𝐶2，…，𝐶𝑞优选地反应每个量的重要性。在生成加权和Δ1，Δ2 ，…，Δ𝑚之后，对应候选延迟𝐷𝑒𝑙𝑎𝑦1，𝐷𝑒𝑙𝑎𝑦2，…，𝐷𝑒𝑙𝑎𝑦𝑀当中的最小的值，将是最好的估计𝐷𝑒𝑙𝑎𝑦𝑀。
 
 ## 改进 联合判决
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221116/image.68lhimqmjio0.webp)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221116/image.1d7z358c8fq8.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221116/image.68lhimqmjio0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221116/image.1d7z358c8fq8.webp)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221116/image.700hmr0mxvk0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221116/image.700hmr0mxvk0.webp)
 
 ## 非线性处理NLP
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221207/image.2jkvx5vp5fc0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221207/image.2jkvx5vp5fc0.webp)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230516/image.6rgsfqea7uw0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/20230516/image.6rgsfqea7uw0.webp)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230516/image.1obqlaxrpjls.webp)
-
-
-
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221207/image.1ypia7u6uogw.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/20230516/image.1obqlaxrpjls.webp)
 
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.5wwy2yyud140.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221207/image.1ypia7u6uogw.webp)
+
+
+
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.5wwy2yyud140.webp)
 
 # WEBRTC-AECM算法浅析
 [aecm](https://zhuanlan.zhihu.com/p/377750095)

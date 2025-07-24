@@ -10,7 +10,7 @@
 ## 选择性固定滤波器有源噪声控制方法
 在许多现实的操作环境中，主要和次要路径几乎不会随时间变化。
 SFANC 方法分为两个阶段：(1) 离线预训练阶段，在实施前训练控制滤波器的数据库；(2) 在线控制阶段，通过最合适的控制滤波器减轻干扰，如图所示在图 1 中
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220914/image.2vv36nqhaqg0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220914/image.2vv36nqhaqg0.webp)
 
 图1 SFANC 方法的处理块，其特点是根据常见的噪声类型和噪声路径推导一组控制滤波器的第一阶段。随后，选择性算法提取最接近的控制滤波器以实时滤除实际噪声
 
@@ -23,7 +23,7 @@ SFANC 方法分为两个阶段：(1) 离线预训练阶段，在实施前训练�
 ### FREQUENCY-BAND-MAT C H ALGORITHM FOR SFANC
 SFANC 系统的挑战是为特定类型的初级噪声选择合适的控制滤波器。本节介绍一种频带匹配方法，该方法根据训练信号和实际初级噪声之间频谱内容的相似性来选择预训练滤波器。这里，频谱内容只涉及频带的中心频率和带宽。因此，初级噪声的频谱内容成为滤波器选择的关键特征。
 图2显示了单通道前馈ANC系统，其中P(ω)和S(ω)分别表示主路径和次路径的传递函数，W(ω)表示控制滤波器的传递函数。为简单起见，假设参考信号是直接从噪声源获取的。
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220914/image.7kul6pe5x5o0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220914/image.7kul6pe5x5o0.webp)
 图2 单通道前馈 ANC 框图。主要噪声干扰表示为 d(k)，残余误差信号 e(k) 是从控制区域的麦克风声学测量的。
 
 ### 提出的选择性固定滤波器有源噪声控制算法

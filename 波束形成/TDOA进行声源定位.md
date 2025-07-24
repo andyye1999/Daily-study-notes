@@ -65,11 +65,11 @@ fftshift将频率按负频频率，直流分量，正频分量排列，详情看
 
 # 基于线性预测残差的广义互相关算法
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.4cpevdjwbuq0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221201/image.4cpevdjwbuq0.webp)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.6jpg3tq8n6o0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221201/image.6jpg3tq8n6o0.webp)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221201/image.2reov44zze40.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221201/image.2reov44zze40.webp)
 
 
 通过G729类似的LP分析滤波器AZ，算出残差信号

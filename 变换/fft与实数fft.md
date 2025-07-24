@@ -217,15 +217,15 @@ void r_fft(float* bone_buf, short isign)
 # [RealFFT算法实现](https://www.funcwj.cn/2017/05/28/realfft-2/)
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20230108/image.6xx5xnne3x00.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20230108/image.6xx5xnne3x00.webp)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/image.71gks8ztr780.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/image.71gks8ztr780.webp)
 
 
 # IFFT程序实现
 
 
-![99114626071eab5a921974c54807ee5](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230411/99114626071eab5a921974c54807ee5.rebwb1vz200.webp)
+![99114626071eab5a921974c54807ee5](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/20230411/99114626071eab5a921974c54807ee5.rebwb1vz200.webp)
 
 IFFT程序步骤
 

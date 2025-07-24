@@ -1,12 +1,12 @@
 # [RNNoise超详细解读](https://zhuanlan.zhihu.com/p/397288851)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221007/image.9xxl8f6lpo0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221007/image.9xxl8f6lpo0.webp)
 1.  **SIGNAL MODEL**
 作者提出了一种用于噪声抑制的快速算法，在降噪时需要精细调整的部分使用深度学习方法，而其他部分使用传统的DSP方法。使用的窗长为20ms，窗之间的overlap为10ms，噪声抑制的主要部分是将RNN计算出的增益作用于分辨率较低的噪声频谱包络。后面还用pitch filter进行进一步地优化。
 **A. band struction**
 
 ​ 其他论文中用神经网络直接估计frequency bins需要的网络复杂度较高，从而计算量较大。为了避免此问题，作者假定频谱包络足够平坦，进而可以使用比较粗糙的分辨率。此外，并没有直接计算频谱幅度，而是对理想临界带增益（ideal critical band gains）进行估计。频带划分选择和Opus codec使用的Bark scale相同（实际上为了方便，文章作者直接使用了Opus的pitch计算代码），在低频区，每个频带最少有4个bins，并且使用的是三角频带（滤波）而非矩形频带，每个三角的峰值和其相邻三角的边界点重合。最终band的数量为22，也即网络输出为22个[ 0,1]的值。
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.6y0ig6b2mj40.webp)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.5k63re2o06o0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.6y0ig6b2mj40.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.5k63re2o06o0.webp)
 **C. Feature extraction**
 
 ​ 前22个特征由22个频带能量做对数变换再做DCT变换得到，也即22个BFCC（Bark-frequency cepstral coefficients）。此外取BFCC的前六个一阶差分和二阶差分作为第23至34个特征，再将前六个基因相关度作为第35至第40个特征。最后两个特征为基音周期（pitch tracking得到的结果）和基音平稳度。因此输入特征一共有42个。
@@ -19,7 +19,7 @@
 ## 整体计算流程分析
 
 ![](https://pic1.zhimg.com/80/v2-a3261d752d239079944f315e935c42e4_720w.jpg)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.6enaeddup200.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.6enaeddup200.webp)
 ### Pitch analysis
 
 ![](https://pic3.zhimg.com/80/v2-9a5eb698e033096bb9a453d95cfff0de_720w.jpg)
@@ -31,10 +31,10 @@
 ​
 
 ![](https://pic2.zhimg.com/80/v2-a74a393f982c2b0a35af3c0c79394e5d_720w.jpg)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.5mosflnwxpg0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.5mosflnwxpg0.webp)
 ![](https://pic4.zhimg.com/80/v2-c8ca089d5cf6b1e90c297a7be97ae44b_720w.jpg)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.19fsr9vdno00.webp)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.1hw8zdryx8ow.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.19fsr9vdno00.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.1hw8zdryx8ow.webp)
 ### 整体流程
 
 ![](https://pic3.zhimg.com/80/v2-2edef6416482194bcbe4d6768abbb31e_720w.jpg)
@@ -56,10 +56,10 @@ pitch tracking(analysis)流程图
 
 ![](https://pic1.zhimg.com/80/v2-95594725a8cf1f82569d79dbdad435a4_720w.jpg)
 如图所示，上面的图展示了完整的22个三角滤波器，下面是前面若干个滤波器放大后的结果。对于每个频带，滤波时，将滤波器的所有点（图中用小圆圈表示）与频域数据x 或 p) 的对应部分的模长平方相乘相加即可，也即论文中的 Eb=wbXk2，同时由上图可以看出，每个滤波器的中间点和上一个滤波器的右端及下一个滤波器的左端对应同一个频点。**此外还需要注意的是，第一个滤波器和最后一个滤波器只有三角形的一半，因而计算这两个频带的能量时需要乘以2。**
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.78n1mhx5llw0.webp)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.54954l45ivw0.webp)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.6p1jtibpsow0.webp)
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20220524/image.77wk3kzbdbk0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.78n1mhx5llw0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.54954l45ivw0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.6p1jtibpsow0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20220524/image.77wk3kzbdbk0.webp)
 ![](https://pic3.zhimg.com/80/v2-e1cc5e4746fac49b35d163e37c361f26_720w.jpg)
 ## 一些值得注意的问题
 

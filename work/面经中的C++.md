@@ -73,7 +73,7 @@ left与right的逻辑处理;         // 中
 指针常量 int * const p （顶层const）
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230511/image.2xrwxuw0g500.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/20230511/image.2xrwxuw0g500.webp)
 
 # 大顶堆 优先队列
 
@@ -239,7 +239,7 @@ C++来说，支持函数的重载，编译后的函数一般是以函数名和�
 
 # 异或
 
-![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230709/image.2e9dh7q308ys.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/20230709/image.2e9dh7q308ys.webp)
 
 
 
@@ -617,7 +617,7 @@ int *q = (int *)malloc(2*sizeof(int));
 
 **「注意」**：delete和free被调用后，内存不会立即回收，指针也不会指向空，delete或free仅仅是告诉操作系统，这一块内存被释放了，可以用作其他用途。但是由于没有重新对这块内存进行写操作，所以内存中的变量数值并没有发生变化，出现野指针的情况。因此，释放完内存后，应该讲该指针指向NULL。
 
-![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230620/image.428ou86aodk0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/20230620/image.428ou86aodk0.webp)
 
 # delete与delete []有什么区别？
 
@@ -756,4 +756,4 @@ vec.clear();vec.shrink_to_fit();：清空内容，且释放内存。
 
 [理解 C/C++ 中的左值和右值 | nettee 的 blog](https://nettee.github.io/posts/2018/Understanding-lvalues-and-rvalues-in-C-and-C/)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230626/image.6guct2ckun00.png)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/20230626/image.6guct2ckun00.png)

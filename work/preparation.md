@@ -50,7 +50,7 @@
 
 **LSF怎么算的**
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221020/image.4g4746syuly0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221020/image.4g4746syuly0.webp)
 
 [[带宽扩展#LSF系数]]
 ## VAD
@@ -180,7 +180,7 @@ zeros = WebRtcSpl_NormU32((uint32_t)magn[i]);
 ```
 
 
-![image](https://cdn.staticaly.com/gh/andyye1999/picx-images-hosting@master/20230410/image.tesssc4czc0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/picx-images-hosting@master/20230410/image.tesssc4czc0.webp)
 
 #### basicop
 用电脑去模拟指令集，芯片是恒玄2500，arm指令集。32位分为高16位低16位

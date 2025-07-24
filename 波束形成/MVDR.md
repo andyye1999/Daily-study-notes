@@ -32,14 +32,14 @@ MVDR中文名字叫**最小均方无畸变响应**，**最小方差无失真响�
 
 ### [mvdr](https://www.funcwj.cn/2020/01/13/intro-on-se-and-ss/)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221011/image.5s0w5jkm9ic0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221011/image.5s0w5jkm9ic0.webp)
 
 
 ### [Overview of Beamformer](https://www.funcwj.cn/2017/11/11/overview-of-beamformer/)
 
 
 这张图MVDR的公式错了。看上面那个
-![QQ截图20221011203113](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20221011/QQ截图20221011203113.5p0397nrs7s0.webp)
+![QQ截图20221011203113](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20221011/QQ截图20221011203113.5p0397nrs7s0.webp)
 
 
 # 编程
@@ -51,9 +51,9 @@ MVDR中文名字叫**最小均方无畸变响应**，**最小方差无失真响�
 
 ## 求逆
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20230307/image.4d7fjzr4hlc0.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20230307/image.4d7fjzr4hlc0.webp)
 
-![image](https://cdn.staticaly.com/gh/andyye1999/image-hosting@master/20230307/image.6kc3e2y5p700.webp)
+![image](https://cdn.jsdelivr.net/gh/andyye1999/image-hosting@master/20230307/image.6kc3e2y5p700.webp)
 
 矩阵加上一个小单位矩阵 
 
