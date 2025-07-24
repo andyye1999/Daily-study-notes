@@ -33,24 +33,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "骨传导/带宽扩展.md",
+                "file": "语音增强/语音活动检测模块.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "2446d4b90cb3adca",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "staticaly",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -116,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "骨传导/带宽扩展.md",
+                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "骨传导/带宽扩展.md"
+                "file": "深度学习/se_development.pdf"
               }
             }
           },
@@ -165,36 +156,36 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2446d4b90cb3adca",
+  "active": "128a6c7aa3edd3ef",
   "lastOpenFiles": [
+    "语音增强/语音降噪模型归纳汇总.md",
+    "语音增强/语音增强.md",
+    "语音增强/语音增强理论与实践.md",
+    "语音增强/频域维纳滤波.md",
+    "语音增强/平滑之收敛时间计算.md",
+    "语音增强/频域RLS.md",
+    "回声/FDAF自适应滤波器算法综述.md",
+    "回声/AEC3.md",
+    "回声/降噪 与回声消除aec的位置关系.md",
+    "回声/变步长.md",
+    "定点化/平方根.md",
+    "定点化/定点化AGC长时平滑.md",
+    "定点化/定点化.md",
+    "骨传导/带宽扩展.md",
+    "骨传导/深度学习骨导映射.md",
+    "骨传导/恒玄2500.md",
     "work/牛客面经.md",
     "师兄项目笔记/自适应滤波综述_.md",
     "师兄项目笔记/数字信号处理_.md",
     "语音基础/MFCC.md",
     "深度学习/se_development.pdf",
-    "骨传导/深度学习骨导映射.md",
-    "骨传导/带宽扩展.md",
     "毕业论文/阅读文献.md",
     "语音增强/conv-tasnet.md",
     "深度学习/深度学习.md",
     "深度学习/深度学习中的激活函数.md",
     "webrtc/webrtc_ns.md",
-    "语音增强/语音增强理论与实践.md",
     "webrtc/webrtc-aec.md",
-    "work/preparation.md",
-    "波束形成/MVDR.md",
-    "语音增强/RNNoise.md",
-    "波束形成/GSC.md",
-    "波束形成/阵列基础.md",
-    "work/面经中的C++.md",
-    "变换/fft与实数fft.md",
-    "面经/大华.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
-    "面经/蔚来.md",
-    "面经/荣耀.md",
-    "面经/CVTE.md",
-    "骨传导/语音转换.md",
-    "面经/思必驰.md",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
     "语音基础/面试题库整理扫描.pdf",
