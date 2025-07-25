@@ -4,61 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1f0a37040b7ec097",
+        "id": "a6565a280b1f7f4d",
         "type": "tabs",
         "children": [
           {
-            "id": "ab08775f65cb2942",
+            "id": "2c8697731021fbc4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "深度学习/se_development.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "se_development"
-            }
-          },
-          {
-            "id": "680da182ea7ec776",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.5.8"
-            }
-          },
-          {
-            "id": "f25fc464ce6e6488",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语音增强/语音活动检测模块.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "语音活动检测模块"
-            }
-          },
-          {
-            "id": "9e47015283c9ba99",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,8 +70,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,8 +146,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "9e47015283c9ba99",
+  "active": "7b0dd07fa745e2be",
   "lastOpenFiles": [
+    "work/test.md",
+    "work/png/image.png",
+    "work/png/image-2.png",
+    "work/png/image-1.png",
+    "work/png",
+    "深度学习/se_development.pdf",
+    "语音增强/语音活动检测模块.md",
     "photo.py",
     "语音增强/语音降噪模型归纳汇总.md",
     "语音增强/语音增强.md",
@@ -211,12 +176,10 @@
     "师兄项目笔记/自适应滤波综述_.md",
     "师兄项目笔记/数字信号处理_.md",
     "语音基础/MFCC.md",
-    "深度学习/se_development.pdf",
     "毕业论文/阅读文献.md",
     "语音增强/conv-tasnet.md",
     "深度学习/深度学习.md",
     "深度学习/深度学习中的激活函数.md",
-    "webrtc/webrtc_ns.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
@@ -227,13 +190,10 @@
     "回声/FLMS.pdf",
     "Pasted image 20230620192408.png",
     "C++笔记",
-    "师兄项目笔记",
-    "项目笔记",
     "未命名.canvas",
     "Pasted image 20230516175059.png",
     "Pasted image 20230410165303.png",
     "Pasted image 20230328170904.png",
-    "Pasted image 20230317231143.png",
-    "Pasted image 20230302195928.png"
+    "Pasted image 20230317231143.png"
   ]
 }
