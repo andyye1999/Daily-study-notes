@@ -12,6 +12,7 @@ def replace_text_in_directory(directory, old_text, new_text):
                 file_path = os.path.join(root, file) 
                 replace_text_in_file(file_path, old_text, new_text) 
                 print(f'Replaced text in {file_path}')
+                print('-----------------------------------')
 
 if __name__ == '__main__': 
     directory = './' # 这里填入你想要处理的文件夹路径 

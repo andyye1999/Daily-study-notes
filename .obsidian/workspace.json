@@ -14,7 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "深度学习/se_development.pdf"
-              }
+              },
+              "icon": "lucide-file-text",
+              "title": "se_development"
             }
           },
           {
@@ -24,7 +26,9 @@
               "type": "release-notes",
               "state": {
                 "currentVersion": "1.5.8"
-              }
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.5.8"
             }
           },
           {
@@ -36,11 +40,25 @@
                 "file": "语音增强/语音活动检测模块.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "语音活动检测模块"
+            }
+          },
+          {
+            "id": "9e47015283c9ba99",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -59,8 +77,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -75,7 +96,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -83,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ],
@@ -107,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/se_development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -124,8 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/se_development.pdf"
-              }
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
@@ -137,7 +167,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ],
@@ -156,7 +188,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "128a6c7aa3edd3ef",
+  "active": "9e47015283c9ba99",
   "lastOpenFiles": [
     "photo.py",
     "语音增强/语音降噪模型归纳汇总.md",
