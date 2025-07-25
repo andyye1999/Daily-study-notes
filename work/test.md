@@ -52,3 +52,32 @@ nms 函数实现了一个类似于 NMS 的逻辑，但它应用于时间序列�
 更新：如果当前元素通过了所有检查，则将其添加到 new_v 中，并更新 last_t。
 
 结果更新：最后，经过处理的 new_v 替换原来的列表 v，更新回 score_map。
+
+# scores
+
+beamhead * wkdhead
+### splice
+for neg：有标注的 找有声音的地方切
+无标签，随机切 118+160 160给stage one
+pos ：stage1 : 160 stage2: 118 
+stage2，把kwd放在训练片段的尾部 在尾点附近随机切
+stage1 pos，尾部预留7到15帧，保证min-max-pooling能找到目标
+
+similar stage1送给stage2的尾点delay  most use stage2  at the same time add dn most in anjing ,fengji 靠泛化
+
+# query asr
+
+casual cfm : neg addsilence to solve error   
+for example  九度 十九度
+
+# splice
+
+感受野 符合实际场景
+
+# conformer
+
+马卡龙结构
+![alt text](png/image.png)  
+![alt text](png/image-2.png)
+![alt text](png/image-1.png)
+
