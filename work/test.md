@@ -81,3 +81,9 @@ for example  九度 十九度
 ![alt text](png/image-2.png)
 ![alt text](png/image-1.png)
 
+# ctc loss
+前向后向算法 动态规划
+
+三种情况 保持不变就是向右 调到下一个右下 跳马步 右下下 跳马步是只有在标签不同的情况才能跳马步
+
+ctc最后都会停留在最后一个blank和倒数第二个label 
