@@ -84,6 +84,17 @@ for example  九度 十九度
 # ctc loss
 前向后向算法 动态规划
 
+https://www.cnblogs.com/shiyublog/p/10493348.html
+https://zhuanlan.zhihu.com/p/742951804
+
 三种情况 保持不变就是向右 调到下一个右下 跳马步 右下下 跳马步是只有在标签不同的情况才能跳马步
 
 ctc最后都会停留在最后一个blank和倒数第二个label 
+
+![alt text](png/image-3.png)
+
+![alt text](png/image-4.png)
+
+![alt text](png/image-5.png)
+
+![alt text](png/image-6.png)
