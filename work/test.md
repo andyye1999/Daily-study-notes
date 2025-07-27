@@ -81,3 +81,26 @@ for example  九度 十九度
 ![alt text](png/image-2.png)
 ![alt text](png/image-1.png)
 
+# ctc loss
+前向后向算法 动态规划
+
+https://www.cnblogs.com/shiyublog/p/10493348.html
+https://zhuanlan.zhihu.com/p/742951804
+
+三种情况 保持不变就是向右 调到下一个右下 跳马步 右下下 跳马步是只有在标签不同的情况才能跳马步
+
+ctc最后都会停留在最后一个blank和倒数第二个label 
+
+![alt text](png/image-3.png)
+
+![alt text](png/image-4.png)
+
+![alt text](png/image-5.png)
+
+![alt text](png/image-6.png)
+
+# beam search
+
+https://placebokkk.github.io/asr/2020/02/01/asr-ctc-decoder.html
+
+CTC 的 beam search 算法维护的不是 K 个路径前缀，而是 K 个标签前缀，但仍需要考虑其背后的路径（路径到标签的多对一关系）。每个时间步，对 K 个前缀进行扩展，用字符表中的字符对已有前缀做扩展，得到新的多个前缀，然后计算这些前缀的概率，从中挑选出概率最大的 K 个保存，不断重复这个过程直到最后一个时间步，然后选出概率最大的一个结果作为最终的标签。
