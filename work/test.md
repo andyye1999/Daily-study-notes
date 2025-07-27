@@ -98,3 +98,9 @@ ctc最后都会停留在最后一个blank和倒数第二个label
 ![alt text](png/image-5.png)
 
 ![alt text](png/image-6.png)
+
+# beam search
+
+https://placebokkk.github.io/asr/2020/02/01/asr-ctc-decoder.html
+
+CTC 的 beam search 算法维护的不是 K 个路径前缀，而是 K 个标签前缀，但仍需要考虑其背后的路径（路径到标签的多对一关系）。每个时间步，对 K 个前缀进行扩展，用字符表中的字符对已有前缀做扩展，得到新的多个前缀，然后计算这些前缀的概率，从中挑选出概率最大的 K 个保存，不断重复这个过程直到最后一个时间步，然后选出概率最大的一个结果作为最终的标签。
