@@ -11,10 +11,12 @@
             "id": "2c8697731021fbc4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "pdf",
+              "state": {
+                "file": "webrtc/WebRTC_NS单通道降噪.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "WebRTC_NS单通道降噪"
             }
           }
         ]
@@ -108,12 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "webrtc/WebRTC_NS单通道降噪.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "WebRTC_NS单通道降噪 的大纲"
             }
           },
           {
@@ -146,8 +149,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7b0dd07fa745e2be",
+  "active": "2c8697731021fbc4",
   "lastOpenFiles": [
+    "work/cosyvoice/cosyvoice.md",
+    "helloword.exe",
     "work/test.md",
     "work/png/image.png",
     "work/png/image-2.png",
@@ -179,7 +184,6 @@
     "毕业论文/阅读文献.md",
     "语音增强/conv-tasnet.md",
     "深度学习/深度学习.md",
-    "深度学习/深度学习中的激活函数.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "定点化/定点化基础.pdf",
     "课程笔记/数字信号处理课程笔记.pdf",
@@ -189,7 +193,6 @@
     "毕业论文",
     "回声/FLMS.pdf",
     "Pasted image 20230620192408.png",
-    "C++笔记",
     "未命名.canvas",
     "Pasted image 20230516175059.png",
     "Pasted image 20230410165303.png",
