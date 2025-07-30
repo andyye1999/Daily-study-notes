@@ -27,6 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "work/牛客面经.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "牛客面经"
+            }
+          },
+          {
+            "id": "94559dea9c24d121",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "work/preparation.md",
                 "mode": "source",
                 "source": false
@@ -127,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md",
+                "file": "work/牛客面经.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "preparation 的大纲"
+              "title": "牛客面经 的大纲"
             }
           },
           {
@@ -168,8 +182,26 @@
   },
   "active": "a3e30d7699261e44",
   "lastOpenFiles": [
-    "vae/VITS_all.pdf",
+    "work/preparation.md",
     "work/牛客面经.md",
+    "回声/fullaec.md",
+    "回声/FDAF自适应滤波器算法综述.md",
+    "回声/FLMS.pdf",
+    "语音增强/语音活动检测模块.md",
+    "语音增强/语音降噪模型归纳汇总.md",
+    "语音增强/语音增强.md",
+    "语音增强/语音增强理论与实践.md",
+    "语音增强/DPRNN.md",
+    "语音增强/OMLSA-IMCRA论文.md",
+    "语音增强/PercepNet.md",
+    "语音增强/RNNoise.md",
+    "语音增强/单通道语音增强.md",
+    "语音增强/基于Mask的语音分离.md",
+    "语音增强/频域维纳滤波.md",
+    "定点化/定点化.md",
+    "webrtc/webrtc-aec.md",
+    "work/test.md",
+    "vae/VITS_all.pdf",
     "面经/oneyear/昆仑万维.md",
     "面经/oneyear",
     "vae/vae.md",
@@ -178,8 +210,6 @@
     "vae/image-1.png",
     "vae",
     "helloword.exe",
-    "work/preparation.md",
-    "work/test.md",
     "work/cosyvoice/cosyvoice.md",
     "webrtc/WebRTC_NS单通道降噪.pdf",
     "work/png/image.png",
@@ -187,28 +217,13 @@
     "work/png/image-1.png",
     "work/png",
     "深度学习/se_development.pdf",
-    "语音增强/语音活动检测模块.md",
     "photo.py",
-    "语音增强/语音降噪模型归纳汇总.md",
-    "语音增强/语音增强.md",
-    "语音增强/语音增强理论与实践.md",
-    "语音增强/频域维纳滤波.md",
     "语音增强/平滑之收敛时间计算.md",
     "语音增强/频域RLS.md",
-    "回声/FDAF自适应滤波器算法综述.md",
     "回声/AEC3.md",
     "回声/降噪 与回声消除aec的位置关系.md",
     "回声/变步长.md",
-    "定点化/平方根.md",
-    "定点化/定点化AGC长时平滑.md",
-    "定点化/定点化.md",
-    "骨传导/带宽扩展.md",
-    "骨传导/深度学习骨导映射.md",
-    "骨传导/恒玄2500.md",
-    "师兄项目笔记/自适应滤波综述_.md",
-    "师兄项目笔记/数字信号处理_.md",
     "定点化/定点化基础.pdf",
-    "课程笔记/数字信号处理课程笔记.pdf",
     "Pasted image 20230803152802.png",
     "Pasted image 20230724170853.png",
     "Pasted image 20230620192408.png",
