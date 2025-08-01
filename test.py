@@ -10,3 +10,14 @@ def remove_num(s):
     return "".join(result)
 
 print(remove_num(str1))
+
+import librosa
+import numpy as np
+
+audio_path=''
+y,sr = librosa.load(audio_path,sr=16000)
+frame_len=16000
+hop_len=8000
+frames = librosa.util.frame(y, frame_length=frame_len, hop_length=hop_len)
+energy = np.sum(frames**2,axis=1)
+print(energy.shape)
