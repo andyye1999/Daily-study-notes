@@ -15,7 +15,9 @@ cosyvoice
 
 ## bpe分词器
 ![alt text](image-1.png)
-英语采用12000 用开源的小黄脸上的训 语料就是wiki的 官网有教程
+英语采用12000 用开源的小黄脸上的训 语料就是wiki的 官网有教程 max_token_length=6
+
+![alt text](image-6.png)
 
 * BPE：基于频率合并字符对的次词算法。
 * 优势：处理 OOV，语言无关性。
@@ -24,6 +26,8 @@ cosyvoice
 * 特殊符号：`[CLS]`, `[SEP]` 等用于模型输入。
 * 主流库：TikToken, tokenizers, SentencePiece。
 * [https://zhuanlan.zhihu.com/p/1902463999947285455](https://zhuanlan.zhihu.com/p/1902463999947285455)
+
+
 
 ## bbpe
 字节级 BPE (Byte-Level BPE, BBPE) 是 BPE 算法的一个变种，它的特别之处在于，它不是在字符层面操作，而是直接在文本原始的 UTF-8 **字节**序列上进行操作
