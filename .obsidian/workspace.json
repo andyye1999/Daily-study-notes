@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/preparation.md",
+                "file": "面经/oneyear/plaud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "preparation"
+              "title": "plaud"
             }
           }
         ],
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/preparation.md",
+                "file": "面经/oneyear/plaud.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "preparation 的大纲"
+              "title": "plaud 的大纲"
             }
           },
           {
@@ -182,10 +182,10 @@
   },
   "active": "94559dea9c24d121",
   "lastOpenFiles": [
+    "work/preparation.md",
     "面经/oneyear/plaud.md",
     "work/cosyvoice/cosyvoice.md",
     "test.py",
-    "work/preparation.md",
     "work/牛客面经.md",
     "回声/fullaec.md",
     "回声/FDAF自适应滤波器算法综述.md",
