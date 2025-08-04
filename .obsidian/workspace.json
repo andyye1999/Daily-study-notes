@@ -48,9 +48,37 @@
               "icon": "lucide-file",
               "title": "plaud"
             }
+          },
+          {
+            "id": "7804600b16fd5ed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/cosyvoice/cosyvoice.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cosyvoice"
+            }
+          },
+          {
+            "id": "561d30785541b827",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/preparation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "preparation"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -141,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面经/oneyear/plaud.md",
+                "file": "work/cosyvoice/cosyvoice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "plaud 的大纲"
+              "title": "cosyvoice 的大纲"
             }
           },
           {
@@ -180,13 +208,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "94559dea9c24d121",
+  "active": "7804600b16fd5ed3",
   "lastOpenFiles": [
     "work/preparation.md",
-    "面经/oneyear/plaud.md",
-    "work/cosyvoice/cosyvoice.md",
-    "test.py",
     "work/牛客面经.md",
+    "work/cosyvoice/cosyvoice.md",
+    "面经/oneyear/plaud.md",
+    "test.py",
     "回声/fullaec.md",
     "回声/FDAF自适应滤波器算法综述.md",
     "回声/FLMS.pdf",
