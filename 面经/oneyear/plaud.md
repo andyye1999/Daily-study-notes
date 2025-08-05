@@ -17,3 +17,10 @@ day one global 面向全球市场
 软硬件 ai深度融合  
 We are building the next generation of intelligence infrastructure and interface.（我们正在构建下一代的智能基础设施和接口。）录音实际上是我们采集数据的一个起点，但更大的价值在于我们去用AI去提取这里面的智能，去甚至帮用户解决问题。  
 
+# 二面
+
+合伙人聊天
+
+# 三面
+
+一些语音基础 fbank f0 轻音浊音 asr tokenizer
