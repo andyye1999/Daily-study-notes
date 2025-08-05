@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/cosyvoice/cosyvoice.md",
+                "file": "面经/oneyear/plaud.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "cosyvoice 的大纲"
+              "title": "plaud 的大纲"
             }
           },
           {
@@ -208,11 +208,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7804600b16fd5ed3",
+  "active": "94559dea9c24d121",
   "lastOpenFiles": [
+    "work/cosyvoice/cosyvoice.md",
     "work/preparation.md",
     "work/牛客面经.md",
-    "work/cosyvoice/cosyvoice.md",
     "面经/oneyear/plaud.md",
     "test.py",
     "回声/fullaec.md",
